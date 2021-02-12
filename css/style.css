@@ -1990,6 +1990,99 @@ font-family: ;
 
 }
 
+
+/*--------------------------------------------------------------
+# La Prioridad
+--------------------------------------------------------------*/
+
+
+
+#elresultcont {
+  
+  height: 100vh;
+  background-image: url(../img/elresultado/bgslideprielresu.jpg);
+  background-size: cover;
+  background-color:#EEF2F4;
+  
+  
+}
+
+#elresultcont .pad95 {
+
+  padding-top: 80px;
+   
+}
+
+#elresultcont .paditl {
+  padding-left: 14%;
+    padding-top: 5%;
+    padding-right: 0;
+   
+}
+
+#elresultcont .titlfra1 {
+  position: absolute;
+  color: #ffffff;
+  right: 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: right;
+}
+
+#elresultcont h1 {
+  font-family: Myriad-Bold;
+  color: #007DC3;
+  font-size: 40px;
+  text-transform: uppercase;
+
+}
+
+
+#elresultcont .lineblu {
+  margin-left: 40px;
+  background-color: #007DC3;
+    height: 140px;
+    width: 5px;
+    float: left;
+
+}
+
+#elresultcont .contfra {
+  width: 80%;
+  float: right;
+
+}
+
+#elresultcont .contfra h2 {
+
+  color: #ffffff;
+  line-height: 67px;
+  font-size: 65px;
+  font-family: Myriad-Light;
+
+}
+
+#elresultcont p.txtintro {
+  float: left;
+  margin-top: 20px;
+  margin-left: 83px;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: Myriad-Regular;
+
+
+}
+
+
+   
+#elresultcont .imageslip {
+
+  width: 620px;
+  display: block;
+  margin: 0px auto;
+
+}
+
  
 
 
