@@ -2272,6 +2272,97 @@ font-family: ;
 
 
 /*--------------------------------------------------------------
+# La meta
+--------------------------------------------------------------*/
+
+#lametacont {
+  
+  height: 100vh;
+  background-image: url(../img/laclave/bg_slidprin.jpg);
+  background-size: cover;
+  background-color:#EEF2F4;
+  
+  
+}
+
+#lametacont .pad95 {
+
+  padding-top: 80px;
+   
+}
+
+#lametacont .paditl {
+  padding-right: 14%;
+    padding-top: 5%;
+    padding-left : 0;
+   
+}
+
+#lametacont .titlfra1 {
+  position: absolute;
+  color: #ffffff;
+  right: 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: right;
+}
+
+#lametacont h1 {
+  font-family: Myriad-Bold;
+  color: #E2BD31;
+  font-size: 40px;
+  text-transform: uppercase;
+
+}
+
+
+#lametacont .lineblu {
+  margin-left: 40px;
+  background-color: #E2BD31;
+    height: 200px;
+    width: 5px;
+    float: left;
+
+}
+
+#lametacont .contfra {
+  width: 80%;
+  float: right;
+
+}
+
+#lametacont .contfra h2 {
+
+  color: #ffffff;
+  line-height: 67px;
+  font-size: 65px;
+  font-family: Myriad-Light;
+
+}
+
+#lametacont p.txtintro {
+  float: left;
+  margin-top: 20px;
+  margin-left: 83px;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: Myriad-Regular;
+
+
+}
+
+
+   
+#lametacont .imageslip {
+
+  width: 620px;
+  display: block;
+  margin: 0px auto;
+
+}
+
+
+/*--------------------------------------------------------------
 # Valor Compartido
 --------------------------------------------------------------*/
 
