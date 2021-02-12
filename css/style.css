@@ -2094,7 +2094,7 @@ font-family: ;
 #laclavecont {
   
   height: 100vh;
-  background-image: url(../img/el_proposito/bg_sec1.jpg);
+  background-image: url(../img/laclave/bg_slidprin.jpg);
   background-size: cover;
   background-color:#EEF2F4;
   
@@ -2125,7 +2125,7 @@ font-family: ;
 
 #laclavecont h1 {
   font-family: Myriad-Bold;
-  color: #F1B634;
+  color: #E2BD31;
   font-size: 40px;
   text-transform: uppercase;
 
@@ -2134,7 +2134,7 @@ font-family: ;
 
 #laclavecont .lineblu {
   margin-left: 40px;
-  background-color: #F1B634;
+  background-color: #E2BD31;
     height: 200px;
     width: 5px;
     float: left;
