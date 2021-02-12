@@ -2088,6 +2088,97 @@ font-family: ;
 
 
 /*--------------------------------------------------------------
+# La clave
+--------------------------------------------------------------*/
+
+#laclavecont {
+  
+  height: 100vh;
+  background-image: url(../img/el_proposito/bg_sec1.jpg);
+  background-size: cover;
+  background-color:#EEF2F4;
+  
+  
+}
+
+#laclavecont .pad95 {
+
+  padding-top: 80px;
+   
+}
+
+#laclavecont .paditl {
+  padding-right: 14%;
+    padding-top: 5%;
+    padding-left : 0;
+   
+}
+
+#laclavecont .titlfra1 {
+  position: absolute;
+  color: #ffffff;
+  right: 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: right;
+}
+
+#laclavecont h1 {
+  font-family: Myriad-Bold;
+  color: #F1B634;
+  font-size: 40px;
+  text-transform: uppercase;
+
+}
+
+
+#laclavecont .lineblu {
+  margin-left: 40px;
+  background-color: #F1B634;
+    height: 200px;
+    width: 5px;
+    float: left;
+
+}
+
+#laclavecont .contfra {
+  width: 80%;
+  float: right;
+
+}
+
+#laclavecont .contfra h2 {
+
+  color: #ffffff;
+  line-height: 67px;
+  font-size: 65px;
+  font-family: Myriad-Light;
+
+}
+
+#laclavecont p.txtintro {
+  float: left;
+  margin-top: 20px;
+  margin-left: 83px;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: Myriad-Regular;
+
+
+}
+
+
+   
+#laclavecont .imageslip {
+
+  width: 620px;
+  display: block;
+  margin: 0px auto;
+
+}
+
+
+/*--------------------------------------------------------------
 # Valor Compartido
 --------------------------------------------------------------*/
 
