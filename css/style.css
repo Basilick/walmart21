@@ -2278,7 +2278,7 @@ font-family: ;
 #lametacont {
   
   height: 100vh;
-  background-image: url(../img/laclave/bg_slidprin.jpg);
+  background-image: url(../img/lameta/bgslideprin.jpg);
   background-size: cover;
   background-color:#EEF2F4;
   
@@ -2309,7 +2309,7 @@ font-family: ;
 
 #lametacont h1 {
   font-family: Myriad-Bold;
-  color: #E2BD31;
+  color: #FCB61A;
   font-size: 40px;
   text-transform: uppercase;
 
@@ -2318,8 +2318,8 @@ font-family: ;
 
 #lametacont .lineblu {
   margin-left: 40px;
-  background-color: #E2BD31;
-    height: 200px;
+  background-color: #FCB61A;
+    height: 145px;
     width: 5px;
     float: left;
 
