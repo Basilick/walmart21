@@ -823,25 +823,7 @@ box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2);
 # Main
 --------------------------------------------------------------*/
 
-.btnprevporta {
 
-  font-size: 39px;
-  float: left;
-  color: #fff;
-  margin-top: 15px;
-  margin-left: 15px;
-
-}
-
- .btnnextporta {
-
-  font-size: 39px;
-  float: right;
-  color: #fff;
-  margin-top: 15px;
-  margin-right: 15px;
-
-}
 
 
 
@@ -868,79 +850,24 @@ box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2);
 }
 
    
-#hero .veinteupimg {
+#hero .carrima1 {
 
-  margin: 0px;
-    float: right;
-    width: 490px;
-
-}
-
-#hero .contimgdoscarr {
-
-  margin: 0px;
-    float: right;
-    width: 490px;
-
-}
-
-#hero .dosdownsolo {
-
-  margin: 0px;
-    float: left;
-    width: 220px;
+  margin: 10px;
+  float: right;
 
 }
 
 #hero .carrima1 {
 
-  margin: 0px;
-    float: right;
-    width: 268px;
+  margin: 10px;
+  float: right;
 
-}
-
-#hero .mySlides {
-  display: none;
-
-   
-}
-
-#hero .mySlidestwo {
-  display: none;
-
-   
-}
-
-#hero .mySlidestwo a {
-
-  color: #ffffff;
-  display: block;
-  text-align: center;
-  float: left;
-  padding: 3px;
-  position: relative;
-   
-}
-
-#hero .mySlidestwo a .fa-external-link{
-  margin-left: 5px;
-  font-size: 14px;
-   
-}
-
-#hero .mySlidestwo a:hover {
-  
-    text-decoration: underline;
-    cursor: pointer;
-  
-   
 }
 
 #hero .menucarr {
-  height: auto;
-  display: block;
-  float: right;
+
+  
+
 }
 
 #hero .menucarr p {
@@ -1241,97 +1168,6 @@ bottom: 51px;
   }
 }
 
-
-/*--------------------------------------------------------------
-# HERO 2
---------------------------------------------------------------*/
-
-#hero2 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto
-}
-
-#hero2 .mySlides {
-  display: none;
-height: 400px;
-border: solid 1px black;
-   
-}
-
-#hero2 .prev,
-#hero2 .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: #222428;
-  font-weight: bold;
-  font-size: 30px;
-  transition: .6s ease;
-  border-radius: 0 3px 3px 0
-}
-
-#hero2 .next {
-  right: -50px;
-  border-radius: 3px 3px 3px 3px
-}
-
-#hero2 .prev {
-  left: -50px;
-  border-radius: 3px 3px 3px 3px
-}
-
-#hero2 .prev:hover,
-#hero2 .next:hover {
-  color: #f2f2f2;
-  background-color: rgba(0, 0, 0, 0.8)
-}
-
-#hero2 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding-top: 12px;
-padding-bottom: 12px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  background-color: #222428
-}
-
-#hero2 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0
-}
-
-#hero2 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color .6s ease
-}
-
-#hero2 .active,
-#hero2 .dot:hover {
-  background-color: #717171
-}
-
-
-
-
-
-
-
 /*--------------------------------------------------------------
 # MOBILE
 --------------------------------------------------------------*/
@@ -1477,9 +1313,6 @@ margin: -60px auto;
   text-transform: uppercase;
 color: #ffffff;
 font-size: 12px;
-font-family: ;
-
-
 }
 
 #seccionvvid .pulse {
@@ -1890,59 +1723,46 @@ font-family: ;
  
 }
 
-
-
 /*--------------------------------------------------------------
-# Resiliencia
+#  HISTORIAS - Carousel Section Alberto
 --------------------------------------------------------------*/
 
-
-
-/*--------------------------------------------------------------
-# La Prioridad
---------------------------------------------------------------*/
-
-
-
-#lapriorida {
-  
-  height: 100vh;
-  background-image: url(../img/valor_compartido/bg_vc.jpg);
-  background-size: cover;
-  background-color:#EEF2F4;
-  
-  
+.swiper-container {
+  width: 100%;
+  height: 100%;
 }
 
-#lapriorida .pad95 {
-
-  padding-top: 80px;
-   
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-button-next, .swiper-button-prev{
+  top: 66%;
+  outline: none;
+}
+.swiper-button-next {
+  background-image: url('../svg/ico-arrow-next.svg') !important;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+.swiper-button-next::after {
+  display: none;
 }
 
-#lapriorida .paditl {
-  padding-left: 14%;
-    padding-top: 5%;
-    padding-right: 0;
-   
-}
-
-#lapriorida .titlfra1 {
-  position: absolute;
-  color: #ffffff;
-  right: 30px;
-  text-transform: uppercase;
-  font-size: 12px;
-  text-align: right;
-}
-
-#lapriorida h1 {
-  font-family: Myriad-Bold;
-  color: #095498;
-  font-size: 40px;
-  text-transform: uppercase;
-
-}
 
 
 #lapriorida .lineblu {
@@ -1951,156 +1771,851 @@ font-family: ;
     height: 280px;
     width: 5px;
     float: left;
-
 }
 
-#lapriorida .contfra {
-  width: 80%;
-  float: right;
-
+.swiper-button-prev {
+  background-image: url('../svg/ico-arrow-previous.svg') !important;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
 }
-
-#lapriorida .contfra h2 {
-
+.swiper-button-prev::after {
+  display: none;
+}
+.slide1-bg{
+  background-image: url(../img/el_proposito/bg_slide_1_mobile.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide2-bg{
+  background-image: url(../img/el_proposito/bg_slide_2_mobile.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide3-bg{
+  background-image: url(../img/el_proposito/bg_slide_3_mobile.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide4-bg{
+  background-image: url(../img/el_proposito/bg_slide_4_mobile.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide5-bg{
+  background-image: url(../img/el_proposito/bg_slide_5_mobile.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide6-bg{
+  background-image: url(../img/el_proposito/bg_slide_6_mobile.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide7-bg{
+  background-image: url(../img/el_proposito/bg_slide_7_mobile.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide8-bg{
+  background-image: url(../img/el_proposito/bg_slide_8_mobile.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide9-bg{
+  background-image: url(../img/el_proposito/bg_slide_9_mobile.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-club-pickup{
+  background-image: url(../img/el_proposito/img-club-pickup.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 440px;
+}
+.banner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding-top: 90px;
+  padding-left: 24px;
+  padding-right: 24px;
+  text-align: left;
+}
+.banner__slogan{
+  position: absolute;
+  right: 24px;
+  top: 80px;
+  text-align: right;
+}
+.banner__slogan p{
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 18px;
   color: #ffffff;
-  line-height: 67px;
-  font-size: 65px;
+}
+.banner__title{
+  margin-top: 40px;
+}
+.banner__title h1{
+  text-transform: uppercase;
+  font-family: Myriad-Bold;
+  letter-spacing: 6px;
+  font-size: 32px;
+}
+.small-text{
+  font-size: 12px;
+  line-height: 18px;
+}
+.yellow-primary-txt{
+  color: #edae49;
+}
+.yellow-secondary-txt{
+  color: #E2BD31;
+}
+.white-txt{
+  color: #ffffff;
+}
+.blue-primary-txt{
+  color: #0172BA;
+}
+.blue-secondary-txt{
+  color: #095498;
+}
+.gray414141-text{
+  color: #414141;
+}
+.white-text{
+  color: #ffffff;
+}
+.bg-gray-light{
+  background: #EEF2F4;
+}
+.bg-blue-dark{
+  background: #095498;
+}
+.bg-blue-light{
+  background: #6EA9DB;
+}
+.bg-blue-light-2{
+  background: #1181C7;
+}
+.bg-blue-gray-1{
+  background:#A6BDD1;
+}
+.bg-blue-gray-2{
+  background:#4C5C6E;
+}
+.bg-yellow{
+  background: #FFB332;
+}
+.bg-blue-gray-3{
+  background: #1081C7;
+}
+.subtitle{
+  font-size: 30px;
+  line-height: 40px;
+  font-family: Myriad-Bold;
+}
+p{
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+p:last-of-type{
+  margin-bottom: 0;
+}
+.banner__shortext{
+  margin-left: 90px;
+  border-left: 3px solid transparent;
+  padding-left: 20px;
+  margin-bottom: 8px;
+}
+.yellow-primary-border{
+  border-left: 3px solid #edae49;
+}
+.yellow-secondary-border{
+  border-left: 3px solid #E2BD31;
+}
+.white-border{
+  border-left: 3px solid #ffffff;
+}
+.blue-primary-border{
+  border-left: 3px solid #0172BA;
+}
+.blue-secondary-border{
+  border-left: 3px solid #095498;
+}
+.banner__shortext{
+  height: 130px;
+  display: flex;
+  align-items: center;
+}
+.banner__shortext p{
+  color: #ffffff;
   font-family: Myriad-Light;
-
+  letter-spacing: 6px;
+  font-size: 26px;
+  line-height: 32px;
 }
-
-#lapriorida p.txtintro {
-  float: left;
-  margin-top: 20px;
-  margin-left: 83px;
-  color: #ffffff;
-  font-size: 18px;
-  font-family: Myriad-Regular;
-
-
+.banner__image{
+  margin: 0;
 }
-
-
-   
-#lapriorida .imageslip {
-
-  width: 620px;
+.banner__image img{
   display: block;
-  margin: 0px auto;
+  width: 80%;
+  margin: 0 auto;
+}
+.banner__row{
+  width: 100%;
+  margin: 18px 0;
+  display: block;
+}
+.banner__banner-text2{
+  margin: 40px 0 32px 0;
+}
+.banner__banner-text3{
+  display: none;
+}
+.banner__description p{
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 32px 0 24px 0;
+  max-height: 200px;
+}
 
+/* IPHONE X*/
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+      .swiper-button-next, .swiper-button-prev{
+        top: 70%;
+      }
+      .banner__image{
+        margin: 50px 0;
+      }
+      .banner__image img{
+        width: 100%;
+      }
+}
+
+/* IPHONE 8 PLUS*/
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 736px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+
+      .swiper-button-next, .swiper-button-prev{
+        top: 72%;
+      }
+      .banner__image{
+        margin: 8px 0;
+      }
+      .banner__image img{
+        width: 90%;
+      }
+
+}
+
+@media screen and (min-width:767px){
+  .swiper-button-next, .swiper-button-prev{
+    top: 83%;
+  }
+  .banner__row{
+    margin: 50px 0;
+  }
+  .slide1-bg{
+    background-image: url(../img/el_proposito/bg_slide_1_desktop.png);
+  }
+  .slide2-bg{
+    background-image: url(../img/el_proposito/bg_slide_2_desktop.png);
+  }
+  .slide3-bg{
+    background-image: url(../img/el_proposito/bg_slide_3_desktop.png);
+  }
+  .slide4-bg{
+    background-image: url(../img/el_proposito/bg_slide_4_desktop.png);
+  }
+  .slide5-bg{
+    background-image: url(../img/el_proposito/bg_slide_5_desktop.png);
+  }
+  .slide6-bg{
+    background-image: url(../img/el_proposito/bg_slide_6_desktop.png);
+  }
+  .slide7-bg{
+    background-image: url(../img/el_proposito/bg_slide_7_desktop.png);
+  }
+  .slide8-bg{
+    background-image: url(../img/el_proposito/bg_slide_8_desktop.png);
+  }
+  .slide9-bg{
+    background-image: url(../img/el_proposito/bg_slide_9_desktop.png);
+  }
+}
+
+@media screen and (min-width:1023px){
+  .swiper-button-next, .swiper-button-prev{
+    top: 91%;
+  }
+  .order1{
+    order: 1;
+  }
+  .order2{
+    order: 2;
+  }
+  .order3{
+    order: 3;
+  }
+  .banner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .banner__image{
+    width: 60%;
+    padding: 24px;
+  } 
+  .banner__image img{
+    width: 100%;
+  }
+  .banner__banner-text1{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  } 
+  .banner__title h1{
+    font-size: 40px;
+  }
+  .banner__banner-text2{
+    display: none;
+  }
+  .banner__banner-text3{
+    display: flex;
+    padding: 0 0 0 82px;
+  }
+  .banner__banner-text3 p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  .banner__shortext{
+    height: auto;
+    margin-left: 56px;
+    margin-bottom: 26px;
+  }
+  .banner__shortext p{
+    font-size: 45px;
+    line-height: 51px;
+  }
+  .banner__row {
+    margin: 16px 0 56px 0;
+  }
+}
+
+@media screen and (min-width:1279px){
+  .banner{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .banner__image img{
+    width: 84%;
+  }
+  .banner__banner-text3 {
+    max-width: 390px;
+  }
+  .banner__row {
+    margin: 0px 0 56px 0;
+  }
+}
+
+@media screen and (min-width:1919px){
+  .banner__image img{
+    width: 80%;
+  }
+}
+
+/*--------------------------------------------------------------
+# Mensaje del presidente Alberto
+--------------------------------------------------------------*/
+
+.yellow-divider{
+  width: 270px;
+  height: 10px;
+  background: #FDB71A;
+  margin-bottom:35px;
+}
+
+.cards{
+  border-radius: 15px;
+  padding: 24px 18px;
+  margin: 0 0 24px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.cards__image{
+  width: 35%;
+  padding-right: 16px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+} 
+.cards__image h4{
+  font-family: Myriad-Bold;
+  font-weight: bold;
+}
+.cards__button{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-60%, 34%);
+}
+.cards__text{
+  width: 65%;
+}
+.cards-gray-1{
+  margin-top: -36px;
+}
+.graph{
+  border-bottom: 1px solid #66B2E0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:flex-end;
+}
+.graph__item{
+  width: 12px;
+  position: relative;
+}
+.graph__item::before{
+  position: absolute;
+  width: 60px;
+  height: 20px;
+  left: -200%;
+  font-family: Myriad-Light;
+  font-size: 15px;
+  color: #444A4D;
+  text-align: center;
+}
+.graph__item:nth-child(1)::before{
+  content: '2,949';
+  bottom: 106px;
+}
+.graph__item:nth-child(2)::before{
+  content: '3,022';
+  bottom: 125px;
+}
+.graph__item:nth-child(3)::before{
+  content: '3,134';
+  bottom: 166px;
+}
+.graph__item:nth-child(4)::before{
+  content: '3,249';
+  bottom: 190px;
+}
+.graph__item:nth-child(5)::before{
+  content: '3,249';
+  bottom: 230px;
+  font-family: Myriad-Bold;
+  font-size: 27px;
+  color: #1081C7;
+}
+.graph__item::after{
+  position: absolute;
+  width: 60px;
+  height: 20px;
+  bottom: -26px;
+  left: -200%;
+  font-family: Myriad-Light;
+  font-size: 15px;
+  color: #444A4D;
+  text-align: center;
+}
+.graph__item:nth-child(1)::after{
+  content: '16';
+}
+.graph__item:nth-child(2)::after{
+  content: '17';
+}
+.graph__item:nth-child(3)::after{
+  content: '18';
+}
+.graph__item:nth-child(4)::after{
+  content: '19';
+}
+.graph__item:nth-child(5)::after{
+  content: '20';
+}
+.item_quantity{
+  position: absolute;
+  top: -20px;
+}
+
+@media screen and (min-width:767px){
+  .cards{
+    max-height: 200px;
+  }
+  .cards-gray-1{
+    margin-top: -500px;
+    max-width: 410px;
+    float: right;
+  }
+  .cards-gray-2{
+    margin-top: -300px;
+    max-width: 410px;
+    float: right;
+  }
+  .cards-gray-3{
+    margin-top: -111px;
+    max-width: 645px;
+    float: right;
+  }
+  .w20{
+    width: 20%;
+  }
+  .w80{
+    width: 80%;
+  }
+}
+
+@media screen and (min-width:1023px){
+  .cards-gray-1{
+    margin-right: 100px;
+  }
+  .cards-gray-3{
+    max-width: 856px;
+  }
+  .cards-1-margin{
+    margin-left: 66px;
+    margin-bottom: 40px;
+  }
+  .cards-2-margin{
+    margin-right: 80px;
+  }
+}
+
+@media screen and (min-width:1279px){
+  .cards-gray-1{
+    width: 454px;
+    margin-right: 132px;
+  }
 }
 
 
 /*--------------------------------------------------------------
-# La Prioridad
+# Mujer con productos Walmart Alberto
+--------------------------------------------------------------*/
+
+.walmart-image{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: -90px;
+  right: 16px;
+  text-align: right;
+}
+.walmart-image img{
+  width: 80%;
+}
+
+@media screen and (min-width:1023px){
+  .walmart-image{
+    width: 180px;
+    height: 180px;
+    top: -148px;
+  }
+  .walmart-image img{
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:1023px){
+  .walmart-image{
+    width: 200px;
+    height: 200px;
+    top: -157px;
+    right: -136px;
+  }
+  .cards-gray-2 {
+    width: 427px;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Cards Gráficas Alberto
+--------------------------------------------------------------*/
+.cardgraph{
+  border-radius: 15px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.16); 
+  box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.16);
+  padding: 8px 0;
+  display: flex;
+  flex-direction: column;
+}
+.cardgraph__title{
+  font-size: 18px;
+  line-height: 24px;
+  color: #414141;
+  padding: 0px 24px 4px 76px;
+  margin-bottom: 0;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.total_revenue{
+  background: url('../svg/ico-ingresos-totales.svg') no-repeat 20px 2px;
+  background-size: 40px;
+}
+.total_units{
+  background: url('../svg/ico-unidades-totales.svg') no-repeat 20px 2px;
+  background-size: 40px;
+}
+.utility_operation{
+  background: url('../svg/ico-utilidad-operacion.svg') no-repeat 20px 2px;
+  background-size: 40px;
+}
+.operating_flow{
+  background: url('../svg/ico-flujo-operativo.svg') no-repeat 20px 2px;
+  background-size: 40px;
+}
+.transactions{
+  background: url('../svg/ico-transacciones.svg') no-repeat 20px 2px;
+  background-size: 40px;
+}
+.cardgraph__graph{
+  background: #EEF2F4;
+  padding: 60px 20px 40px 20px;
+  margin-bottom: 4px;
+  height: 310px;
+}
+.cardgraph__currency{
+  font-size: 18px;
+  line-height: 24px;
+  color: #414141;
+  padding: 6px 20px 0 0;
+  text-align: right;
+}
+
+[data-aos="graph-anim-1"] {
+  /* opacity: 0; */
+  transform: scaleY(0);
+  transition-property: transform, opacity;
+}
+[data-aos="graph-anim-1"].aos-animate {
+  /* opacity: 1; */
+  transform: scaleY(1);
+}
+
+
+/*--------------------------------------------------------------
+# Resiliencia
 --------------------------------------------------------------*/
 
 
 
-#elresultcont {
+#resilencia {
   
   height: 100vh;
-  background-image: url(../img/elresultado/bgslideprielresu.jpg);
+  background-image: url(../img/capitulo1/bg_cp1.png);
   background-size: cover;
   background-color:#EEF2F4;
   
   
 }
 
-#elresultcont .pad95 {
 
-  padding-top: 80px;
-   
+#resilencia .pad95 {
+ padding-top: 95px;
+  
 }
-
-#elresultcont .paditl {
-  padding-left: 14%;
-    padding-top: 5%;
-    padding-right: 0;
-   
-}
-
-#elresultcont .titlfra1 {
-  position: absolute;
-  color: #ffffff;
-  right: 30px;
-  text-transform: uppercase;
-  font-size: 12px;
-  text-align: right;
-}
-
-#elresultcont h1 {
-  font-family: Myriad-Bold;
-  color: #007DC3;
-  font-size: 40px;
-  text-transform: uppercase;
-
-}
-
-
-#elresultcont .lineblu {
-  margin-left: 40px;
-  background-color: #007DC3;
-    height: 140px;
-    width: 5px;
-    float: left;
-
-}
-
-#elresultcont .contfra {
-  width: 80%;
-  float: right;
-
-}
-
-#elresultcont .contfra h2 {
-
-  color: #ffffff;
-  line-height: 67px;
-  font-size: 65px;
-  font-family: Myriad-Light;
-
-}
-
-#elresultcont p.txtintro {
-  float: left;
-  margin-top: 20px;
-  margin-left: 83px;
-  color: #ffffff;
-  font-size: 18px;
-  font-family: Myriad-Regular;
-
-
-}
-
 
    
-#elresultcont .imageslip {
+#resilencia .image {
 
-  width: 620px;
+  width: 74%;
   display: block;
   margin: 0px auto;
 
 }
 
- 
+
+
+#resilencia .menucarr {
+
+  
+
+}
+
+#resilencia .menucarr2 p {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #ffffff;
+  margin-right: 40px;
+  text-align: right;
+  font-family: Myriad-Regular;
+}
+
+#resilencia .menucarr ul {
+  list-style: none;
+  width: 100%;
+  margin-top: 10px;
+  float: right;
+  margin-right: 40px;
+    
+}
+
+
+#resilencia .menucarr ul li {
+  text-align: right;
+  font-size: 15px;
+  
+}
+
+#resilencia .menucarr ul li a {
+  
+  color: #6FA5C7;
+  font-family: Myriad-Light;
+}
+
+#resilencia .menucarr ul li a:hover {
+  font-family: Myriad-Regular;
+  color: #ffffff;
+}
+
+
+#resilencia .menucarr ul li a.active {
+  
+  color: #ffffff;
+  font-family: Myriad-Regular;
+}
+
+
+#resilencia .menucarr ul li span {
+  margin-left: 10px;
+  font-size: 9px;
+  
+}
+
+
+.moving-mouse-holder {
+  margin: auto;
+  margin-top: 10px;
+  width: 170px;
+}
+
+.moving-mouse-holder .mouse {
+  width: 26px;
+  height: 40px;
+  position: relative;
+  margin: auto;
+  border-radius: 18px;
+  border: 2px solid #ffffff;
+}
+
+.moving-mouse-holder .mouse .fa-long-arrow-down {
+  color: #fff;
+    position: relative;
+    top: 29px;
+    left: 4px;
+    font-size: 23px;
+}
 
 
 
+.moving-mouse-holder .mouse-button {
+  background-color: #ffffff;
+  width: 4px;
+  height: 10px;
+  border-radius: 2px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  margin: 0 0 0 -2px;
+  animation: mouse-scroll 1s infinite alternate;
+}
+
+.moving-mouse-holder .text {
+  margin-top: -30px;
+  margin-left: 40px;
+  color: #33cc66;
+  font-size: 12px;
+  line-height: 1em;
+}
+
+@keyframes mouse-scroll {
+  to {
+    transform: translate(0, 6px) scale(1, 0.8);
+  }
+}
+
+#resilencia .txtinfor {
+  margin-top: 75px;
+    font-size: 25px;
+    line-height: 31px;
+    color: #ffffff;
+    float: left;
+    width: 100%;
+  
+}
+
+#resilencia h1 {
+  width: 100%;
+    float: left;
+    font-size: 68px;
+    color: #F1B634;
+    margin-top: 10px;
+    margin-bottom: 0;
+    line-height: 60px;
+  
+}
+
+#resilencia h2 {
+  text-transform: uppercase;
+    width: 100%;
+    float: left;
+    font-size: 100px;
+    color: #F1B634;
+    margin-bottom: 0;
+    margin-top: 10px;
+    line-height: 93px;
+  
+}
 
 
 /*--------------------------------------------------------------
 # El proposito
 --------------------------------------------------------------*/
 
+
+
 #elproposito {
   
   height: 100vh;
   background-image: url(../img/el_proposito/bg_sec1.jpg);
   background-size: cover;
-  background-color:#EEF2F4;
-  
-  
+  background-color:#EEF2F4;  
 }
 
 #elproposito .pad95 {
@@ -2130,17 +2645,15 @@ font-family: ;
   color: #F1B634;
   font-size: 40px;
   text-transform: uppercase;
-
 }
 
 
 #elproposito .lineblu {
   margin-left: 40px;
   background-color: #F1B634;
-    height: 200px;
-    width: 5px;
-    float: left;
-
+  height: 200px;
+  width: 5px;
+  float: left;
 }
 
 #elproposito .contfra {
@@ -2172,188 +2685,6 @@ font-family: ;
 
    
 #elproposito .imageslip {
-
-  width: 620px;
-  display: block;
-  margin: 0px auto;
-
-}
-
-
-/*--------------------------------------------------------------
-# La clave
---------------------------------------------------------------*/
-
-#laclavecont {
-  
-  height: 100vh;
-  background-image: url(../img/laclave/bg_slidprin.jpg);
-  background-size: cover;
-  background-color:#EEF2F4;
-  
-  
-}
-
-#laclavecont .pad95 {
-
-  padding-top: 80px;
-   
-}
-
-#laclavecont .paditl {
-  padding-right: 14%;
-    padding-top: 5%;
-    padding-left : 0;
-   
-}
-
-#laclavecont .titlfra1 {
-  position: absolute;
-  color: #ffffff;
-  right: 30px;
-  text-transform: uppercase;
-  font-size: 12px;
-  text-align: right;
-}
-
-#laclavecont h1 {
-  font-family: Myriad-Bold;
-  color: #E2BD31;
-  font-size: 40px;
-  text-transform: uppercase;
-
-}
-
-
-#laclavecont .lineblu {
-  margin-left: 40px;
-  background-color: #E2BD31;
-    height: 200px;
-    width: 5px;
-    float: left;
-
-}
-
-#laclavecont .contfra {
-  width: 80%;
-  float: right;
-
-}
-
-#laclavecont .contfra h2 {
-
-  color: #ffffff;
-  line-height: 67px;
-  font-size: 65px;
-  font-family: Myriad-Light;
-
-}
-
-#laclavecont p.txtintro {
-  float: left;
-  margin-top: 20px;
-  margin-left: 83px;
-  color: #ffffff;
-  font-size: 18px;
-  font-family: Myriad-Regular;
-
-
-}
-
-
-   
-#laclavecont .imageslip {
-
-  width: 620px;
-  display: block;
-  margin: 0px auto;
-
-}
-
-
-/*--------------------------------------------------------------
-# La meta
---------------------------------------------------------------*/
-
-#lametacont {
-  
-  height: 100vh;
-  background-image: url(../img/lameta/bgslideprin.jpg);
-  background-size: cover;
-  background-color:#EEF2F4;
-  
-  
-}
-
-#lametacont .pad95 {
-
-  padding-top: 80px;
-   
-}
-
-#lametacont .paditl {
-  padding-right: 14%;
-    padding-top: 5%;
-    padding-left : 0;
-   
-}
-
-#lametacont .titlfra1 {
-  position: absolute;
-  color: #ffffff;
-  right: 30px;
-  text-transform: uppercase;
-  font-size: 12px;
-  text-align: right;
-}
-
-#lametacont h1 {
-  font-family: Myriad-Bold;
-  color: #FCB61A;
-  font-size: 40px;
-  text-transform: uppercase;
-
-}
-
-
-#lametacont .lineblu {
-  margin-left: 40px;
-  background-color: #FCB61A;
-    height: 145px;
-    width: 5px;
-    float: left;
-
-}
-
-#lametacont .contfra {
-  width: 80%;
-  float: right;
-
-}
-
-#lametacont .contfra h2 {
-
-  color: #ffffff;
-  line-height: 67px;
-  font-size: 65px;
-  font-family: Myriad-Light;
-
-}
-
-#lametacont p.txtintro {
-  float: left;
-  margin-top: 20px;
-  margin-left: 83px;
-  color: #ffffff;
-  font-size: 18px;
-  font-family: Myriad-Regular;
-
-
-}
-
-
-   
-#lametacont .imageslip {
 
   width: 620px;
   display: block;
@@ -2634,63 +2965,6 @@ font-family: ;
   margin: 0px auto;
 
 }
-
-/*--------------------------------------------------------------
-# Valor Compartido 3
---------------------------------------------------------------*/
-
-#valorcomp3 {
- 
-  height: auto;
- padding-top: 40px;
- padding-bottom: 40px;
- padding-left: 0;
- padding-right: 0;
- background-color: #4C5C6E;
-
-
-}
-
-#valorcomp3 p {
-  
-  color: #ffffff;
-  font-size: 18px;
-
-}
-
-
-#valorcomp3 #odsinfos .titles {
-  font-family:Myriad-SemiBold ;
-  color: #ffffff;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 26px;
-
-}
-
-#valorcomp3 #odsinfos .iconodss {
-  width: 100px;
-
-}
-
-
-
-#valorcomp3 #odsinfos .ods-urls a{
-  font-size: 16px;
-  font-family:Myriad-Regular;
-  color: #414141;
-  background-color: #EEF2F4;
-  margin-top: 10px;
-  border-radius: 3px;
-  padding: 5px;
-  display: block;
-
-}
-
-
-/*--------------------------------------------------------------
-# Valor Compartido 2
---------------------------------------------------------------*/
 
 
 
