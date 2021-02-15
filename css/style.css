@@ -997,7 +997,7 @@ box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2);
   text-transform: uppercase;
     width: 100%;
     float: left;
-    font-size: 100px;
+    font-size: clamp(2rem, 7vw, 6.5rem);
     color: #F1B634;
     margin-bottom: 0;
     margin-top: 10px;
@@ -1762,6 +1762,17 @@ font-size: 12px;
 .swiper-button-next::after {
   display: none;
 }
+
+
+
+#lapriorida .lineblu {
+  margin-left: 40px;
+  background-color: #095498;
+    height: 280px;
+    width: 5px;
+    float: left;
+}
+
 .swiper-button-prev {
   background-image: url('../svg/ico-arrow-previous.svg') !important;
   background-repeat: no-repeat;
@@ -2604,9 +2615,7 @@ p:last-of-type{
   height: 100vh;
   background-image: url(../img/el_proposito/bg_sec1.jpg);
   background-size: cover;
-  background-color:#EEF2F4;
-  
-  
+  background-color:#EEF2F4;  
 }
 
 #elproposito .pad95 {
@@ -2636,17 +2645,15 @@ p:last-of-type{
   color: #F1B634;
   font-size: 40px;
   text-transform: uppercase;
-
 }
 
 
 #elproposito .lineblu {
   margin-left: 40px;
   background-color: #F1B634;
-    height: 200px;
-    width: 5px;
-    float: left;
-
+  height: 200px;
+  width: 5px;
+  float: left;
 }
 
 #elproposito .contfra {
@@ -2685,6 +2692,187 @@ p:last-of-type{
 
 }
 
+/*--------------------------------------------------------------
+# La Prioridad
+--------------------------------------------------------------*/
+
+
+
+#laoportunicont {
+  
+  height: 100vh;
+  background-image: url(../img/laoportunidad/bg_slideprin.jpg);
+  background-size: cover;
+  background-color:#EEF2F4;
+  
+  
+}
+
+#laoportunicont .pad95 {
+
+  padding-top: 80px;
+   
+}
+
+#laoportunicont .paditl {
+  padding-left: 14%;
+    padding-top: 5%;
+    padding-right: 0;
+   
+}
+
+#laoportunicont .titlfra1 {
+  position: absolute;
+  color: #ffffff;
+  right: 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: right;
+}
+
+#laoportunicont h1 {
+  font-family: Myriad-Bold;
+  color: #F1B634;
+  font-size: 40px;
+  text-transform: uppercase;
+
+}
+
+
+#laoportunicont .lineblu {
+  margin-left: 40px;
+  background-color: #F1B634;
+    height: 200px;
+    width: 5px;
+    float: left;
+
+}
+
+#laoportunicont .contfra {
+  width: 80%;
+  float: right;
+
+}
+
+#laoportunicont .contfra h2 {
+
+  color: #ffffff;
+  line-height: 67px;
+  font-size: 65px;
+  font-family: Myriad-Light;
+
+}
+
+#laoportunicont p.txtintro {
+  float: left;
+  margin-top: 20px;
+  margin-left: 83px;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: Myriad-Regular;
+
+
+}
+
+
+   
+#laoportunicont .imageslip {
+
+  width: 620px;
+  display: block;
+  margin: 0px auto;
+
+}
+
+/*--------------------------------------------------------------
+# La meta
+--------------------------------------------------------------*/
+
+#elcompricont {
+  
+  height: 100vh;
+  background-image: url(../img/elcompromiso/bgsliprin.jpg);
+  background-size: cover;
+  background-color:#EEF2F4;
+  
+  
+}
+
+#elcompricont .pad95 {
+
+  padding-top: 80px;
+   
+}
+
+#elcompricont .paditl {
+  padding-right: 14%;
+    padding-top: 5%;
+    padding-left : 0;
+   
+}
+
+#elcompricont .titlfra1 {
+  position: absolute;
+  color: #ffffff;
+  right: 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: right;
+}
+
+#elcompricont h1 {
+  font-family: Myriad-Bold;
+  color: #FCB61A;
+  font-size: 40px;
+  text-transform: uppercase;
+
+}
+
+
+#elcompricont .lineblu {
+  margin-left: 40px;
+  background-color: #FCB61A;
+    height: 145px;
+    width: 5px;
+    float: left;
+
+}
+
+#elcompricont .contfra {
+  width: 80%;
+  float: right;
+
+}
+
+#elcompricont .contfra h2 {
+
+  color: #ffffff;
+  line-height: 67px;
+  font-size: 65px;
+  font-family: Myriad-Light;
+
+}
+
+#elcompricont p.txtintro {
+  float: left;
+  margin-top: 20px;
+  margin-left: 83px;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: Myriad-Regular;
+
+
+}
+
+
+   
+#elcompricont .imageslip {
+
+  width: 620px;
+  display: block;
+  margin: 0px auto;
+
+}
 
 /*--------------------------------------------------------------
 # Valor Compartido
