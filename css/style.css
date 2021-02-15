@@ -1070,7 +1070,7 @@ box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2);
   text-transform: uppercase;
     width: 100%;
     float: left;
-    font-size: 100px;
+    font-size: clamp(2rem, 7vw, 6.5rem);
     color: #F1B634;
     margin-bottom: 0;
     margin-top: 10px;
