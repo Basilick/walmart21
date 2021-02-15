@@ -646,6 +646,7 @@ box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2);
   }
   .dropdown-menu.collapse:not(.show) {
     display: block;
+    opacity: 0;
   }
   .dropdown-menu.collapse.show {
     transform: translate(0, 0);
@@ -2101,7 +2102,7 @@ font-size: 12px;
 }
 p{
   font-size: 16px;
-  line-height: 24px;
+  
   margin-bottom: 32px;
 }
 p:last-of-type{
@@ -2784,7 +2785,7 @@ p:last-of-type{
   height: 100vh;
   background-image: url(../img/valor_compartido/bg_vc.jpg);
   background-size: cover;
-  background-color:#EEF2F4;
+  background-color:#E79E41;
 
 }
 
@@ -2860,7 +2861,7 @@ p:last-of-type{
   height: 100vh;
   background-image: url(../img/elcompromiso/bgsliprin.jpg);
   background-size: cover;
-  background-color:#EEF2F4;
+  background-color:#F2AD3B;
   
   
 }
@@ -2954,7 +2955,7 @@ p:last-of-type{
   height: 100vh;
   background-image: url(../img/el_proposito/bg_sec1.jpg);
   background-size: cover;
-  background-color:#EEF2F4;  
+  background-color:#1587C8;  
 }
 
 #elproposito .pad95 {
@@ -3032,7 +3033,7 @@ p:last-of-type{
 }
 
 /*--------------------------------------------------------------
-# La Prioridad
+# La Oportunidad
 --------------------------------------------------------------*/
 
 
@@ -3042,7 +3043,7 @@ p:last-of-type{
   height: 100vh;
   background-image: url(../img/laoportunidad/bg_slideprin.jpg);
   background-size: cover;
-  background-color:#EEF2F4;
+  background-color:#3174AC;
   
   
 }
@@ -3132,7 +3133,7 @@ p:last-of-type{
   background-image: url(../img/elresultado/bgslideprielresu.jpg);
   background-position: center;
   background-size: cover;
-  background-color:#EEF2F4;
+  background-color:#81ADCE;
   background-repeat: no-repeat;
 
 }
@@ -3221,7 +3222,7 @@ p:last-of-type{
   height: 100vh;
   background-image: url(../img/laclave/bg_slidprin.jpg);
   background-size: cover;
-  background-color:#EEF2F4;
+  background-color:#0A4883;
 
 }
 
@@ -3303,7 +3304,7 @@ p:last-of-type{
   height: 100vh;
   background-image: url(../img/lameta/bgslideprin.jpg);
   background-size: cover;
-  background-color:#EEF2F4;
+  background-color:#72B040;
   
   
 }
@@ -3397,7 +3398,7 @@ p:last-of-type{
   height: 100vh;
   background-image: url(../img/valor_compartido/bg_vc.jpg);
   background-size: cover;
-  background-color:#EEF2F4;
+  background-color:#F2AD3B;
   
   
 }
@@ -3485,6 +3486,10 @@ p:last-of-type{
 #valorcomp3 {
  
   height: auto;
+  background-image: url(../img/valor_compartido/bgcirculodevalor.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right top;
  padding-top: 40px;
  padding-bottom: 40px;
  padding-left: 0;
@@ -3494,41 +3499,59 @@ p:last-of-type{
 
 }
 
+#valorcomp3 h1 {
+  
+  color: #403f3f;
+    font-size: 26px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family:Myriad-Bold ;
+}
+
+
 #valorcomp3 p {
   
-  color: #ffffff;
-  font-size: 18px;
+  color: #403f3f;
+    font-size: 18px;
 
 }
 
-
-#valorcomp3 #odsinfos .titles {
-  font-family:Myriad-SemiBold ;
-  color: #ffffff;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 26px;
-
-}
-
-#valorcomp3 #odsinfos .iconodss {
-  width: 100px;
-
-}
-
-
-
-#valorcomp3 #odsinfos .ods-urls a{
-  font-size: 16px;
-  font-family:Myriad-Regular;
-  color: #414141;
-  background-color: #EEF2F4;
-  margin-top: 10px;
-  border-radius: 3px;
-  padding: 5px;
+#valorcomp3 img {
+  
+  width: 620px;
+  margin: auto;
   display: block;
 
 }
+
+#valorcomp3 img.vinimg {
+  
+  width: 391px;
+  margin: auto;
+  margin-top: 30px;
+  display: block;
+
+}
+
+#valorcomp3 .btnchanval {
+  border: 0;
+    background-color: #F1B634;
+    width: 120px;
+    height: 15px;
+    display: block;
+    float: left;
+    margin: 10px;
+  
+}
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Valor Compartido 2
+--------------------------------------------------------------*/
 
 
 
