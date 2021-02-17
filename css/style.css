@@ -1916,6 +1916,13 @@ font-size: 12px;
 #  HISTORIAS - Carousel Section Alberto
 --------------------------------------------------------------*/
 
+.my-custom {
+
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+}
+
 .swiper-container {
   width: 100%;
   height: 100%;
@@ -2357,8 +2364,8 @@ p:last-of-type{
 }
 
 .cards{
-  border-radius: 15px;
-  padding: 24px 18px;
+  border-radius: 6px;
+  padding: 8px 5px;
   margin: 0 0 24px 0;
   display: flex;
   flex-direction: row;
@@ -2368,15 +2375,16 @@ p:last-of-type{
   position: relative;
 }
 .cards__image{
-  width: 35%;
-  padding-right: 16px;
+  width: 78px;
+    padding-right: 8px;
   display: flex;
   justify-content: center;
   position: relative;
 } 
-.cards__image h4{
+.cards__text h4{
   font-family: Myriad-Bold;
-  font-weight: bold;
+  margin-bottom: 0;
+  
 }
 .cards__button{
   position: absolute;
@@ -2503,7 +2511,7 @@ p:last-of-type{
   }
   .cards-1-margin{
     margin-left: 66px;
-    margin-bottom: 40px;
+    margin-bottom: 23px;
   }
   .cards-2-margin{
     margin-right: 80px;
@@ -2631,6 +2639,29 @@ p:last-of-type{
 # CAPITULO 02 - 2 Alberto
 --------------------------------------------------------------*/
 
+
+
+#capitulo02_1 .imacel{
+ 
+  margin: auto;
+  display: block;
+ width: 80%;
+}
+
+
+/*--------------------------------------------------------------
+# CAPITULO 02 - 2 Alberto
+-----------------------------------------------------
+---------*/
+ 
+#capitulo02_2 .py-cust5 {
+ 
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  
+}
+
+
 #capitulo02_2 .gridify{
   display: grid;
   grid-template-columns: 100%;
@@ -2641,6 +2672,8 @@ p:last-of-type{
   margin: 0 auto;
 
 }
+
+
 #capitulo02_2 .gridify__item{
   background: #ffffff;;
   border-radius: 6px;
@@ -2722,6 +2755,34 @@ p:last-of-type{
 /*--------------------------------------------------------------
 # CAPITULO 02 - 3 Alberto
 --------------------------------------------------------------*/
+
+#capitulo02_porta3{
+  background: url('../img/capitulo02/bgportadas.png');
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+  height: auto;
+  
+}
+
+#capitulo02_porta3 .imaporta1{
+  width: 100%;
+  display: block;
+  margin: 3rem auto;
+  
+}
+
+/*--------------------------------------------------------------
+# CAPITULO 02 - 3 Alberto
+--------------------------------------------------------------*/
+
+#capitulo02_3{
+ 
+  
+  
+}
+
+
 #capitulo02_3 .image__holder{
   width: 100%;
   height: 100%;
@@ -2730,6 +2791,8 @@ p:last-of-type{
   object-fit: cover;
   width: 100%;
 }
+
+
 .subtitle-blue-bullet{
   position: relative;
   padding-left: 60px;  
@@ -2739,6 +2802,16 @@ p:last-of-type{
   font-family: Myriad-Bold;
   margin-bottom: 24px;
 }
+
+.subtitle-white-bullet{
+   
+  color: #ffffff;
+  
+}
+
+
+
+
 .subtitle-blue-bullet::before{
   position: absolute;
   content: '1';
@@ -2777,7 +2850,7 @@ ul#blue-list{
 }
 ul#blue-list li{
   margin: 0;
-  padding: 0 0 20px 40px;
+  padding: 0 0 5px 40px;
   font-family: Myriad-Light;
   color: #414141;
   list-style: none;
@@ -2785,6 +2858,110 @@ ul#blue-list li{
   background: url('../svg/ico-blue-bullet.svg') no-repeat 18px 5px;
   background-size: 12px;
 }
+
+/*--------------------------------------------------------------
+# CAPITULO 02 - 3 Alberto
+--------------------------------------------------------------*/
+
+#capitulo02_porta4{
+  background: url('../img/capitulo02/bgportadas.png') no-repeat;
+  background-size: cover;
+  background-position: left top;
+  background-repeat: no-repeat;
+  
+}
+
+#capitulo02_porta4 .imaporta1{
+  width: 100%;
+  display: block;
+  margin: 3rem auto;
+  
+}
+
+
+
+
+/*--------------------------------------------------------------
+# CAPITULO 02 - 4 Alberto
+--------------------------------------------------------------*/
+#capitulo02_4{
+ 
+  
+}
+
+#capitulo02_4 .image__holder{
+  width: 100%;
+  height: 100%;
+}
+#capitulo02_4 .image__holder img{
+  object-fit: cover;
+  width: 100%;
+}
+
+
+/*--------------------------------------------------------------
+# CAPITULO 02 - 3 Alberto
+--------------------------------------------------------------*/
+
+#capitulo02_porta5{
+  background: url('../img/capitulo02/bgportadas.png') no-repeat;
+  background-size: cover;
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+#capitulo02_porta5 .imaporta1{
+  width: 300px;
+  display: block;
+  margin: 3rem auto;
+  
+}
+
+
+/*--------------------------------------------------------------
+# CAPITULO 02 - 3 Alberto
+--------------------------------------------------------------*/
+
+#capitulo02_7{
+  
+  
+  
+}
+
+#capitulo02_7 .image__holder{
+  width: 100%;
+  height: 100%;
+}
+#capitulo02_7 .image__holder img{
+  object-fit: cover;
+  width: 100%;
+}
+
+
+/*--------------------------------------------------------------
+# CAPITULO 02 - 8 Alberto
+--------------------------------------------------------------*/
+
+#capitulo02_8{
+  background: url('../img/capitulo02/bgzanasecc8.png');
+  background-size: cover;
+  background-position: top ;
+  background-repeat: no-repeat;
+  
+  
+}
+
+
+#capitulo02_8 .cards__image img {
+  width: 80px;
+ 
+  
+  
+}
+
+
+
+
 
 /*--------------------------------------------------------------
 # CAPITULO 02 - 9 Alberto
@@ -2811,7 +2988,7 @@ ul#blue-list li{
   background: #ffffff;
   border-radius: 15px;
   padding: 50px 38px;
-  max-width: 600px;
+  max-width: 800px;
   z-index: 2;
 }
 #capitulo02_9 .message-box h5{
@@ -2822,6 +2999,17 @@ ul#blue-list li{
 #capitulo02_9 .message-box p{
   color: #414141;
 }
+
+
+/*--------------------------------------------------------------
+# CAPITULO 02 - 9 Alberto
+--------------------------------------------------------------*/
+#capitulo02_10 img {
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+
 
 
 /*--------------------------------------------------------------
