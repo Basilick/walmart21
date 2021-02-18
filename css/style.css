@@ -3012,7 +3012,7 @@ ul#blue-list li{
   background-size: cover;
   background-position: top ;
   background-repeat: no-repeat;
-  
+  padding-bottom: 0;
   
 }
 
@@ -3047,7 +3047,7 @@ ul#blue-list li{
   height: 100vh;
   position: absolute;
   background: rgba(0,0,0,.25);
-  z-index: 1;
+ 
 }
 #capitulo02_9 .message-box{
   background: #ffffff;
@@ -3265,7 +3265,8 @@ ul#blue-list li{
 #lapriorida {
   
   height: 100vh;
-  background-image: url(../img/valor_compartido/bg_vc.jpg);
+  
+  background: url(../img/valor_compartido/bg_vc.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color:#f59c28;
