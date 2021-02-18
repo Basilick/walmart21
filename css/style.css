@@ -2126,6 +2126,7 @@ font-size: 12px;
   background: #1081C7;
 }
 .subtitle{
+  text-transform: uppercase;
   font-size: 30px;
   line-height: 40px;
   font-family: Myriad-Bold;
@@ -2355,6 +2356,10 @@ p:last-of-type{
 /*--------------------------------------------------------------
 # Mensaje del presidente Alberto
 --------------------------------------------------------------*/
+
+.uppercase {
+  text-transform: uppercase;
+}
 
 .yellow-divider{
   width: 270px;
@@ -2661,6 +2666,12 @@ p:last-of-type{
   
 }
 
+#capitulo02_2 h4{
+ 
+  margin-top: 63px;
+  
+}
+
 
 #capitulo02_2 .gridify{
   display: grid;
@@ -2772,6 +2783,11 @@ p:last-of-type{
   
 }
 
+#capitulo02_porta3 p {
+  margin-left: 63px ;
+  
+}
+
 /*--------------------------------------------------------------
 # CAPITULO 02 - 3 Alberto
 --------------------------------------------------------------*/
@@ -2794,6 +2810,7 @@ p:last-of-type{
 
 
 .subtitle-blue-bullet{
+  text-transform: uppercase;
   position: relative;
   padding-left: 60px;  
   color: #1181C7;
@@ -2878,6 +2895,10 @@ ul#blue-list li{
   
 }
 
+#capitulo02_porta4 p {
+  margin-left: 63px ;
+  
+}
 
 
 
@@ -2911,12 +2932,16 @@ ul#blue-list li{
 }
 
 #capitulo02_porta5 .imaporta1{
-  width: 300px;
+  width: 100%;
   display: block;
   margin: 3rem auto;
   
 }
 
+#capitulo02_porta5 p {
+  margin-left: 63px ;
+  
+}
 
 /*--------------------------------------------------------------
 # CAPITULO 02 - 3 Alberto
@@ -2935,6 +2960,30 @@ ul#blue-list li{
 #capitulo02_7 .image__holder img{
   object-fit: cover;
   width: 100%;
+}
+
+
+/*--------------------------------------------------------------
+# CAPITULO 02 - 3 Alberto
+--------------------------------------------------------------*/
+
+#capitulo02_porta6{
+  background: url('../img/capitulo02/bgportadas.png') no-repeat;
+  background-size: cover;
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+#capitulo02_porta6 .imaporta1{
+  width: 100%;
+  display: block;
+  margin: 3rem auto;
+  
+}
+
+#capitulo02_porta6 p {
+  margin-left: 63px ;
+  
 }
 
 
@@ -3010,6 +3059,11 @@ ul#blue-list li{
   margin: auto;
 }
 
+.imgpicker2 {
+  display: block;
+  margin: auto;
+  width: 80%;
+}
 
 
 /*--------------------------------------------------------------
@@ -3258,7 +3312,7 @@ ul#blue-list li{
 
 #lapriorida .imageslip {
 
-  width: 620px;
+  width: 600px;
   display: block;
   margin: 0px auto;
 }
