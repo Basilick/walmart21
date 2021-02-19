@@ -3032,7 +3032,7 @@ ul#blue-list li{
 # CAPITULO 02 - 9 Alberto
 --------------------------------------------------------------*/
 #capitulo02_9{
-  background: url('../img/capitulo02/img-walmart.png') no-repeat;
+  background: url('../img/capitulo02/img-walmart.jpg') no-repeat;
   background-size: cover;
   width: 100%;
   height: 100vh;
@@ -3067,7 +3067,7 @@ ul#blue-list li{
 
 
 /*--------------------------------------------------------------
-# CAPITULO 02 - 9 Alberto
+# CAPITULO 02 - 10 Alberto
 --------------------------------------------------------------*/
 #capitulo02_10 img {
   width: 70%;
@@ -3080,6 +3080,24 @@ ul#blue-list li{
   margin: auto;
   width: 80%;
 }
+
+#capitulo02_10 .conttxtcierre {
+  background: #ffffff;
+  border-radius: 6px;
+  margin-top: 20px;
+ 
+}
+
+#capitulo02_10 .txtcierre {
+  font-size: clamp(1rem, 2vw, 1.3rem); 
+  font-family: Myriad-SemiBold;
+    text-align: center;
+   
+    color: #0172BA;
+}
+
+
+
 
 
 /*--------------------------------------------------------------
