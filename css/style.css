@@ -55,6 +55,18 @@ a:hover {
   text-decoration: none;
   font-weight: 700;
 }
+a.link-secondary {
+  
+  color:#6EA9DB;
+  text-decoration: none;
+  
+}
+
+a.link-secondary:hover {
+  color:#6EA9DB;
+  text-decoration: none;
+  font-weight: 700;
+}
 
 h1, h2, h3, h4, h5, h6 {
   
@@ -90,9 +102,13 @@ p.whitetxt {
   color: #ffffff;
 }
 
-
 p.yellowtxt {
   color: #F1B634;
+}
+
+p.text-small{
+  font-size: 12px;
+  line-height: 16px;
 }
 
 span.spanbold {
@@ -105,8 +121,10 @@ span.spanbold {
 span.spanyell {
 
   color:#F1B634;
+}
 
-
+strong{
+  font-family: Myriad-Bold;
 }
 
 /* colours */
@@ -131,7 +149,18 @@ span.spanyell {
 .color-red {
   background-color: #0071CE;
 }
-
+.color-purple-dark{
+  color: #253B80;
+}
+.color-purple-light{
+  color: #7273A4;
+}
+.color-purple-dark span, .color-purple-light span, .blue-light-3-txt span, .blue-light-4-txt span{
+  color: #414141;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: Myriad-Light;
+}
 .slidervertical {
   margin-top: 25px;
 }
@@ -543,7 +572,7 @@ span.spanyell {
   height: 60px;
   padding: 0;
   position: fixed;
-  z-index: 2;
+  z-index: 10;
   width: 100%;
   background-color: #FAFAFB;
   -webkit-box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2);
@@ -2107,6 +2136,12 @@ font-size: 12px;
 .blue-secondary-txt{
   color: #095498;
 }
+.blue-light-3-txt{
+  color: #00D4E0;
+}
+.blue-light-4-txt{
+  color: #80EAEF;
+}
 .gray414141-text{
   color: #414141;
 }
@@ -2122,11 +2157,17 @@ font-size: 12px;
 .bg-blue-dark{
   background: #095498;
 }
+.bg-blue-dark-2{
+  background: #253B80;
+}
 .bg-blue-light{
   background: #6EA9DB;
 }
 .bg-blue-light-2{
   background: #1181C7;
+}
+.bg-blue-light-3{
+  background: #00D4E0;
 }
 .bg-blue-gray-1{
   background:#A6BDD1;
@@ -2139,6 +2180,9 @@ font-size: 12px;
 }
 .bg-blue-gray-3{
   background: #1081C7;
+}
+.bg-purple-light-1{
+  background: #E5E9F5;
 }
 .subtitle{
   text-transform: uppercase;
@@ -2396,7 +2440,7 @@ p:last-of-type{
 }
 .cards__image{
   width: 78px;
-    padding-right: 8px;
+  padding-right: 8px;
   display: flex;
   justify-content: center;
   position: relative;
@@ -2499,6 +2543,12 @@ p:last-of-type{
   .cards{
     max-height: 200px;
   }
+  .cards__image{
+    margin-right: 16px;
+  }
+  .cards__image img{
+    padding: 8px;
+  }
   .cards-gray-1{
     margin-top: -500px;
     max-width: 410px;
@@ -2520,6 +2570,14 @@ p:last-of-type{
   .w80{
     width: 80%;
   }
+  .la-oportunidad-cards-margin-1{
+    margin-left: 66px;
+    margin-bottom: 24px;
+  }
+  .la-oportunidad-cards-margin-2{
+    margin-right: 80px;
+    margin-bottom: 24px;
+  }
 }
 
 @media screen and (min-width:1023px){
@@ -2539,6 +2597,9 @@ p:last-of-type{
 }
 
 @media screen and (min-width:1279px){
+  .card-max-width{
+    max-width: 414px;
+  }
   .cards-gray-1{
     width: 454px;
     margin-right: 132px;
@@ -2597,6 +2658,8 @@ p:last-of-type{
   padding: 8px 0;
   display: flex;
   flex-direction: column;
+  border: 1px solid #ececec;
+  position: relative;
 }
 .cardgraph__title{
   font-size: 18px;
@@ -2608,6 +2671,99 @@ p:last-of-type{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.cardgraph__toptitle{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.cardgraph__subtitle{
+  font-size: 18px;
+  line-height: 24px;
+  color: #414141;
+  padding: 0px 24px 4px 76px;
+  margin-bottom: 0;
+  height: 52px;
+}
+.cardgraph__subtitle2, .cardgraph__subtitle3, .cardgraph__items{
+  padding: 16px;
+}
+.cardgraph__subtitle2 p{
+  font-size: 17px;
+  line-height: 23px;
+  color: #414141;
+  font-family: Myriad-Bold;
+  padding: 0 0 0 48px;
+}
+.cardgraph__subtitle3 p{
+  font-size: 17px;
+  line-height: 23px;
+  color: #414141;
+  font-family: Myriad-Bold;
+  padding: 0 0 0 48px;
+}
+.cardgraph__items{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cardgraph__items p{
+  font-size: 12px;
+  line-height: 40px;
+  color: #414141;
+  font-family: Myriad-Bold;
+  padding: 0 0 0 48px;
+}
+.cardgraph__image{
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  width: 158px;
+  height: 110px;
+}
+.cardgraph__percentage{
+  position: absolute;
+  top: 12px;
+  right: 24px;
+  width: 50%;
+  height: 60px;
+}
+.cardgraph__percentage p{
+  font-family: Myriad-Bold;
+  font-size: 18px;
+  line-height: 18px;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+.ico-compra-directa{
+  background: url('../svg/ico-compra-directa-proveedores.svg') no-repeat 0px 2px;
+  background-size: 40px;
+}
+.ico-mexico-white{
+  background: url('../svg/ico-mexico.svg') no-repeat 0px 0px;
+  background-size: 40px;
+  line-height: 40px;
+  padding: 0 0 0 50px;
+}
+.ico-mexico-blue-dark{
+  background: url('../svg/ico-mexico-blue-dark.svg') no-repeat 0px 0px;
+  background-size: 40px;
+}
+.ico-centroamerica-white{
+  background: url('../svg/ico-centroamerica.svg') no-repeat 0px 0px;
+  background-size: 40px;
+  line-height: 40px;
+  padding: 0 0 0 50px;
+}
+.ico-centroamerica-turquesa{
+  background: url('../svg/ico-centroamerica-tuquesa.svg') no-repeat 0px 0px;
+  background-size: 40px;
+}
+.ico-billete{
+  background: url('../svg/ico-billete.svg') no-repeat 0px 0px;
+  background-size: 40px;
 }
 .total_revenue{
   background: url('../svg/ico-ingresos-totales.svg') no-repeat 20px 2px;
@@ -2635,6 +2791,15 @@ p:last-of-type{
   margin-bottom: 4px;
   height: 310px;
 }
+.cardgraph__content{
+  background: #EEF2F4;
+  padding: 20px;
+  margin-bottom: 4px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+}
 .cardgraph__currency{
   font-size: 18px;
   line-height: 24px;
@@ -2653,7 +2818,30 @@ p:last-of-type{
   transform: scaleY(1);
 }
 
+@media screen and (min-width:767px){
+  .cardgraph__content{
+    padding: 40px;
+  }
+  .cardgraph__content, .cardgraph__toptitle{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .progressbar{
+    width: 45%;
+  }
+  .cardgraph__subtitle2 p{
+    line-height: 43px;
+  }
+}
 
+@media screen and (min-width:1279px){
+  .cardgraph__items{
+    justify-content: flex-end;
+  }
+  .cardgraph__items p{
+    margin-left: 24px;
+  }
+}
 
 /*--------------------------------------------------------------
 # CAPITULO 02 - 2 Alberto
@@ -2687,7 +2875,6 @@ p:last-of-type{
   
 }
 
-
 #capitulo02_2 .gridify{
   display: grid;
   grid-template-columns: 100%;
@@ -2698,7 +2885,6 @@ p:last-of-type{
   margin: 0 auto;
 
 }
-
 
 #capitulo02_2 .gridify__item{
   background: #ffffff;;
@@ -3096,6 +3282,117 @@ ul#blue-list li{
     color: #0172BA;
 }
 
+
+
+/*--------------------------------------------------------------
+# La oportunidad Sección 2 - Alberto
+-------------------------------------------------------------*/
+#laoportunicont2 .image-wrapper{
+  width: 100%;
+  height: 100%;
+}
+#laoportunicont2 .image-wrapper img{
+  object-fit: cover;
+}
+.bg-100h-blue-1{
+  background: rgb(8,76,139);
+  background: -moz-linear-gradient(180deg, rgba(8,76,139,1) 0%, rgba(18,114,176,1) 9%, rgba(8,76,139,1) 18%, rgba(255,255,255,1) 18%);
+  background: -webkit-linear-gradient(180deg, rgba(8,76,139,1) 0%, rgba(18,114,176,1) 9%, rgba(8,76,139,1) 18%, rgba(255,255,255,1) 18%);
+  background: linear-gradient(180deg, rgba(8,76,139,1) 0%, rgba(18,114,176,1) 9%, rgba(8,76,139,1) 18%, rgba(255,255,255,1) 18%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#084c8b",endColorstr="#ffffff",GradientType=1);
+}
+
+@media screen and (min-width:1023px){
+  .bg-100h-blue-1{
+    background: rgb(8,76,139);
+    background: -moz-linear-gradient(90deg, rgba(8,76,139,1) 0%, rgba(18,114,176,1) 17%, rgba(8,76,139,1) 24%, rgba(255,255,255,1) 24%);
+    background: -webkit-linear-gradient(90deg, rgba(8,76,139,1) 0%, rgba(18,114,176,1) 17%, rgba(8,76,139,1) 24%, rgba(255,255,255,1) 24%);
+    background: linear-gradient(90deg, rgba(8,76,139,1) 0%, rgba(18,114,176,1) 17%, rgba(8,76,139,1) 24%, rgba(255,255,255,1) 24%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#084c8b",endColorstr="#ffffff",GradientType=1);
+  } 
+}
+
+.full-banner{
+  width: 100%;
+  height: 346px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.full-banner__title{
+  width: 80%;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+}
+.full-banner__image{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.full-banner__image img{
+  object-fit: contain;
+}
+@media screen and (min-width:767px){
+  .full-banner__title{
+    width: 52%;
+    top: 25%;
+  }
+}
+
+/*--------------------------------------------------------------
+# La oportunidad Sección 6 - 1 - Alberto
+-------------------------------------------------------------*/
+.progressbar{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+.progressbar p{
+  margin: 0;
+  padding: 0;
+}
+.progressbar__percentage{
+  font-size: 20px;
+  line-height: 20px;
+  font-family: Myriad-Bold;
+  display: flex;
+  justify-content: flex-end;
+}
+.progressbar__container{
+  width: 100%;
+  height: 10px;
+  background: #E7E7E7;
+  margin: 8px 0 ;
+  border-radius: 40px 40px 40px 40px;
+  -moz-border-radius: 40px 40px 40px 40px;
+  -webkit-border-radius: 40px 40px 40px 40px;
+  position: relative;
+}
+.progressbar__value{
+  width: 0;
+  height: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 40px 40px 40px 40px;
+  -moz-border-radius: 40px 40px 40px 40px;
+  -webkit-border-radius: 40px 40px 40px 40px;
+}
+.progressbar__text{
+  font-size: 14px;
+  line-height: 16px;
+  color: #414141;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width:767px){
+  .cardgraph__subtitle2, .cardgraph__items{
+    width: 50%;
+  }
+}
 
 
 
@@ -3722,14 +4019,250 @@ ul#blue-list li{
 
 }
 
-
-   
 #laoportunicont .imageslip {
 
   width: 620px;
   display: block;
   margin: 0px auto;
 
+}
+
+/*--------------------------------------------------------------
+# GRID2 - Alberto
+--------------------------------------------------------------*/
+.grid2{
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 40px 24px;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+@media screen and (min-width:767px){
+  .grid2{
+    grid-template-columns: 50% 50%;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# descargas1 - Alberto
+--------------------------------------------------------------*/
+#descargas1{
+  padding-top: 60px;
+}
+.grid3{
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 40px 24px;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  margin: 40px auto;
+}
+.grid3__item{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  height: 190px;
+  cursor: pointer;
+}
+.grid3__image{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  overflow: hidden;
+}
+.grid3__image img{
+ object-fit: cover;
+ max-width: 100%;
+}
+.grid3__hover{
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.grid3__hover:hover{
+  background: rgba(229,163,47,.5);
+  opacity: 1;
+}
+.grid3__text{
+  z-index: 3;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 24px;
+}
+.grid3__menu{
+  display: flex;
+  flex-direction: column;
+}
+.grid3__menu a{
+  color: #414141;
+  font-size: 16px;
+  text-decoration: none;
+  background: url('../svg/download.svg') no-repeat;
+  background-size: 20px;
+  padding: 0 0 0 32px;
+  margin: 0 0 12px 0;
+}
+.grid3__menu a:hover{
+  color: #333333;
+}
+.downloads-title{
+  font-size: 18px;
+  line-height: 18px;
+  font-family: Myriad-Bold;
+  color: #ffffff;
+  margin: 0 0 4px 0;
+  padding: 0;
+}
+.downloads-text{
+  font-size: 18px;
+  line-height: 18px;
+  font-family: Myriad-Light;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (min-width:767px){
+  .grid3{
+    grid-template-columns: 48% 48%;
+  }
+}
+@media screen and (min-width:1279px){
+  .grid3{
+    grid-template-columns: 33% 33% 33%;
+  }
+}
+
+/*--------------------------------------------------------------
+# Información inversionistas 1 - Alberto
+--------------------------------------------------------------*/
+#info_inversionistas_1{
+  padding-top: 60px;
+}
+.text-box{
+  margin: 0 0 24px 0;
+}
+.text-box p, .text-box a{
+  color: #414141;
+}
+.inversionistas-title{
+  font-family: Myriad-Bold;
+  font-size: 18px;
+  line-height: 18px;
+  margin: 0 0 4px 0;
+}
+.inversionistas-text{
+  font-family: Myriad-Light;
+  font-size: 14px;
+  line-height: 18px;
+}
+.inversionistas-user{
+  background: url('../svg/user.svg') no-repeat 0 0;
+  background-size: 16px;
+  padding-left: 22px !important;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 3px !important;
+}
+a.inversionistas-email{
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #414141 !important;
+  font-family: Myriad-Light;
+  background: url('../svg/mail.svg') no-repeat 0 -1px;
+  background-size: 16px;
+  padding-left: 22px !important;
+  display: block;
+  margin-bottom: 3px;
+}
+a.inversionistas-phone{
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #414141 !important;
+  font-family: Myriad-Light;
+  background: url('../svg/phone.svg') no-repeat 0 0px;
+  background-size: 16px;
+  padding-left: 22px !important;
+  display: block;
+  margin-bottom: 3px;
+}
+a.inversionistas-title-link{
+  font-family: Myriad-Bold;
+  font-size: 18px;
+  line-height: 18px;
+  margin: 0 0 4px 0;
+  text-decoration: none;
+}
+a.inversionistas-text-link{
+  font-family: Myriad-Light;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  display: block;
+}
+a.inversionistas-global{
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #414141 !important;
+  font-family: Myriad-Light;
+  background: url('../svg/global.svg') no-repeat 0 0px;
+  background-size: 16px;
+  padding-left: 22px !important;
+  display: block;
+  margin-bottom: 3px;
+}
+
+.inversionistas-menu{
+  display: flex;
+  flex-direction: column;
+}
+.inversionistas-menu a{
+  color: #414141 !important;
+  font-family: Myriad-Light;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+  margin: 0 0 14px 0;
+  padding-left: 24px !important;
+}
+.inversionistas-menu a.facebook{
+  background: url('../svg/facebook.svg') no-repeat 0 0px;
+  background-size: 16px;
+}
+.inversionistas-menu a.twitter{
+  background: url('../svg/twitter.svg') no-repeat 0 0px;
+  background-size: 16px;
+}
+.inversionistas-menu a.youtube{
+  background: url('../svg/facebook.svg') no-repeat 0 0px;
+  background-size: 16px;
+}
+.inversionistas-menu a.instagram{
+  background: url('../svg/instagram.svg') no-repeat 0 0px;
+  background-size: 16px;
+}
+.inversionistas-menu a.linkedin{
+  background: url('../svg/linkedin.svg') no-repeat 0 1px;
+  background-size: 16px;
+  line-height: 25px;
+}
+.inversionistas-menu a:hover{
+  color: #F1B634 !important;
 }
 
 /*--------------------------------------------------------------
