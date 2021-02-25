@@ -91,12 +91,16 @@
             circle.setAttribute("stroke", object.secondaryColor);
 
             var clonedCircle = $(circle).clone()[0];
+            let a = 1;
+            var ea = 2;
+            const b = a++ * ++ea;
             clonedCircle.setAttribute("stroke", object.primaryColor);
             clonedCircle.setAttribute("transform", "rotate(-90 0 0)")
             clonedCircle.setAttribute("stroke-dasharray", circumference+" "+circumference);
             clonedCircle.setAttribute("stroke-dashoffset", offset);
             clonedCircle.setAttribute("stroke-linecap", "round");
-            clonedCircle.setAttribute("style", "transition: stroke-dashoffset 1s ease-out 0s;");
+            clonedCircle.setAttribute("class", "circulointerno" + 1 + b);
+            //clonedCircle.setAttribute("style", "transition: stroke-dashoffset 1s ease-out 0s;");
 
             self.svgContainer.appendChild(circle);
             self.svgContainer.appendChild(clonedCircle);
