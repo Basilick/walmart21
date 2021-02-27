@@ -55,6 +55,18 @@ a:hover {
   text-decoration: none;
   font-weight: 700;
 }
+a.link-secondary {
+  
+  color:#6EA9DB;
+  text-decoration: none;
+  
+}
+
+a.link-secondary:hover {
+  color:#6EA9DB;
+  text-decoration: none;
+  font-weight: 700;
+}
 
 h1, h2, h3, h4, h5, h6 {
   
@@ -90,9 +102,13 @@ p.whitetxt {
   color: #ffffff;
 }
 
-
 p.yellowtxt {
   color: #F1B634;
+}
+
+p.text-small{
+  font-size: 12px;
+  line-height: 16px;
 }
 
 span.spanbold {
@@ -105,8 +121,10 @@ span.spanbold {
 span.spanyell {
 
   color:#F1B634;
+}
 
-
+strong{
+  font-family: Myriad-Bold;
 }
 
 /* colours */
@@ -131,7 +149,18 @@ span.spanyell {
 .color-red {
   background-color: #0071CE;
 }
-
+.color-purple-dark{
+  color: #253B80;
+}
+.color-purple-light{
+  color: #7273A4;
+}
+.color-purple-dark span, .color-purple-light span, .blue-light-3-txt span, .blue-light-4-txt span{
+  color: #414141;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: Myriad-Light;
+}
 .slidervertical {
   margin-top: 25px;
 }
@@ -511,7 +540,7 @@ span.spanyell {
 }
 
 .mega-menu .menu-rightdiv p {
-  
+  line-height: 17px;
   font-family: Myriad-Semibold;
   color:#707070;
   font-size: 12px;  
@@ -543,7 +572,7 @@ span.spanyell {
   height: 60px;
   padding: 0;
   position: fixed;
-  z-index: 2;
+  z-index: 10;
   width: 100%;
   background-color: #FAFAFB;
   -webkit-box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2);
@@ -646,6 +675,7 @@ box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2);
   }
   .dropdown-menu.collapse:not(.show) {
     display: block;
+    opacity: 0;
   }
   .dropdown-menu.collapse.show {
     transform: translate(0, 0);
@@ -744,6 +774,12 @@ box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2);
 
 @media (max-width: 450px) {
 
+  #mainhome {
+
+    overflow: hidden;
+
+  }
+
   .menucont img {
   
     width: 140px;
@@ -757,6 +793,17 @@ box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2);
 
   .navbar-brand {
    margin-right: 1px;
+}
+
+.menucont .txtinffi {
+
+  display: none;
+}
+
+.menucont .btndowlo {
+
+  display: none;
+  
 }
 
   
@@ -845,6 +892,7 @@ box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2);
 
 
 
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -867,7 +915,8 @@ box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2);
   
 }
 
-   
+
+
 #hero .veinteupimg {
 
   margin: 0px;
@@ -892,6 +941,7 @@ box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2);
 
 }
 
+
 #hero .carrima1 {
 
   margin: 0px;
@@ -900,19 +950,26 @@ box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2);
 
 }
 
+
 #hero .mySlides {
   display: none;
+ 
 
    
 }
+
 
 #hero .mySlidestwo {
   display: none;
 
    
 }
+   
+
 
 #hero .mySlidestwo a {
+  margin: 10px;
+  float: right;
 
   color: #ffffff;
   display: block;
@@ -923,6 +980,7 @@ box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2);
    
 }
 
+
 #hero .mySlidestwo a .fa-external-link{
   margin-left: 5px;
   font-size: 14px;
@@ -931,17 +989,19 @@ box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2);
 
 #hero .mySlidestwo a:hover {
   
-    text-decoration: underline;
-    cursor: pointer;
-  
-   
+  text-decoration: underline;
+  cursor: pointer;
+
+ 
 }
+
 
 #hero .menucarr {
   height: auto;
   display: block;
   float: right;
 }
+
 
 #hero .menucarr p {
   text-transform: uppercase;
@@ -1241,7 +1301,6 @@ bottom: 51px;
   }
 }
 
-
 /*--------------------------------------------------------------
 # HERO 2
 --------------------------------------------------------------*/
@@ -1325,11 +1384,6 @@ padding-bottom: 12px;
 #hero2 .dot:hover {
   background-color: #717171
 }
-
-
-
-
-
 
 
 /*--------------------------------------------------------------
@@ -1477,9 +1531,6 @@ margin: -60px auto;
   text-transform: uppercase;
 color: #ffffff;
 font-size: 12px;
-font-family: ;
-
-
 }
 
 #seccionvvid .pulse {
@@ -1884,11 +1935,2070 @@ font-family: ;
  
 }
 
+/*--------------------------------------------------------------
+#  IR AL INICIO
+--------------------------------------------------------------*/
+
 #section5 {
-  
+  height: auto;
   margin: 20px 0;
  
 }
+
+#section5 p {
+  
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-bottom: 0;
+  
+ 
+}
+
+#section5 p .fa-arrow-to-top{
+  
+  font-size: 30px;
+ 
+}
+
+
+
+/*--------------------------------------------------------------
+#  HISTORIAS - Carousel Section Alberto
+--------------------------------------------------------------*/
+
+.my-custom {
+
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-button-next, .swiper-button-prev{
+  top: 66%;
+  outline: none;
+}
+.swiper-button-next {
+  background-image: url('../svg/ico-arrow-next.svg') !important;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+.swiper-button-next::after {
+  display: none;
+}
+
+
+
+
+
+.swiper-button-prev {
+  background-image: url('../svg/ico-arrow-previous.svg') !important;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+.swiper-button-prev::after {
+  display: none;
+}
+.slide1-bg{
+  background-image: url(../img/el_proposito/bg_slide_1_mobile.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide2-bg{
+  background-image: url(../img/el_proposito/bg_slide_2_mobile.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide3-bg{
+  background-image: url(../img/el_proposito/bg_slide_3_mobile.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide4-bg{
+  background-image: url(../img/el_proposito/bg_slide_4_mobile.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide5-bg{
+  background-image: url(../img/el_proposito/bg_slide_5_mobile.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide6-bg{
+  background-image: url(../img/el_proposito/bg_slide_6_mobile.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide7-bg{
+  background-image: url(../img/el_proposito/bg_slide_7_mobile.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide8-bg{
+  background-image: url(../img/el_proposito/bg_slide_8_mobile.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide9-bg{
+  background-image: url(../img/el_proposito/bg_slide_9_mobile.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-club-pickup{
+  background-image: url(../img/el_proposito/img-club-pickup.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 440px;
+}
+.bg-blue-1{
+  background: url(../img/el_proposito/bg_sec1.jpg);
+}
+.banner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding-top: 90px;
+  padding-left: 24px;
+  padding-right: 24px;
+  text-align: left;
+}
+.banner__slogan{
+  position: absolute;
+  right: 24px;
+  top: 80px;
+  text-align: right;
+}
+.banner__slogan p{
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.banner__title{
+  margin-top: 40px;
+}
+.banner__title h1{
+  text-transform: uppercase;
+  font-family: Myriad-Bold;
+  letter-spacing: 6px;
+  font-size: 32px;
+}
+.small-text{
+  font-size: 12px;
+  line-height: 18px;
+}
+.yellow-primary-txt{
+  color: #edae49;
+}
+.yellow-secondary-txt{
+  color: #E2BD31;
+}
+.white-txt{
+  color: #ffffff;
+}
+.blue-primary-txt{
+  color: #0172BA;
+}
+.blue-secondary-txt{
+  color: #095498;
+}
+.blue-light-3-txt{
+  color: #00D4E0;
+}
+.blue-light-4-txt{
+  color: #80EAEF;
+}
+.gray414141-text{
+  color: #414141;
+}
+.white-text{
+  color: #ffffff;
+}
+.bg-white{
+  background: #ffffff;
+}
+.bg-gray-light{
+  background: #EEF2F4;
+}
+.bg-blue-dark{
+  background: #095498;
+}
+.bg-blue-dark-2{
+  background: #253B80;
+}
+.bg-blue-light{
+  background: #6EA9DB;
+}
+.bg-blue-light-2{
+  background: #1181C7;
+}
+.bg-blue-light-3{
+  background: #00D4E0;
+}
+.bg-blue-gray-1{
+  background:#A6BDD1;
+}
+.bg-blue-gray-2{
+  background:#4C5C6E;
+}
+.bg-yellow{
+  background: #FFB332;
+}
+.bg-blue-gray-3{
+  background: #1081C7;
+}
+.bg-purple-light-1{
+  background: #E5E9F5;
+}
+.subtitle{
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 40px;
+  font-family: Myriad-Bold;
+}
+.bold-text{
+  font-family: Myriad-Bold;
+}
+p{
+  font-size: 16px;  
+  margin-bottom: 22px;
+}
+p:last-of-type{
+  margin-bottom: 0;
+}
+.banner__shortext{
+  margin-left: 90px;
+  border-left: 3px solid transparent;
+  padding-left: 20px;
+  margin-bottom: 8px;
+}
+.yellow-primary-border{
+  border-left: 3px solid #edae49;
+}
+.yellow-secondary-border{
+  border-left: 3px solid #E2BD31;
+}
+.white-border{
+  border-left: 3px solid #ffffff;
+}
+.blue-primary-border{
+  border-left: 3px solid #0172BA;
+}
+.blue-secondary-border{
+  border-left: 3px solid #095498;
+}
+.banner__shortext{
+  height: 130px;
+  display: flex;
+  align-items: center;
+}
+.banner__shortext p{
+  color: #ffffff;
+  font-family: Myriad-Light;
+  letter-spacing: 6px;
+  font-size: 26px;
+  line-height: 32px;
+}
+.banner__image{
+  margin: 0;
+}
+.banner__image img{
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+.banner__row{
+  width: 100%;
+  margin: 18px 0;
+  display: block;
+}
+.banner__banner-text2{
+  margin: 40px 0 32px 0;
+}
+.banner__banner-text3{
+  display: none;
+}
+.banner__description p{
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 32px 0 24px 0;
+  max-height: 200px;
+}
+
+/* IPHONE X*/
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+      .swiper-button-next, .swiper-button-prev{
+        top: 70%;
+      }
+      .banner__image{
+        margin: 50px 0;
+      }
+      .banner__image img{
+        width: 100%;
+      }
+}
+
+/* IPHONE 8 PLUS*/
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 736px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+
+      .swiper-button-next, .swiper-button-prev{
+        top: 72%;
+      }
+      .banner__image{
+        margin: 8px 0;
+      }
+      .banner__image img{
+        width: 90%;
+      }
+
+}
+
+@media screen and (min-width:767px){
+  .swiper-button-next, .swiper-button-prev{
+    top: 83%;
+  }
+  .banner__row{
+    margin: 50px 0;
+  }
+  .slide1-bg{
+    background-image: url(../img/el_proposito/bg_slide_1_desktop.png);
+  }
+  .slide2-bg{
+    background-image: url(../img/el_proposito/bg_slide_2_desktop.png);
+  }
+  .slide3-bg{
+    background-image: url(../img/el_proposito/bg_slide_3_desktop.png);
+  }
+  .slide4-bg{
+    background-image: url(../img/el_proposito/bg_slide_4_desktop.png);
+  }
+  .slide5-bg{
+    background-image: url(../img/el_proposito/bg_slide_5_desktop.png);
+  }
+  .slide6-bg{
+    background-image: url(../img/el_proposito/bg_slide_6_desktop.png);
+  }
+  .slide7-bg{
+    background-image: url(../img/el_proposito/bg_slide_7_desktop.png);
+  }
+  .slide8-bg{
+    background-image: url(../img/el_proposito/bg_slide_8_desktop.png);
+  }
+  .slide9-bg{
+    background-image: url(../img/el_proposito/bg_slide_9_desktop.png);
+  }
+}
+
+@media screen and (min-width:1023px){
+  .swiper-button-next, .swiper-button-prev{
+    top: 91%;
+  }
+  .order1{
+    order: 1;
+  }
+  .order2{
+    order: 2;
+  }
+  .order3{
+    order: 3;
+  }
+  .banner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .banner__image{
+    width: 60%;
+    padding: 24px;
+  } 
+  .banner__image img{
+    width: 100%;
+  }
+  .banner__banner-text1{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  } 
+  .banner__title h1{
+    font-size: 40px;
+  }
+  .banner__banner-text2{
+    display: none;
+  }
+  .banner__banner-text3{
+    display: flex;
+    padding: 0 0 0 82px;
+  }
+  .banner__banner-text3 p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  .banner__shortext{
+    height: auto;
+    margin-left: 56px;
+    margin-bottom: 26px;
+  }
+  .banner__shortext p{
+    font-size: 45px;
+    line-height: 51px;
+  }
+  .banner__row {
+    margin: 16px 0 56px 0;
+  }
+}
+
+@media screen and (min-width:1279px){
+  .banner{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .banner__image img{
+    width: 84%;
+  }
+  .banner__banner-text3 {
+    max-width: 390px;
+  }
+  .banner__row {
+    margin: 0px 0 56px 0;
+  }
+}
+
+@media screen and (min-width:1919px){
+  .banner__image img{
+    width: 80%;
+  }
+}
+
+/*--------------------------------------------------------------
+# Mensaje del presidente Alberto
+--------------------------------------------------------------*/
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.yellow-divider{
+  width: 270px;
+  height: 10px;
+  background: #FDB71A;
+  margin-bottom:35px;
+}
+
+.cards{
+  border-radius: 6px;
+  padding: 8px 5px;
+  margin: 0 0 24px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.cards__image{
+  width: 78px;
+  padding-right: 8px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+} 
+.cards__text h4{
+  font-family: Myriad-Bold;
+  margin-bottom: 0;
+  
+}
+.cards__button{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-60%, 34%);
+}
+.cards__text{
+  width: 65%;
+}
+.cards-gray-1{
+  margin-top: -36px;
+}
+.graph{
+  border-bottom: 1px solid #66B2E0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:flex-end;
+}
+.graph__item{
+  width: 12px;
+  position: relative;
+}
+.graph__item::before{
+  position: absolute;
+  width: 60px;
+  height: 20px;
+  left: -200%;
+  font-family: Myriad-Light;
+  font-size: 15px;
+  color: #444A4D;
+  text-align: center;
+}
+.graph__item:nth-child(1)::before{
+  content: '2,949';
+  bottom: 106px;
+}
+.graph__item:nth-child(2)::before{
+  content: '3,022';
+  bottom: 125px;
+}
+.graph__item:nth-child(3)::before{
+  content: '3,134';
+  bottom: 166px;
+}
+.graph__item:nth-child(4)::before{
+  content: '3,249';
+  bottom: 190px;
+}
+.graph__item:nth-child(5)::before{
+  content: '3,249';
+  bottom: 230px;
+  font-family: Myriad-Bold;
+  font-size: 27px;
+  color: #1081C7;
+}
+.graph__item::after{
+  position: absolute;
+  width: 60px;
+  height: 20px;
+  bottom: -26px;
+  left: -200%;
+  font-family: Myriad-Light;
+  font-size: 15px;
+  color: #444A4D;
+  text-align: center;
+}
+.graph__item:nth-child(1)::after{
+  content: '16';
+}
+.graph__item:nth-child(2)::after{
+  content: '17';
+}
+.graph__item:nth-child(3)::after{
+  content: '18';
+}
+.graph__item:nth-child(4)::after{
+  content: '19';
+}
+.graph__item:nth-child(5)::after{
+  content: '20';
+}
+.item_quantity{
+  position: absolute;
+  top: -20px;
+}
+
+@media screen and (min-width:767px){
+  .cards{
+    max-height: 200px;
+  }
+  .cards__image{
+    margin-right: 16px;
+  }
+  .cards__image img{
+    padding: 5px;
+  }
+  .cards-gray-1{
+    margin-top: -500px;
+    max-width: 410px;
+    float: right;
+  }
+  .cards-gray-2{
+    margin-top: -300px;
+    max-width: 410px;
+    float: right;
+  }
+  .cards-gray-3{
+    margin-top: -111px;
+    max-width: 645px;
+    float: right;
+  }
+  .w20{
+    width: 20%;
+  }
+  .w80{
+    width: 80%;
+  }
+  .la-oportunidad-cards-margin-1{
+    margin-left: 66px;
+    margin-bottom: 24px;
+  }
+  .la-oportunidad-cards-margin-2{
+    margin-right: 80px;
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (min-width:1023px){
+  .cards-gray-1{
+    margin-right: 100px;
+  }
+  .cards-gray-3{
+    max-width: 856px;
+  }
+  .cards-1-margin{
+    margin-left: 66px;
+    margin-bottom: 23px;
+  }
+  .cards-2-margin{
+    margin-right: 80px;
+  }
+}
+
+@media screen and (min-width:1279px){
+  .card-max-width{
+    max-width: 414px;
+  }
+  .cards-gray-1{
+    width: 454px;
+    margin-right: 132px;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Mujer con productos Walmart Alberto
+--------------------------------------------------------------*/
+
+.walmart-image{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: -90px;
+  right: 16px;
+  text-align: right;
+}
+.walmart-image img{
+  width: 80%;
+}
+
+@media screen and (min-width:1023px){
+  .walmart-image{
+    width: 180px;
+    height: 180px;
+    top: -148px;
+  }
+  .walmart-image img{
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:1023px){
+  .walmart-image{
+    width: 200px;
+    height: 200px;
+    top: -157px;
+    right: -136px;
+  }
+  .cards-gray-2 {
+    width: 427px;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Cards Gráficas Alberto
+--------------------------------------------------------------*/
+.cardgraph{
+  border-radius: 15px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.16); 
+  box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.16);
+  padding: 8px 0;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ececec;
+  position: relative;
+}
+.cardgraph__title{
+  font-size: 18px;
+  line-height: 24px;
+  color: #414141;
+  padding: 0px 24px 4px 76px;
+  margin-bottom: 0;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardgraph__toptitle{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.cardgraph__subtitle{
+  font-size: 18px;
+  line-height: 24px;
+  color: #414141;
+  padding: 0px 24px 4px 76px;
+  margin-bottom: 0;
+  height: 52px;
+}
+.cardgraph__subtitle2, .cardgraph__subtitle3, .cardgraph__items{
+  padding: 16px;
+}
+.cardgraph__subtitle2 p{
+  font-size: 17px;
+  line-height: 23px;
+  color: #414141;
+  font-family: Myriad-Semibold;
+  padding: 0 0 0 48px;
+}
+.cardgraph__subtitle3 p{
+  font-size: 17px;
+    line-height: 21px;
+    color: #414141;
+    font-family: Myriad-Semibold;
+    padding: 0 0 0 42px;
+    height: 40px
+}
+.cardgraph__items{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cardgraph__items p{
+  font-size: 12px;
+  line-height: 40px;
+  color: #414141;
+  font-family: Myriad-Semibold;
+  padding: 0 0 0 48px;
+}
+.cardgraph__image{
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  width: 158px;
+  height: 110px;
+}
+.cardgraph__percentage{
+  position: absolute;
+  top: 12px;
+  right: 24px;
+  width: 50%;
+  height: 60px;
+}
+.cardgraph__percentage p{
+  font-family: Myriad-Bold;
+  font-size: 18px;
+  line-height: 18px;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+.ico-compra-directa{
+  background: url('../svg/ico-compra-directa-proveedores.svg') no-repeat 0px 2px;
+  background-size: 40px;
+}
+.ico-mexico-white{
+  background: url('../svg/ico-mexico.svg') no-repeat 0px 0px;
+  background-size: 40px;
+  line-height: 40px;
+  padding: 0 0 0 50px;
+}
+.ico-mexico-blue-dark{
+  background: url('../svg/ico-mexico-blue-dark.svg') no-repeat 0px 0px;
+  background-size: 40px;
+}
+.ico-centroamerica-white{
+  background: url('../svg/ico-centroamerica.svg') no-repeat 0px 0px;
+  background-size: 40px;
+  line-height: 40px;
+  padding: 0 0 0 50px;
+}
+.ico-centroamerica-turquesa{
+  background: url('../svg/ico-centroamerica-tuquesa.svg') no-repeat 0px 0px;
+  background-size: 40px;
+}
+.ico-billete{
+  background: url('../svg/ico-billete.svg') no-repeat 0px 0px;
+  background-size: 40px;
+}
+.total_revenue{
+  background: url('../svg/ico-ingresos-totales.svg') no-repeat 20px 2px;
+  background-size: 40px;
+}
+.total_units{
+  background: url('../svg/ico-unidades-totales.svg') no-repeat 20px 2px;
+  background-size: 40px;
+}
+.utility_operation{
+  background: url('../svg/ico-utilidad-operacion.svg') no-repeat 20px 2px;
+  background-size: 40px;
+}
+.operating_flow{
+  background: url('../svg/ico-flujo-operativo.svg') no-repeat 20px 2px;
+  background-size: 40px;
+}
+.transactions{
+  background: url('../svg/ico-transacciones.svg') no-repeat 20px 2px;
+  background-size: 40px;
+}
+.cardgraph__graph{
+  background: #EEF2F4;
+  padding: 60px 20px 40px 20px;
+  margin-bottom: 4px;
+  height: 310px;
+}
+.cardgraph__content{
+  background: #EEF2F4;
+  padding: 20px;
+  margin-bottom: 4px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+}
+.cardgraph__currency{
+  font-size: 18px;
+  line-height: 24px;
+  color: #414141;
+  padding: 6px 20px 0 0;
+  text-align: right;
+}
+
+[data-aos="graph-anim-1"] {
+  /* opacity: 0; */
+  transform: scaleY(0);
+  transition-property: transform, opacity;
+}
+[data-aos="graph-anim-1"].aos-animate {
+  /* opacity: 1; */
+  transform: scaleY(1);
+}
+
+@media screen and (min-width:767px){
+  .cardgraph__content{
+    padding: 15px;
+  }
+  .cardgraph__content, .cardgraph__toptitle{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .progressbar{
+    width: 45%;
+  }
+  .cardgraph__subtitle2 p{
+    line-height: 43px;
+  }
+}
+
+@media screen and (min-width:1279px){
+  .cardgraph__items{
+    justify-content: flex-end;
+  }
+  .cardgraph__items p{
+    margin-left: 24px;
+  }
+}
+
+/*--------------------------------------------------------------
+# CAPITULO 02 - 2 Alberto
+--------------------------------------------------------------*/
+
+
+
+#capitulo02_1 .imacel{
+ 
+  margin: auto;
+  display: block;
+ width: 80%;
+}
+
+
+/*--------------------------------------------------------------
+# CAPITULO 02 - 2 Alberto
+-----------------------------------------------------
+---------*/
+ 
+#capitulo02_2 .py-cust5 {
+ 
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  
+}
+
+#capitulo02_2 h4{
+ 
+  margin-top: 63px;
+  
+}
+
+#capitulo02_2 .gridify{
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 40px 24px;
+  justify-content: center;
+  align-content: center;
+  width: 98%;
+  margin: 0 auto;
+
+}
+
+#capitulo02_2 .gridify__item{
+  background: #ffffff;;
+  border-radius: 6px;
+  display: flex;
+}
+#capitulo02_2 .gridify__item:first-of-type{
+  background: transparent;
+}
+#capitulo02_2 .bulletcard{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#capitulo02_2 .bulletcard .bulletcard__image{
+  width: 100%;
+  height: 95px;
+}
+#capitulo02_2 .bulletcard .bulletcard__image img{
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+  -webkit-border-top-left-radius: 6px;
+  -webkit-border-top-right-radius: 6px;
+  -moz-border-radius-topleft: 6px;
+  -moz-border-radius-topright: 6px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+#capitulo02_2 .bulletcard__text{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 16px 8px;
+}
+#capitulo02_2 .bulletcard__text .bullet__number{
+  width: auto;
+    display: flex;
+    justify-content: center;
+    padding: 0 11px;
+}
+#capitulo02_2 .bulletcard__text .bullet__number p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffad23;
+    color: #ffffff;
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  font-family: Myriad-Bold;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+#capitulo02_2 .bulletcard__text .bullet__description{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#capitulo02_2 .bulletcard__text .bullet__description span{
+  font-family: Myriad-SemiBold;
+  color: #0071CE;
+  
+}
+
+
+@media screen and (min-width:767px){
+  #capitulo02_2 .gridify{
+      grid-template-columns: 33% 33% 33%;
+      margin: 0 auto;     
+      gap: 24px;   
+  }    
+  #capitulo02_2 .bulletcard{
+    height: 274px;
+  }
+}
+@media screen and (min-width:1279px){
+  #capitulo02_2 .bulletcard{
+    height: 248px;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# CAPITULO 02 - 3 Alberto
+--------------------------------------------------------------*/
+
+#capitulo02_porta3{
+  background: url('../img/capitulo02/bgportadas.png');
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+  height: auto;
+  
+}
+
+#capitulo02_porta3 .imaporta1{
+  width: 100%;
+  display: block;
+  margin: 3rem auto;
+  
+}
+
+#capitulo02_porta3 p {
+  margin-left: 63px ;
+  
+}
+
+/*--------------------------------------------------------------
+# CAPITULO 02 - 3 Alberto
+--------------------------------------------------------------*/
+
+#capitulo02_3{
+ 
+  
+  
+}
+
+
+#capitulo02_3 .image__holder{
+  width: 100%;
+  height: 100%;
+}
+#capitulo02_3 .image__holder img{
+  object-fit: cover;
+  width: 100%;
+}
+
+
+.subtitle-blue-bullet{
+  text-transform: uppercase;
+  position: relative;
+  padding-left: 60px;  
+  color: #1181C7;
+  font-size: 30px;
+  line-height: 40px;
+  font-family: Myriad-Bold;
+  margin-bottom: 24px;
+}
+
+.subtitle-white-bullet{
+   
+  color: #ffffff;
+  
+}
+
+
+
+
+.subtitle-blue-bullet::before{
+  position: absolute;
+  content: '1';
+  left: 0;
+  top: -3px;
+  background-color: #ffffff;
+    color: #f4a32a;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    font-family: Myriad-Bold;
+    font-size: 25px;
+    line-height: 20px;
+    margin: 0;
+    padding: 6px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subtitle-blue-bullet-2::before{
+  content: '2';
+}
+.subtitle-blue-bullet-3::before{
+  content: '3';
+}
+.subtitle-blue-bullet-4::before{
+  content: '4';
+}
+.subtitle-blue-bullet-5::before{
+  content: '5';
+}
+
+ul#blue-list{
+  margin: 0;
+  padding: 0;
+}
+ul#blue-list li{
+  margin: 0;
+  padding: 0 0 5px 25px;
+  font-family: Myriad-Light;
+  color: #414141;
+  list-style: none;
+  font-size: 16px;
+  background: url('../svg/ico-blue-bullet.svg') no-repeat 10px 7px;
+  background-size: 6px;
+ 
+}
+
+/*--------------------------------------------------------------
+# CAPITULO 02 - 3 Alberto
+--------------------------------------------------------------*/
+
+#capitulo02_porta4{
+  background: url('../img/capitulo02/bgportadas.png') no-repeat;
+  background-size: cover;
+  background-position: left top;
+  background-repeat: no-repeat;
+  
+}
+
+#capitulo02_porta4 .imaporta1{
+  width: 100%;
+  display: block;
+  margin: 3rem auto;
+  
+}
+
+#capitulo02_porta4 p {
+  margin-left: 63px ;
+  
+}
+
+
+
+/*--------------------------------------------------------------
+# CAPITULO 02 - 4 Alberto
+--------------------------------------------------------------*/
+#capitulo02_4{
+ 
+  
+}
+
+#capitulo02_4 .image__holder{
+  width: 100%;
+  height: 100%;
+}
+#capitulo02_4 .image__holder img{
+  object-fit: cover;
+  width: 100%;
+}
+
+
+/*--------------------------------------------------------------
+# CAPITULO 02 - 3 Alberto
+--------------------------------------------------------------*/
+
+#capitulo02_porta5{
+  background: url('../img/capitulo02/bgportadas.png') no-repeat;
+  background-size: cover;
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+#capitulo02_porta5 .imaporta1{
+  width: 100%;
+  display: block;
+  margin: 3rem auto;
+  
+}
+
+#capitulo02_porta5 p {
+  margin-left: 63px ;
+  
+}
+
+/*--------------------------------------------------------------
+# CAPITULO 02 - 3 Alberto
+--------------------------------------------------------------*/
+
+#capitulo02_7{
+  
+  
+  
+}
+
+#capitulo02_7 .image__holder{
+  width: 100%;
+  height: 100%;
+}
+#capitulo02_7 .image__holder img{
+  object-fit: cover;
+  width: 100%;
+}
+
+
+/*--------------------------------------------------------------
+# CAPITULO 02 - 3 Alberto
+--------------------------------------------------------------*/
+
+#capitulo02_porta6{
+  background: url('../img/capitulo02/bgportadas.png') no-repeat;
+  background-size: cover;
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+#capitulo02_porta6 .imaporta1{
+  width: 100%;
+  display: block;
+  margin: 3rem auto;
+  
+}
+
+#capitulo02_porta6 p {
+  margin-left: 63px ;
+  
+}
+
+
+/*--------------------------------------------------------------
+# CAPITULO 02 - 8 Alberto
+--------------------------------------------------------------*/
+
+#capitulo02_8{
+  background: url('../img/capitulo02/instagram_fondo.gif');
+  background-size: cover;
+  background-position: right bottom ;
+  background-repeat: no-repeat;
+  
+  
+}
+
+
+#capitulo02_8 .cards__image img {
+  width: 80px;
+ 
+  
+  
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+# CAPITULO 02 - 9 Alberto
+--------------------------------------------------------------*/
+#capitulo02_9{
+  background: url('../img/capitulo02/img-walmart.jpg') no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  position: relative;
+}
+.blue-overlay{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background: rgba(0,0,0,.25);
+ 
+}
+#capitulo02_9 .message-box{
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 50px 38px;
+  max-width: 800px;
+  z-index: 2;
+}
+#capitulo02_9 .message-box h5{
+  color: #0172BA;
+  font-size: 30px;
+  font-family: Myriad-Bold;
+}
+#capitulo02_9 .message-box p{
+  color: #414141;
+}
+
+
+/*--------------------------------------------------------------
+# CAPITULO 02 - 10 Alberto
+--------------------------------------------------------------*/
+#capitulo02_10 img.imgpicker2 {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+#capitulo02_10 img.imgpicker21 {
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+
+ 
+
+#capitulo02_10 .conttxtcierre {
+  background: #ffffff;
+  border-radius: 6px;
+  margin-top: 20px;
+ 
+}
+
+#capitulo02_10 .txtcierre {
+  font-size: clamp(1rem, 2vw, 1.3rem); 
+  font-family: Myriad-SemiBold;
+    text-align: center;
+   
+    color: #0172BA;
+}
+
+
+/*--------------------------------------------------------------
+# Valor Social
+--------------------------------------------------------------*/
+
+
+#valor_social {
+  
+  height: 100vh;
+  background-image: url(../img/valor_social/bg_slideprin.png);
+  background-size: cover;
+  background-color:#3174AC;
+  
+  
+}
+
+#valor_social .pad95 {
+
+  padding-top: 80px;
+   
+}
+
+#valor_social .paditl {
+  padding-left: 14%;
+    padding-top: 5%;
+    padding-right: 0;
+    height: 520px;
+   
+}
+
+#valor_social .lineblu {
+  margin-left: 40px;
+  background-color: #F1B634;
+    height: 200px;
+    width: 5px;
+    float: left;
+
+}
+
+#valor_social .titlfra1 {
+  position: absolute;
+  color: #ffffff;
+  right: 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: right;
+}
+
+#valor_social h1 {
+  font-family: Myriad-Bold;
+  color: #F1B634;
+  font-size: 40px;
+  text-transform: uppercase;
+
+}
+
+#valor_social .contfra {
+  width: 80%;
+  float: right;
+
+}
+
+#valor_social .contfra h2 {
+
+  color: #ffffff;
+  line-height: 67px;
+  font-size: clamp(2rem, 5.5vw, 4rem);
+  font-family: Myriad-Light;
+
+}
+
+#valor_social p.txtintro {
+  float: left;
+  margin-top: 25px;
+  margin-left: 80px;
+  color: #ffffff;
+  font-size: 15px;
+  display: block;
+  text-transform: uppercase;
+  font-family: Myriad-Light;
+
+
+}
+
+#valor_social  p.txtintro span{
+  
+  font-family: Myriad-Regular;
+
+}
+
+
+
+#valor_social  .imageslip {
+  position: absolute;
+  width: 420px;
+  display: block;
+  
+  margin: 0px auto;
+  
+}
+
+#valor_social  .imageslip2 {
+  position: absolute;
+  width: 590px;
+  display: block;
+  margin: 0px auto;
+}
+
+
+/*--------------------------------------------------------------
+# MOBILE
+--------------------------------------------------------------*/
+
+@media (max-width: 1024px) {
+
+ 
+
+
+}/*---#TERMINA 1024 IPAD LAND------*/
+
+
+@media (max-width: 450px) {
+  
+  section {
+    padding: 0 0;
+  
+  }
+
+  #valor_social .pad95 {
+    padding-top: 69px;
+}
+
+  #valor_social .paditl {
+    padding-left: 20px;
+    
+}
+
+#valor_social .titlfra1 {
+  
+  right: 15px;
+  
+  font-size: 10px;
+  
+}
+
+#valor_social h1 {
+  margin-top: 15px;
+  font-size: 30px;
+  
+}
+
+#valor_social .contfra h2 {
+
+  
+  line-height: 1.2;
+  
+
+}
+
+
+#valor_social .lineblu {
+  height: 148px;
+}
+
+#valor_social .d-flex {
+  height: 288px;
+}
+
+
+  #valor_social .imageslip {
+    
+    width: 240px;
+    
+    
+  }
+  
+  #valor_social .imageslip2 {
+   
+    width: 340px;
+    
+  }
+
+  #valor_social p.txtintro {
+   
+    display: none;
+    
+  
+  }
+
+ 
+
+
+}/*-END  MOBILE-*/
+
+
+/*--------------------------------------------------------------
+# Valor social 01 - Alberto
+-------------------------------------------------------------*/
+
+
+#valor_social_01  .imgcli1 {
+  width: 90%;
+}
+
+#valor_social_01  .imgcli2 {
+ 
+  display: block;
+  margin: auto;
+
+}
+
+
+/*--------------------------------------------------------------
+# Valor social 01 - Alberto
+-------------------------------------------------------------*/
+
+
+#valor_social_05   {
+ 
+}
+
+
+/*--------------------------------------------------------------
+# Valor social 01 - Alberto
+-------------------------------------------------------------*/
+
+
+#valor_social_07   {
+  background: #EEF2F4;
+  margin-bottom: 0 !important;
+ 
+}
+
+#valor_social_07 .imglogomex  {
+  width: 150px;
+  display: block;
+  margin: 20px auto;
+
+ 
+}
+
+
+
+/*--------------------------------------------------------------
+# Valor social Sección 2 - Alberto
+---------------------------------------------------
+----------*/
+
+#valor_social_08 {
+  background: url(../img/valor_social/img-walmart-demo-1.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size:auto 100%;
+  
+}
+
+
+#valor_social_10 {
+  background: url(../img/valor_social/img-gobierno-politica.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size:auto 100%;
+  background-color: #2570b8;
+  
+}
+
+
+
+
+.bg-100h-blue-1{
+  background: rgb(8,76,139);
+  background: -moz-linear-gradient(180deg, rgba(8,76,139,1) 0%, rgba(18,114,176,1) 9%, rgba(8,76,139,1) 18%, rgba(255,255,255,.1) 18%);
+  background: -webkit-linear-gradient(180deg, rgba(8,76,139,1) 0%, rgba(18,114,176,1) 9%, rgba(8,76,139,1) 18%, rgba(255,255,255,.1) 18%);
+  background: linear-gradient(180deg, rgba(8,76,139,1) 0%, rgba(18,114,176,1) 9%, rgba(8,76,139,1) 18%, rgba(255,255,255,.1) 18%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#084c8b",endColorstr="#ffffff",GradientType=1);
+}
+
+@media screen and (min-width:1023px){
+  .bg-100h-blue-1{
+    background: rgb(8,76,139);
+    background: -moz-linear-gradient(90deg, rgba(8,76,139,1) 0%, rgba(18,114,176,1) 17%, rgba(8,76,139,1) 24%, rgba(255,255,255,.1) 24%);
+    background: -webkit-linear-gradient(90deg, rgba(8,76,139,1) 0%, rgba(18,114,176,1) 17%, rgba(8,76,139,1) 24%, rgba(255,255,255,.1) 24%);
+    background: linear-gradient(90deg, rgba(8,76,139,1) 0%, rgba(18,114,176,1) 17%, rgba(8,76,139,1) 24%, rgba(255,255,255,.1) 24%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#084c8b",endColorstr="#ffffff",GradientType=1);
+  } 
+}
+
+.full-banner{
+  width: 100%;
+  height: 346px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.full-banner__title{
+  width: 80%;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+}
+.full-banner__image{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.full-banner__image img{
+  object-fit: contain;
+}
+@media screen and (min-width:767px){
+  .full-banner__title{
+    width: 52%;
+    top: 25%;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Valor social Sección 2 - Alberto
+---------------------------------------------------
+----------*/
+
+
+#valor_social_12 .progress {
+  border-radius:0;
+  overflow:visible;
+}
+#valor_social_12 .progress-bar {
+  
+}
+
+
+.progressbar{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+.progressbar p{
+  margin: 0;
+  padding: 0;
+}
+.progressbar__percentage  {
+  font-size: 20px;
+  line-height: 20px;
+  font-family: Myriad-Bold;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#valor_social_12 .blue-light-3-txt span  {
+  font-size: 20px;
+  line-height: 20px;
+  font-family: Myriad-Bold;
+  display: flex;
+  color: #00D4E0;
+  justify-content: flex-end;
+}
+
+.progressbar__container{
+  width: 100%;
+  height: 10px;
+  background: #E7E7E7;
+  margin: 8px 0 ;
+  border-radius: 40px 40px 40px 40px;
+  -moz-border-radius: 40px 40px 40px 40px;
+  -webkit-border-radius: 40px 40px 40px 40px;
+  position: relative;
+  
+}
+.progressbar__value{
+  width: 0;
+  height: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 40px 40px 40px 40px;
+  -moz-border-radius: 40px 40px 40px 40px;
+  -webkit-border-radius: 40px 40px 40px 40px;
+ 
+}
+
+@-webkit-keyframes animate-positive{
+  0% { width: 0%; 
+  opacity: 1;}
+}
+@keyframes animate-positive{
+  0% { width: 0%; 
+  opacity: 1;}
+}
+
+
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    
+  }
+}
+
+
+
+
+.progressbar__text{
+  font-size: 14px;
+  line-height: 16px;
+  color: #414141;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width:767px){
+  .cardgraph__subtitle2, .cardgraph__items{
+    width: 50%;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Valor social Sección 2 - Alberto
+---------------------------------------------------
+----------*/
+
+#valor_social_13 .datagrafmex { 
+  text-align: center;
+  position: absolute;
+  top: 47px;
+  left: 145px;
+  font-size: 25px;
+  line-height: 20px;
+  
+}
+
+#valor_social_13 .datagrafmex .percent-blue {
+  font-size: 30px;
+  color: #263b80;
+  font-family: Myriad-Bold;
+
+}
+
+#valor_social_13 .datagrafmex .percent-bluelight {
+  font-size: 30px;
+  color: #7374a3;
+  font-family: Myriad-Bold;
+
+}
+
+
+
+#valor_social_13 .datagrafmex p { 
+  margin-bottom: 10px;
+  color: #414141;
+  font-size: 12px;
+
+}
+
+#valor_social_13 .datagrafcen { 
+  text-align: center;
+  position: absolute;
+  top: 47px;
+  left: 145px;
+  font-size: 25px;
+  line-height: 20px;
+  
+}
+
+#valor_social_13 .datagrafcen .percent-blue {
+  font-size: 30px;
+  color: #03d4df;
+  font-family: Myriad-Bold;
+
+}
+
+#valor_social_13 .datagrafcen .percent-bluelight {
+  font-size: 30px;
+  color: #8fd0e6;
+  font-family: Myriad-Bold;
+
+}
+
+
+
+#valor_social_13 .datagrafcen p { 
+  margin-bottom: 10px;
+  color: #414141;
+  font-size: 12px;
+
+}
+
+
+
+#valor_social_13 .imgcamaron { 
+  width: 150px;
+  position: absolute;
+    left: 300px;
+    top: 101px;
+  
+}
+
+#valor_social_13 .imgpesca { 
+  width: 150px;
+  position: absolute;
+    right: -35px;
+    top: 101px;
+  
+}
+
+
+
+/*--------------------------------------------------------------
+# Valor social Sección 2 - Alberto
+---------------------------------------------------
+----------*/
+
+#valor_social_14 .datagrafmex { 
+  text-align: center;
+  position: absolute;
+  top: 47px;
+  left: 145px;
+  font-size: 25px;
+  line-height: 20px;
+  
+}
+
+#valor_social_14 .datagrafmex .percent-blue {
+  font-size: 30px;
+  color: #263b80;
+  font-family: Myriad-Bold;
+
+}
+
+#valor_social_14 .datagrafmex .percent-bluelight {
+  font-size: 30px;
+  color: #7374a3;
+  font-family: Myriad-Bold;
+
+}
+
+
+
+#valor_social_14 .datagrafmex p { 
+  margin-bottom: 10px;
+  color: #414141;
+  font-size: 12px;
+
+}
+
+#valor_social_14 .datagrafcen { 
+  text-align: center;
+  position: absolute;
+  top: 47px;
+  left: 145px;
+  font-size: 25px;
+  line-height: 20px;
+  
+}
+
+#valor_social_14 .datagrafcen .percent-blue {
+  font-size: 30px;
+  color: #03d4df;
+  font-family: Myriad-Bold;
+
+}
+
+#valor_social_14 .datagrafcen .percent-bluelight {
+  font-size: 30px;
+  color: #8fd0e6;
+  font-family: Myriad-Bold;
+
+}
+
+
+
+#valor_social_14 .datagrafcen p { 
+  margin-bottom: 10px;
+  color: #414141;
+  font-size: 12px;
+
+}
+
+
+
+#valor_social_14 .imgcamaron { 
+  width: 150px;
+  position: absolute;
+    left: 300px;
+    top: 101px;
+  
+}
+
+#valor_social_14 .imgpesca { 
+  width: 150px;
+  position: absolute;
+    right: -35px;
+    top: 101px;
+  
+}
+
+
+
+/*--------------------------------------------------------------
+# Valor social Sección 2 - Alberto
+---------------------------------------------------
+----------*/
+
+#valor_social_15 .datagrafmex { 
+  text-align: center;
+  position: absolute;
+  top: 47px;
+  left: 145px;
+  font-size: 25px;
+  line-height: 20px;
+  
+}
+
+#valor_social_15 .datagrafmex .percent-blue {
+  font-size: 30px;
+  color: #263b80;
+  font-family: Myriad-Bold;
+
+}
+
+#valor_social_15 .datagrafmex .percent-bluelight {
+  font-size: 30px;
+  color: #7374a3;
+  font-family: Myriad-Bold;
+
+}
+
+
+
+#valor_social_15 .datagrafmex p { 
+  margin-bottom: 10px;
+  color: #414141;
+  font-size: 12px;
+
+}
+
+#valor_social_15 .datagrafcen { 
+  text-align: center;
+  position: absolute;
+  top: 47px;
+  left: 145px;
+  font-size: 25px;
+  line-height: 20px;
+  
+}
+
+#valor_social_15 .datagrafcen .percent-blue {
+  font-size: 30px;
+  color: #03d4df;
+  font-family: Myriad-Bold;
+
+}
+
+#valor_social_15 .datagrafcen .percent-bluelight {
+  font-size: 30px;
+  color: #8fd0e6;
+  font-family: Myriad-Bold;
+
+}
+
+
+
+#valor_social_15 .datagrafcen p { 
+  margin-bottom: 10px;
+  color: #414141;
+  font-size: 12px;
+
+}
+
+
+
+#valor_social_15 .imgcamaron { 
+  width: 150px;
+  position: absolute;
+    left: 300px;
+    top: 101px;
+  
+}
+
+#valor_social_15 .imgpesca { 
+  width: 150px;
+  position: absolute;
+    right: -35px;
+    top: 101px;
+  
+}
+
+/*--------------------------------------------------------------
+# Valor social Sección 2 - Alberto
+---------------------------------------------------
+----------*/
+
+#valor_social_15 .imgcamaron { 
+  width: 150px;
+  
+}
+
+
+
+
 
 
 
@@ -1898,36 +4008,213 @@ font-family: ;
 
 
 
-/*--------------------------------------------------------------
-# La Prioridad
---------------------------------------------------------------*/
-
-
-
-#lapriorida {
+#resilencia {
   
   height: 100vh;
-  background-image: url(../img/valor_compartido/bg_vc.jpg);
+  background-image: url(../img/capitulo1/bg_cp1.png);
   background-size: cover;
   background-color:#EEF2F4;
   
   
 }
 
-#lapriorida .pad95 {
 
-  padding-top: 80px;
-   
+#resilencia .pad95 {
+ padding-top: 95px;
+  
 }
 
-#lapriorida .paditl {
+   
+#resilencia .image {
+
+  width: 74%;
+  display: block;
+  margin: 0px auto;
+
+}
+
+
+
+#resilencia .menucarr {
+
+  
+
+}
+
+#resilencia .menucarr2 p {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #ffffff;
+  margin-right: 40px;
+  text-align: right;
+  font-family: Myriad-Regular;
+}
+
+#resilencia .menucarr ul {
+  list-style: none;
+  width: 100%;
+  margin-top: 10px;
+  float: right;
+  margin-right: 40px;
+    
+}
+
+
+#resilencia .menucarr ul li {
+  text-align: right;
+  font-size: 15px;
+  
+}
+
+#resilencia .menucarr ul li a {
+  
+  color: #6FA5C7;
+  font-family: Myriad-Light;
+}
+
+#resilencia .menucarr ul li a:hover {
+  font-family: Myriad-Regular;
+  color: #ffffff;
+}
+
+
+#resilencia .menucarr ul li a.active {
+  
+  color: #ffffff;
+  font-family: Myriad-Regular;
+}
+
+
+#resilencia .menucarr ul li span {
+  margin-left: 10px;
+  font-size: 9px;
+  
+}
+
+
+.moving-mouse-holder {
+  margin: auto;
+  margin-top: 10px;
+  width: 170px;
+}
+
+.moving-mouse-holder .mouse {
+  width: 26px;
+  height: 40px;
+  position: relative;
+  margin: auto;
+  border-radius: 18px;
+  border: 2px solid #ffffff;
+}
+
+.moving-mouse-holder .mouse .fa-long-arrow-down {
+  color: #fff;
+    position: relative;
+    top: 29px;
+    left: 4px;
+    font-size: 23px;
+}
+
+
+
+.moving-mouse-holder .mouse-button {
+  background-color: #ffffff;
+  width: 4px;
+  height: 10px;
+  border-radius: 2px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  margin: 0 0 0 -2px;
+  animation: mouse-scroll 1s infinite alternate;
+}
+
+.moving-mouse-holder .text {
+  margin-top: -30px;
+  margin-left: 40px;
+  color: #33cc66;
+  font-size: 12px;
+  line-height: 1em;
+}
+
+@keyframes mouse-scroll {
+  to {
+    transform: translate(0, 6px) scale(1, 0.8);
+  }
+}
+
+#resilencia .txtinfor {
+  margin-top: 75px;
+    font-size: 25px;
+    line-height: 31px;
+    color: #ffffff;
+    float: left;
+    width: 100%;
+  
+}
+
+#resilencia h1 {
+  width: 100%;
+    float: left;
+    font-size: 68px;
+    color: #F1B634;
+    margin-top: 10px;
+    margin-bottom: 0;
+    line-height: 60px;
+  
+}
+
+#resilencia h2 {
+  text-transform: uppercase;
+    width: 100%;
+    float: left;
+    font-size: 100px;
+    color: #F1B634;
+    margin-bottom: 0;
+    margin-top: 10px;
+    line-height: 93px;
+  
+}
+
+
+/*--------------------------------------------------------------
+# Capitulo 02 EL compromiso
+--------------------------------------------------------------*/
+
+
+#el_compromiso {
+  
+  height: 100vh;
+  
+  background: url(../img/valor_compartido/bg_vc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#f59c28;
+
+}
+
+#el_compromiso .pad95 {
+  
+  padding-top: 80px;
+
+}
+
+#el_compromiso .lineblu {
+  margin-left: 40px;
+  background-color: #095498;
+    height: 280px;
+    width: 5px;
+    float: left;
+}
+
+#el_compromiso .paditl {
   padding-left: 14%;
     padding-top: 5%;
     padding-right: 0;
-   
+
 }
 
-#lapriorida .titlfra1 {
+#el_compromiso .titlfra1 {
   position: absolute;
   color: #ffffff;
   right: 30px;
@@ -1936,7 +4223,7 @@ font-family: ;
   text-align: right;
 }
 
-#lapriorida h1 {
+#el_compromiso h1 {
   font-family: Myriad-Bold;
   color: #095498;
   font-size: 40px;
@@ -1944,517 +4231,148 @@ font-family: ;
 
 }
 
-
-#lapriorida .lineblu {
-  margin-left: 40px;
-  background-color: #095498;
-    height: 280px;
-    width: 5px;
-    float: left;
-
-}
-
-#lapriorida .contfra {
+#el_compromiso .contfra {
   width: 80%;
   float: right;
 
 }
 
-#lapriorida .contfra h2 {
+#el_compromiso .contfra h2 {
 
   color: #ffffff;
   line-height: 67px;
-  font-size: 65px;
+  font-size: clamp(2rem, 5.5vw, 4rem);
   font-family: Myriad-Light;
 
 }
 
-#lapriorida p.txtintro {
+#el_compromiso p.txtintro {
   float: left;
-  margin-top: 20px;
-  margin-left: 83px;
+  margin-top: 25px;
+  margin-left: 80px;
   color: #ffffff;
-  font-size: 18px;
-  font-family: Myriad-Regular;
+  font-size: 15px;
+  display: block;
+  text-transform: uppercase;
+  font-family: Myriad-Light;
 
+}
+
+#el_compromiso p.txtintro span{
+  
+  font-family: Myriad-Semibold;
 
 }
 
 
-   
-#lapriorida .imageslip {
 
-  width: 620px;
+#el_compromiso .imageslip {
+  position: absolute;
+  width: 420px;
+  display: block;
+  
+  margin: 0px auto;
+  
+}
+
+#el_compromiso .imageslip2 {
+  position: absolute;
+  width: 590px;
   display: block;
   margin: 0px auto;
-
 }
+
 
 
 /*--------------------------------------------------------------
-# La Prioridad
+# MOBILE
 --------------------------------------------------------------*/
 
-
-
-#elresultcont {
-  
-  height: 100vh;
-  background-image: url(../img/elresultado/bgslideprielresu.jpg);
-  background-size: cover;
-  background-color:#EEF2F4;
-  
-  
-}
-
-#elresultcont .pad95 {
-
-  padding-top: 80px;
-   
-}
-
-#elresultcont .paditl {
-  padding-left: 14%;
-    padding-top: 5%;
-    padding-right: 0;
-   
-}
-
-#elresultcont .titlfra1 {
-  position: absolute;
-  color: #ffffff;
-  right: 30px;
-  text-transform: uppercase;
-  font-size: 12px;
-  text-align: right;
-}
-
-#elresultcont h1 {
-  font-family: Myriad-Bold;
-  color: #007DC3;
-  font-size: 40px;
-  text-transform: uppercase;
-
-}
-
-
-#elresultcont .lineblu {
-  margin-left: 40px;
-  background-color: #007DC3;
-    height: 140px;
-    width: 5px;
-    float: left;
-
-}
-
-#elresultcont .contfra {
-  width: 80%;
-  float: right;
-
-}
-
-#elresultcont .contfra h2 {
-
-  color: #ffffff;
-  line-height: 67px;
-  font-size: 65px;
-  font-family: Myriad-Light;
-
-}
-
-#elresultcont p.txtintro {
-  float: left;
-  margin-top: 20px;
-  margin-left: 83px;
-  color: #ffffff;
-  font-size: 18px;
-  font-family: Myriad-Regular;
-
-
-}
-
-
-   
-#elresultcont .imageslip {
-
-  width: 620px;
-  display: block;
-  margin: 0px auto;
-
-}
+@media (max-width: 1024px) {
 
  
 
 
+}/*---#TERMINA 1024 IPAD LAND------*/
+
+
+@media (max-width: 450px) {
+  
+  section {
+    padding: 0 0;
+  
+  }
+
+  #el_compromiso .pad95 {
+    padding-top: 69px;
+}
+
+  #el_compromiso .paditl {
+    padding-left: 20px;
+    
+}
+
+#el_compromiso .titlfra1 {
+  
+  right: 15px;
+  
+  font-size: 10px;
+  
+}
+
+#el_compromiso h1 {
+  margin-top: 15px;
+  font-size: 30px;
+  
+}
+
+#el_compromiso .contfra h2 {
+
+  
+  line-height: 1.2;
+  
+
+}
+
+
+#el_compromiso .lineblu {
+  height: 148px;
+}
+
+#el_compromiso .d-flex {
+  height: 288px;
+}
+
+
+  #el_compromiso .imageslip {
+    
+    width: 240px;
+    
+    
+  }
+  
+  #el_compromiso .imageslip2 {
+   
+    width: 340px;
+    
+  }
+
+  #el_compromiso p.txtintro {
+   
+    display: none;
+    
+  
+  }
+
+ 
+
+
+}/*-END  MOBILE-*/
 
 
 
 /*--------------------------------------------------------------
-# El proposito
---------------------------------------------------------------*/
-
-#elproposito {
-  
-  height: 100vh;
-  background-image: url(../img/el_proposito/bg_sec1.jpg);
-  background-size: cover;
-  background-color:#EEF2F4;
-  
-  
-}
-
-#elproposito .pad95 {
-
-  padding-top: 80px;
-   
-}
-
-#elproposito .paditl {
-  padding-right: 14%;
-    padding-top: 5%;
-    padding-left : 0;
-   
-}
-
-#elproposito .titlfra1 {
-  position: absolute;
-  color: #ffffff;
-  right: 30px;
-  text-transform: uppercase;
-  font-size: 12px;
-  text-align: right;
-}
-
-#elproposito h1 {
-  font-family: Myriad-Bold;
-  color: #F1B634;
-  font-size: 40px;
-  text-transform: uppercase;
-
-}
-
-
-#elproposito .lineblu {
-  margin-left: 40px;
-  background-color: #F1B634;
-    height: 200px;
-    width: 5px;
-    float: left;
-
-}
-
-#elproposito .contfra {
-  width: 80%;
-  float: right;
-
-}
-
-#elproposito .contfra h2 {
-
-  color: #ffffff;
-  line-height: 67px;
-  font-size: 65px;
-  font-family: Myriad-Light;
-
-}
-
-#elproposito p.txtintro {
-  float: left;
-  margin-top: 20px;
-  margin-left: 83px;
-  color: #ffffff;
-  font-size: 18px;
-  font-family: Myriad-Regular;
-
-
-}
-
-
-   
-#elproposito .imageslip {
-
-  width: 620px;
-  display: block;
-  margin: 0px auto;
-
-}
-
-
-/*--------------------------------------------------------------
-# La clave
---------------------------------------------------------------*/
-
-#laclavecont {
-  
-  height: 100vh;
-  background-image: url(../img/laclave/bg_slidprin.jpg);
-  background-size: cover;
-  background-color:#EEF2F4;
-  
-  
-}
-
-#laclavecont .pad95 {
-
-  padding-top: 80px;
-   
-}
-
-#laclavecont .paditl {
-  padding-right: 14%;
-    padding-top: 5%;
-    padding-left : 0;
-   
-}
-
-#laclavecont .titlfra1 {
-  position: absolute;
-  color: #ffffff;
-  right: 30px;
-  text-transform: uppercase;
-  font-size: 12px;
-  text-align: right;
-}
-
-#laclavecont h1 {
-  font-family: Myriad-Bold;
-  color: #E2BD31;
-  font-size: 40px;
-  text-transform: uppercase;
-
-}
-
-
-#laclavecont .lineblu {
-  margin-left: 40px;
-  background-color: #E2BD31;
-    height: 200px;
-    width: 5px;
-    float: left;
-
-}
-
-#laclavecont .contfra {
-  width: 80%;
-  float: right;
-
-}
-
-#laclavecont .contfra h2 {
-
-  color: #ffffff;
-  line-height: 67px;
-  font-size: 65px;
-  font-family: Myriad-Light;
-
-}
-
-#laclavecont p.txtintro {
-  float: left;
-  margin-top: 20px;
-  margin-left: 83px;
-  color: #ffffff;
-  font-size: 18px;
-  font-family: Myriad-Regular;
-
-
-}
-
-
-   
-#laclavecont .imageslip {
-
-  width: 620px;
-  display: block;
-  margin: 0px auto;
-
-}
-
-
-/*--------------------------------------------------------------
-# La meta
---------------------------------------------------------------*/
-
-#lametacont {
-  
-  height: 100vh;
-  background-image: url(../img/lameta/bgslideprin.jpg);
-  background-size: cover;
-  background-color:#EEF2F4;
-  
-  
-}
-
-#lametacont .pad95 {
-
-  padding-top: 80px;
-   
-}
-
-#lametacont .paditl {
-  padding-right: 14%;
-    padding-top: 5%;
-    padding-left : 0;
-   
-}
-
-#lametacont .titlfra1 {
-  position: absolute;
-  color: #ffffff;
-  right: 30px;
-  text-transform: uppercase;
-  font-size: 12px;
-  text-align: right;
-}
-
-#lametacont h1 {
-  font-family: Myriad-Bold;
-  color: #FCB61A;
-  font-size: 40px;
-  text-transform: uppercase;
-
-}
-
-
-#lametacont .lineblu {
-  margin-left: 40px;
-  background-color: #FCB61A;
-    height: 145px;
-    width: 5px;
-    float: left;
-
-}
-
-#lametacont .contfra {
-  width: 80%;
-  float: right;
-
-}
-
-#lametacont .contfra h2 {
-
-  color: #ffffff;
-  line-height: 67px;
-  font-size: 65px;
-  font-family: Myriad-Light;
-
-}
-
-#lametacont p.txtintro {
-  float: left;
-  margin-top: 20px;
-  margin-left: 83px;
-  color: #ffffff;
-  font-size: 18px;
-  font-family: Myriad-Regular;
-
-
-}
-
-
-   
-#lametacont .imageslip {
-
-  width: 620px;
-  display: block;
-  margin: 0px auto;
-
-}
-
-/*--------------------------------------------------------------
-# La Prioridad
---------------------------------------------------------------*/
-
-
-
-#laoportunicont {
-  
-  height: 100vh;
-  background-image: url(../img/laoportunidad/bg_slideprin.jpg);
-  background-size: cover;
-  background-color:#EEF2F4;
-  
-  
-}
-
-#laoportunicont .pad95 {
-
-  padding-top: 80px;
-   
-}
-
-#laoportunicont .paditl {
-  padding-left: 14%;
-    padding-top: 5%;
-    padding-right: 0;
-   
-}
-
-#laoportunicont .titlfra1 {
-  position: absolute;
-  color: #ffffff;
-  right: 30px;
-  text-transform: uppercase;
-  font-size: 12px;
-  text-align: right;
-}
-
-#laoportunicont h1 {
-  font-family: Myriad-Bold;
-  color: #F1B634;
-  font-size: 40px;
-  text-transform: uppercase;
-
-}
-
-
-#laoportunicont .lineblu {
-  margin-left: 40px;
-  background-color: #F1B634;
-    height: 200px;
-    width: 5px;
-    float: left;
-
-}
-
-#laoportunicont .contfra {
-  width: 80%;
-  float: right;
-
-}
-
-#laoportunicont .contfra h2 {
-
-  color: #ffffff;
-  line-height: 67px;
-  font-size: 65px;
-  font-family: Myriad-Light;
-
-}
-
-#laoportunicont p.txtintro {
-  float: left;
-  margin-top: 20px;
-  margin-left: 83px;
-  color: #ffffff;
-  font-size: 18px;
-  font-family: Myriad-Regular;
-
-
-}
-
-
-   
-#laoportunicont .imageslip {
-
-  width: 620px;
-  display: block;
-  margin: 0px auto;
-
-}
-
-/*--------------------------------------------------------------
-# La meta
+# 
 --------------------------------------------------------------*/
 
 #elcompricont {
@@ -2462,7 +4380,7 @@ font-family: ;
   height: 100vh;
   background-image: url(../img/elcompromiso/bgsliprin.jpg);
   background-size: cover;
-  background-color:#EEF2F4;
+  background-color:#F2AD3B;
   
   
 }
@@ -2543,6 +4461,692 @@ font-family: ;
 
 }
 
+
+
+/*--------------------------------------------------------------
+# El proposito
+--------------------------------------------------------------*/
+
+
+
+#elproposito {
+  
+  height: 100vh;
+  background-image: url(../img/el_proposito/bg_sec1.jpg);
+  background-size: cover;
+  background-color:#1587C8;  
+}
+
+#elproposito .pad95 {
+
+  padding-top: 80px;
+   
+}
+
+#elproposito .paditl {
+  padding-right: 14%;
+    padding-top: 5%;
+    padding-left : 0;
+   
+}
+
+#elproposito .titlfra1 {
+  position: absolute;
+  color: #ffffff;
+  right: 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: right;
+}
+
+#elproposito h1 {
+  font-family: Myriad-Bold;
+  color: #F1B634;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+
+#elproposito .lineblu {
+  margin-left: 40px;
+  background-color: #F1B634;
+  height: 200px;
+  width: 5px;
+  float: left;
+}
+
+#elproposito .contfra {
+  width: 80%;
+  float: right;
+
+}
+
+#elproposito .contfra h2 {
+
+  color: #ffffff;
+  line-height: 67px;
+  font-size: 65px;
+  font-family: Myriad-Light;
+
+}
+
+#elproposito p.txtintro {
+  float: left;
+  margin-top: 20px;
+  margin-left: 83px;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: Myriad-Regular;
+
+
+}
+
+
+   
+#elproposito .imageslip {
+
+  width: 620px;
+  display: block;
+  margin: 0px auto;
+
+}
+
+
+
+/*--------------------------------------------------------------
+# GRID2 - Alberto
+--------------------------------------------------------------*/
+.grid2{
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 40px 24px;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+@media screen and (min-width:767px){
+  .grid2{
+    grid-template-columns: 50% 50%;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# descargas1 - Alberto
+--------------------------------------------------------------*/
+#descargas1{
+  padding-top: 60px;
+}
+#descargas1 a.btn-circled{
+  display: block;
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+.grid3{
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 40px 24px;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  margin: 40px auto;
+}
+.grid3__item{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  height: 190px;
+  cursor: pointer;
+}
+.grid3__image{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  overflow: hidden;
+}
+.grid3__image img{
+ object-fit: cover;
+ max-width: 100%;
+}
+.grid3__hover{
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.grid3__hover:hover{
+  background: rgba(229,163,47,.5);
+  opacity: 1;
+}
+.grid3__text{
+  z-index: 3;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 24px;
+}
+.grid3__menu{
+  display: flex;
+  flex-direction: column;
+}
+.grid3__menu a{
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: none;
+  background: url('../svg/download.svg') no-repeat;
+  background-size: 16px;
+  padding: 0 0 0 24px;
+  margin: 0 0 12px 0;
+  cursor: pointer;
+  display: block;
+}
+.grid3__menu a:hover{
+  color: #ffffff;
+}
+.downloads-title{
+  font-size: 18px;
+  line-height: 18px;
+  font-family: Myriad-Bold;
+  color: #ffffff;
+  margin: 0 0 4px 0;
+  padding: 0;
+}
+.downloads-text{
+  font-size: 18px;
+  line-height: 18px;
+  font-family: Myriad-Light;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (min-width:767px){
+  .grid3{
+    grid-template-columns: 48% 48%;
+  }
+}
+@media screen and (min-width:1279px){
+  .grid3{
+    grid-template-columns: 33% 33% 33%;
+  }
+}
+
+/*--------------------------------------------------------------
+# Información inversionistas 1 - Alberto
+--------------------------------------------------------------*/
+#info_inversionistas_1{
+  padding-top: 60px;
+}
+.brandscol{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  margin: 32px 0;
+}
+.brandscol img.brandlogo{
+  margin: 20px auto;
+}
+.brandscol img.brandlogo:first-of-type{
+  margin-top: 0;
+}
+
+@media screen and (min-width:1279px){
+  .brandscol{
+    flex-direction: column;
+  }
+}
+.doublecol{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 32px 0;
+}
+.doublecol_item{
+  width: 100%;
+}
+@media screen and (min-width:767px){
+  .doublecol{
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .doublecol_item{
+    width: 50%;
+  }
+}
+@media screen and (min-width:1023px){
+  .doublecol{
+    justify-content: space-between;
+  }
+  .doublecol_item{
+    width: 42%;
+  }
+}
+@media screen and (min-width:1023px){
+  .doublecol_item{
+    width: 50%;
+  }
+}
+.bluedoublecol{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 32px 0;
+}
+.bluedoublecol_item{
+  width: 100%;
+}
+@media screen and (min-width:767px){
+  .bluedoublecol{
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .bluedoublecol_item{
+    width: 50%;
+  }
+}
+@media screen and (min-width:1023px){
+  .bluedoublecol{
+    justify-content: space-between;
+  }
+  .bluedoublecol_item{
+    width: 100%;
+  }
+}
+.text-box{
+  margin: 0 0 16px 0;
+}
+.text-box p, .text-box a{
+  color: #414141;
+}
+.inversionistas-title{
+  font-family: Myriad-Bold;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0 0 4px 0;
+}
+.inversionistas-text{
+  font-family: Myriad-Light;
+  font-size: 14px;
+  line-height: 18px;
+}
+.inversionistas-user{
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 3px !important;
+  color: #ffffff !important;
+}
+a.inversionistas-email{
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Myriad-Light;
+  display: block;
+  margin-bottom: 3px;
+}
+a.inversionistas-phone{
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Myriad-Light;
+  display: block;
+  margin-bottom: 3px;
+}
+a.inversionistas-title-link{
+  font-family: Myriad-Light;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0 0 4px 0;
+  text-decoration: none;
+}
+a.inversionistas-text-link{
+  font-family: Myriad-Light;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  display: block;
+}
+a.inversionistas-global{
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #414141 !important;
+  font-family: Myriad-Light;
+  background: url('../svg/global.svg') no-repeat 0 0px;
+  background-size: 16px;
+  padding-left: 22px !important;
+  display: block;
+  margin-bottom: 3px;
+}
+
+.inversionistasmenu{
+  display: flex;
+  flex-direction: column;
+}
+.inversionistasmenu a{
+  color: #414141 !important;
+  font-family: Myriad-Light;
+  font-size: 14px;
+  line-height: 14px;
+  text-decoration: none;
+  margin: 0 0 24px 0;
+  padding: 50px 0 0 0;
+  text-align: left;
+}
+.inversionistasmenu a.facebook{
+  background: url('../svg/ico-facebook.svg') no-repeat left 0;
+  background-size: 40px;
+}
+.inversionistasmenu a.twitter{
+  background: url('../svg/ico-twitter.svg') no-repeat left 0;
+  background-size: 40px;
+}
+.inversionistasmenu a.youtube{
+  background: url('../svg/ico-youtube.svg') no-repeat left 0;
+  background-size: 40px;
+}
+.inversionistasmenu a.instagram{
+  background: url('../svg/ico-instagram.svg') no-repeat left 0;
+  background-size: 40px;
+}
+.inversionistasmenu a.linkedin{
+  background: url('../svg/ico-linkedin.svg') no-repeat left 0;
+  background-size: 40px;
+}
+.inversionistasmenu a:hover{
+  color: #F1B634 !important;
+}
+
+@media screen and (min-width:767px){
+  .inversionistasmenu{
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .inversionistasmenu a{
+    text-align: center;
+  }
+  .inversionistasmenu a.facebook, .inversionistasmenu a.twitter, .inversionistasmenu a.youtube, .inversionistasmenu a.instagram, .inversionistasmenu a.linkedin{
+    background-position: center 0;
+  }
+}
+
+/*--------------------------------------------------------------
+# El resultado
+--------------------------------------------------------------*/
+#elresultcont {
+  
+  height: 100vh;
+  background-image: url(../img/elresultado/bgslideprielresu.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color:#81ADCE;
+  background-repeat: no-repeat;
+
+}
+
+#elresultcont .pad95 {
+
+  padding-top: 80px;
+
+}
+
+#elresultcont .paditl {
+  padding-left: 14%;
+    padding-top: 5%;
+    padding-right: 0;
+}
+
+#elresultcont .titlfra1 {
+  position: absolute;
+  color: #ffffff;
+  right: 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: right;
+
+}
+
+#elresultcont h1 {
+  font-family: Myriad-Bold;
+  color: #095498;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+#elresultcont .lineblu {
+  margin-left: 40px;
+  background-color: #007DC3;
+    height: 140px;
+    width: 5px;
+    float: left;
+
+}
+
+#elresultcont .contfra {
+  width: 80%;
+  float: right;
+
+}
+
+#elresultcont .contfra h2 {
+
+  color: #ffffff;
+  line-height: 67px;
+  font-size: 65px;
+  font-family: Myriad-Light;
+
+}
+
+#elresultcont p.txtintro {
+  float: left;
+  margin-top: 20px;
+  margin-left: 83px;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: Myriad-Regular;
+
+}
+
+
+#elresultcont .imageslip {
+
+  width: 620px;
+  display: block;
+  margin: 0px auto;
+
+}
+
+
+
+
+/*--------------------------------------------------------------
+# La clave
+--------------------------------------------------------------*/
+
+#laclavecont {
+  
+  height: 100vh;
+  background-image: url(../img/laclave/bg_slidprin.jpg);
+  background-size: cover;
+  background-color:#0A4883;
+
+}
+
+#laclavecont .pad95 {
+
+  padding-top: 80px;
+
+}
+
+#laclavecont .paditl {
+  padding-right: 14%;
+    padding-top: 5%;
+    padding-left : 0;
+
+
+}
+
+#laclavecont .titlfra1 {
+  position: absolute;
+  right: 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: right;
+  color: #ffffff;
+
+}
+
+#laclavecont h1 {
+  font-family: Myriad-Bold;
+  color: #E2BD31;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+#laclavecont .lineblu {
+  margin-left: 40px;
+  background-color: #E2BD31;
+    height: 200px;
+    width: 5px;
+    float: left;
+}
+
+#laclavecont .contfra {
+  width: 80%;
+  float: right;
+}
+
+#laclavecont .contfra h2 {
+
+  color: #ffffff;
+  line-height: 67px;
+  font-size: 65px;
+  font-family: Myriad-Light;
+}
+
+#laclavecont p.txtintro {
+  float: left;
+  margin-top: 20px;
+  margin-left: 83px;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: Myriad-Regular;
+}
+
+#laclavecont .imageslip {
+  width: 620px;
+  display: block;
+  margin: 0px auto;
+}
+
+  
+
+/*--------------------------------------------------------------
+# La meta
+--------------------------------------------------------------*/
+
+#lametacont {
+  
+  height: 100vh;
+  background-image: url(../img/lameta/bgslideprin.jpg);
+  background-size: cover;
+  background-color:#72B040;
+  
+  
+}
+
+#lametacont .pad95 {
+
+  padding-top: 80px;
+   
+}
+
+#lametacont .paditl {
+  padding-right: 14%;
+    padding-top: 5%;
+    padding-left : 0;
+   
+}
+
+#lametacont .titlfra1 {
+  position: absolute;
+  color: #ffffff;
+  right: 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: right;
+}
+
+#lametacont h1 {
+  font-family: Myriad-Bold;
+  color: #FCB61A;
+  font-size: 40px;
+  text-transform: uppercase;
+
+}
+
+
+#lametacont .lineblu {
+  margin-left: 40px;
+  
+
+    background-color: #FCB61A;
+    height: 145px;
+    width: 5px;
+    float: left;
+
+}
+
+#lametacont .contfra {
+  width: 80%;
+  float: right;
+
+}
+
+#lametacont .contfra h2 {
+
+  color: #ffffff;
+  line-height: 67px;
+  font-size: 65px;
+  font-family: Myriad-Light;
+
+}
+
+#lametacont p.txtintro {
+  float: left;
+  margin-top: 20px;
+  margin-left: 83px;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: Myriad-Regular;
+
+
+}
+
+
+   
+#lametacont .imageslip {
+
+  width: 620px;
+  display: block;
+  margin: 0px auto;
+
+}
+
 /*--------------------------------------------------------------
 # Valor Compartido
 --------------------------------------------------------------*/
@@ -2554,7 +5158,7 @@ font-family: ;
   height: 100vh;
   background-image: url(../img/valor_compartido/bg_vc.jpg);
   background-size: cover;
-  background-color:#EEF2F4;
+  background-color:#F2AD3B;
   
   
 }
@@ -2642,6 +5246,10 @@ font-family: ;
 #valorcomp3 {
  
   height: auto;
+  background-image: url(../img/valor_compartido/bgcirculodevalor.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right top;
  padding-top: 40px;
  padding-bottom: 40px;
  padding-left: 0;
@@ -2651,41 +5259,54 @@ font-family: ;
 
 }
 
+#valorcomp3 h1 {
+  
+  color: #403f3f;
+    font-size: 26px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family:Myriad-Bold ;
+}
+
+
 #valorcomp3 p {
   
-  color: #ffffff;
-  font-size: 18px;
+  color: #403f3f;
+    font-size: 18px;
 
 }
 
-
-#valorcomp3 #odsinfos .titles {
-  font-family:Myriad-SemiBold ;
-  color: #ffffff;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 26px;
-
-}
-
-#valorcomp3 #odsinfos .iconodss {
-  width: 100px;
-
-}
-
-
-
-#valorcomp3 #odsinfos .ods-urls a{
-  font-size: 16px;
-  font-family:Myriad-Regular;
-  color: #414141;
-  background-color: #EEF2F4;
-  margin-top: 10px;
-  border-radius: 3px;
-  padding: 5px;
+#valorcomp3 img {
+  
+  width: 620px;
+  margin: auto;
   display: block;
 
 }
+
+#valorcomp3 img.vinimg {
+  
+  width: 391px;
+  margin: auto;
+  margin-top: 30px;
+  display: block;
+
+}
+
+#valorcomp3 .btnchanval {
+  border: 0;
+    background-color: #F1B634;
+    width: 120px;
+    height: 15px;
+    display: block;
+    float: left;
+    margin: 10px;
+  
+}
+
+
+
+
 
 
 /*--------------------------------------------------------------
