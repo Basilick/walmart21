@@ -4694,9 +4694,13 @@ ul#blue-list li{
   width: 100%;
   margin: 32px 0;
 }
-.brandscol img{
-  margin: 0 auto;
+.brandscol img.brandlogo{
+  margin: 20px auto;
 }
+.brandscol img.brandlogo:first-of-type{
+  margin-top: 0;
+}
+
 @media screen and (min-width:1279px){
   .brandscol{
     flex-direction: column;
