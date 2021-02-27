@@ -4677,15 +4677,91 @@ ul#blue-list li{
 #info_inversionistas_1{
   padding-top: 60px;
 }
+.brandscol{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  margin: 32px 0;
+}
+.brandscol img{
+  margin: 0 auto;
+}
+@media screen and (min-width:1279px){
+  .brandscol{
+    flex-direction: column;
+  }
+}
+.doublecol{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 32px 0;
+}
+.doublecol_item{
+  width: 100%;
+}
+@media screen and (min-width:767px){
+  .doublecol{
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .doublecol_item{
+    width: 50%;
+  }
+}
+@media screen and (min-width:1023px){
+  .doublecol{
+    justify-content: space-between;
+  }
+  .doublecol_item{
+    width: 42%;
+  }
+}
+@media screen and (min-width:1023px){
+  .doublecol_item{
+    width: 50%;
+  }
+}
+.bluedoublecol{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 32px 0;
+}
+.bluedoublecol_item{
+  width: 100%;
+}
+@media screen and (min-width:767px){
+  .bluedoublecol{
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .bluedoublecol_item{
+    width: 50%;
+  }
+}
+@media screen and (min-width:1023px){
+  .bluedoublecol{
+    justify-content: space-between;
+  }
+  .bluedoublecol_item{
+    width: 100%;
+  }
+}
 .text-box{
-  margin: 0 0 24px 0;
+  margin: 0 0 16px 0;
 }
 .text-box p, .text-box a{
   color: #414141;
 }
 .inversionistas-title{
   font-family: Myriad-Bold;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 18px;
   margin: 0 0 4px 0;
 }
@@ -4695,22 +4771,17 @@ ul#blue-list li{
   line-height: 18px;
 }
 .inversionistas-user{
-  background: url('../svg/user.svg') no-repeat 0 0;
-  background-size: 16px;
-  padding-left: 22px !important;
   font-size: 14px;
   line-height: 18px;
   margin-bottom: 3px !important;
+  color: #ffffff !important;
 }
 a.inversionistas-email{
   font-size: 14px;
   line-height: 18px;
   text-decoration: none;
-  color: #414141 !important;
+  color: #ffffff;
   font-family: Myriad-Light;
-  background: url('../svg/mail.svg') no-repeat 0 -1px;
-  background-size: 16px;
-  padding-left: 22px !important;
   display: block;
   margin-bottom: 3px;
 }
@@ -4718,17 +4789,14 @@ a.inversionistas-phone{
   font-size: 14px;
   line-height: 18px;
   text-decoration: none;
-  color: #414141 !important;
+  color: #ffffff;
   font-family: Myriad-Light;
-  background: url('../svg/phone.svg') no-repeat 0 0px;
-  background-size: 16px;
-  padding-left: 22px !important;
   display: block;
   margin-bottom: 3px;
 }
 a.inversionistas-title-link{
-  font-family: Myriad-Bold;
-  font-size: 18px;
+  font-family: Myriad-Light;
+  font-size: 14px;
   line-height: 18px;
   margin: 0 0 4px 0;
   text-decoration: none;
@@ -4753,42 +4821,55 @@ a.inversionistas-global{
   margin-bottom: 3px;
 }
 
-.inversionistas-menu{
+.inversionistasmenu{
   display: flex;
   flex-direction: column;
 }
-.inversionistas-menu a{
+.inversionistasmenu a{
   color: #414141 !important;
   font-family: Myriad-Light;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 14px;
   text-decoration: none;
-  margin: 0 0 14px 0;
-  padding-left: 24px !important;
+  margin: 0 0 24px 0;
+  padding: 50px 0 0 0;
+  text-align: left;
 }
-.inversionistas-menu a.facebook{
-  background: url('../svg/facebook.svg') no-repeat 0 0px;
-  background-size: 16px;
+.inversionistasmenu a.facebook{
+  background: url('../svg/ico-facebook.svg') no-repeat left 0;
+  background-size: 40px;
 }
-.inversionistas-menu a.twitter{
-  background: url('../svg/twitter.svg') no-repeat 0 0px;
-  background-size: 16px;
+.inversionistasmenu a.twitter{
+  background: url('../svg/ico-twitter.svg') no-repeat left 0;
+  background-size: 40px;
 }
-.inversionistas-menu a.youtube{
-  background: url('../svg/facebook.svg') no-repeat 0 0px;
-  background-size: 16px;
+.inversionistasmenu a.youtube{
+  background: url('../svg/ico-youtube.svg') no-repeat left 0;
+  background-size: 40px;
 }
-.inversionistas-menu a.instagram{
-  background: url('../svg/instagram.svg') no-repeat 0 0px;
-  background-size: 16px;
+.inversionistasmenu a.instagram{
+  background: url('../svg/ico-instagram.svg') no-repeat left 0;
+  background-size: 40px;
 }
-.inversionistas-menu a.linkedin{
-  background: url('../svg/linkedin.svg') no-repeat 0 1px;
-  background-size: 16px;
-  line-height: 25px;
+.inversionistasmenu a.linkedin{
+  background: url('../svg/ico-linkedin.svg') no-repeat left 0;
+  background-size: 40px;
 }
-.inversionistas-menu a:hover{
+.inversionistasmenu a:hover{
   color: #F1B634 !important;
+}
+
+@media screen and (min-width:767px){
+  .inversionistasmenu{
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .inversionistasmenu a{
+    text-align: center;
+  }
+  .inversionistasmenu a.facebook, .inversionistasmenu a.twitter, .inversionistasmenu a.youtube, .inversionistasmenu a.instagram, .inversionistasmenu a.linkedin{
+    background-position: center 0;
+  }
 }
 
 /*--------------------------------------------------------------
