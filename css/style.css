@@ -4578,6 +4578,12 @@ ul#blue-list li{
 #descargas1{
   padding-top: 60px;
 }
+#descargas1 a.btn-circled{
+  display: block;
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
 .grid3{
   display: grid;
   grid-template-columns: 100%;
@@ -4633,16 +4639,18 @@ ul#blue-list li{
   flex-direction: column;
 }
 .grid3__menu a{
-  color: #414141;
-  font-size: 16px;
+  color: #ffffff;
+  font-size: 14px;
   text-decoration: none;
   background: url('../svg/download.svg') no-repeat;
-  background-size: 20px;
-  padding: 0 0 0 32px;
+  background-size: 16px;
+  padding: 0 0 0 24px;
   margin: 0 0 12px 0;
+  cursor: pointer;
+  display: block;
 }
 .grid3__menu a:hover{
-  color: #333333;
+  color: #ffffff;
 }
 .downloads-title{
   font-size: 18px;
