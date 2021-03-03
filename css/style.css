@@ -3347,7 +3347,9 @@ p:last-of-type{
 # CAPITULO 02 - 3 Alberto
 --------------------------------------------------------------*/
 
-#capitulo02_3{
+#capitulo02_3 h4 {
+
+  font-family: Myriad-Bold;
  
   
   
@@ -3369,8 +3371,8 @@ p:last-of-type{
   position: relative;
   padding-left: 60px;  
   color: #1181C7;
-  font-size: 27px;
-    line-height: 34px;
+  font-size: 32px;
+    line-height: 37px;
   font-family: Myriad-Bold;
   margin-bottom: 24px;
 }
@@ -3461,8 +3463,9 @@ ul#blue-list li{
 /*--------------------------------------------------------------
 # CAPITULO 02 - 4 Alberto
 --------------------------------------------------------------*/
-#capitulo02_4{
+#capitulo02_4 h4{
  
+  font-size: 22px;
   
 }
 
@@ -3646,7 +3649,7 @@ ul#blue-list li{
 #valor_social {
   
   height: 100vh;
-  background-image: url(../img/valor_social/bg_slideprin.png);
+  background-image: url(../img/asociados/bg_slideprin.png);
   background-size: cover;
   background-color:#3174AC;
   
@@ -5282,6 +5285,13 @@ a.inversionistas-global{
 /*--------------------------------------------------------------
 # asociado_01 - Alberto
 --------------------------------------------------------------*/
+
+#asociado_01 .spehei {
+  height: 40px;
+
+
+}
+
 .bg-propuesta-valor-asociado{
   background-image: url(../img/asociados/prodi-personas.png);
   background-position: bottom right;
@@ -5461,12 +5471,41 @@ a.inversionistas-global{
 # asociado_03 - Alberto
 --------------------------------------------------------------*/
 
+#asociado_02 .cards { 
+  border-radius: 6px;
+  padding: 0px 5px;
+  margin: 0 0 24px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
 
-#asociado_03 .cardgraph__content { 
+#asociado_02 .cards h4 { 
 
-
+font-size: 16px;
+font-family: Myriad-SemiBold;
   
 }
+
+#asociado_02 .cards__image {
+  width: 53px;
+  padding-right: 0px;
+  margin-right: 7px;
+}
+
+
+#asociado_02 .cards__text {
+    width: auto;
+}
+
+#asociado_03 {
+  background: #263b80;
+}
+
+
 
 #asociado_03 .datagrafmex { 
   text-align: center;
