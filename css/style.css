@@ -2500,7 +2500,7 @@ p:last-of-type{
   display: flex;
   justify-content: center;
   position: relative;
-  left: -8px;
+  left: -5px;
 } 
 .cards__text h4{
   font-family: Myriad-Bold;
@@ -3972,8 +3972,8 @@ ul#blue-list li{
   .bg-100h-blue-1{
     background: rgb(8,76,139);
     background: -moz-linear-gradient(90deg, rgba(8,76,139,1) 0%, rgba(18,114,176,1) 17%, rgba(8,76,139,1) 24%, rgba(255,255,255,.1) 24%);
-    background: -webkit-linear-gradient(90deg, rgba(8,76,139,1) 0%, rgba(18,114,176,1) 17%, rgba(8,76,139,1) 24%, rgba(255,255,255,.1) 24%);
-    background: linear-gradient(90deg, rgba(8,76,139,1) 0%, rgba(18,114,176,1) 17%, rgba(8,76,139,1) 24%, rgba(255,255,255,.1) 24%);
+    background: -webkit-linear-gradient(90deg, rgba(8,76,139,1) 0%, rgba(18,114,176,1) 17%, rgba(8,76,139,1) 24%, rgba(238,242,244,1) 24%);
+    background: linear-gradient(90deg, rgba(8,76,139,1) 0%, rgba(18,114,176,1) 17%, rgba(8,76,139,1) 24%, rgba(238,242,244,1) 24%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#084c8b",endColorstr="#ffffff",GradientType=1);
   } 
 }
@@ -4394,10 +4394,6 @@ ul#blue-list li{
   
 }
 
-/*--------------------------------------------------------------
-# Valor social Sección 2 - Alberto
----------------------------------------------------
-----------*/
 
 #valor_social_15 .imgcamaron { 
   width: 150px;
@@ -4405,7 +4401,18 @@ ul#blue-list li{
 }
 
 
+#valor_social_16 .nav { 
+  width: 700px;
+  margin: 40px auto 0;
+  border: 0;
+}
 
+
+#valor_social_16 .nav-tabs .nav-link.active {
+  color: #b7b7b7;
+  background-color: #edf2f3;
+  border-color: #dee2e6 #dee2e6 #edf2f3;
+}
 
 
 
