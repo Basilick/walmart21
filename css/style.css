@@ -2180,6 +2180,12 @@ font-size: 12px;
 .bg-gray-light-4{
   background: #eae8e9;
 }
+.bg-green-1{
+  background: #3eae49;
+}
+.bg-orange-1{
+  background: #f47b20;
+}
 .bg-blue-dark{
   background: #095498;
 }
@@ -2194,6 +2200,9 @@ font-size: 12px;
 }
 .bg-blue-light-3{
   background: #7dbed2;
+}
+.bg-blue-light-4{
+  background: #00aeef;
 }
 .bg-turquesa{
   background:#7dbed2;
@@ -2502,10 +2511,9 @@ p:last-of-type{
   position: relative;
   left: -5px;
 } 
-.cards__text h4{
+.cards__text h4, .cards__text2 h4{
   font-family: Myriad-Bold;
   margin-bottom: 0;
-  
 }
 .cards__button{
   position: absolute;
@@ -2528,11 +2536,47 @@ p:last-of-type{
   justify-content: space-around;
   align-items:flex-end;
 }
-.graph__item, .edad-total-asociados, .dc__item, .gmv__item{
+.graph__item, 
+.edad-total-asociados
+{
   width: 12px;
   position: relative;
 }
-.graph__item::before, .dc__item::before, .gmv__item::before{
+.dc__item, 
+.gmv__item,
+.tm__item,
+.it__item,
+.uom__item,
+.foe__item,
+.ief__item,
+.ge__item,
+.dp__item,
+.na__item,
+.ut__item
+{
+  width: 12px;
+  position: relative;
+  -webkit-border-top-left-radius: 8px;
+  -webkit-border-top-right-radius: 8px;
+  -moz-border-radius-topleft: 8px;
+  -moz-border-radius-topright: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.graph__item::before, 
+.dc__item::before, 
+.gmv__item::before,
+.tm__item::before,
+.it__item::before,
+.uom__item::before,
+.foe__item::before,
+.ief__item::before,
+.ge__item::before,
+.dp__item::before,
+.na__item::before,
+.ut__item::before
+{
   position: absolute;
   width: 60px;
   height: 20px;
@@ -2611,6 +2655,249 @@ p:last-of-type{
 .gmv__item:nth-child(5)::before{
   content: '164%';
   bottom: 250px;
+}
+.tm__item:nth-child(1)::before{
+  content: '2,104';
+  bottom: 120px;
+  font-size: 12px;
+}
+.tm__item:nth-child(2)::before{
+  content: '2,146';
+  bottom: 130px;
+  font-size: 12px;
+}
+.tm__item:nth-child(3)::before{
+  content: '2,229';
+  bottom: 140px;
+  font-size: 12px;
+}
+.tm__item:nth-child(4)::before{
+  content: '2,287';
+  bottom: 150px;
+  font-size: 12px;
+}
+.tm__item:nth-child(5)::before{
+  content: '2,287';
+  bottom: 160px;
+  font-family: Myriad-Bold;
+  font-size: 16px;
+  color: #1081C7;
+}
+.it__item:nth-child(1)::before{
+  content: '532,384';
+  bottom: 90px;
+  font-size: 12px;
+}
+.it__item:nth-child(2)::before{
+  content: '573,371';
+  bottom: 110px;
+  font-size: 12px;
+}
+.it__item:nth-child(3)::before{
+  content: '616,910';
+  bottom: 120px;
+  font-size: 12px;
+}
+.it__item:nth-child(4)::before{
+  content: '646,846';
+  bottom: 140px;
+  font-size: 12px;
+}
+.it__item:nth-child(5)::before{
+  content: '701,734';
+  bottom: 160px;
+  font-family: Myriad-Bold;
+  font-size: 16px;
+  color: #1081C7;
+}
+.uom__item:nth-child(1)::before{
+  content: '34,455';
+  bottom: 90px;
+  font-size: 12px;
+}
+.uom__item:nth-child(2)::before{
+  content: '43,838';
+  bottom: 110px;
+  font-size: 12px;
+}
+.uom__item:nth-child(3)::before{
+  content: '51,572';
+  bottom: 120px;
+  font-size: 12px;
+}
+.uom__item:nth-child(4)::before{
+  content: '54,003';
+  bottom: 140px;
+  font-size: 12px;
+}
+.uom__item:nth-child(5)::before{
+  content: '57,447';
+  bottom: 160px;
+  font-family: Myriad-Bold;
+  font-size: 16px;
+  color: #1081C7;
+}
+.foe__item:nth-child(1)::before{
+  content: '50,149';
+  bottom: 90px;
+  font-size: 12px;
+}
+.foe__item:nth-child(2)::before{
+  content: '55,482';
+  bottom: 110px;
+  font-size: 12px;
+}
+.foe__item:nth-child(3)::before{
+  content: '67,148';
+  bottom: 120px;
+  font-size: 12px;
+}
+.foe__item:nth-child(4)::before{
+  content: '71,005';
+  bottom: 140px;
+  font-size: 12px;
+}
+.foe__item:nth-child(5)::before{
+  content: '75,387';
+  bottom: 160px;
+  font-family: Myriad-Bold;
+  font-size: 16px;
+  color: #1081C7;
+}
+.ief__item:nth-child(1)::before{
+  content: '14,335';
+  bottom: 120px;
+  font-size: 12px;
+}
+.ief__item:nth-child(2)::before{
+  content: '17,426';
+  bottom: 130px;
+  font-size: 12px;
+}
+.ief__item:nth-child(3)::before{
+  content: '17,933';
+  bottom: 136px;
+  font-size: 12px;
+}
+.ief__item:nth-child(4)::before{
+  content: '20,575';
+  bottom: 160px;
+  font-size: 12px;
+}
+.ief__item:nth-child(5)::before{
+  content: '16,728';
+  bottom: 125px;
+  font-family: Myriad-Bold;
+  font-size: 16px;
+  color: #1081C7;
+}
+.ge__item:nth-child(1)::before{
+  content: '51,343';
+  bottom: 105px;
+  font-size: 12px;
+}
+.ge__item:nth-child(2)::before{
+  content: '54,449';
+  bottom: 120px;
+  font-size: 12px;
+}
+.ge__item:nth-child(3)::before{
+  content: '60,478';
+  bottom: 130px;
+  font-size: 12px;
+}
+.ge__item:nth-child(4)::before{
+  content: '63,745';
+  bottom: 140px;
+  font-size: 12px;
+}
+.ge__item:nth-child(5)::before{
+  content: '64,777';
+  bottom: 160px;
+  font-family: Myriad-Bold;
+  font-size: 16px;
+  color: #1081C7;
+}
+.dp__item:nth-child(1)::before{
+  content: '28,972';
+  bottom: 90px;
+  font-size: 12px;
+}
+.dp__item:nth-child(2)::before{
+  content: '42,756';
+  bottom: 160px;
+  font-size: 12px;
+}
+.dp__item:nth-child(3)::before{
+  content: '25,582';
+  bottom: 80px;
+  font-size: 12px;
+}
+.dp__item:nth-child(4)::before{
+  content: '35,957';
+  bottom: 125px;
+  font-size: 12px;
+}
+.dp__item:nth-child(5)::before{
+  content: '30,934';
+  bottom: 110px;
+  font-family: Myriad-Bold;
+  font-size: 16px;
+  color: #1081C7;
+}
+.na__item:nth-child(1)::before{
+  content: '228,854';
+  bottom: 125px;
+  font-size: 12px;
+}
+.na__item:nth-child(2)::before{
+  content: '237,055';
+  bottom: 145px;
+  font-size: 12px;
+}
+.na__item:nth-child(3)::before{
+  content: '233,431';
+  bottom: 135px;
+  font-size: 12px;
+}
+.na__item:nth-child(4)::before{
+  content: '238,972';
+  bottom: 170px;
+  font-size: 12px;
+}
+.na__item:nth-child(5)::before{
+  content: '231,271';
+  bottom: 125px;
+  font-family: Myriad-Bold;
+  font-size: 16px;
+  color: #1081C7;
+}
+.ut__item:nth-child(1)::before{
+  content: '3,022';
+  bottom: 100px;
+  font-size: 12px;
+}
+.ut__item:nth-child(2)::before{
+  content: '3,134';
+  bottom: 110px;
+  font-size: 12px;
+}
+.ut__item:nth-child(3)::before{
+  content: '3,249';
+  bottom: 120px;
+  font-size: 12px;
+}
+.ut__item:nth-child(4)::before{
+  content: '3,407';
+  bottom: 130px;
+  font-size: 12px;
+}
+.ut__item:nth-child(5)::before{
+  content: '3,489';
+  bottom: 150px;
+  font-family: Myriad-Bold;
+  font-size: 16px;
+  color: #1081C7;
 }
 .graph__item::after, .edad-total-asociados::after{
   position: absolute;
@@ -2797,6 +3084,7 @@ p:last-of-type{
   flex-direction: column;
   border: 1px solid #ececec;
   position: relative;
+  width: 100%;
 }
 .cardgraph-noshadow {
   -webkit-box-shadow: 0px 6px 6px 0px transparent !important; 
@@ -2840,6 +3128,12 @@ p:last-of-type{
   padding: 8px 16px;
   margin-bottom: 0;
   height: auto !important;
+}
+.cardgraph__subtitle4{
+  line-height: 24px;
+  padding: 0px 16px;
+  margin-bottom: 0;
+  height: 68px !important;
 }
 .cardgraph__subtitle2, .cardgraph__subtitle3, .cardgraph__items, .cardgraph__items-row{
   padding: 16px;
@@ -3093,6 +3387,115 @@ p:last-of-type{
 .diferencial-crecimiento span{
   font-family: Myriad-Light;
 }
+.transacciones-millones{
+  background: url('../svg/ico-transacciones.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 30px !important;
+  padding-left: 52px !important;
+  color: #414141;
+  font-family: Myriad-Bold;
+}
+.ingresos-totales{
+  background: url('../svg/ico-ingresos-totales.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 15px !important;
+  padding-left: 52px !important;
+  color: #414141;
+  font-family: Myriad-Bold;
+}
+.utilidad-operacion{
+  background: url('../svg/ico-utilidad-de-operacion.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 15px !important;
+  padding-left: 52px !important;
+  color: #414141;
+  font-family: Myriad-Bold;
+  padding-bottom: 28px;
+}
+.flujo-operativo{
+  background: url('../svg/ico-flujo-operativo.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 15px !important;
+  padding-left: 52px !important;
+  color: #414141;
+  font-family: Myriad-Bold;
+}
+.inversion-activo-fijo{
+  background: url('../svg/ico-inversion-activo-fijo.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 15px !important;
+  padding-left: 52px !important;
+  color: #414141;
+  font-family: Myriad-Bold;
+  padding-bottom: 28px;
+}
+.generacion-efectivo{
+  background: url('../svg/ico-generacion-efectivo.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 15px !important;
+  padding-left: 52px !important;
+  color: #414141;
+  font-family: Myriad-Bold;
+  padding-bottom: 28px;
+}
+.dividendo-pagado{
+  background: url('../svg/ico-dividendo-pagado.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 15px !important;
+  padding-left: 52px !important;
+  color: #414141;
+  font-family: Myriad-Bold;
+}
+.numero-asociados{
+  background: url('../svg/ico-numero-asociados.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 44px !important;
+  padding-left: 52px !important;
+  color: #414141;
+  font-family: Myriad-Bold;
+  padding-bottom: 28px;
+}
+.unidades-totales{
+  background: url('../svg/ico-unidades-totales.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 43px !important;
+  padding-left: 52px !important;
+  color: #414141;
+  font-family: Myriad-Bold;
+}
+.resultados-consolidados{
+  background: url('../svg/ico-resultados-consolidados.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 43px !important;
+  height: 43px !important;
+  padding-left: 52px !important;
+  color: #414141;
+  font-family: Myriad-Bold;
+}
+.balance-general{
+  background: url('../svg/ico-balance-general.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 43px !important;
+  height: 43px !important;
+  padding-left: 52px !important;
+  color: #414141;
+  font-family: Myriad-Bold;
+}
+
+.transacciones-millones span,
+.ingresos-totales span,
+.utilidad-operacion span,
+.flujo-operativo span,
+.inversion-activo-fijo span,
+.generacion-efectivo span,
+.dividendo-pagado span
+{
+  font-family: Myriad-Light;
+  display: block;
+  margin: 0;
+  padding: 0;
+  line-height: 14px;
+}
 .porcentaje-gmv{
   background: url('../svg/ico-gmv.svg') no-repeat 0px 2px;
   background-size: 40px;
@@ -3125,7 +3528,13 @@ p:last-of-type{
 .cardgraph__content-3{
   background: #EEF2F4;
   padding: 40px 20px;
-  margin: 0;
+  margin-bottom: 10px;
+}
+.cardgraph__content-4{
+  background: #EEF2F4;
+  padding: 40px 20px;
+  height: 240px;
+  margin-bottom: 10px;
 }
 .cardgraph__currency, .cardgraph__description{
   font-size: 18px;
@@ -6579,7 +6988,7 @@ display: block;
 # valor_financiero_05 - Alberto
 --------------------------------------------------------------*/
 
-@media screen and (min-width:1023px){
+@media screen and (min-width:1279px){
   .bg-desempenio{
     background-image: url(../img/valor_financiero/bg-desempenio.png);
     background-position: bottom right;
@@ -6588,6 +6997,298 @@ display: block;
     height: 100%;
   }
 }
+
+.gmv-graph{
+  background: url('../svg/ico-gmv-graph.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
+  z-index: 2;
+  width: 100%;
+  height: 86px;
+  position: absolute;
+  bottom: 120px;
+  left: -2px;
+}
+@media screen and (min-width:1279px){
+  .gmv-graph{
+    height: 98px;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# valor_financiero_06 - Alberto
+--------------------------------------------------------------*/
+.ghost-divider-1{
+  display: none;
+}
+@media screen and (min-width:1023px){
+  .ghost-divider-1{
+    height: 15vh;
+    display: block;
+  }
+}
+@media screen and (min-width:1279px){
+  .ghost-divider-1{
+    height: 34vh;
+  }
+}
+@media screen and (min-width:1919px){
+  .ghost-divider-1{
+    height: 42vh;
+  }
+}
+
+@media screen and (min-width:1023px){
+  .bg-bodega-aurrera{
+    background-image: url(../img/valor_financiero/bg-bodega-aurrera.png);
+    background-position: bottom center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# valor_financiero_09 - Alberto
+--------------------------------------------------------------*/
+.gridify2{
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 40px 24px;
+  justify-content: center;
+  align-content: center;
+  width: 98%;
+  margin: 0 auto;
+}
+.gridify2__item{
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: row !important;
+  align-items: flex-start;
+}
+@media screen and (min-width:1025px){
+  .gridify2{
+      grid-template-columns: 50% 50%;
+      margin: 0 auto;     
+      gap: 24px;   
+  }    
+}
+
+#valor_financiero_09{
+  position: relative;
+}
+.personal-sams{
+  background: url(../img/valor_financiero/personal-sams.png) no-repeat;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 358px;
+  height: 445px;
+  z-index: 2;
+}
+.ghost-divider-2{
+  height: 42vh;
+  display: block;
+}
+@media screen and (min-width:767px){
+  .ghost-divider-2, .personal-sams{
+    display: none;
+  }
+}
+@media screen and (min-width:1023px){
+  .ghost-divider-2{
+    display: block;
+    height: 5vh;
+  }
+  .personal-sams{
+    display: block;
+  }
+}
+@media screen and (min-width:1279px){
+  .ghost-divider-2{
+    height: 24vh;
+  }
+}
+
+/*--------------------------------------------------------------
+# valor_financiero_10 - Alberto
+--------------------------------------------------------------*/
+.bg-principales-indicadores{
+  background-image: url(../img/valor_financiero/bg-principales-indicadores.png);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.gridify3{
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 40px 16px;
+  justify-content: center;
+  align-content: center;
+  width: 98%;
+  margin: 0 auto;
+}
+.gridify3__item{
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+@media screen and (min-width:767px){
+  .gridify3{
+      grid-template-columns: 33% 33% 33%;
+      gap: 24px;   
+  }    
+}
+@media screen and (min-width:1279px){
+  .gridify3{
+      grid-template-columns: 18% 18% 18% 18% 18%;
+      gap: 16px;
+  }    
+}
+
+.ingresos-totales-graph{
+  background: url('../svg/ico-ingresos-totales-graph.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
+  z-index: 2;
+  width: 88%;
+  height: 90px;
+  position: absolute;
+}
+@media screen and (min-width:1279px){
+  .ingresos-totales-graph{
+    width: 84%;
+  }
+}
+
+/*--------------------------------------------------------------
+# valor_financiero_11 - Alberto
+--------------------------------------------------------------*/
+.bg-entregamos-resultados{
+  background-image: url(../img/valor_financiero/bg-entregamos-resultados.png);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+
+/*--------------------------------------------------------------
+# valor_financiero_12 - Alberto
+--------------------------------------------------------------*/
+
+@media screen and (min-width:1023px){
+  .bg-inversiones{
+    background-image: url(../img/valor_financiero/bg-inversiones.png);
+    background-position: bottom left;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+}
+
+/*--------------------------------------------------------------
+# valor_financiero_13 - Alberto
+--------------------------------------------------------------*/
+
+@media screen and (min-width:1023px){
+  .bg-inversiones-2{
+    background-image: url(../img/valor_financiero/bg-inversiones-2.png);
+    background-position: bottom left;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+}
+
+/*--------------------------------------------------------------
+# valor_financiero_14 - Alberto
+--------------------------------------------------------------*/
+.balancegrid {
+  width: 100%;
+}
+.balancegrid__left, .balancegrid__center{
+  float: left;
+}
+.balancegrid__right{
+  float: right;
+}
+.balancegrid__left, .balancegrid__right{
+  width: 100%;
+}
+.balancegrid__card{
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  padding: 8px 16px;
+}
+.balancegrid__ico{
+  float: left;
+  margin-right: 12px;
+}
+.balancegrid__text{
+  float: left;
+}
+.balancegrid__text h4{
+  font-family: Myriad-Bold;
+  margin-bottom: 0;
+}
+.balancegrid__footer{
+  width: 100%;
+  float: left;
+}
+.horizontal-divider-blue{
+  width: 100%;
+  height: 2px;
+  background: #253b80;
+  float: left;
+  margin-bottom: 24px;
+}
+.card-custom-height-1{
+  height: 68px;
+}
+@media screen and (min-width:1279px){
+  .balancegrid__left, .balancegrid__right{
+    width: 46%;
+  }
+  .balancegrid__center{
+    width: 4px;
+    height: 382px;
+    margin: 0px;
+    margin-left: 20px;
+  }
+  .vertical-divider{
+    height: 382px;
+    width: 2px;
+    background: #253b80;
+    float: left;
+  }
+  .card-custom-height-2{
+    height: 198px !important;
+  }
+  .card-custom-height-3{
+    height: 88px !important;
+  }
+  .card-custom-height-4{
+    height: 270px !important;
+  }
+}
+@media screen and (min-width:1439px){
+  .balancegrid__center{
+    margin-left: 26px;
+  }
+}
+
 
 
 /*--------------------------------------------------------------
