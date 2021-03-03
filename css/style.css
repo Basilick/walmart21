@@ -7190,7 +7190,7 @@ display: block;
 @media screen and (min-width:1023px){
   .bg-inversiones{
     background-image: url(../img/valor_financiero/bg-inversiones.png);
-    background-position: bottom left;
+    background-position: -99px;
     background-size:contain;
     background-repeat: no-repeat;
     height: 100%;
