@@ -5591,6 +5591,27 @@ a.inversionistas-global{
   flex-wrap: wrap;
   position: relative;
 }
+
+
+#asociado_03 .horizontalbars p {
+  font-size: 14px;
+}
+
+#asociado_03 .horizontalbars p span{
+  font-size: 16px;
+  font-family: Myriad-Bold;
+}
+
+#asociado_04 .horizontalbars p {
+  font-size: 14px;
+}
+
+#asociado_04 .horizontalbars p span{
+  font-size: 16px;
+  font-family: Myriad-Bold;
+}
+
+
 .horizontalbars__item{
   width: 100%;
   padding: 20px;
