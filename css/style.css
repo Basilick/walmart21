@@ -2154,7 +2154,7 @@ font-size: 12px;
   color: #095498 !important;
 }
 .blue-light-3-txt{
-  color: #00D4E0;
+  color: #7dbed2;
 }
 .blue-light-4-txt{
   color: #80EAEF;
@@ -2190,16 +2190,16 @@ font-size: 12px;
   background: #6EA9DB;
 }
 .bg-blue-light-2{
-  background: #1181C7;
+  background: #273b80;
 }
 .bg-blue-light-3{
-  background: #00D4E0;
+  background: #7dbed2;
 }
 .bg-turquesa{
   background:#7dbed2;
 }
 .bg-turquesa-2{
-  background:#52bfd3;
+  background:#7dbed2;
 }
 .bg-blue-gray-1{
   background:#A6BDD1;
@@ -2229,6 +2229,13 @@ font-size: 12px;
   text-transform: uppercase;
   font-size: 27px;
   line-height: 34px;
+  font-family: Myriad-Bold;
+}
+
+.subtitle3{
+  text-transform: uppercase;
+  font-size: 21px;
+  line-height: 28px;
   font-family: Myriad-Bold;
 }
 
@@ -2493,6 +2500,7 @@ p:last-of-type{
   display: flex;
   justify-content: center;
   position: relative;
+  left: -8px;
 } 
 .cards__text h4{
   font-family: Myriad-Bold;
@@ -2508,7 +2516,7 @@ p:last-of-type{
   transform: translate(-60%, 34%);
 }
 .cards__text{
-  width: 65%;
+  width: 70%;
 }
 .cards-gray-1{
   margin-top: -36px;
@@ -5493,7 +5501,7 @@ font-family: Myriad-SemiBold;
 #asociado_02 .cards__image {
   width: 53px;
   padding-right: 0px;
-  margin-right: 7px;
+  margin-right: 12px;
 }
 
 
@@ -5742,6 +5750,137 @@ font-family: Myriad-SemiBold;
 
 }
 
+#asociado_05 .cardshm { 
+  border-radius: 6px;
+  padding: 0px 5px;
+  margin: 0 0 7px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#asociado_05 .cardshm h4 { 
+
+font-size: 16px;
+font-family: Myriad-SemiBold;
+  
+}
+
+#asociado_05 .cardshm .cards__image {
+  width: 53px;
+  padding-right: 0px;
+  margin-right: 12px;
+}
+
+
+#asociado_05  .cardshm .cards__text {
+    width: auto;
+}
+
+
+#asociado_03 .cardshm { 
+  border-radius: 6px;
+  padding: 0px 5px;
+  margin: 0 0 7px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#asociado_03 .cardgraph__subtitle3 { 
+  padding: 15px 5px;
+  width: 100%;
+}
+
+#asociado_03 .cardshm h4 { 
+
+font-size: 16px;
+font-family: Myriad-SemiBold;
+  
+}
+
+#asociado_03 .cardshm .cards__image {
+  width: 53px;
+  padding-right: 0px;
+  margin-right: 12px;
+}
+
+
+#asociado_03  .cardshm .cards__text {
+    width: auto;
+}
+
+#asociado_04 .cardshm { 
+  border-radius: 6px;
+  padding: 0px 5px;
+  margin: 0 0 7px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#asociado_04 .cardgraph__subtitle3 { 
+  padding: 15px 5px;
+  width: 100%;
+}
+
+#asociado_04 .cardshm h4 { 
+
+font-size: 16px;
+font-family: Myriad-SemiBold;
+  
+}
+
+#asociado_04 .cardshm .cards__image {
+  width: 53px;
+  padding-right: 0px;
+  margin-right: 12px;
+}
+
+
+#asociado_04  .cardshm .cards__text {
+    width: auto;
+}
+
+
+#asociado_06 .cards { 
+  border-radius: 6px;
+  padding: 0px 5px;
+  margin: 0 0 24px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#asociado_06 .cards h4 { 
+
+font-size: 16px;
+font-family: Myriad-SemiBold;
+  
+}
+
+#asociado_06 .cards__image {
+  width: 53px;
+  padding-right: 0px;
+  margin-right: 12px;
+}
+
+
+#asociado_06 .cards__text {
+    width: auto;
+}
 
 /*--------------------------------------------------------------
 # asociado_06 - Alberto
@@ -5838,7 +5977,7 @@ font-family: Myriad-SemiBold;
   .bg-capacitacion-asociados{
     background-image: url(../img/asociados/img-capacitacion-asociados.png);
     background-position: bottom right;
-    background-size:466px;
+    background-size:530px;
     background-repeat: no-repeat;
   }
 }
@@ -5848,10 +5987,10 @@ font-family: Myriad-SemiBold;
 --------------------------------------------------------------*/
 .bg-dialogo-asociados{
   background-image: url(../img/asociados/img-dialogo-con-asociados.png);
-  background-position: center;
+  background-position: top center;
   background-size:cover;
   background-repeat: no-repeat;
-  height: 50vh;
+  height: 40vh;
 }
 p.label-mex-ca{
   color: #414141;
@@ -5969,12 +6108,17 @@ p.label-participacion-ventas-totales{
   content: '87%';
 }
 
+#asociado_08 .cards {
+  width: 425px;
+  margin: auto;
+}
+
 
 /*--------------------------------------------------------------
 # asociado_09 - Alberto
 --------------------------------------------------------------*/
 #asociado_09 .imgwomanlap {
-  width: 300px;
+  width: 334px;
     display: block;
     position: absolute;
     right: -154px;
@@ -5989,7 +6133,7 @@ p.label-participacion-ventas-totales{
     background-position: right top;
     background-repeat: no-repeat;
     background-size:auto 100%;
-    
+    background-color: #eef2f4;
   }
 }
 
