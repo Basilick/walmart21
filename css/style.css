@@ -1190,6 +1190,57 @@ bottom: 51px;
   animation: pulse-animation 2s cubic-bezier(0.24, 0, 0.38, 1) infinite;
 	z-index: -1;
 }
+
+
+#valor_financiero_02 .cardvf__playbutton2 {
+  position: absolute;
+    bottom: -35px;
+    left: 136px;
+}
+
+
+#valor_financiero_02 .btnvervideo {
+  margin: auto;
+  color: #F1B634;
+  background-color: #ffffff;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    display: block;
+    cursor: pointer;
+}
+
+#valor_financiero_02 .btnvervideo p {
+color: #F1B634;
+position: relative;
+bottom: 41px;
+left: 3px;
+font-size: 18px;
+}
+
+#valor_financiero_02 .pulse {
+  overflow: visible;
+  position: relative;
+}
+
+
+
+#valor_financiero_02 .pulse:before {
+  content: '';
+  display: block;
+  
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: inherit;
+  transition: opacity .3s, transform .3s;
+  animation: pulse-animation 2s cubic-bezier(0.24, 0, 0.38, 1) infinite;
+	z-index: -1;
+}
+
+
 @keyframes pulse-animation {
   0% {
     opacity: 1;
@@ -7035,9 +7086,9 @@ display: block;
   background-repeat: no-repeat;
 }
 .bullet-text{
-  font-size: 24px;
-  line-height: 32px;
-  font-family: Myriad-Bold;
+  font-size: 20px;
+  line-height: 26px;
+  font-family: Myriad-SemiBold;
 }
 @media screen and (min-width:767px){
   .bg-valor-financiero-02{
@@ -7046,6 +7097,7 @@ display: block;
     background-position: left top;
     background-size: 28% 100%;
     background-repeat: no-repeat;
+    margin: 0;
   }  
 }
 @media screen and (min-width:1023px){
@@ -7101,10 +7153,59 @@ display: block;
   }
 }
 
+/*--------------------------------------------------------------
+# valor_financiero_04 - Alberto
+--------------------------------------------------------------*/
+
+#valor_financiero_03 .graphor__item {
+
+ opacity: 0;
+
+}
+
+
+/*--------------------------------------------------------------
+# valor_financiero_04 - Alberto
+--------------------------------------------------------------*/
+
+#valor_financiero_04 .bg-valor_finance_1 {
+
+  background-image: url(../img/valor_financiero/bg-walmart-mexico.png);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  padding: 0;
+
+}
+
+#valor_financiero_04 .conttxthig {
+  text-align: center;
+    width: 64%;
+    margin: auto;
+    display: flex;
+    padding-top: 14%;
+
+   
+}
+
+#valor_financiero_04 .conttxthig p {
+ font-size: 24px;
+ font-family: Myriad-SemiBold;  
+}
+
 
 /*--------------------------------------------------------------
 # valor_financiero_05 - Alberto
 --------------------------------------------------------------*/
+
+#valor_financiero_05 .txtcierre2 {
+  font-size: 20px;
+  line-height: 26px;
+  
+    color: #0172BA;
+
+}
 
 @media screen and (min-width:1279px){
   .bg-desempenio{
@@ -7134,9 +7235,17 @@ display: block;
 }
 
 
+
 /*--------------------------------------------------------------
 # valor_financiero_06 - Alberto
 --------------------------------------------------------------*/
+
+#valor_financiero_06 .bg-green-1 {
+  width: 350px;
+
+}
+
+
 .ghost-divider-1{
   display: none;
 }
@@ -7164,13 +7273,52 @@ display: block;
     background-size:contain;
     background-repeat: no-repeat;
     height: 100%;
+    background-color: #eef2f4;
   }
+}
+
+/*--------------------------------------------------------------
+# valor_financiero_07 - Alberto
+--------------------------------------------------------------*/
+
+#valor_financiero_07 .bg-valor_finance_2 {
+
+
+  background-image: url(../img/valor_financiero/img-walmart-centroamerica.png);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+  
+
+}
+
+#valor_financiero_07 .txtcierre {
+  font-size: 20px;
+  line-height: 26px;
+  font-family: Myriad-SemiBold;
+
 }
 
 
 /*--------------------------------------------------------------
 # valor_financiero_09 - Alberto
 --------------------------------------------------------------*/
+
+#valor_financiero_09 .radial9 {
+
+
+}
+
+#valor_financiero_09 .radia-bar-container {
+  
+
+}
+
+
+
+
+
 .gridify2{
   display: grid;
   grid-template-columns: 100%;
@@ -7261,6 +7409,25 @@ display: block;
   flex-direction: row;
   align-items: flex-start;
 }
+
+#valor_financiero_10 .smsmallsub {
+
+  font-size: 11px;
+  line-height: 15px;
+
+}
+
+#valor_financiero_10 .cardgraph__footer {
+  padding: 0px 24px;
+ 
+}
+
+#valor_financiero_10 .cardgraph__subtitle4 {
+  
+  height: 52px !important;
+}
+
+
 @media screen and (min-width:767px){
   .gridify3{
       grid-template-columns: 33% 33% 33%;
@@ -7283,10 +7450,26 @@ display: block;
   height: 90px;
   position: absolute;
 }
+
+.dividendo-pagado-graph{
+  background: url('../svg/ico-dividendos-pagados-graph.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
+  z-index: 2;
+  width: 88%;
+  height: 90px;
+  position: absolute;
+}
+
 @media screen and (min-width:1279px){
   .ingresos-totales-graph{
     width: 84%;
   }
+
+  .dividendo-pagado-graph{
+    width: 84%;
+  }
+
 }
 
 /*--------------------------------------------------------------
@@ -7319,6 +7502,33 @@ display: block;
 # valor_financiero_13 - Alberto
 --------------------------------------------------------------*/
 
+
+#valor_financiero_13 .bg-valor_finance_13 {
+
+  background-image: url(../img/valor_financiero/bg-inversiones-2.png);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+  padding: 0;
+
+}
+
+#valor_financiero_13 .conttxthig {
+  text-align: center;
+    width: 64%;
+    margin: auto;
+    display: flex;
+    padding-top: 2%;
+
+   
+}
+
+#valor_financiero_13 .conttxthig p {
+ font-size: 24px;
+ font-family: Myriad-SemiBold;  
+}
+
 @media screen and (min-width:1023px){
   .bg-inversiones-2{
     background-image: url(../img/valor_financiero/bg-inversiones-2.png);
@@ -7332,6 +7542,19 @@ display: block;
 /*--------------------------------------------------------------
 # valor_financiero_14 - Alberto
 --------------------------------------------------------------*/
+#valor_financiero_14 .descararchive {
+  display: block;
+    margin: 20px 0 0;
+    padding: 5px;
+    text-decoration: underline; 
+ }
+
+ #valor_financiero_14 .descararchive .fa-file-pdf{
+  margin-left: 5px; 
+ }
+
+
+
 .balancegrid {
   width: 100%;
 }
