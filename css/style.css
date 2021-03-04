@@ -3594,6 +3594,25 @@ p:last-of-type{
   transform: scaleY(1);
 }
 
+[data-aos="graph-anim-2"] {
+  /* opacity: 0; */
+  transform: scaleX(0);
+  transition-property: transform, opacity;
+}
+[data-aos="graph-anim-2"].aos-animate {
+  /* opacity: 1; */
+  transform: scaleX(1);
+}
+[data-aos="graph-anim-3"] {
+  /* opacity: 0; */
+  transform: scaleX(0);
+  transition-property: transform, opacity;
+}
+[data-aos="graph-anim-3"].aos-animate {
+  /* opacity: 1; */
+  transform: scaleX(1);
+}
+
 @media screen and (min-width:767px){
   .cardgraph__content{
     padding: 15px;
@@ -5780,11 +5799,29 @@ a.inversionistas-global{
 
 .bg-propuesta-valor-asociado{
   background-image: url(../img/asociados/prodi-personas.png);
-  background-position: bottom right;
+  background-position: 630px 0px;
   background-size:contain;
   background-repeat: no-repeat;
   height: 70vh;
+
+  
 }
+
+@keyframes animatedBackground {
+  from {
+    background-position:630px 295px;
+    opacity: 0;
+  }
+  to {
+    background-position:630px 0px ;
+    opacity: 1;
+  }
+}
+
+
+
+
+
 @media only screen 
     and (device-width : 375px) 
     and (device-height : 812px) 
@@ -5796,13 +5833,13 @@ a.inversionistas-global{
 @media screen and (min-width:767px){
   .bg-propuesta-valor-asociado{
     height: 50vh;
-    background-position: bottom center;
+    background-position: ;
   }
 }
 @media screen and (min-width:1279px){
   .bg-propuesta-valor-asociado{
     height: 30vh;     
-    background-position: bottom right;
+    background-position: ;
   }
 }
 .bg-prodi-orange{
@@ -6165,6 +6202,7 @@ font-family: Myriad-SemiBold;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
   position: relative;
+  opacity: 0;
 }
 .horizontalbars__graph-blue{
   background: #1181C7;
@@ -6177,7 +6215,21 @@ font-family: Myriad-SemiBold;
   border-bottom-right-radius: 8px;
   border-left: 3px solid #EEF2F4;
   position: relative;
+  opacity: 0;
+ 
 }
+
+@-webkit-keyframes animate-positive{
+  0% { width: 0%; 
+  opacity: 0;
+  }
+}
+@keyframes animate-positive{
+  0% { width: 0%; 
+    opacity: 1;}
+}
+
+
 .horizontalbars-data{
   position: absolute;
   top: -44px;
@@ -6604,6 +6656,10 @@ p.label-participacion-ventas-totales{
     z-index: 1;
 }
 
+#asociado_09 .card-max-width {
+  max-width: 350px;
+}
+
 
 @media screen and (min-width:1279px){
   #asociado_09 {
@@ -6670,7 +6726,7 @@ display: block;
 
 #asociado_13 .txtlgbt {
   
-  font-size: 25px;
+  font-size: 18px;
   font-family: Myriad-Semibold;
 
 
