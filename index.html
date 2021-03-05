@@ -111,7 +111,7 @@
                   <div class="row" >
 
                     <div class="col-lg-6" >
-
+                      <div class="imglefthover1">
                       <div class="col-lg-12 conttitles1">
                         <h2 class="titl_menu1">El propósito: <span class="subh">ayudar a las personas a vivir mejor</span></h2>
                       </div>
@@ -149,7 +149,8 @@
                         
                         </ul>
                       </div>
-
+                    </div>
+                    <div class="imglefthover2">
                       <div class="col-lg-12 conttitles2">
                         <h2 class="titl_menu1">LA PRIORIDAD: <span class="subh">nuestros asocidos y clientes primero</span></h2>
                       </div>
@@ -186,7 +187,7 @@
                           </a></li>
                         </ul>
                       </div>
-
+                    </div>
                       <!-- <div class="col-lg-12 conttitles3">
                         <h2 class="titl_menu1">Lo esencial: ACTIVACIÓN ECONOMINCA</h2>
                       </div>
@@ -1012,10 +1013,32 @@
   <!-- Template Main JS File -->
   <script src="js/main.js"></script>
 
+<script>
+
+
+$(document).ready(function(){
+$(".imglefthover1").hover(function() {
+$( '.imaleftmenu' ).attr("src","img/menu/indice_01.png");
+}, function() {
+  $( '.imaleftmenu' ).attr("src","img/menu/indice_00.png");
+});
+});
+
+$(document).ready(function(){
+$(".imglefthover2").hover(function() {
+$( '.imaleftmenu' ).attr("src","img/menu/indice_02.png");
+}, function() {
+  $( '.imaleftmenu' ).attr("src","img/menu/indice_00.png");
+});
+});
+
+
+
+</script>
+
 
 <script>
     
-
 var slideIndex = 1;
 
 var myTimer;
