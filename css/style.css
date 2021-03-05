@@ -352,6 +352,7 @@ strong{
 
  display: block;
  margin: auto;
+ padding: 35px;
 
 } 
 
@@ -405,13 +406,13 @@ strong{
   
   width: 100%;
   padding-top: 4px;
-  background-image: url(../img/bgme_1.png);
+  background-image: url(../img/menu/bgme_1.png);
   background-position: left;
   background-size: cover;
   margin-top: 10px;
   background-repeat: no-repeat;
   float: left;
-  margin-bottom: 10px;  
+  margin-bottom: 6px;  
   
 }
 
@@ -419,13 +420,13 @@ strong{
   
   width: 100%;
   padding-top: 4px;
-  background-image: url(../img/bgme_2.png);
+  background-image: url(../img/menu/bgme_2.png);
   background-position: left;
   background-size: cover;
   margin-top: 10px;
   background-repeat: no-repeat;
   float: left;
-  margin-bottom: 10px;  
+  margin-bottom: 6px;  
   
 }
 
@@ -433,13 +434,13 @@ strong{
   
   width: 100%;
   padding-top: 4px;
-  background-image: url(../img/bgme_3.png);
+  background-image: url(../img/menu/bgme_3.png);
   background-position: left;
   background-size: cover;
   margin-top: 10px;
   background-repeat: no-repeat;
   float: left;
-  margin-bottom: 10px;  
+  margin-bottom: 6px;  
   
 }
 
@@ -447,13 +448,13 @@ strong{
   
   width: 100%;
   padding-top: 4px;
-  background-image: url(../img/bgme_4.png);
+  background-image: url(../img/menu/bgme_4.png);
   background-position: left;
   background-size: cover;
   margin-top: 10px;
   background-repeat: no-repeat;
   float: left;
-  margin-bottom: 10px;  
+  margin-bottom: 6px;  
   
 }
 
@@ -461,13 +462,13 @@ strong{
   
   width: 100%;
   padding-top: 4px;
-  background-image: url(../img/bgme_5.png);
+  background-image: url(../img/menu/bgme_5.png);
   background-position: left;
   background-size: cover;
   margin-top: 10px;
   background-repeat: no-repeat;
   float: left;
-  margin-bottom: 10px;  
+  margin-bottom: 6px;  
   
 }
 
@@ -475,13 +476,13 @@ strong{
   
   width: 100%;
   padding-top: 4px;
-  background-image: url(../img/bgme_6.png);
+  background-image: url(../img/menu/bgme_6.png);
   background-position: left;
   background-size: cover;
   margin-top: 10px;
   background-repeat: no-repeat;
   float: left;
-  margin-bottom: 10px;  
+  margin-bottom: 6px;  
   
 }
 
@@ -489,13 +490,13 @@ strong{
   
   width: 100%;
   padding-top: 4px;
-  background-image: url(../img/bgme_7.png);
+  background-image: url(../img/menu/bgme_7.png);
   background-position: left;
   background-size: cover;
   margin-top: 10px;
   background-repeat: no-repeat;
   float: left;
-  margin-bottom: 10px;  
+  margin-bottom: 6px;  
   
 }
 
@@ -503,13 +504,13 @@ strong{
   
   width: 100%;
   padding-top: 4px;
-  background-image: url(../img/bgme_8.png);
+  background-image: url(../img/menu/bgme_8.png);
   background-position: left;
   background-size: cover;
   margin-top: 10px;
   background-repeat: no-repeat;
   float: left;
-  margin-bottom: 10px;  
+  margin-bottom: 6px;  
   
 }
 
@@ -517,13 +518,13 @@ strong{
   
   width: 100%;
   padding-top: 4px;
-  background-image: url(../img/bgme_9.png);
+  background-image: url(../img/menu/bgme_9.png);
   background-position: left;
   background-size: cover;
   margin-top: 10px;
   background-repeat: no-repeat;
   float: left;
-  margin-bottom: 10px;  
+  margin-bottom: 6px;  
   
 }
 
@@ -531,13 +532,13 @@ strong{
   
   width: 100%;
   padding-top: 4px;
-  background-image: url(../img/bgme_10.png);
+  background-image: url(../img/menu/bgme_10.png);
   background-position: left;
   background-size: cover;
   margin-top: 10px;
   background-repeat: no-repeat;
   float: left;
-  margin-bottom: 10px;  
+  margin-bottom: 6px;  
   
 }
 
@@ -546,10 +547,17 @@ strong{
 
 .mega-menu .menu-rightdiv h2 {
   margin-bottom: 0;
-  font-family: Myriad-Bold;
+  font-family: Myriad-SemiBold;
   color:#ffffff;
   text-transform: uppercase;
-  font-size: 18px;  
+  font-size: 16px;  
+  
+}
+
+.mega-menu .menu-rightdiv h2 .subh {
+  
+  text-transform: lowercase;
+  
   
 }
 
@@ -567,6 +575,30 @@ strong{
  width: 96%;
   
 }
+
+.mega-menu .menu-rightdiv .contsubmenus a {
+  
+ color: #4a4e52;
+   
+ }
+
+ .mega-menu .menu-rightdiv .contsubmenus a:hover {
+  
+  color: #2c2e30;
+  text-decoration: underline;
+    
+  }
+
+
+
+.mega-menu .menu-rightdiv .contsubmenus .trutitle{
+  
+  font-size: 14px;
+  font-family: Myriad-SemiBold;
+   
+ }
+
+
 
 .mega-menu .menu-rightdiv .contsubmenus ul {
   list-style: none;
@@ -4070,6 +4102,26 @@ ul#blue-list li{
 }
 
 #capitulo02_porta6 p {
+  margin-left: 63px ;
+  
+}
+
+
+#capitulo02_porta7{
+  background: url('../img/capitulo02/bgportadas.png') no-repeat;
+  background-size: cover;
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+#capitulo02_porta7 .imaporta1{
+  width: 100%;
+  display: block;
+  margin: 3rem auto;
+  
+}
+
+#capitulo02_porta7 p {
   margin-left: 63px ;
   
 }

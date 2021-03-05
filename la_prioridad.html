@@ -1004,7 +1004,7 @@
 
 
 <!-- ======= Portada ======= -->
-<section id="capitulo02_porta5" class="bg-gray-light" >
+<section id="capitulo02_porta7" class="bg-gray-light" >
 
 
   <div class="container">
@@ -1159,7 +1159,7 @@
 
         
 
-        <a data-scroll  href="#lapriorida" > <p class="txt1"><i class="far fa-arrow-to-top"></i></p></a>
+        <a data-scroll  href="#el_compromiso" > <p class="txt1"><i class="far fa-arrow-to-top"></i></p></a>
  
         <p class="txt5">ir al Inicio</p>
 
@@ -1239,8 +1239,8 @@
     </div>
   </footer><!-- End Footer -->
 
- <div id="preloader"></div>
-  <!-- <a data-scroll  href="#hero" class="back-to-top"><i class="ri-arrow-up-line"></i></a> -->
+ <!-- <div id="preloader"></div>
+  <a data-scroll  href="#hero" class="back-to-top"><i class="ri-arrow-up-line"></i></a> -->
 
   <!-- Vendor JS Files -->
   <script src="js/jquery/jquery.min.js"></script>
@@ -1281,6 +1281,23 @@
       burgerMenu();
     </script>
     
+    <script>
+      $(document).ready(function(){
+             var scrollTo = getParameterByName('scrollTo');
+             if(scrollTo!=''){
+                 $('html, body').animate({
+                    scrollTop: $("#"+scrollTo).offset().top
+                  }, 1000);
+             }
+      });
+   
+      function getParameterByName(name) {
+           name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+           var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+               results = regex.exec(location.search);
+           return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+       }
+   </script>
    
     
     <script>
