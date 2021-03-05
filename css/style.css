@@ -352,6 +352,7 @@ strong{
 
  display: block;
  margin: auto;
+ padding: 35px;
 
 } 
 
@@ -405,13 +406,13 @@ strong{
   
   width: 100%;
   padding-top: 4px;
-  background-image: url(../img/bgme_1.png);
+  background-image: url(../img/menu/bgme_1.png);
   background-position: left;
   background-size: cover;
   margin-top: 10px;
   background-repeat: no-repeat;
   float: left;
-  margin-bottom: 10px;  
+  margin-bottom: 6px;  
   
 }
 
@@ -419,13 +420,13 @@ strong{
   
   width: 100%;
   padding-top: 4px;
-  background-image: url(../img/bgme_2.png);
+  background-image: url(../img/menu/bgme_2.png);
   background-position: left;
   background-size: cover;
   margin-top: 10px;
   background-repeat: no-repeat;
   float: left;
-  margin-bottom: 10px;  
+  margin-bottom: 6px;  
   
 }
 
@@ -433,13 +434,13 @@ strong{
   
   width: 100%;
   padding-top: 4px;
-  background-image: url(../img/bgme_3.png);
+  background-image: url(../img/menu/bgme_3.png);
   background-position: left;
   background-size: cover;
   margin-top: 10px;
   background-repeat: no-repeat;
   float: left;
-  margin-bottom: 10px;  
+  margin-bottom: 6px;  
   
 }
 
@@ -447,13 +448,13 @@ strong{
   
   width: 100%;
   padding-top: 4px;
-  background-image: url(../img/bgme_4.png);
+  background-image: url(../img/menu/bgme_4.png);
   background-position: left;
   background-size: cover;
   margin-top: 10px;
   background-repeat: no-repeat;
   float: left;
-  margin-bottom: 10px;  
+  margin-bottom: 6px;  
   
 }
 
@@ -461,13 +462,13 @@ strong{
   
   width: 100%;
   padding-top: 4px;
-  background-image: url(../img/bgme_5.png);
+  background-image: url(../img/menu/bgme_5.png);
   background-position: left;
   background-size: cover;
   margin-top: 10px;
   background-repeat: no-repeat;
   float: left;
-  margin-bottom: 10px;  
+  margin-bottom: 6px;  
   
 }
 
@@ -475,13 +476,13 @@ strong{
   
   width: 100%;
   padding-top: 4px;
-  background-image: url(../img/bgme_6.png);
+  background-image: url(../img/menu/bgme_6.png);
   background-position: left;
   background-size: cover;
   margin-top: 10px;
   background-repeat: no-repeat;
   float: left;
-  margin-bottom: 10px;  
+  margin-bottom: 6px;  
   
 }
 
@@ -489,13 +490,13 @@ strong{
   
   width: 100%;
   padding-top: 4px;
-  background-image: url(../img/bgme_7.png);
+  background-image: url(../img/menu/bgme_7.png);
   background-position: left;
   background-size: cover;
   margin-top: 10px;
   background-repeat: no-repeat;
   float: left;
-  margin-bottom: 10px;  
+  margin-bottom: 6px;  
   
 }
 
@@ -503,13 +504,13 @@ strong{
   
   width: 100%;
   padding-top: 4px;
-  background-image: url(../img/bgme_8.png);
+  background-image: url(../img/menu/bgme_8.png);
   background-position: left;
   background-size: cover;
   margin-top: 10px;
   background-repeat: no-repeat;
   float: left;
-  margin-bottom: 10px;  
+  margin-bottom: 6px;  
   
 }
 
@@ -517,13 +518,13 @@ strong{
   
   width: 100%;
   padding-top: 4px;
-  background-image: url(../img/bgme_9.png);
+  background-image: url(../img/menu/bgme_9.png);
   background-position: left;
   background-size: cover;
   margin-top: 10px;
   background-repeat: no-repeat;
   float: left;
-  margin-bottom: 10px;  
+  margin-bottom: 6px;  
   
 }
 
@@ -531,13 +532,13 @@ strong{
   
   width: 100%;
   padding-top: 4px;
-  background-image: url(../img/bgme_10.png);
+  background-image: url(../img/menu/bgme_10.png);
   background-position: left;
   background-size: cover;
   margin-top: 10px;
   background-repeat: no-repeat;
   float: left;
-  margin-bottom: 10px;  
+  margin-bottom: 6px;  
   
 }
 
@@ -546,10 +547,17 @@ strong{
 
 .mega-menu .menu-rightdiv h2 {
   margin-bottom: 0;
-  font-family: Myriad-Bold;
+  font-family: Myriad-SemiBold;
   color:#ffffff;
   text-transform: uppercase;
-  font-size: 18px;  
+  font-size: 16px;  
+  
+}
+
+.mega-menu .menu-rightdiv h2 .subh {
+  
+  text-transform: lowercase;
+  
   
 }
 
@@ -567,6 +575,30 @@ strong{
  width: 96%;
   
 }
+
+.mega-menu .menu-rightdiv .contsubmenus a {
+  
+ color: #4a4e52;
+   
+ }
+
+ .mega-menu .menu-rightdiv .contsubmenus a:hover {
+  
+  color: #2c2e30;
+  text-decoration: underline;
+    
+  }
+
+
+
+.mega-menu .menu-rightdiv .contsubmenus .trutitle{
+  
+  font-size: 14px;
+  font-family: Myriad-SemiBold;
+   
+ }
+
+
 
 .mega-menu .menu-rightdiv .contsubmenus ul {
   list-style: none;
@@ -1190,6 +1222,57 @@ bottom: 51px;
   animation: pulse-animation 2s cubic-bezier(0.24, 0, 0.38, 1) infinite;
 	z-index: -1;
 }
+
+
+#valor_financiero_02 .cardvf__playbutton2 {
+  position: absolute;
+    bottom: -35px;
+    left: 136px;
+}
+
+
+#valor_financiero_02 .btnvervideo {
+  margin: auto;
+  color: #F1B634;
+  background-color: #ffffff;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    display: block;
+    cursor: pointer;
+}
+
+#valor_financiero_02 .btnvervideo p {
+color: #F1B634;
+position: relative;
+bottom: 41px;
+left: 3px;
+font-size: 18px;
+}
+
+#valor_financiero_02 .pulse {
+  overflow: visible;
+  position: relative;
+}
+
+
+
+#valor_financiero_02 .pulse:before {
+  content: '';
+  display: block;
+  
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: inherit;
+  transition: opacity .3s, transform .3s;
+  animation: pulse-animation 2s cubic-bezier(0.24, 0, 0.38, 1) infinite;
+	z-index: -1;
+}
+
+
 @keyframes pulse-animation {
   0% {
     opacity: 1;
@@ -3512,6 +3595,17 @@ p:last-of-type{
   color: #414141;
   font-family: Myriad-Bold;
 }
+
+.omnicanal-ico{
+  background: url('../svg/ico-omnidical.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 43px !important;
+  height: 43px !important;
+  padding-left: 52px !important;
+  color: #414141;
+  font-family: Myriad-Bold;
+}
+
 .balance-general{
   background: url('../svg/ico-balance-general.svg') no-repeat 0px 2px;
   background-size: 40px;
@@ -3624,6 +3718,11 @@ p:last-of-type{
   padding: 40px 20px;
   margin-bottom: 10px;
 }
+.cardgraph__content-3inn{
+  background: #a6bdd1;
+  padding: 40px 20px;
+  margin-bottom: 10px;
+}
 .cardgraph__content-4{
   background: #EEF2F4;
   padding: 40px 20px;
@@ -3664,6 +3763,25 @@ p:last-of-type{
 [data-aos="graph-anim-1"].aos-animate {
   /* opacity: 1; */
   transform: scaleY(1);
+}
+
+[data-aos="graph-anim-2"] {
+  /* opacity: 0; */
+  transform: scaleX(0);
+  transition-property: transform, opacity;
+}
+[data-aos="graph-anim-2"].aos-animate {
+  /* opacity: 1; */
+  transform: scaleX(1);
+}
+[data-aos="graph-anim-3"] {
+  /* opacity: 0; */
+  transform: scaleX(0);
+  transition-property: transform, opacity;
+}
+[data-aos="graph-anim-3"].aos-animate {
+  /* opacity: 1; */
+  transform: scaleX(1);
 }
 
 @media screen and (min-width:767px){
@@ -4061,12 +4179,32 @@ ul#blue-list li{
 }
 
 
+#capitulo02_porta7{
+  background: url('../img/capitulo02/bgportadas.png') no-repeat;
+  background-size: cover;
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+#capitulo02_porta7 .imaporta1{
+  width: 100%;
+  display: block;
+  margin: 3rem auto;
+  
+}
+
+#capitulo02_porta7 p {
+  margin-left: 63px ;
+  
+}
+
+
 /*--------------------------------------------------------------
 # CAPITULO 02 - 8 Alberto
 --------------------------------------------------------------*/
 
 #capitulo02_8{
-  background: url('../img/capitulo02/instagram_fondo.gif');
+  background: url('../img/capitulo02/mano_zanahoria_01.gif');
   background-size: cover;
   background-position: right bottom ;
   background-repeat: no-repeat;
@@ -4510,6 +4648,7 @@ ul#blue-list li{
   background: linear-gradient(180deg, rgba(8,76,139,1) 0%, rgba(18,114,176,1) 9%, rgba(8,76,139,1) 18%, rgba(255,255,255,.1) 18%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#084c8b",endColorstr="#ffffff",GradientType=1);
 }
+
 
 @media screen and (min-width:1023px){
   .bg-100h-blue-1{
@@ -5852,11 +5991,29 @@ a.inversionistas-global{
 
 .bg-propuesta-valor-asociado{
   background-image: url(../img/asociados/prodi-personas.png);
-  background-position: bottom right;
+  background-position: 630px 0px;
   background-size:contain;
   background-repeat: no-repeat;
   height: 70vh;
+
+  
 }
+
+@keyframes animatedBackground {
+  from {
+    background-position:630px 295px;
+    opacity: 0;
+  }
+  to {
+    background-position:630px 0px ;
+    opacity: 1;
+  }
+}
+
+
+
+
+
 @media only screen 
     and (device-width : 375px) 
     and (device-height : 812px) 
@@ -5868,13 +6025,13 @@ a.inversionistas-global{
 @media screen and (min-width:767px){
   .bg-propuesta-valor-asociado{
     height: 50vh;
-    background-position: bottom center;
+    background-position: ;
   }
 }
 @media screen and (min-width:1279px){
   .bg-propuesta-valor-asociado{
     height: 30vh;     
-    background-position: bottom right;
+    background-position: ;
   }
 }
 .bg-prodi-orange{
@@ -6237,6 +6394,7 @@ font-family: Myriad-SemiBold;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
   position: relative;
+  opacity: 0;
 }
 .horizontalbars__graph-blue{
   background: #1181C7;
@@ -6249,7 +6407,21 @@ font-family: Myriad-SemiBold;
   border-bottom-right-radius: 8px;
   border-left: 3px solid #EEF2F4;
   position: relative;
+  opacity: 0;
+ 
 }
+
+@-webkit-keyframes animate-positive{
+  0% { width: 0%; 
+  opacity: 0;
+  }
+}
+@keyframes animate-positive{
+  0% { width: 0%; 
+    opacity: 1;}
+}
+
+
 .horizontalbars-data{
   position: absolute;
   top: -44px;
@@ -6676,6 +6848,10 @@ p.label-participacion-ventas-totales{
     z-index: 1;
 }
 
+#asociado_09 .card-max-width {
+  max-width: 350px;
+}
+
 
 @media screen and (min-width:1279px){
   #asociado_09 {
@@ -6742,7 +6918,7 @@ display: block;
 
 #asociado_13 .txtlgbt {
   
-  font-size: 25px;
+  font-size: 18px;
   font-family: Myriad-Semibold;
 
 
@@ -7051,9 +7227,9 @@ display: block;
   background-repeat: no-repeat;
 }
 .bullet-text{
-  font-size: 24px;
-  line-height: 32px;
-  font-family: Myriad-Bold;
+  font-size: 20px;
+  line-height: 26px;
+  font-family: Myriad-SemiBold;
 }
 @media screen and (min-width:767px){
   .bg-valor-financiero-02{
@@ -7062,6 +7238,7 @@ display: block;
     background-position: left top;
     background-size: 28% 100%;
     background-repeat: no-repeat;
+    margin: 0;
   }  
 }
 @media screen and (min-width:1023px){
@@ -7117,10 +7294,59 @@ display: block;
   }
 }
 
+/*--------------------------------------------------------------
+# valor_financiero_04 - Alberto
+--------------------------------------------------------------*/
+
+#valor_financiero_03 .graphor__item {
+
+ opacity: 0;
+
+}
+
+
+/*--------------------------------------------------------------
+# valor_financiero_04 - Alberto
+--------------------------------------------------------------*/
+
+#valor_financiero_04 .bg-valor_finance_1 {
+
+  background-image: url(../img/valor_financiero/bg-walmart-mexico.png);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  padding: 0;
+
+}
+
+#valor_financiero_04 .conttxthig {
+  text-align: center;
+    width: 64%;
+    margin: auto;
+    display: flex;
+    padding-top: 14%;
+
+   
+}
+
+#valor_financiero_04 .conttxthig p {
+ font-size: 24px;
+ font-family: Myriad-SemiBold;  
+}
+
 
 /*--------------------------------------------------------------
 # valor_financiero_05 - Alberto
 --------------------------------------------------------------*/
+
+#valor_financiero_05 .txtcierre2 {
+  font-size: 20px;
+  line-height: 26px;
+  
+    color: #0172BA;
+
+}
 
 @media screen and (min-width:1279px){
   .bg-desempenio{
@@ -7150,9 +7376,17 @@ display: block;
 }
 
 
+
 /*--------------------------------------------------------------
 # valor_financiero_06 - Alberto
 --------------------------------------------------------------*/
+
+#valor_financiero_06 .bg-green-1 {
+  width: 350px;
+
+}
+
+
 .ghost-divider-1{
   display: none;
 }
@@ -7180,13 +7414,52 @@ display: block;
     background-size:contain;
     background-repeat: no-repeat;
     height: 100%;
+    background-color: #eef2f4;
   }
+}
+
+/*--------------------------------------------------------------
+# valor_financiero_07 - Alberto
+--------------------------------------------------------------*/
+
+#valor_financiero_07 .bg-valor_finance_2 {
+
+
+  background-image: url(../img/valor_financiero/img-walmart-centroamerica.png);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+  
+
+}
+
+#valor_financiero_07 .txtcierre {
+  font-size: 20px;
+  line-height: 26px;
+  font-family: Myriad-SemiBold;
+
 }
 
 
 /*--------------------------------------------------------------
 # valor_financiero_09 - Alberto
 --------------------------------------------------------------*/
+
+#valor_financiero_09 .radial9 {
+
+
+}
+
+#valor_financiero_09 .radia-bar-container {
+  
+
+}
+
+
+
+
+
 .gridify2{
   display: grid;
   grid-template-columns: 100%;
@@ -7277,6 +7550,25 @@ display: block;
   flex-direction: row;
   align-items: flex-start;
 }
+
+#valor_financiero_10 .smsmallsub {
+
+  font-size: 11px;
+  line-height: 15px;
+
+}
+
+#valor_financiero_10 .cardgraph__footer {
+  padding: 0px 24px;
+ 
+}
+
+#valor_financiero_10 .cardgraph__subtitle4 {
+  
+  height: 52px !important;
+}
+
+
 @media screen and (min-width:767px){
   .gridify3{
       grid-template-columns: 33% 33% 33%;
@@ -7300,10 +7592,26 @@ display: block;
   position: absolute;
   bottom: 80px;
 }
+
+.dividendo-pagado-graph{
+  background: url('../svg/ico-dividendos-pagados-graph.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
+  z-index: 2;
+  width: 88%;
+  height: 90px;
+  position: absolute;
+}
+
 @media screen and (min-width:1279px){
   .ingresos-totales-graph{
     width: 84%;
   }
+
+  .dividendo-pagado-graph{
+    width: 84%;
+  }
+
 }
 
 /*--------------------------------------------------------------
@@ -7336,6 +7644,33 @@ display: block;
 # valor_financiero_13 - Alberto
 --------------------------------------------------------------*/
 
+
+#valor_financiero_13 .bg-valor_finance_13 {
+
+  background-image: url(../img/valor_financiero/bg-inversiones-2.png);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+  padding: 0;
+
+}
+
+#valor_financiero_13 .conttxthig {
+  text-align: center;
+    width: 64%;
+    margin: auto;
+    display: flex;
+    padding-top: 2%;
+
+   
+}
+
+#valor_financiero_13 .conttxthig p {
+ font-size: 24px;
+ font-family: Myriad-SemiBold;  
+}
+
 @media screen and (min-width:1023px){
   .bg-inversiones-2{
     background-image: url(../img/valor_financiero/bg-inversiones-2.png);
@@ -7349,6 +7684,19 @@ display: block;
 /*--------------------------------------------------------------
 # valor_financiero_14 - Alberto
 --------------------------------------------------------------*/
+#valor_financiero_14 .descararchive {
+  display: block;
+    margin: 20px 0 0;
+    padding: 5px;
+    text-decoration: underline; 
+ }
+
+ #valor_financiero_14 .descararchive .fa-file-pdf{
+  margin-left: 5px; 
+ }
+
+
+
 .balancegrid {
   width: 100%;
 }
@@ -7723,6 +8071,8 @@ display: block;
   margin: 0;
   padding: 0 0 0 20px;
 }
+
+
 
 /*--------------------------------------------------------------
 # El resultado
