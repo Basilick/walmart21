@@ -542,15 +542,19 @@ strong{
   
 }
 
-
-
-
 .mega-menu .menu-rightdiv h2 {
   margin-bottom: 0;
   font-family: Myriad-SemiBold;
   color:#ffffff;
   text-transform: uppercase;
   font-size: 16px;  
+  
+}
+
+.mega-menu .menu-rightdiv h2 a {
+
+  color:#ffffff;
+  text-transform: none;
   
 }
 
@@ -4340,7 +4344,7 @@ ul#blue-list li{
   height: 100vh;
   background-image: url(../img/asociados/bg_slideprin.png);
   background-size: cover;
-  background-color:#3174AC;
+  background-color:#016198;
   
   
 }
@@ -5097,6 +5101,25 @@ ul#blue-list li{
 }
 
 
+#valor_social_17  .imgcli1 {
+  width: 70%;
+    margin: auto;
+    display: block;
+}
+
+#valor_social_17  .cards {
+
+  width: 70%;
+
+
+}
+
+#valor_social_17  .cardleft {
+
+  float: right;
+
+
+}
 
 
 /*--------------------------------------------------------------
@@ -8348,7 +8371,7 @@ display: block;
   height: 100vh;
   background-image: url(../img/innovacion/bg_slideprin.png);
   background-size: cover;
-  background-color:#3174AC;
+  background-color:#ff711e;
   
   
 }

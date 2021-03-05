@@ -48,7 +48,7 @@
     <!-- Collapsible content -->
    
     <div class="container-fluid menucont">
-      <a class="navbar-brand" href="index.html"><img src="img/logotipo.png" alt="Walmart" ></a>
+      <a class="navbar-brand" href="index.html"><img src="svg/logotipo_menu_walmart.svg" alt="Walmart" ></a>
 
       
       <p class="f14txt txtinffi">Informe Financiero y ASG 2020</p>
@@ -2557,9 +2557,9 @@
 
         
 
-        <a data-scroll  href="#hero" > <p class="txt1"><i class="far fa-arrow-to-top"></i></p> </a>
+        <a data-scroll  href="#valor_social" > <p class="txt1"><i class="far fa-arrow-to-top"></i></p> 
  
-        <p class="txt5">ir al Inicio</p>
+        <p class="txt5">ir al Inicio</p></a>
 
 
       </div>
@@ -2612,7 +2612,9 @@
 
 
         <div class="col-lg-6 px-0">
-          <p  class="txt4  bleft"><i class="far fa-arrow-to-left"></i> Nuestro Negocio </p>
+          <a href="innovacion.html">
+            <p  class="txt4  bleft"><i class="far fa-arrow-to-left"></i> Innovación </p>
+          </a>
           
           <p class="txt5">ANTERIOR</p>
 
@@ -2626,7 +2628,9 @@
 
           <p class="txt5 bright">SIGUIENTE</p>
 
-          <p  class="txt6">Innovación <i class="far fa-arrow-to-right"></i> </p>
+          <a href="valor_financiero.html">
+            <p  class="txt6">Valor financiero <i class="far fa-arrow-to-right"></i> </p>
+          </a>
 
         </div>
 
@@ -2637,8 +2641,8 @@
     </div>
   </footer><!-- End Footer -->
 
- <div id="preloader"></div>
- <!--  <a data-scroll  href="#hero" class="back-to-top"><i class="ri-arrow-up-line"></i></a> -->
+  <!--<div id="preloader"></div>
+  <a data-scroll  href="#hero" class="back-to-top"><i class="ri-arrow-up-line"></i></a> -->
 
   <!-- Vendor JS Files -->
   <script src="js/jquery/jquery.min.js"></script>
@@ -2670,6 +2674,25 @@
   
   <!-- Template Main JS File -->
   <script src="js/main.js"></script>
+
+
+  <script>
+    $(document).ready(function(){
+           var scrollTo = getParameterByName('scrollTo');
+           if(scrollTo!=''){
+               $('html, body').animate({
+                  scrollTop: $("#"+scrollTo).offset().top
+                }, 1000);
+           }
+    });
+ 
+    function getParameterByName(name) {
+         name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+         var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+             results = regex.exec(location.search);
+         return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+     }
+ </script>
 
   
   <script>
