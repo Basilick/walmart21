@@ -2274,6 +2274,9 @@ font-size: 12px;
 .bg-gray-light-4{
   background: #eae8e9;
 }
+.bg-gray-dark-1{
+  background: #4a5b6d;
+}
 .bg-green-1{
   background: #3eae49;
 }
@@ -2319,7 +2322,7 @@ font-size: 12px;
   background:#4C5C6E;
 }
 .bg-yellow{
-  background: #FFB332;
+  background: #FFB332 !important;
 }
 .bg-blue-gray-3{
   background: #1081C7;
@@ -2612,6 +2615,17 @@ p:last-of-type{
   align-items: center;
   position: relative;
 }
+.cards-heightauto{
+  border-radius: 6px;
+  padding: 8px;
+  margin: 0 0 24px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
 .cards__image{
   width: 65px;
   padding-right: 8px;
@@ -2628,8 +2642,8 @@ p:last-of-type{
   position: absolute;
   width: 80px;
   height: 80px;
-  bottom: 0;
-  left: 50%;
+  bottom: 4%;
+  left: 45%;
   transform: translate(-60%, 34%);
 }
 .cards__text{
@@ -3601,6 +3615,60 @@ p:last-of-type{
   color: #414141;
   font-family: Myriad-Bold;
 }
+.ico-economico-financiero{
+  background: url('../svg/ico-economico-financiero.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 43px !important;
+  height: 43px !important;
+  padding-left: 52px !important;
+  color: #414141;
+  font-family: Myriad-Bold;
+}
+.ico-walmart-gray{
+  background: url('../svg/ico-walmart-gray.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 43px !important;
+  height: 43px !important;
+  padding-left: 52px !important;
+  color: #414141;
+  font-family: Myriad-Bold;
+}
+.ico-omnical{
+  background: url('../svg/ico-omnicanal.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 43px !important;
+  height: 43px !important;
+  padding-left: 52px !important;
+  color: #414141;
+  font-family: Myriad-Bold;
+}
+.ico-social{
+  background: url('../svg/ico-social.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 43px !important;
+  height: 43px !important;
+  padding-left: 52px !important;
+  color: #414141;
+  font-family: Myriad-Bold;
+}
+.ico-medio-ambiente{
+  background: url('../svg/ico-medioambiente.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 43px !important;
+  height: 43px !important;
+  padding-left: 52px !important;
+  color: #414141;
+  font-family: Myriad-Bold;
+}
+.ico-gobierno-corporativo{
+  background: url('../svg/ico-gobierno-corporativo.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 43px !important;
+  height: 43px !important;
+  padding-left: 52px !important;
+  color: #414141;
+  font-family: Myriad-Bold;
+}
 
 .transacciones-millones span,
 .ingresos-totales span,
@@ -3660,6 +3728,10 @@ p:last-of-type{
   padding: 40px 20px;
   height: 240px;
   margin-bottom: 10px;
+}
+.cardgraph__content-5{
+  background: #EEF2F4;
+  padding: 20px 20px 0 20px;
 }
 .cardgraph__currency, .cardgraph__description{
   font-size: 18px;
@@ -7518,6 +7590,7 @@ display: block;
   width: 88%;
   height: 90px;
   position: absolute;
+  bottom: 80px;
 }
 
 .dividendo-pagado-graph{
@@ -7700,6 +7773,304 @@ display: block;
 }
 
 
+/*--------------------------------------------------------------
+# nuestro_negocio_01 - Alberto
+--------------------------------------------------------------*/
+
+#nuestro_negocio_01 {
+  height: 100vh;
+  background-image: url(../img/nuestro_negocio/bg-nuestro_negocio.png);
+  background-size: cover;  
+}
+
+#nuestro_negocio_01 .pad95 {
+  padding-top: 80px;
+}
+
+#nuestro_negocio_01 .paditl {
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-left : 0;
+}
+
+#nuestro_negocio_01 .titlfra1 {
+  position: absolute;
+  color: #ffffff;
+  right: 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: right;
+}
+
+#nuestro_negocio_01 h1 {
+  font-family: Myriad-Bold;
+  color: #FCB61A;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+
+#nuestro_negocio_01 .lineblu {
+  margin-left: 40px;
+  background-color: #FCB61A;
+  height: 145px;
+  width: 5px;
+  float: left;
+}
+
+#nuestro_negocio_01 .contfra {
+  width: 80%;
+  float: right;
+}
+
+#nuestro_negocio_01 .contfra h2 {
+  color: #ffffff;
+  line-height: 67px;
+  font-size: 65px;
+  font-family: Myriad-Light;
+}
+
+#nuestro_negocio_01 p.txtintro {
+  float: left;
+  margin-top: 25px;
+  margin-left: 80px;
+  color: #ffffff;
+  font-size: 15px;
+  display: block;
+  text-transform: uppercase;
+  font-family: Myriad-Light;
+}
+
+#nuestro_negocio_01 .imageslip {
+  position: absolute;
+  width: 420px;
+  display: block;  
+  margin: 0px auto;  
+}
+
+#nuestro_negocio_01 .imageslip2 {
+  position: absolute;
+  width: 590px;
+  display: block;
+  margin: 0px auto;
+}
+
+
+/*--------------------------------------------------------------
+# nuestro_negocio_01 - Alberto
+--------------------------------------------------------------*/
+
+.pt-60 {
+  padding-top: 60px;
+}
+
+/*--------------------------------------------------------------
+# nuestro_negocio_03 - Alberto
+--------------------------------------------------------------*/
+@media screen and (min-width: 1023px){
+  .bg-nuestro-negocio-mensaje-03 {
+    background-image: url(../img/nuestro_negocio/nuestro_negocio_trabajador.jpeg);
+    background-position: center 45%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 35vh;
+    width: 100%;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# nuestro_negocio_06 - Alberto
+--------------------------------------------------------------*/
+.position-relative{
+  position: relative;
+}
+
+.bgnina {
+  width: 198px;
+  height: 172px;
+  position: absolute;
+  bottom: 1px;
+  right: -10px;
+}
+.btn-descarga-cifras{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  width: 100%;
+  display: block;
+  background: url('../svg/ico-descarga-cifras.svg') no-repeat 20px 0px;
+  background-size: 60px;
+  padding: 0 0 30px 0;
+}
+.btn-descarga-cifras:hover{
+  color: #ffffff;
+}
+.text-and-divider{
+  color: #4a5b6d;
+  font-family: Myriad-Light;
+  font-size: 14px;
+  line-height: 18px;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 16px;
+}
+.text-and-divider span{
+  color: #4a5b6d;
+  font-family: Myriad-Bold;
+  font-size: 22px;
+}
+.omnical-space{
+  position: relative;
+  height: 248px;
+}
+.bg_mujer_mobile {
+  position: absolute;
+  bottom: -120px;
+  right: -10px;
+}
+
+@media screen and (min-width:1023px){
+  .omnical-space{
+    height: 385px;
+  }
+}
+
+@media screen and (min-width:1279px){
+  .btn-descarga-cifras{
+    width: 40%;
+    background: url('../svg/ico-descarga-cifras.svg') no-repeat 46px 20px;
+    padding: 0 0 20px 0;
+  }
+  .height-nina{
+    height: 188px;
+  }
+  .omnical-space{
+    height: 333px;
+  }
+  .text-and-divider:last-of-type{
+    border-bottom: 1px solid transparent;
+  }
+}
+
+/*--------------------------------------------------------------
+# nuestro_negocio_07 - Alberto
+--------------------------------------------------------------*/
+@media screen and (min-width:767px){
+  p.subtit-cliente-centro,
+  p.subtit-experiencia-compra,
+  p.subtit-nuestras-capacidades,
+  p.subtit-forma-trabajo,
+  p.subtit-grupo-interes
+  {
+    position: relative;
+  }
+  p.subtit-cliente-centro::after{
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: -54px;
+    background: url('../img/nuestro_negocio/ico-cliente-centro.png') no-repeat;
+    background-size: 40px;
+    height: 40px;
+    width: 40px;
+  }
+  p.subtit-experiencia-compra::after{
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: -54px;
+    background: url('../svg/ico-experiencia-compra.svg') no-repeat;
+    background-size: 40px;
+    height: 40px;
+    width: 40px;
+  }
+  p.subtit-nuestras-capacidades::after{
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: -54px;
+    background: url('../svg/ico-nuestras-capacidades.svg') no-repeat;
+    background-size: 40px;
+    height: 40px;
+    width: 40px;
+  }
+  p.subtit-forma-trabajo::after{
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: -54px;
+    background: url('../svg/ico-nuestra-forma-trabajo.svg') no-repeat;
+    background-size: 40px;
+    height: 40px;
+    width: 40px;
+  }
+  p.subtit-grupo-interes::after{
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: -54px;
+    background: url('../svg/ico-grupos-interes.svg') no-repeat;
+    background-size: 40px;
+    height: 40px;
+    width: 40px;
+  }
+}
+
+.subtitle-white-1{
+  background: url('../svg/ico-1-dark.svg') no-repeat;
+  background-size: 40px;
+  padding: 0 0 0 48px;
+  margin: 24px 0;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #505b6c;
+  font-family: Myriad-Semibold;
+}
+
+.subtitle-white-2{
+  background: url('../svg/ico-2-dark.svg') no-repeat;
+  background-size: 40px;
+  padding: 0 0 0 48px;
+  margin: 24px 0;
+  font-size: 24px;
+  line-height: 43px;
+  text-transform: uppercase;
+  color: #505b6c;
+  font-family: Myriad-Semibold;
+}
+
+.subtitle-white-3{
+  background: url('../svg/ico-3-dark.svg') no-repeat;
+  background-size: 40px;
+  padding: 0 0 0 48px;
+  margin: 24px 0;
+  font-size: 24px;
+  line-height: 43px;
+  text-transform: uppercase;
+  color: #505b6c;
+  font-family: Myriad-Semibold;
+}
+
+.subtitle-white-4{
+  background: url('../svg/ico-4-dark.svg') no-repeat;
+  background-size: 40px;
+  padding: 0 0 0 48px;
+  margin: 24px 0;
+  font-size: 24px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #505b6c;
+  font-family: Myriad-Semibold;
+}
+
+/*--------------------------------------------------------------
+# nuestro_negocio_10 - Alberto
+--------------------------------------------------------------*/
+.card-list{
+  margin: 0;
+  padding: 0 0 0 20px;
+}
 
 
 
