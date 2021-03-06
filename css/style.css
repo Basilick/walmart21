@@ -4588,11 +4588,6 @@ ul#blue-list li{
 -------------------------------------------------------------*/
 
 
-#valor_social_05   {
- 
-}
-
-
 /*--------------------------------------------------------------
 # Valor social 01 - Alberto
 -------------------------------------------------------------*/
@@ -5151,6 +5146,107 @@ ul#blue-list li{
 
 
 }
+
+#valor_social_18 #blue-list li {
+  margin: 0;
+  padding: 0 0 5px 25px;
+  font-family: Myriad-Light;
+  list-style: none;
+  font-size: 16px;
+  background: none;
+  background-size: 6px;
+
+}
+
+#valor_social_18 #blue-list li .imgicos {
+  margin-right: 5px;
+  width: 45px;
+  display: inline-block;
+}
+
+
+
+#valor_social_19 .bg-valor_segaliment_1 {
+
+  background-image: url(../img/valor_social/bg-segu-alimentaria.png);
+  background-position:top center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+  padding: 0;
+
+}
+
+
+#valor_social_19 .cards h4{
+
+  font-size: 20px;
+  font-family: Myriad-SemiBold;
+
+}
+
+#valor_social_19 .txt19{
+
+  font-size: 20px;
+  font-family: Myriad-SemiBold;
+
+}
+
+
+#valor_social_20 .cards h4{
+
+  font-size: 20px;
+  font-family: Myriad-SemiBold;
+
+}
+
+#valor_social_21 {
+  background-image: url(../img/valor_social/bg-map-mex.png);
+  background-position:right bottom;
+  background-size:contain;
+  background-repeat: no-repeat;
+  
+  background-color: #e4e8ea;
+
+}
+
+#valor_social_21 .cards p{
+
+  font-size: 14px;
+
+}
+
+
+#valor_social_21 .cards h4 span{
+  font-size: 14px;
+  font-family: Myriad-Light;
+
+}
+
+#valor_social_22 .bg-valor_segaliment_1 {
+
+  background-image: url(../img/valor_social/bg-voluntariado.png);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+  padding: 0;
+
+}
+
+#valor_social_22 .cards {
+
+  width: 80%;
+
+}
+
+#valor_social_22 .fr {
+
+  float: right;
+
+}
+
+
 
 
 /*--------------------------------------------------------------
