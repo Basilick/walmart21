@@ -9012,7 +9012,55 @@ box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.36);
 }/*-END  MOBILE-*/
 
 
+/*--------------------------------------------------------------
+# Mensaje 
+--------------------------------------------------------------*/
 
+#nuestro_negocio_mensaje_01 .bg-valor_mensaje_1 {
+
+  height: 20vh;
+  background-image: url(../img/nuestro_negocio/bg-nuestro_negocio.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color:#F2AD3B;
+  background-position: top center;
+
+
+}
+
+#nuestro_negocio_mensaje_01 .bg-valor_mensaje_1 h4 {
+
+  text-align: center;
+  padding: 1em 2em 0;
+  
+}
+
+#nuestro_negocio_mensaje_05 .imglapzoom {
+
+  position: relative;
+  display: block;
+  left: 11px;
+  top: 40px;
+  width: 618px;
+
+
+}
+
+#nuestro_negocio_mensaje_05 .mencardlap {
+
+  position: relative;
+  
+  right: 11px;
+  top: 40px;
+  
+
+
+}
+
+.cardtxtmen {
+  font-size: 20px;
+  font-family: Myriad-Semibold;
+}
 
 
 /*--------------------------------------------------------------
