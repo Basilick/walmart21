@@ -3472,6 +3472,31 @@ p:last-of-type{
   height: 43px !important;
   padding-left: 52px !important;
 }
+
+.nuevos-zapateria{
+  background: url('../img/gobiernocorpo/ico-zapatos.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 43px !important;
+  height: 43px !important;
+  padding-left: 52px !important;
+}
+
+.nuevos-mercanciass{
+  background: url('../img/gobiernocorpo/ico-caja.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 43px !important;
+  height: 43px !important;
+  padding-left: 52px !important;
+}
+
+.nuevos-textiles{
+  background: url('../img/gobiernocorpo/ico-playera.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 43px !important;
+  height: 43px !important;
+  padding-left: 52px !important;
+}
+
 .nuevos-asociados-centroamerica-2{
   background: url('../svg/ico-centroamerica-tuquesa.svg') no-repeat 0px 2px;
   background-size: 40px;
@@ -4571,9 +4596,366 @@ display: grid;
 
 
 #gobierno_03 .conticoss .icoss {
-  width: 50px;
+  width: 45px;
   margin: auto;
   display: block;
+
+}
+
+/*--------------------------------------------------------------
+# Gobierno 04
+--------------------------------------------------------------*/
+.icoss-int {
+  width: 45px;
+  display: inline;
+margin: auto 10px;
+
+}
+
+#gobierno_04 .bg-gob-higiene {
+  background-image: url(../img/gobiernocorpo/bg_gob-higiene.jpg);
+  background-position: top center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+}
+
+
+#gobierno_04 .cardgraph__subtitle3 p{
+  line-height: 19px !important;
+    font-size: 14px;
+    padding-top: 2px;
+}
+
+/*--------------------------------------------------------------
+# Gobierno 05
+--------------------------------------------------------------*/
+
+#gobierno_05 {
+  
+  padding: 0;
+
+}
+
+#gobierno_05 .col-xl-4 {
+  
+  padding: 0;
+
+}
+
+#gobierno_05 h4 {
+  margin: auto; 
+  width:84%;
+
+}
+
+#gobierno_05 h5 {
+  margin: auto; 
+  width:70%;
+
+}
+
+#gobierno_06 {
+  
+  padding: 0;
+
+}
+
+#gobierno_06 .col-xl-4 {
+  
+  padding: 0;
+
+}
+
+#gobierno_06 h4 {
+  margin: auto; 
+  width:84%;
+
+}
+
+#gobierno_06 h5 {
+  margin: auto; 
+  width:70%;
+
+}
+
+#gobierno_06 .cards {
+ margin:40px auto;
+ max-width: 550px;
+
+
+}
+
+
+#gobierno_06 p {
+  font-size: 20px;
+  font-family: Myriad-Semibold;
+
+}
+
+.tableimano {
+  width: 549px;
+  margin: auto;
+  display: block;
+}
+
+#gobierno_07 {
+  
+  padding: 0;
+
+}
+
+#gobierno_07 .col-xl-4 {
+  
+  padding: 0;
+
+}
+
+#gobierno_07 h4 {
+  margin: auto; 
+  width:84%;
+
+}
+
+#gobierno_07 h5 {
+  margin: auto; 
+  width:70%;
+
+}
+
+#gobierno_08 {
+  
+  padding: 0;
+
+}
+
+#gobierno_08 .col-xl-4 {
+  
+  padding: 0;
+
+}
+
+#gobierno_08 h4 {
+  margin: auto; 
+  width:84%;
+
+}
+
+#gobierno_08 h5 {
+  margin: auto; 
+  width:70%;
+
+}
+
+#gobierno_08 .cards {
+ margin:40px auto;
+ max-width: 550px;
+
+
+}
+
+
+#gobierno_08 p {
+  font-size: 20px;
+  font-family: Myriad-Semibold;
+
+}
+
+
+#gobierno_09 {
+  
+  padding: 0;
+
+}
+
+#gobierno_09 .col-xl-4 {
+  
+  padding: 0;
+
+}
+
+#gobierno_09 p {
+  margin: auto; 
+  width:84%;
+  margin-top: 20px;
+
+}
+
+#gobierno_10 {
+  
+  padding: 0;
+
+}
+
+#gobierno_10 .col-xl-4 {
+  
+  padding: 0;
+
+}
+
+#gobierno_10 p {
+  margin: auto; 
+  width:84%;
+  margin-top: 20px;
+
+}
+
+#gobierno_11 {
+  
+  padding: 0;
+
+}
+
+#gobierno_11 .col-xl-4 {
+  
+  padding: 0;
+
+}
+
+#gobierno_11 p {
+  margin: auto; 
+  width:84%;
+  margin-top: 20px;
+
+}
+
+#gobierno_11 .cards {
+  margin: auto; 
+  max-width:66%;
+  margin-top: 12px;
+  background: #dcdfe0;
+
+}
+
+#gobierno_11 .cards p{
+ 
+  width:100%;
+  margin-top: 0;
+
+}
+
+#gobierno_12 {
+  
+  padding: 0;
+
+}
+
+#gobierno_12 .col-xl-4 {
+  
+  padding: 0;
+
+}
+
+#gobierno_12 p {
+  margin: auto; 
+  width:84%;
+  margin-top: 20px;
+
+}
+
+/*--------------------------------------------------------------
+# Gobierno 04
+--------------------------------------------------------------*/
+
+
+#gobierno_13 .bg-gob-higiene {
+  background-image: url(../img/gobiernocorpo/bg_gob-higiene.jpg);
+  background-position: top center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+}
+
+
+#gobierno_13 .cardgraph__subtitle3 p{
+  line-height: 19px !important;
+  font-size: 18px;
+  padding-top: 12px;
+}
+
+
+#gobierno_14 {
+  
+  padding: 0;
+
+}
+
+#gobierno_14 .col-xl-4 {
+  
+  padding: 0;
+
+}
+
+#gobierno_14 .gray414141-text {
+  
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+
+}
+
+
+
+#gobierno_14 h4 {
+  margin: auto; 
+  width:84%;
+
+}
+
+#gobierno_14 h5 {
+  margin: auto; 
+  width:70%;
+
+}
+
+#gobierno_14 .cards {
+ margin:40px auto;
+ max-width: 550px;
+
+
+}
+
+#gobierno_15 {
+  
+  padding: 0;
+
+}
+
+#gobierno_15 .col-xl-4 {
+  
+  padding: 0;
+
+}
+
+#gobierno_15 p {
+  margin: auto; 
+  width:84%;
+  margin-top: 20px;
+
+}
+
+#gobierno_15 {
+  
+  padding: 0;
+
+}
+
+#gobierno_16 {
+  
+  padding: 0;
+
+}
+
+#gobierno_16 .col-xl-4 {
+  
+  padding: 0;
+
+}
+
+#gobierno_16 p {
+  margin: auto; 
+  width:84%;
+  margin-top: 20px;
 
 }
 
