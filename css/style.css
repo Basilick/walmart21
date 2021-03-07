@@ -554,7 +554,7 @@ strong{
 .mega-menu .menu-rightdiv h2 a {
 
   color:#ffffff;
-  text-transform: none;
+
   
 }
 
@@ -3708,6 +3708,31 @@ p:last-of-type{
   height: 43px !important;
   padding-left: 52px !important;
 }
+
+.nuevos-zapateria{
+  background: url('../img/gobiernocorpo/ico-zapatos.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 43px !important;
+  height: 43px !important;
+  padding-left: 52px !important;
+}
+
+.nuevos-mercanciass{
+  background: url('../img/gobiernocorpo/ico-caja.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 43px !important;
+  height: 43px !important;
+  padding-left: 52px !important;
+}
+
+.nuevos-textiles{
+  background: url('../img/gobiernocorpo/ico-playera.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 43px !important;
+  height: 43px !important;
+  padding-left: 52px !important;
+}
+
 .nuevos-asociados-centroamerica-2{
   background: url('../svg/ico-centroamerica-tuquesa.svg') no-repeat 0px 2px;
   background-size: 40px;
@@ -4568,6 +4593,608 @@ ul#blue-list li{
   text-align: center;
   color: #0172BA;
 }
+
+
+
+/*--------------------------------------------------------------
+# Gobierno corporativo
+--------------------------------------------------------------*/
+
+
+#gobierno_01 {
+  
+  height: 100vh;
+  background-image: url(../img/gobiernocorpo/bg_slideprin.png);
+  background-size: cover;
+  background-color:#6a7a86;
+  
+  
+}
+
+#gobierno_01 .pad95 {
+
+  padding-top: 80px;
+   
+}
+
+#gobierno_01 .paditl {
+  padding-left: 14%;
+    padding-top: 5%;
+    padding-right: 0;
+    height: 520px;
+   
+}
+
+#gobierno_01 .paditlright {
+  padding-left: 0;
+  padding-top: 5%;
+  padding-right: 10%;
+  height: 520px;
+}
+
+#gobierno_01 .lineblu {
+  margin-left: 40px;
+  background-color: #F1B634;
+    height: 152px;
+    width: 5px;
+    float: left;
+
+}
+
+#gobierno_01 .titlfra1 {
+  position: absolute;
+  color: #ffffff;
+  right: 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: right;
+}
+
+#gobierno_01 h1 {
+  font-family: Myriad-Bold;
+  color: #F1B634;
+  font-size: 40px;
+  text-transform: uppercase;
+
+}
+
+#gobierno_01 .contfra {
+  width: 80%;
+  float: right;
+
+}
+
+#gobierno_01 .contfra h2 {
+
+  color: #ffffff;
+  line-height: 67px;
+  font-size: clamp(2rem, 5.5vw, 4rem);
+  font-family: Myriad-Light;
+
+}
+
+#gobierno_01 p.txtintro {
+  float: left;
+  margin-top: 25px;
+  margin-left: 80px;
+  color: #ffffff;
+  font-size: 15px;
+  display: block;
+  text-transform: uppercase;
+  font-family: Myriad-Light;
+
+
+}
+
+#gobierno_01  p.txtintro span{
+  
+  font-family: Myriad-Regular;
+
+}
+
+
+
+#gobierno_01 .imageslip {
+  position: absolute;
+  width: 420px;
+  display: block;
+  
+  margin: 0px auto;
+  
+}
+
+#gobierno_01  .imageslip2 {
+  position: absolute;
+  width: 590px;
+  display: block;
+  margin: 0px auto;
+}
+
+
+/*--------------------------------------------------------------
+# MOBILE
+--------------------------------------------------------------*/
+
+@media (max-width: 1024px) {
+
+ 
+
+
+}/*---#TERMINA 1024 IPAD LAND------*/
+
+
+@media (max-width: 450px) {
+  
+  section {
+    padding: 0 0;
+  
+  }
+
+  #gobierno_01 .pad95 {
+    padding-top: 69px;
+}
+
+  #gobierno_01 .paditl {
+    padding-left: 20px;
+    
+}
+
+#gobierno_01 .titlfra1 {
+  
+  right: 15px;
+  
+  font-size: 10px;
+  
+}
+
+#gobierno_01 h1 {
+  margin-top: 15px;
+  font-size: 30px;
+  
+}
+
+#gobierno_01 .contfra h2 {
+
+  
+  line-height: 1.2;
+  
+
+}
+
+
+#gobierno_01 .lineblu {
+  height: 148px;
+}
+
+#gobierno_01 .d-flex {
+  height: 288px;
+}
+
+
+  #gobierno_01 .imageslip {
+    
+    width: 240px;
+    
+    
+  }
+  
+  #gobierno_01 .imageslip2 {
+   
+    width: 340px;
+    
+  }
+
+  #gobierno_01 p.txtintro {
+   
+    display: none;
+    
+  
+  }
+
+ 
+
+
+}/*-END  MOBILE-*/
+
+/*--------------------------------------------------------------
+# Gobierno 02
+--------------------------------------------------------------*/
+
+
+#gobierno_03  .bg-gobierno-cor1 {
+  background-image: url(../img/gobiernocorpo/bg_gob-cor-1.jpg);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+}
+
+#gobierno_03  .subtitle {
+  font-size: 20px;
+  font-family: Myriad-SemiBold;
+  text-transform: none;
+}
+
+
+#gobierno_03  .conticoss {
+ text-align: center;
+  width: auto;
+display: grid;
+
+}
+
+
+#gobierno_03 .conticoss p {
+  margin-top: 15px;
+   width: 100%;
+ 
+ }
+
+
+#gobierno_03 .conticoss .icoss {
+  width: 45px;
+  margin: auto;
+  display: block;
+
+}
+
+/*--------------------------------------------------------------
+# Gobierno 04
+--------------------------------------------------------------*/
+.icoss-int {
+  width: 45px;
+  display: inline;
+margin: auto 10px;
+
+}
+
+#gobierno_04 .bg-gob-higiene {
+  background-image: url(../img/gobiernocorpo/bg_gob-higiene.jpg);
+  background-position: top center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+}
+
+
+#gobierno_04 .cardgraph__subtitle3 p{
+  line-height: 19px !important;
+    font-size: 14px;
+    padding-top: 2px;
+}
+
+/*--------------------------------------------------------------
+# Gobierno 05
+--------------------------------------------------------------*/
+
+#gobierno_05 {
+  
+  padding: 0;
+
+}
+
+#gobierno_05 .col-xl-4 {
+  
+  padding: 0;
+
+}
+
+#gobierno_05 h4 {
+  margin: auto; 
+  width:84%;
+
+}
+
+#gobierno_05 h5 {
+  margin: auto; 
+  width:70%;
+
+}
+
+#gobierno_06 {
+  
+  padding: 0;
+
+}
+
+#gobierno_06 .col-xl-4 {
+  
+  padding: 0;
+
+}
+
+#gobierno_06 h4 {
+  margin: auto; 
+  width:84%;
+
+}
+
+#gobierno_06 h5 {
+  margin: auto; 
+  width:70%;
+
+}
+
+#gobierno_06 .cards {
+ margin:40px auto;
+ max-width: 550px;
+
+
+}
+
+
+#gobierno_06 p {
+  font-size: 20px;
+  font-family: Myriad-Semibold;
+
+}
+
+.tableimano {
+  width: 549px;
+  margin: auto;
+  display: block;
+}
+
+#gobierno_07 {
+  
+  padding: 0;
+
+}
+
+#gobierno_07 .col-xl-4 {
+  
+  padding: 0;
+
+}
+
+#gobierno_07 h4 {
+  margin: auto; 
+  width:84%;
+
+}
+
+#gobierno_07 h5 {
+  margin: auto; 
+  width:70%;
+
+}
+
+#gobierno_08 {
+  
+  padding: 0;
+
+}
+
+#gobierno_08 .col-xl-4 {
+  
+  padding: 0;
+
+}
+
+#gobierno_08 h4 {
+  margin: auto; 
+  width:84%;
+
+}
+
+#gobierno_08 h5 {
+  margin: auto; 
+  width:70%;
+
+}
+
+#gobierno_08 .cards {
+ margin:40px auto;
+ max-width: 550px;
+
+
+}
+
+
+#gobierno_08 p {
+  font-size: 20px;
+  font-family: Myriad-Semibold;
+
+}
+
+
+#gobierno_09 {
+  
+  padding: 0;
+
+}
+
+#gobierno_09 .col-xl-4 {
+  
+  padding: 0;
+
+}
+
+#gobierno_09 p {
+  margin: auto; 
+  width:84%;
+  margin-top: 20px;
+
+}
+
+#gobierno_10 {
+  
+  padding: 0;
+
+}
+
+#gobierno_10 .col-xl-4 {
+  
+  padding: 0;
+
+}
+
+#gobierno_10 p {
+  margin: auto; 
+  width:84%;
+  margin-top: 20px;
+
+}
+
+#gobierno_11 {
+  
+  padding: 0;
+
+}
+
+#gobierno_11 .col-xl-4 {
+  
+  padding: 0;
+
+}
+
+#gobierno_11 p {
+  margin: auto; 
+  width:84%;
+  margin-top: 20px;
+
+}
+
+#gobierno_11 .cards {
+  margin: auto; 
+  max-width:66%;
+  margin-top: 12px;
+  background: #dcdfe0;
+
+}
+
+#gobierno_11 .cards p{
+ 
+  width:100%;
+  margin-top: 0;
+
+}
+
+#gobierno_12 {
+  
+  padding: 0;
+
+}
+
+#gobierno_12 .col-xl-4 {
+  
+  padding: 0;
+
+}
+
+#gobierno_12 p {
+  margin: auto; 
+  width:84%;
+  margin-top: 20px;
+
+}
+
+/*--------------------------------------------------------------
+# Gobierno 04
+--------------------------------------------------------------*/
+
+
+#gobierno_13 .bg-gob-higiene {
+  background-image: url(../img/gobiernocorpo/bg_gob-higiene.jpg);
+  background-position: top center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+}
+
+
+#gobierno_13 .cardgraph__subtitle3 p{
+  line-height: 19px !important;
+  font-size: 18px;
+  padding-top: 12px;
+}
+
+
+#gobierno_14 {
+  
+  padding: 0;
+
+}
+
+#gobierno_14 .col-xl-4 {
+  
+  padding: 0;
+
+}
+
+#gobierno_14 .gray414141-text {
+  
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+
+}
+
+
+
+#gobierno_14 h4 {
+  margin: auto; 
+  width:84%;
+
+}
+
+#gobierno_14 h5 {
+  margin: auto; 
+  width:70%;
+
+}
+
+#gobierno_14 .cards {
+ margin:40px auto;
+ max-width: 550px;
+
+
+}
+
+#gobierno_15 {
+  
+  padding: 0;
+
+}
+
+#gobierno_15 .col-xl-4 {
+  
+  padding: 0;
+
+}
+
+#gobierno_15 p {
+  margin: auto; 
+  width:84%;
+  margin-top: 20px;
+
+}
+
+#gobierno_15 {
+  
+  padding: 0;
+
+}
+
+#gobierno_16 {
+  
+  padding: 0;
+
+}
+
+#gobierno_16 .col-xl-4 {
+  
+  padding: 0;
+
+}
+
+#gobierno_16 p {
+  margin: auto; 
+  width:84%;
+  margin-top: 20px;
+
+}
+
 
 
 /*--------------------------------------------------------------
@@ -6027,7 +6654,17 @@ ul#blue-list li{
 --------------------------------------------------------------*/
 #descargas1{
   padding-top: 60px;
+  
 }
+
+#descargas1 .vhhe{
+  height: 90vh;
+  
+}
+
+
+
+
 #descargas1 a.btn-circled{
   display: block;
   width: 100%;
@@ -9289,7 +9926,55 @@ box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.36);
 }/*-END  MOBILE-*/
 
 
+/*--------------------------------------------------------------
+# Mensaje 
+--------------------------------------------------------------*/
 
+#nuestro_negocio_mensaje_01 .bg-valor_mensaje_1 {
+
+  height: 20vh;
+  background-image: url(../img/nuestro_negocio/bg-nuestro_negocio.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color:#F2AD3B;
+  background-position: top center;
+
+
+}
+
+#nuestro_negocio_mensaje_01 .bg-valor_mensaje_1 h4 {
+
+  text-align: center;
+  padding: 1em 2em 0;
+  
+}
+
+#nuestro_negocio_mensaje_05 .imglapzoom {
+
+  position: relative;
+  display: block;
+  left: 11px;
+  top: 40px;
+  width: 618px;
+
+
+}
+
+#nuestro_negocio_mensaje_05 .mencardlap {
+
+  position: relative;
+  
+  right: 11px;
+  top: 40px;
+  
+
+
+}
+
+.cardtxtmen {
+  font-size: 20px;
+  font-family: Myriad-Semibold;
+}
 
 
 /*--------------------------------------------------------------
