@@ -1935,8 +1935,8 @@ font-size: 12px;
 
 #section4 h4 {
 
-  font-size: 26px;
-  font-family: Myriad-Regular ;
+  font-size: 32px;
+  font-family: Myriad-Bold ;
   
   text-transform: uppercase;
   margin-top: 25px;
@@ -1949,11 +1949,11 @@ font-size: 12px;
   margin-top: 10px;
   margin-bottom: 30px;
   margin-left: 270px;
-  font-size: 60px;
+  font-size: 50px;
     font-family: Myriad-Light;
     color: #262626;
     text-align: left;
-    line-height: 63px;
+    line-height: 58px;
  
 }
 
@@ -1962,11 +1962,11 @@ font-size: 12px;
   margin-top: 10px;
   margin-bottom: 30px;
   margin-right: 328px;
-  font-size: 60px;
+  font-size: 50px;
     font-family: Myriad-Light;
     color: #262626;
     text-align: right;
-    line-height: 63px;
+    line-height: 58px;
  
 }
 
@@ -1975,11 +1975,11 @@ font-size: 12px;
   margin-top: 10px;
   margin-bottom: 30px;
   margin-left: 431px;
-  font-size: 60px;
+  font-size: 50px;
     font-family: Myriad-Light;
     color: #262626;
     text-align: left;
-    line-height: 63px;
+    line-height: 58px;
  
 }
 
@@ -1988,11 +1988,11 @@ font-size: 12px;
   margin-top: 10px;
   margin-bottom: 30px;
   margin-left: 247px;
-  font-size: 60px;
+  font-size: 50px;
     font-family: Myriad-Light;
     color: #262626;
     text-align: left;
-    line-height: 63px;
+    line-height: 58px;
  
 }
 
@@ -2001,11 +2001,11 @@ font-size: 12px;
   margin-top: 10px;
   margin-bottom: 30px;
   margin-right: 168px;
-  font-size: 60px;
+  font-size: 50px;
     font-family: Myriad-Light;
     color: #262626;
     text-align: right;
-    line-height: 63px;
+    line-height: 58px;
  
 }
 
@@ -2014,11 +2014,11 @@ font-size: 12px;
   margin-top: 10px;
   margin-bottom: 30px;
   margin-left: 238px;
-  font-size: 60px;
+  font-size: 50px;
     font-family: Myriad-Light;
     color: #262626;
     text-align: left;
-    line-height: 63px;
+    line-height: 58px;
  
 }
 
@@ -2028,11 +2028,11 @@ font-size: 12px;
   margin-top: 10px;
   margin-bottom: 30px;
   margin-right: 197px;
-  font-size: 60px;
+  font-size: 50px;
   font-family: Myriad-Light;
   color: #262626;
   text-align: right;
-  line-height: 63px;
+  line-height: 58px;
  
 }
 
