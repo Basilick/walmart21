@@ -2551,7 +2551,71 @@ font-size: 12px;
 }
 
 /*--------------------------------------------------------------
-#  HISTORIAS - Carousel Section Alberto
+# Historias HTML
+--------------------------------------------------------------*/
+
+#mainhistorias {
+
+  background-image: url(../img/historias/bg_historias.png);
+  background-attachment: fixed;
+ background-size: cover;
+ background-repeat: no-repeat;
+
+}
+
+
+#historias_01 {
+ 
+  height: 100vh;
+ 
+  
+
+}
+
+#historias_01 h2 {
+ 
+  text-align: center;
+  font-size: 50px;
+  color: #F1B634;
+  margin: 40px auto;
+  line-height: 38px;
+  width: 100%;
+  font-family:Myriad-Bold;
+  margin-top: 15%;
+
+}
+
+#historias_01 p {
+ 
+  text-align: center;
+  font-size: 24px;
+  margin: 40px auto;
+  line-height: 38px;
+  width: 87%;
+
+}
+
+#historias_01 .txtsmall {
+ 
+  text-align: center;
+  font-size: 18px;
+  margin: 15px auto;
+  line-height: 38px;
+  width: 87%;
+
+}
+
+.divlinehistorias {
+
+  height: 120px;
+  width: 2px;
+  background-color: #ffffff;
+
+}
+
+
+/*--------------------------------------------------------------
+#  HIST - Carousel Section Alberto
 --------------------------------------------------------------*/
 
 .icos-allods {
@@ -8241,11 +8305,9 @@ display: block;
   padding-left: 14%;
   padding-top: 10%;
   padding-right: 0;
+  height: 520px;
 }
 
-#valor_financiero_01 .padding-circles {
-  padding-top: 10%;
-}
 
 #valor_financiero_01 .titlfra1 {
   position: absolute;
@@ -8547,7 +8609,7 @@ display: block;
     padding: 32px;
   }
   .cardvf__image{
-    margin-bottom: 100px;
+    margin-bottom: 75px;
   }
   .cardvf__playbutton{
     width: 94px;
@@ -9039,20 +9101,41 @@ display: block;
 # nuestro_negocio_01 - Alberto
 --------------------------------------------------------------*/
 
+
+
 #nuestro_negocio_01 {
+  
   height: 100vh;
   background-image: url(../img/nuestro_negocio/bg-nuestro_negocio.png);
-  background-size: cover;  
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-color:#1283c6;
+  
+  
 }
 
 #nuestro_negocio_01 .pad95 {
+
   padding-top: 80px;
+   
 }
 
-#nuestro_negocio_01 .paditl {
-  padding-right: 10%;
-  padding-top: 5%;
-  padding-left : 0;
+
+
+#nuestro_negocio_01 .paditlright {
+  padding-left: 0;
+    padding-top: 5%;
+    padding-right: 10%;
+    height: 520px;
+}
+
+#nuestro_negocio_01 .lineblu {
+  margin-left: 40px;
+  background-color: #F1B634;
+    height: 200px;
+    width: 5px;
+    float: left;
+
 }
 
 #nuestro_negocio_01 .titlfra1 {
@@ -9066,30 +9149,25 @@ display: block;
 
 #nuestro_negocio_01 h1 {
   font-family: Myriad-Bold;
-  color: #FCB61A;
+  color: #F1B634;
   font-size: 40px;
   text-transform: uppercase;
-}
 
-
-#nuestro_negocio_01 .lineblu {
-  margin-left: 40px;
-  background-color: #FCB61A;
-  height: 145px;
-  width: 5px;
-  float: left;
 }
 
 #nuestro_negocio_01 .contfra {
   width: 80%;
   float: right;
+
 }
 
 #nuestro_negocio_01 .contfra h2 {
+
   color: #ffffff;
   line-height: 67px;
-  font-size: 65px;
+  font-size: clamp(2rem, 5.5vw, 4rem);
   font-family: Myriad-Light;
+
 }
 
 #nuestro_negocio_01 p.txtintro {
@@ -9101,20 +9179,112 @@ display: block;
   display: block;
   text-transform: uppercase;
   font-family: Myriad-Light;
+
+
 }
 
-#nuestro_negocio_01 .imageslip {
+#nuestro_negocio_01  p.txtintro span{
+  
+  font-family: Myriad-Regular;
+
+}
+
+
+
+#nuestro_negocio_01  .imageslip {
   position: absolute;
   width: 420px;
-  display: block;  
-  margin: 0px auto;  
+  display: block;
+  
+  margin: 0px auto;
+  
 }
 
-#nuestro_negocio_01 .imageslip2 {
+#nuestro_negocio_01  .imageslip2 {
   position: absolute;
   width: 590px;
   display: block;
   margin: 0px auto;
+}
+
+/*--------------------------------------------------------------
+# nuestro_negocio_02 - Alberto
+--------------------------------------------------------------*/
+
+#nuestro_negocio_02 .cards  {
+  max-height: 300px;
+
+}
+
+#nuestro_negocio_02 .cards h5 {
+
+  font-family: Myriad-Bold;
+
+}
+
+
+#nuestro_negocio_02 .cards .cards__image {
+   width: 200px;
+
+}
+
+#nuestro_negocio_02 .cards .cards__text {
+
+  width: 250px;
+}
+
+#nuestro_negocio_02 .cardvf__playbutton2 {
+  position: absolute;
+  bottom: -35px;
+  left: 136px;
+}
+
+#nuestro_negocio_02 .pulse {
+  overflow: visible;
+  position: relative;
+}
+
+#nuestro_negocio_02 .pulse:before {
+  content: '';
+  display: block;
+  
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: inherit;
+  transition: opacity .3s, transform .3s;
+  animation: pulse-animation 2s cubic-bezier(0.24, 0, 0.38, 1) infinite;
+	z-index: -1;
+}
+
+#nuestro_negocio_02 .btnvervideo {
+  margin: auto;
+  color: #F1B634;
+  background-color: #ffffff;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  display: block;
+  cursor: pointer;
+}
+
+#nuestro_negocio_02  .btnvervideo p {
+  color: #F1B634;
+  position: relative;
+  bottom: 41px;
+  left: 24px;
+  font-size: 18px;
+}
+
+#nuestro_negocio_02 .cards__button {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  bottom: 0%;
+  left: 52%;
+  transform: translate(-60%, 34%);
 }
 
 
@@ -9143,6 +9313,8 @@ display: block;
   top: -9px;
   left: 0;
 }
+
+
 
 /*--------------------------------------------------------------
 # nuestro_negocio_03 - Alberto
@@ -9362,6 +9534,19 @@ display: block;
   text-transform: uppercase;
   color: #505b6c;
   font-family: Myriad-Semibold;
+}
+
+/*--------------------------------------------------------------
+# nuestro_negocio_08 - Alberto
+--------------------------------------------------------------*/
+
+#nuestro_negocio_08 .imgcentermod {
+
+  position: absolute;
+  width: 180px;
+  top: 257px;
+  left: 270px;
+
 }
 
 /*--------------------------------------------------------------
