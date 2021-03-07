@@ -2064,7 +2064,71 @@ font-size: 12px;
 
 
 /*--------------------------------------------------------------
-#  HISTORIAS - Carousel Section Alberto
+# Historias HTML
+--------------------------------------------------------------*/
+
+#mainhistorias {
+
+  background-image: url(../img/historias/bg_historias.png);
+  background-attachment: fixed;
+ background-size: cover;
+ background-repeat: no-repeat;
+
+}
+
+
+#historias_01 {
+ 
+  height: 100vh;
+ 
+  
+
+}
+
+#historias_01 h2 {
+ 
+  text-align: center;
+  font-size: 50px;
+  color: #F1B634;
+  margin: 40px auto;
+  line-height: 38px;
+  width: 100%;
+  font-family:Myriad-Bold;
+  margin-top: 15%;
+
+}
+
+#historias_01 p {
+ 
+  text-align: center;
+  font-size: 24px;
+  margin: 40px auto;
+  line-height: 38px;
+  width: 87%;
+
+}
+
+#historias_01 .txtsmall {
+ 
+  text-align: center;
+  font-size: 18px;
+  margin: 15px auto;
+  line-height: 38px;
+  width: 87%;
+
+}
+
+.divlinehistorias {
+
+  height: 120px;
+  width: 2px;
+  background-color: #ffffff;
+
+}
+
+
+/*--------------------------------------------------------------
+#  HIST - Carousel Section Alberto
 --------------------------------------------------------------*/
 
 .icos-allods {
