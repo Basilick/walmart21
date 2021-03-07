@@ -9457,9 +9457,6 @@ box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.36);
 /*--------------------------------------------------------------
 # Valor Compartido 2
 --------------------------------------------------------------*/
-
-
-
 #valorcomp2 {
  
   height: auto;
@@ -9468,9 +9465,192 @@ box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.36);
  padding-left: 0;
  padding-right: 0;
  background-color: #4C5C6E;
-
-
 }
+
+
+/**********************************************/
+/**************** INICIO TABS Y PANELS MOBILE */
+/**********************************************/
+.odsmobile{
+  margin: 24px 0;
+}
+.content__tabs{
+  margin-bottom: 24px;
+}
+
+.title-tab{
+  width: 100%;
+  background: #6daddc;
+  padding: 16px 15px;
+}
+.title-tab p{
+  font-size: 18px;
+  color: #ffffff;
+  background: url('../svg/ico-nuestra-contribucion-a-los-ods.svg') no-repeat;
+  background-size: 40px;
+  line-height: 40px;
+  padding-left: 48px;
+  margin: 2px 0;
+}
+.subtitle-tab{
+  width: 100%;
+  background: #6daddc;
+  padding: 16px 15px;
+  margin: 0 0 8px 0;
+}
+.subtitle-tab p{
+  font-size: 18px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+.tab{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.btn-tabz{
+  border-radius: 0;
+  border: none;
+  outline: none;
+  padding: 8px;
+  margin: 8px 0;
+  font-size: 16px;
+  font-family: Myriad-Bold;
+  color: #ffffff;
+  display: inline-block;
+}
+.btn-ambiental.active, .btn-social.active, .btn-gobierno.active{
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+.btn-ambiental{
+  background: #7bc046;
+  opacity: .6;
+}
+.btn-social{
+  background: #fab93e;
+  opacity: .6;
+}
+.btn-gobierno{
+  background: #065494;
+  opacity: .6;
+}
+.panel-group .panel {
+  border-radius: 0;
+  box-shadow: none;
+  border-color: #eef2f4;
+}
+
+.panel-default > .panel-heading {
+  padding: 0;
+  border-radius: 0;
+  color: #212121;
+  background-color: #eef3f6;
+  border-color: #eef3f6;
+}
+
+.panel-title {
+  font-size: 14px;
+}
+
+.panel-title > a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Myriad-Bold;
+}
+.ods-1{
+  color: #E20A20 !important;
+}
+.ods-2{
+  color: #CC8C1F !important;
+}
+.ods-3{
+  color: #378A34 !important;
+}
+.ods-4{
+  color: #B20825 !important;
+}
+.ods-5{
+  color: #E8271D !important;
+}
+.ods-6{
+  color: #199FD0 !important;
+}
+.ods-7{
+  color: #FEA528 !important;
+}
+.ods-8{
+  color: #7A0A2A !important;
+}
+.ods-9{
+  color: #EF551D !important;
+}
+.ods-10{
+  color: #D11071 !important;
+}
+.ods-11{
+  color: #FA8824 !important;
+}
+.ods-12{
+  color: #C5761B !important;
+}
+.ods-13{
+  color: #40642C !important;
+}
+.ods-14{
+  color: #0e6cae !important;
+}
+.ods-15{
+  color: #47A035 !important;
+}
+.ods-16{
+  color: #064478 !important;
+}
+.ods-17{
+  color: #032955 !important;
+}
+
+.more-less {
+  float: right;
+  color: #212121;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #EEEEEE;
+}
+.panel-body img{
+  width: 100px !important;
+}
+
+.nuestra-contribucion-right{
+  display: none;
+}
+@media screen and (min-width:767px){
+  .tab{
+    justify-content: flex-start;
+  }
+  .tab button{
+    margin-right: 8px;
+  }
+  .btn-tabz{
+    padding: 8px 48px;
+  }
+}
+@media screen and (min-width:1279px){
+  .odsmobile{
+    display: none !important;
+  }
+  .nuestra-contribucion-right{
+    display: block;
+  }
+}
+/**********************************************/
+/******************* FIN TABS Y PANELS ******* */
+/**********************************************/
 
 #valorcomp2 p {
   
@@ -9491,7 +9671,6 @@ box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.36);
 
 #valorcomp2 #odsinfos .iconodss {
   width: 100px;
-
 }
 
 
@@ -9499,15 +9678,36 @@ box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.36);
 #valorcomp2 #odsinfos .ods-urls a{
   font-size: 16px;
   font-family:Myriad-Regular;
-  color: #414141;
-  background-color: #EEF2F4;
+  color: #6da9dc;
   margin-top: 10px;
-  border-radius: 3px;
   padding: 5px;
   display: block;
-
+}
+.blue-link{
+  font-size: 18px;
+  font-family:Myriad-Light;
+  color: #6da9dc;
+  margin-top: 10px;
+  padding: 5px;
 }
 
+.blue-link-ods{
+  font-family:Myriad-Light;
+  color: #6da9dc;
+  margin-top: 10px;
+  padding: 5px;
+  position: relative;
+  display: block;
+}
+.blue-link-ods::after{
+  content: '';
+  background: url('../svg/ico-open-link-2.svg') no-repeat;
+  background-size: 16px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-left: 8px;
+}
 #valorcomp2 #odsinfos .ods-urls a 
 .fa-external-link {
   margin-left: 10px;

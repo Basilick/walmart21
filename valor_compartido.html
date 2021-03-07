@@ -365,7 +365,7 @@
 <main >
 
 <!-- ======= Valor compartido ======= -->
-<section id="valorcomp" class="">
+<!-- <section id="valorcomp" class="">
   <div class="container-fluid pad95" >
     <div class="row">
 
@@ -424,7 +424,7 @@
     
     </div>
   </div>
-</section><!-- End Hero -->
+</section> --><!-- End Hero -->
 
 
 
@@ -1096,9 +1096,11 @@
 <!-- ======= Section ODs ======= -->
 <section id="valorcomp2" class="">
   <div class="container" >
+    
+    
     <div class="row" id="odsinfos">
       
-      <div class="col-lg-4" id="tabcont1" >
+      <div class="col-12 col-xl-4" id="tabcont1" >
         
         <div id="" class="odsinfo init-info">
         <h3 class="white-text"><strong>NUESTRA CONTRIBUCIÓN<br>A LOS ODS</strong></h3>
@@ -1107,8 +1109,919 @@
     <p class="white-text">Nuestra estrategia de Valor Compartido responde a los desafíos globales que afectan a nuestro negocio y a nuestros grupos de interés, desde la desigualdad y los derechos humanos, hasta el cambio climático y el desperdicio de alimentos. </p>
     <p class="white-text">En Walmart de México y Centroamérica contribuimos, de diversas maneras y en diferentes grados, al cumplimiento de todos los ODS. En línea con el Pacto Mundial de las Naciones Unidas, desde 2019 identificamos nuestros cinco ODS prioritarios en un proceso en conjunto con miembros del Comité de Responsabilidad Corporativa y estudios de la industria a nivel local, regional y global.  </p>
     <p class="white-text">De cara a la Agenda 2030, a partir de 2020 integramos indicadores con un histórico de medición en cada uno de los ODS, con la finalidad de reportar nuestro avance de manera anual y detectar en donde se encuentran las mayores expectativas, riesgos y oportunidades para la empresa, así como las áreas en las estamos teniendo una contribución más significativa.</p>
-    <p class="white-text"><strong>Para conocer a mayor detalle sobre nuestra contribución a los ODS y los resultados que hemos logrado en el periodo 2017-2020 <a class="blue-link">da clic aquí.</a></strong></p>
+    <p class="white-text"><strong>Para conocer a mayor detalle sobre nuestra contribución a los ODS y los resultados que hemos logrado en el periodo 2017-2020 <a href="" class="blue-link"><strong>da clic aquí.</strong></a></strong></p>
+          
+    <div class="odsmobile">
+      <div class="content__tabs">
+        <div class="title-tab">
+          <p>Da clic sobre nuestros 3 ejes y descubre nuestros esfuerzos con el Pacto Mundial</p>
+        </div>
+        <div class="tab">
+            <button class="tablinks btn-tabz btn-ambiental active" onclick="openEjes(event, 'ambiental')" id="defaultOpen">Ambiental</button>
+            <button class="tablinks btn-tabz btn-social" onclick="openEjes(event, 'social')">Social</button>
+            <button class="tablinks btn-tabz btn-gobierno" onclick="openEjes(event, 'gobierno_corporativo')">Gobierno Corporativo</button>
+        </div>
+          
+          <div id="ambiental" class="tabcontent" style="display: block;">
+          
+            <div class="subtitle-tab">
+              <p>Nuestros ODS prioritarios</p>
+            </div>
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 
+              <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="">
+                      <h4 class="panel-title">
+                          <a role="button" data-toggle="collapse" data-parent="#accordion" href="#ambiental12" aria-expanded="true" aria-controls="ambiental12" class="ods-12">
+                              <i class="ods-12 more-less far fa-plus"></i>
+                              12 Producción y Consumo responsables
+                          </a>
+                      </h4>
+                  </div>
+                  <div id="ambiental12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="">
+                      <div class="panel-body">
+                        <div class="row py-2">
+                          <div class="col-12">
+                            <img  src="img/valor_compartido/ods_iconos/ods_12.svg" class="iconodss mb-4" />
+                            <h4 class="white-text"><strong>Producción y consumo responsables</strong></h4>
+                            <p>Implementamos planes que favorecen la economía circular, aprovechando nuestra red logística para el mejor aprovechamiento de materias como el cartón, plástico, etc. Somos signatarios de la Declaración Global de Plásticos impulsada por la Fundación Ellen MacArthur. En México, en 2019 firmamos el Acuerdo Nacional para la Nueva Economía del Plástico. Estamos comprometidos a que los envases y empaques de los productos de nuestras marcas sean reciclables, reutilizables o compostables para el año 2025.</p>
+                            <a href="valorAmbiental.html#economia" class="blue-link-ods">Impulsando una economía circular</a>
+                            <a href="valorAmbiental.html#economia" class="blue-link-ods">Residuos de Alimentos</a>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+      
+              <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingTwo">
+                      <h4 class="panel-title">
+                          <a class="collapsed ods-13" role="button" data-toggle="collapse" data-parent="#accordion" href="#ambiental13" aria-expanded="false" aria-controls="ambiental13">
+                              <i class="ods-13 more-less far fa-plus"></i>
+                              13 Acción por el clima
+                          </a>
+                      </h4>
+                  </div>
+                  <div id="ambiental13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                      <div class="panel-body">
+                        <div class="row py-2">
+                          <div class="col-12">
+                            <img src="img/valor_compartido/ods_iconos/ods_13.svg" class="iconodss mb-4" />
+                            <h4 class="white-text"><strong>Acción por el clima</strong></h4>
+                            <p class="white-text">Estamos alineados con los principios del Acuerdo de París de la Convención Marco de Naciones Unidas sobre el Cambio Climático (CMNUCC). Tenemos el objetivo de Walmart Inc. de reducir las emisiones de gases de efecto invernadero para 2025 y buscamos hacerlo de la mano de nuestros proveedores con el programa Gigaton que busca eliminar mil millones de toneladas de emisiones GEI en las cadenas globales de abasto de Walmart Inc.</p>
+                            <a href="valorAmbiental.html#mitigar" class="blue-link-ods">Valor Ambiental</a>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+
+   
+     
+            
+
+              <div class="subtitle-tab">
+                <p>Nuestra participación en los ODS</p>
+              </div>
+
+            
+
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="">
+                  <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#ambiental4" aria-expanded="true" aria-controls="collapseOne" class="ods-4">
+                          <i class="ods-4 more-less far fa-plus"></i>
+                          4 Educación de calidad
+                      </a>
+                  </h4>
+              </div>
+              <div id="ambiental4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="">
+                  <div class="panel-body">
+                    <div class="row py-2">
+                      <div class="col-12">
+                        <img src="img/valor_compartido/ods_iconos/ods_4.svg" class="img-fluid mb-4" />
+                        <h4 class="white-text"><strong>Educación de calidad</strong></h4>
+                        <p>Contamos con academias para apoyar el desarrollo de nuestros asociados en donde los mismos adquieren conocimiento especializado que les ayudará a desarrollar capacidades y avanzar en su carrera profesional.</p>
+                        <p>Apoyamos con becas a nuestros asociados para que concluyan sus estudios.</p>
+                        <a href="asociados.html" class="blue-link-ods">Propuesta de Valor al asociado</a>
+                        <a href="asociados.html#desarrollamos" class="blue-link-ods">Desarrollamos nuestro talento</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="">
+                  <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#ambiental6" aria-expanded="true" aria-controls="collapseOne" class="ods-6">
+                          <i class="ods-6 more-less far fa-plus"></i>
+                          6 Agua limpia y saneamiento
+                      </a>
+                  </h4>
+              </div>
+              <div id="ambiental6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="">
+                  <div class="panel-body">
+                    <div class="row py-2">
+                      <div class="col-12">
+                        <img  src="img/valor_compartido/ods_iconos/ods_6.svg" class="img-fluid mb-4" />
+                        <h4 class="white-text"><strong>Agua limpia y saneamiento</strong></h4>
+                        <p>Entendemos que el agua es un recurso cada vez más escaso. Es por eso que buscamos su mejor aprovechamiento. Todas nuestras tiendas de gran formato se construyen con una planta de tratamiento de aguas residuales.</p>
+                        <p>Utilizamos agua tratada en nuestras tiendas para los sanitarios y el riego de áreas verdes. Colaboramos con gobiernos locales para el desarrollo e implementación de programas de ahorro de agua en regiones del país con alto estrés hídrico, como la Ciudad de México y Puebla.</p>
+                        <a href="valorAmbiental.html#agua" class="blue-link-ods">Gestión del agua sustentable</a>
+                        <a href="valorAmbiental.html#economia" class="blue-link-ods">Residuos de Alimentos</a>
+                        <a href="valorAmbiental.html#agua" class="blue-link-ods">Agua limpia</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="">
+                  <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#ambiental7" aria-expanded="true" aria-controls="collapseOne" class="ods-7">
+                          <i class="ods-7 more-less far fa-plus"></i>
+                          7 Energía asequible y no contaminante
+                      </a>
+                  </h4>
+              </div>
+              <div id="ambiental7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="">
+                  <div class="panel-body">
+                    <div class="row py-2">
+                      <div class="col-12">
+                        <img  src="img/valor_compartido/ods_iconos/ods_7.svg" class="img-fluid mb-4" />
+                        <h4 class="white-text"><strong>Energía asequible y no contaminante</strong></h4>
+                        <p>Aprovechamos las enormes ventajas geográficas que ofrece la región en la que operamos, lo cual nos permite trazarnos el objetivo de suministrar nuestra operación con 100% de energía de fuentes renovables. Gran parte de nuestro consumo de energía proviene de fuentes eólicas, hidráulicas y solares.</p>
+                        <a href="valorAmbiental.html" class="blue-link-ods">Valor Ambiental</a>
+                        <a href="valorAmbiental.html#mitigar" class="blue-link-ods">Reducción de Emisiones</a>
+                        <a href="valorAmbiental.html#energia" class="blue-link-ods">Consumo de energía</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="">
+                  <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#ambiental9" aria-expanded="true" aria-controls="collapseOne" class="ods-9">
+                          <i class="ods-9 more-less far fa-plus"></i>
+                          9 Industria, innovación e infraestructura
+                      </a>
+                  </h4>
+              </div>
+              <div id="ambiental9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="">
+                  <div class="panel-body">
+                    <div class="row py-2">
+                      <div class="col-12">
+                        <img  src="img/valor_compartido/ods_iconos/ods_9.svg" class="img-fluid mb-4"/>
+                        <h4 class="white-text"><strong>Industria, innovacióne infraestructura</strong></h4>
+                        <p>ara que nuestro negocio opere de manera óptima invertimos en la modernización y expansión de nuestra red logística. Construimos de nuevos Centros de Distribución equipados con tecnología de punta, lo que  nos permite elevar la productividad y fortalecer la infraestructura logística del país.</p>
+                        <p>Nuestras tiendas están diseñadas para reducir los impactos medioambientales a través de la incorporación de tecnologías innovadoras para aumentar la eficiencia energética de las construcciones y reducir las emisiones de gases de efecto invernadero asociadas.</p>
+                        <a href="valorAmbiental.html" class="blue-link-ods">Valor Ambiental</a>
+                        <a href="valorAmbiental.html#mitigar" class="blue-link-ods">Reducción de Emisiones</a>
+                        <a href="valorAmbiental.html#energia" class="blue-link-ods">Consumo de energía</a>
+                      </div>
+                    </div>
+
+                  </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="">
+                  <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#ambiental11" aria-expanded="true" aria-controls="collapseOne" class="ods-11">
+                          <i class="ods-11 more-less far fa-plus"></i>
+                          11 Ciudades y comunidades sostenibles
+                      </a>
+                  </h4>
+              </div>
+              <div id="ambiental11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="">
+                  <div class="panel-body">
+                    <div class="row py-2">
+                      <div class="col-12">
+                        <img  src="img/valor_compartido/ods_iconos/ods_11.svg" class="img-fluid mb-4" />
+                        <h4 class="white-text"><strong> Reducción de las desigualdades</strong></h4>
+                        <p>Operamos en 6 países dentro de una región con marcadas desigualdades es por ello que contamos con políticas de diversidad e inclusión que nos permiten ser conscientes de la brechas y la necesidad de crear políticas para acotarlas.</p>
+                        <a href="asociados.html" class="blue-link-ods">Propuesta de Valor al asociado</a>
+                        <a href="asociados.html#diversidad" class="blue-link-ods">Diversidad e inclusión</a>
+                    
+                      </div>
+                    </div>
+
+                  </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="">
+                  <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#ambiental14" aria-expanded="true" aria-controls="collapseOne" class="ods-14">
+                          <i class="ods-14 more-less far fa-plus"></i>
+                          14 Vida submarina
+                      </a>
+                  </h4>
+              </div>
+              <div id="ambiental14" class="panel-collapse collapse" role="tabpanel" aria-labelledby="">
+                  <div class="panel-body">
+                    <div class="row py-2">
+                      <div class="col-12">
+                        <img  src="img/valor_compartido/ods_iconos/ods_14.svg" class="img-fluid mb-4" />
+                        <h4 class="white-text"><strong>Vida submarina</strong></h4>
+                        <p>Contamos con una política de compra en la que nos comprometemos que para el año 2025 todos los pescados y mariscos, frescos y congelados, así como el atún enlatado debe de provenir de fuentes sostenibles certificadas o con un proyecto de mejora pesquera en ejecución.</p>
+                        <a href="valorAmbiental.html#economia" class="blue-link-ods">Impulsando una economía circular</a>
+                        <a href="valorAmbiental.html#cadena" class="blue-link-ods">Abastecimiento sustentable</a>
+      
+                      </div>
+                    </div>
+                      
+
+                  </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="">
+                  <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#ambiental5" aria-expanded="true" aria-controls="collapseOne" class="ods-15">
+                          <i class="ods-15 more-less far fa-plus"></i>
+                          15 Vida de ecosistemas terrestres
+                      </a>
+                  </h4>
+              </div>
+              <div id="ambiental5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="">
+                  <div class="panel-body">
+                    <div class="row py-2">
+                      <div class="col-12">
+                        <img  src="img/valor_compartido/ods_iconos/ods_15.svg" class="img-fluid mb-4" />
+                        <h4 class="white-text"><strong>Vida de ecosistemas terrestres</strong></h4>
+                        <p>Tenemos un compromiso de lograr cero deforestación en la cadena de abasto de aceite de palma y de papel/pulpa para los productos de nuestras marcas para finales del año 2020.</p>
+                        <p>Además, a través de nuestros voluntarios sembramos más de 50,000 árboles en el 2019  en México.</p>
+                        <a href="valorAmbiental.html#economia" class="blue-link-ods">Impulsando una economía circular</a>
+                        <a href="valorAmbiental.html#cadena" class="blue-link-ods">Abastecimiento sustentable</a>
+                      
+                      </div>
+                    </div>
+
+                  </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="">
+                  <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#ambiental16" aria-expanded="true" aria-controls="collapseOne" class="ods-16">
+                          <i class="ods-16 more-less far fa-plus"></i>
+                          16 Paz, justicia e instituciones sólidas
+                      </a>
+                  </h4>
+              </div>
+              <div id="ambiental16" class="panel-collapse collapse" role="tabpanel" aria-labelledby="">
+                  <div class="panel-body">
+                    <div class="row py-2">
+                      <div class="col-12">
+                        <img  src="img/valor_compartido/ods_iconos/ods_16.svg" class="img-fluid mb-4" />
+                        <h4 class="white-text"><strong>Paz, justicia e instituciones solidas</strong></h4>
+                        <p>El respecto por el individuo es uno de nuestros valores fundamentales y el eje rector de todo lo que hacemos. Tenemos la firme convicción de que el respeto es el cimiento principal de la paz, la equidad y la justicia.</p>
+                        <a href="etica.html" class="blue-link-ods">Ética y cumplimiento</a>
+
+                      </div>
+                    </div>
+
+                  </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="">
+                  <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#ambiental17" aria-expanded="true" aria-controls="collapseOne" class="ods-17">
+                          <i class="ods-17 more-less far fa-plus"></i>
+                          17 Alianzas para lograr los objetivos
+                      </a>
+                  </h4>
+              </div>
+              <div id="ambiental17" class="panel-collapse collapse" role="tabpanel" aria-labelledby="">
+                  <div class="panel-body">
+                    <div class="row py-2">
+                      <div class="col-12">
+                        <img  src="img/valor_compartido/ods_iconos/ods_17.svg" class="img-fluid mb-4" />
+                        <h4 class="white-text"><strong>Alianzas para lograr objetivos</strong></h4>
+                        <p>Contamos con alianzas con proveedores bajo el concepto de responsabilidad extendida en el cuidado al medio ambiente, entre los que destacan nuestros programas de reciclaje y recolección post consumo como: Recicla la lata, Biobox, Allen.</p>
+                        <p>Alianza con Modelo para el consumo responsable de Alcohol.</p>
+                        <p>Alianzas con ONGs como Technoserve y las que tiene la fundación para llevar prosperidad a comunidades desfavorecidas.</p>
+                        <a href="valorAmbiental.html#programas" class="blue-link-ods">Programas con clientes</a>
+                        <a href="valor_social.html#comunidades" class="blue-link-ods">Construyendo comunidades fuertes</a>
+                        <a href="transformacion_agil.html#ponte" class="blue-link-ods">México ponte bien</a>
+
+                      </div>
+                    </div>
+
+                  </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        
+
+          
+          <!-- FIN AMBIENTAL -->
+          
+          
+          <div id="social" class="tabcontent" style="display: none;">
+          
+            <div class="subtitle-tab">
+              <p>Nuestros ODS prioritarios</p>
+            </div>
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+              <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="">
+                      <h4 class="panel-title">
+                          <a role="button" data-toggle="collapse" data-parent="#accordion" href="#social3" aria-expanded="true" aria-controls="social3" class="ods-3">
+                              <i class="ods-3 more-less far fa-plus"></i>
+                              3 Salud y bienestar
+                          </a>
+                      </h4>
+                  </div>
+                  <div id="social3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="">
+                      <div class="panel-body">
+                        <div class="row py-2">
+                          <div class="col-12">
+                            <img  src="img/valor_compartido/ods_iconos/ods_3.svg" class="img-fluid mb-4" />
+                            <h4 class="white-text"><strong>Salud y bienestar</strong></h4>
+                            <p class="white-text">Formamos parte del Consumer Goods Forum y en alianza con otras empresas lanzamos dos iniciativas en nuestras tiendas de México y Centroamérica: México Ponte Bien y Dale un Giro Saludable a tu Vida, cuyo objetivo es brindar mayor información y ayudar a nuestros consumidores tomar decisiones que favorezcan su salud.</p>
+                            <p class="white-text">También ofrecemos servicios de consulta médica a un precio asequible en tiendas para que las comunidades a nuestro alrededor tengan opciones y eviten la automedicación.</p>
+                            <a href="asociados.html#balance" class="blue-link-ods">Balance de Vida</i></a>
+                            <a href="transformacion_agil.html#saludable" class="blue-link-ods">Promovemos un estilo de vida saludable</i></a>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+      
+              <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingTwo">
+                      <h4 class="panel-title">
+                          <a class="collapsed ods-5" role="button" data-toggle="collapse" data-parent="#accordion" href="#social5" aria-expanded="false" aria-controls="social5">
+                              <i class="ods-5 more-less far fa-plus"></i>
+                              5 Igualdad de género
+                          </a>
+                      </h4>
+                  </div>
+                  <div id="social5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                      <div class="panel-body">
+                        <div class="row py-2">
+                          <div class="col-12">
+                            <img src="img/valor_compartido/ods_iconos/ods_5.svg" class="img-fluid mb-4" />
+                            <h4 class="white-text"><strong>Igualdad de género</strong></h4>
+                            <p class="white-text">En Walmart el talento no tiene género, por ello trabajamos para mantener un balance en todas las esferas del negocio y hemos sido reconocidos por el índice Bloomberg por tercer año consecutivo.</p>
+                            <p class="white-text">Este compromiso con la igualdad de género en la empresa ha sido posible gracias a la construcción de una estrategia de Inclusión y Diversidad holística con foco principal en género; enfocada no solo a la inclusión de mujeres, sino, a inclusión de mujeres en posiciones de liderazgo, desarrollo del talento femenino y programas de bienestar (maternidad y paternidad).</p>
+
+                            <a href="asociados.html" class="blue-link-ods">Propuesta de Valor al asociado</a>
+                            <a href="asociados.html#diversidad" class="blue-link-ods">Diversidad e inclusión</a>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+
+
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+                        <a class="collapsed ods-8" role="button" data-toggle="collapse" data-parent="#accordion" href="#social8" aria-expanded="false" aria-controls="social8">
+                            <i class="ods-8 more-less far fa-plus"></i>
+                            8 Trabajo decente y crecimiento económico
+                        </a>
+                    </h4>
+                </div>
+                <div id="social8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body">
+                      <div class="row py-2">
+                        <div class="col-12">
+                          <img src="img/valor_compartido/ods_iconos/ods_8.svg" class="img-fluid mb-4" />
+                          <h4 class="white-text"><strong>Trabajo decente y crecimiento económico</strong></h4>
+                          <p class="white-text">Somos el principal empleador privado en la región, ofrecemos empleos directos y formales, en donde se privilegia el respeto a los derechos laborales establecidos en la legislación de los diferentes países, con salarios superiores al mínimo de ley, políticas y procesos que garantizan la seguridad de los empleados cuando ejercen sus labores, contribuciones a la seguridad social, así como otras condiciones laborales que cumplen con los estándares de un trabajo digno.</p>
+                          <a href="asociados.html" class="blue-link-ods">Propuesta de Valor al asociado</i></a>
+                          <a href="valor_social.html#comunidades" class="blue-link-ods">Construyendo comunidades fuertes</i></a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title">
+                      <a class="collapsed ods-12" role="button" data-toggle="collapse" data-parent="#accordion" href="#social12" aria-expanded="false" aria-controls="social12">
+                          <i class="ods-12 more-less far fa-plus"></i>
+                         12 Producción y consumo responsables
+                      </a>
+                  </h4>
+              </div>
+              <div id="social12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="panel-body">
+                    <div class="row py-2">
+                      <div class="col-12">
+                        <img src="img/valor_compartido/ods_iconos/ods_12.svg" class="img-fluid mb-4" />
+                        <h4 class="white-text"><strong>Producción y consumo responsables</strong></h4>
+                        <p class="white-text">Implementamos planes que favorecen la economía circular, aprovechando nuestra red logística para el mejor aprovechamiento de materias como el cartón, plástico, etc. Somos signatarios de la Declaración Global de Plásticos impulsada por la Fundación Ellen MacArthur. En México, en 2019 firmamos el Acuerdo Nacional para la Nueva Economía del Plástico. Estamos comprometidos a que los envases y empaques de los productos de nuestras marcas sean reciclables, reutilizables o compostables para el año 2025.</p>
+                        <a href="valorAmbiental.html#economia" class="blue-link-ods">Impulsando una economía circular</a>
+                        <a href="valorAmbiental.html#economia" class="blue-link-ods">Residuos de Alimentos</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+
+   
+     
+            
+
+              <div class="subtitle-tab">
+                <p>Nuestra participación en los ODS</p>
+              </div>
+
+            
+
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="">
+                  <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#social1" aria-expanded="true" aria-controls="collapseOne" class="ods-1">
+                          <i class="ods-1 more-less far fa-plus"></i>
+                          1 Fin de la probreza
+                      </a>
+                  </h4>
+              </div>
+              <div id="social1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="">
+                  <div class="panel-body">
+                    <div class="row py-2">
+                      <div class="col-12">
+                        <img src="img/valor_compartido/ods_iconos/ods_1.svg" class="img-fluid mb-4" />
+                        <h4 class="white-text"><strong>Fin de la pobreza</strong></h4>
+                        <p>Brindamos acceso a productos de calidad y precio bajo a comunidades aisladas. Mediante los formatos Bodega Aurrera, Mi Bodega y Bodega Aurrera Express, Walmart llega a zonas marginadas y de baja densidad poblacional. Como un ejemplo, el formato Mi Bodega cuenta con presencia en municipios con altos índices de marginación como San Pedro Mixtepec y San Pedro Pochutla en Oaxaca y en Ocosingo y Huixtla en Chiapas.</p>
+                        <p>En caso de desastres naturales llevamos alimento y apoyo de voluntarios a comunidades afectadas. A través del programa de compra justa a pequeños agricultores ofrecemos oportunidades de desarrollo a regiones desfavorecidas.</p>
+                        <a href="valor_social.html#comunidades" class="blue-link-ods">Construyendo comunidades fuertes</a>
+
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="">
+                  <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#social2" aria-expanded="true" aria-controls="collapseOne" class="ods-2">
+                          <i class="ods-2 more-less far fa-plus"></i>
+                          2 Hambre Cero
+                      </a>
+                  </h4>
+              </div>
+              <div id="social2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="">
+                  <div class="panel-body">
+                    <div class="row py-2">
+                      <div class="col-12">
+                        <img src="img/valor_compartido/ods_iconos/ods_2.svg" class="img-fluid mb-4" />
+                        <h4 class="white-text"><strong>Hambre cero</strong></h4>
+                        <p>Contamos con un programa permanente de donación de alimento a través de una red de bancos de alimentos que apoyamos en infraestructura y capacitación, abarcando los 6 países donde operamos.</p>
+                        <p>Tenemos un programa de seguridad alimentaria en zonas rurales: huertos y granjas familiares, así como sistemas de captación de agua de lluvia.</p>
+                        <a href="valor_social.html#comunidades" class="blue-link-ods">Construyendo comunidades fuertes</i></a>
+                        <a href="valorAmbiental.html#economia" class="blue-link-ods">Impulsando una economía circular</i></a>
+                        <a href="valor_social.html#alimentaria" class="blue-link-ods">Seguridad Alimentaría</i></a>
+                        <a href="valorAmbiental.html#economia" class="blue-link-ods">Residuos de Alimentos</i></a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="">
+                  <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#social4" aria-expanded="true" aria-controls="collapseOne" class="ods-4">
+                          <i class="ods-4 more-less far fa-plus"></i>
+                          4 Educación de Calidad
+                      </a>
+                  </h4>
+              </div>
+              <div id="social4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="">
+                  <div class="panel-body">
+                    <div class="row py-2">
+                      <div class="col-12">
+                        <img src="img/valor_compartido/ods_iconos/ods_4.svg" class="img-fluid mb-4" />
+                        <h4 class="white-text"><strong>Educación de calidad</strong></h4>
+                        <p>Contamos con academias para apoyar el desarrollo de nuestros asociados en donde los mismos adquieren conocimiento especializado que les ayudará a desarrollar capacidades y avanzar en su carrera profesional.</p>
+                        <p>Apoyamos con becas a nuestros asociados para que concluyan sus estudios.</p>
+                        <a href="asociados.html" class="blue-link-ods">Propuesta de Valor al asociado</i></a>
+                        <a href="asociados.html#desarrollamos" class="blue-link-ods">Desarrollamos nuestro talento</i></a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="">
+                  <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#social9" aria-expanded="true" aria-controls="collapseOne" class="ods-9">
+                          <i class="ods-9 more-less far fa-plus"></i>
+                          9 Industria, innovacióne infraestructura
+                      </a>
+                  </h4>
+              </div>
+              <div id="social9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="">
+                  <div class="panel-body">
+                    <div class="row py-2">
+                      <div class="col-12">
+                        <img  src="img/valor_compartido/ods_iconos/ods_9.svg" class="img-fluid mb-4"/>
+                        <h4 class="white-text"><strong>Industria, innovacióne infraestructura</strong></h4>
+                        <p>ara que nuestro negocio opere de manera óptima invertimos en la modernización y expansión de nuestra red logística. Construimos de nuevos Centros de Distribución equipados con tecnología de punta, lo que  nos permite elevar la productividad y fortalecer la infraestructura logística del país.</p>
+                        <p>Nuestras tiendas están diseñadas para reducir los impactos medioambientales a través de la incorporación de tecnologías innovadoras para aumentar la eficiencia energética de las construcciones y reducir las emisiones de gases de efecto invernadero asociadas.</p>
+                        <a href="valorAmbiental.html" class="blue-link-ods">Valor Ambiental</a>
+                        <a href="valorAmbiental.html#mitigar" class="blue-link-ods">Reducción de Emisiones</a>
+                        <a href="valorAmbiental.html#energia" class="blue-link-ods">Consumo de energía</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="">
+                  <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#social10" aria-expanded="true" aria-controls="collapseOne" class="ods-10">
+                          <i class="ods-10 more-less far fa-plus"></i>
+                          10 Reducción de las desigualdades
+                      </a>
+                  </h4>
+              </div>
+              <div id="social10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="">
+                  <div class="panel-body">
+                    <div class="row py-2">
+                      <div class="col-12">
+                        <img  src="img/valor_compartido/ods_iconos/ods_10.svg" class="img-fluid mb-4"/>
+                        <h4 class="white-text"><strong>Reducción de las desigualdades</strong></h4>
+                        <p>Operamos en 6 países dentro de una región con marcadas desigualdades es por ello que contamos con políticas de diversidad e inclusión que nos permiten ser conscientes de la brechas y la necesidad de crear políticas para acotarlas.</p>
+                        <a href="asociados.html" class="blue-link-ods">Propuesta de Valor al asociado</a>
+                        <a href="asociados.html#diversidad" class="blue-link-ods">Diversidad e inclusión</a>
+
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="">
+                  <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#social11" aria-expanded="true" aria-controls="collapseOne" class="ods-11">
+                          <i class="ods-11 more-less far fa-plus"></i>
+                          11 Ciudades y comunidades sostenibles
+                      </a>
+                  </h4>
+              </div>
+              <div id="social11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="">
+                  <div class="panel-body">
+                    <div class="row py-2">
+                      <div class="col-12">
+                        <img  src="img/valor_compartido/ods_iconos/ods_11.svg" class="img-fluid mb-4"/>
+                        <h4 class="white-text"><strong>Reducción de las desigualdades</strong></h4>
+                        <p>Operamos en 6 países dentro de una región con marcadas desigualdades es por ello que contamos con políticas de diversidad e inclusión que nos permiten ser conscientes de la brechas y la necesidad de crear políticas para acotarlas.</p>
+                        <a href="asociados.html" class="blue-link-ods">Propuesta de Valor al asociado</a>
+                        <a href="asociados.html#diversidad" class="blue-link-ods">Diversidad e inclusión</a>
+
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="">
+                  <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#social16" aria-expanded="true" aria-controls="collapseOne" class="ods-16">
+                          <i class="ods-16 more-less far fa-plus"></i>
+                          16 Paz, justicia e instituciones sólidas
+                      </a>
+                  </h4>
+              </div>
+              <div id="social16" class="panel-collapse collapse" role="tabpanel" aria-labelledby="">
+                  <div class="panel-body">
+                    <div class="row py-2">
+                      <div class="col-12">
+                        <img  src="img/valor_compartido/ods_iconos/ods_16.svg" class="img-fluid mb-4" />
+                        <h4 class="white-text"><strong>Paz, justicia e instituciones solidas</strong></h4>
+                        <p>El respecto por el individuo es uno de nuestros valores fundamentales y el eje rector de todo lo que hacemos. Tenemos la firme convicción de que el respeto es el cimiento principal de la paz, la equidad y la justicia.</p>
+                        <a href="etica.html" class="blue-link-ods">Ética y cumplimiento</a>
+
+                      </div>
+                    </div>
+
+                  </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="">
+                  <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#social17" aria-expanded="true" aria-controls="collapseOne" class="ods-17">
+                          <i class="ods-17 more-less far fa-plus"></i>
+                          17 Alianzas para lograr los objetivos
+                      </a>
+                  </h4>
+              </div>
+              <div id="social17" class="panel-collapse collapse" role="tabpanel" aria-labelledby="">
+                  <div class="panel-body">
+                    <div class="row py-2">
+                      <div class="col-12">
+                        <img  src="img/valor_compartido/ods_iconos/ods_17.svg" class="img-fluid mb-4" />
+                        <h4 class="white-text"><strong>Alianzas para lograr objetivos</strong></h4>
+                        <p>Contamos con alianzas con proveedores bajo el concepto de responsabilidad extendida en el cuidado al medio ambiente, entre los que destacan nuestros programas de reciclaje y recolección post consumo como: Recicla la lata, Biobox, Allen.</p>
+                        <p>Alianza con Modelo para el consumo responsable de Alcohol.</p>
+                        <p>Alianzas con ONGs como Technoserve y las que tiene la fundación para llevar prosperidad a comunidades desfavorecidas.</p>
+                        <a href="valorAmbiental.html#programas" class="blue-link-ods">Programas con clientes</a>
+                        <a href="valor_social.html#comunidades" class="blue-link-ods">Construyendo comunidades fuertes</a>
+                        <a href="transformacion_agil.html#ponte" class="blue-link-ods">México ponte bien</a>
+
+                      </div>
+                    </div>
+
+                  </div>
+              </div>
+            </div>
+
+            
+
+          </div>
+        </div>
+          <!-- FIN SOCIAL -->
+          
+          <div id="gobierno_corporativo" class="tabcontent" style="display: block;">
+          
+            <div class="subtitle-tab">
+              <p>Nuestros ODS prioritarios</p>
+            </div>
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+              
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="">
+                    <h4 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#gobierno3" aria-expanded="true" aria-controls="gobierno3" class="ods-3">
+                            <i class="ods-3 more-less far fa-plus"></i>
+                            3 Salud y bienestar
+                        </a>
+                    </h4>
+                </div>
+                <div id="gobierno3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="">
+                    <div class="panel-body">
+                      <div class="row py-2">
+                        <div class="col-12">
+                          <img  src="img/valor_compartido/ods_iconos/ods_3.svg" class="img-fluid mb-4" />
+                          <h4 class="white-text"><strong>Salud y bienestar</strong></h4>
+                          <p class="white-text">Formamos parte del Consumer Goods Forum y en alianza con otras empresas lanzamos dos iniciativas en nuestras tiendas de México y Centroamérica: México Ponte Bien y Dale un Giro Saludable a tu Vida, cuyo objetivo es brindar mayor información y ayudar a nuestros consumidores tomar decisiones que favorezcan su salud.</p>
+                          <p class="white-text">También ofrecemos servicios de consulta médica a un precio asequible en tiendas para que las comunidades a nuestro alrededor tengan opciones y eviten la automedicación.</p>
+                          <a href="asociados.html#balance" class="blue-link-ods">Balance de Vida</i></a>
+                          <a href="transformacion_agil.html#saludable" class="blue-link-ods">Promovemos un estilo de vida saludable</i></a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+    
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+                        <a class="collapsed ods-5" role="button" data-toggle="collapse" data-parent="#accordion" href="#gobierno5" aria-expanded="false" aria-controls="gobierno5">
+                            <i class="ods-5 more-less far fa-plus"></i>
+                            5 Igualdad de género
+                        </a>
+                    </h4>
+                </div>
+                <div id="gobierno5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body">
+                      <div class="row py-2">
+                        <div class="col-12">
+                          <img src="img/valor_compartido/ods_iconos/ods_5.svg" class="img-fluid mb-4" />
+                          <h4 class="white-text"><strong>Igualdad de género</strong></h4>
+                          <p class="white-text">En Walmart el talento no tiene género, por ello trabajamos para mantener un balance en todas las esferas del negocio y hemos sido reconocidos por el índice Bloomberg por tercer año consecutivo.</p>
+                          <p class="white-text">Este compromiso con la igualdad de género en la empresa ha sido posible gracias a la construcción de una estrategia de Inclusión y Diversidad holística con foco principal en género; enfocada no solo a la inclusión de mujeres, sino, a inclusión de mujeres en posiciones de liderazgo, desarrollo del talento femenino y programas de bienestar (maternidad y paternidad).</p>
+
+                          <a href="asociados.html" class="blue-link-ods">Propuesta de Valor al asociado</a>
+                          <a href="asociados.html#diversidad" class="blue-link-ods">Diversidad e inclusión</a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title">
+                      <a class="collapsed ods-8" role="button" data-toggle="collapse" data-parent="#accordion" href="#gobierno8" aria-expanded="false" aria-controls="gobierno8">
+                          <i class="ods-8 more-less far fa-plus"></i>
+                          8 Trabajo decente y crecimiento económico
+                      </a>
+                  </h4>
+              </div>
+              <div id="gobierno8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="panel-body">
+                    <div class="row py-2">
+                      <div class="col-12">
+                        <img src="img/valor_compartido/ods_iconos/ods_8.svg" class="img-fluid mb-4" />
+                        <h4 class="white-text"><strong>Trabajo decente y crecimiento económico</strong></h4>
+                        <p class="white-text">Somos el principal empleador privado en la región, ofrecemos empleos directos y formales, en donde se privilegia el respeto a los derechos laborales establecidos en la legislación de los diferentes países, con salarios superiores al mínimo de ley, políticas y procesos que garantizan la seguridad de los empleados cuando ejercen sus labores, contribuciones a la seguridad social, así como otras condiciones laborales que cumplen con los estándares de un trabajo digno.</p>
+                        <a href="asociados.html" class="blue-link-ods">Propuesta de Valor al asociado</i></a>
+                        <a href="valor_social.html#comunidades" class="blue-link-ods">Construyendo comunidades fuertes</i></a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingTwo">
+                <h4 class="panel-title">
+                    <a class="collapsed ods-12" role="button" data-toggle="collapse" data-parent="#accordion" href="#gobierno12" aria-expanded="false" aria-controls="gobierno12">
+                        <i class="ods-12 more-less far fa-plus"></i>
+                       12 Producción y consumo responsables
+                    </a>
+                </h4>
+            </div>
+            <div id="gobierno12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="panel-body">
+                  <div class="row py-2">
+                    <div class="col-12">
+                      <img src="img/valor_compartido/ods_iconos/ods_12.svg" class="img-fluid mb-4" />
+                      <h4 class="white-text"><strong>Producción y consumo responsables</strong></h4>
+                      <p class="white-text">Implementamos planes que favorecen la economía circular, aprovechando nuestra red logística para el mejor aprovechamiento de materias como el cartón, plástico, etc. Somos signatarios de la Declaración Global de Plásticos impulsada por la Fundación Ellen MacArthur. En México, en 2019 firmamos el Acuerdo Nacional para la Nueva Economía del Plástico. Estamos comprometidos a que los envases y empaques de los productos de nuestras marcas sean reciclables, reutilizables o compostables para el año 2025.</p>
+                      <a href="valorAmbiental.html#economia" class="blue-link-ods">Impulsando una economía circular</a>
+                      <a href="valorAmbiental.html#economia" class="blue-link-ods">Residuos de Alimentos</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+     
+            
+
+              <div class="subtitle-tab">
+                <p>Nuestra participación en los ODS</p>
+              </div>
+
+            
+
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="">
+                  <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#gobiernol4" aria-expanded="true" aria-controls="collapseOne" class="ods-4">
+                          <i class="ods-4 more-less far fa-plus"></i>
+                          4 Educación de calidad
+                      </a>
+                  </h4>
+              </div>
+              <div id="gobiernol4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="">
+                  <div class="panel-body">
+                    <div class="row py-2">
+                      <div class="col-12">
+                        <img src="img/valor_compartido/ods_iconos/ods_4.svg" class="img-fluid mb-4" />
+                        <h4 class="white-text"><strong>Educación de calidad</strong></h4>
+                        <p>Contamos con academias para apoyar el desarrollo de nuestros asociados en donde los mismos adquieren conocimiento especializado que les ayudará a desarrollar capacidades y avanzar en su carrera profesional.</p>
+                        <p>Apoyamos con becas a nuestros asociados para que concluyan sus estudios.</p>
+                        <a href="asociados.html" class="blue-link-ods">Propuesta de Valor al asociado</a>
+                        <a href="asociados.html#desarrollamos" class="blue-link-ods">Desarrollamos nuestro talento</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="">
+                  <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#gobierno9" aria-expanded="true" aria-controls="collapseOne" class="ods-9">
+                          <i class="ods-9 more-less far fa-plus"></i>
+                          9 Industria, innovación e infraestructura
+                      </a>
+                  </h4>
+              </div>
+              <div id="gobierno9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="">
+                  <div class="panel-body">
+                    <div class="row py-2">
+                      <div class="col-12">
+                        <img  src="img/valor_compartido/ods_iconos/ods_9.svg" class="img-fluid mb-4"/>
+                        <h4 class="white-text"><strong>Industria, innovacióne infraestructura</strong></h4>
+                        <p>ara que nuestro negocio opere de manera óptima invertimos en la modernización y expansión de nuestra red logística. Construimos de nuevos Centros de Distribución equipados con tecnología de punta, lo que  nos permite elevar la productividad y fortalecer la infraestructura logística del país.</p>
+                        <p>Nuestras tiendas están diseñadas para reducir los impactos medioambientales a través de la incorporación de tecnologías innovadoras para aumentar la eficiencia energética de las construcciones y reducir las emisiones de gases de efecto invernadero asociadas.</p>
+                        <a href="valorAmbiental.html" class="blue-link-ods">Valor Ambiental</a>
+                        <a href="valorAmbiental.html#mitigar" class="blue-link-ods">Reducción de Emisiones</a>
+                        <a href="valorAmbiental.html#energia" class="blue-link-ods">Consumo de energía</a>
+                      </div>
+                    </div>
+
+                  </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="">
+                  <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#gobierno11" aria-expanded="true" aria-controls="collapseOne" class="ods-11">
+                          <i class="ods-11 more-less far fa-plus"></i>
+                          11 Ciudades y comunidades sostenibles
+                      </a>
+                  </h4>
+              </div>
+              <div id="gobierno11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="">
+                  <div class="panel-body">
+                    <div class="row py-2">
+                      <div class="col-12">
+                        <img  src="img/valor_compartido/ods_iconos/ods_11.svg" class="img-fluid mb-4" />
+                        <h4 class="white-text"><strong> Reducción de las desigualdades</strong></h4>
+                        <p>Operamos en 6 países dentro de una región con marcadas desigualdades es por ello que contamos con políticas de diversidad e inclusión que nos permiten ser conscientes de la brechas y la necesidad de crear políticas para acotarlas.</p>
+                        <a href="asociados.html" class="blue-link-ods">Propuesta de Valor al asociado</a>
+                        <a href="asociados.html#diversidad" class="blue-link-ods">Diversidad e inclusión</a>
+                    
+                      </div>
+                    </div>
+
+                  </div>
+              </div>
+            </div>
+
+
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="">
+                  <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#gobierno16" aria-expanded="true" aria-controls="collapseOne" class="ods-16">
+                          <i class="ods-16 more-less far fa-plus"></i>
+                          16 Paz, justicia e instituciones sólidas
+                      </a>
+                  </h4>
+              </div>
+              <div id="gobierno16" class="panel-collapse collapse" role="tabpanel" aria-labelledby="">
+                  <div class="panel-body">
+                    <div class="row py-2">
+                      <div class="col-12">
+                        <img  src="img/valor_compartido/ods_iconos/ods_16.svg" class="img-fluid mb-4" />
+                        <h4 class="white-text"><strong>Paz, justicia e instituciones solidas</strong></h4>
+                        <p>El respecto por el individuo es uno de nuestros valores fundamentales y el eje rector de todo lo que hacemos. Tenemos la firme convicción de que el respeto es el cimiento principal de la paz, la equidad y la justicia.</p>
+                        <a href="etica.html" class="blue-link-ods">Ética y cumplimiento</a>
+
+                      </div>
+                    </div>
+
+                  </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="">
+                  <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#gobierno17" aria-expanded="true" aria-controls="collapseOne" class="ods-17">
+                          <i class="ods-17 more-less far fa-plus"></i>
+                          17 Alianzas para lograr los objetivos
+                      </a>
+                  </h4>
+              </div>
+              <div id="gobierno17" class="panel-collapse collapse" role="tabpanel" aria-labelledby="">
+                  <div class="panel-body">
+                    <div class="row py-2">
+                      <div class="col-12">
+                        <img  src="img/valor_compartido/ods_iconos/ods_17.svg" class="img-fluid mb-4" />
+                        <h4 class="white-text"><strong>Alianzas para lograr objetivos</strong></h4>
+                        <p>Contamos con alianzas con proveedores bajo el concepto de responsabilidad extendida en el cuidado al medio ambiente, entre los que destacan nuestros programas de reciclaje y recolección post consumo como: Recicla la lata, Biobox, Allen.</p>
+                        <p>Alianza con Modelo para el consumo responsable de Alcohol.</p>
+                        <p>Alianzas con ONGs como Technoserve y las que tiene la fundación para llevar prosperidad a comunidades desfavorecidas.</p>
+                        <a href="valorAmbiental.html#programas" class="blue-link-ods">Programas con clientes</a>
+                        <a href="valor_social.html#comunidades" class="blue-link-ods">Construyendo comunidades fuertes</a>
+                        <a href="transformacion_agil.html#ponte" class="blue-link-ods">México ponte bien</a>
+
+                      </div>
+                    </div>
+
+                  </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+          <!-- FIN GOBIERNO CORPORATIVO -->
+
+      </div>
+    </div>
 
       </div>
 
@@ -1126,8 +2039,8 @@
         </div>
         <div class="ods-urls">
           <br>
-          <a href="asociados.html" class="ods-urls-btn">Propuesta de Valor al asociado <i class="far fa-external-link"></i></a>
-          <a href="asociados.html#diversidad" class="ods-urls-btn">Diversidad e inclusión <i class="far fa-external-link"></i></a>
+          <a href="asociados.html" class="blue-link">Propuesta de Valor al asociado <i class="far fa-external-link"></i></a>
+          <a href="asociados.html#diversidad" class="blue-link">Diversidad e inclusión <i class="far fa-external-link"></i></a>
         </div>
     </div>
     <div id="salud" class="odsinfo hideinfo">
@@ -1393,7 +2306,7 @@
 
 <!-- informacion de cada ODS -->
 
-      <div class="col-lg-8">
+      <div class="col-lg-8 nuestra-contribucion-right">
 
         <div class="row">
            <div class="col-lg-12 odscont1">
@@ -1493,6 +2406,9 @@
 
     
     </div>
+  
+  
+  
   </div>
 </section><!-- End Section 2 -->
 
@@ -2031,7 +2947,35 @@ $('body').on('click', '.carrrestxt', function() {
 
 
 
+<script>
+  function openEjes(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+  }
+  
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultOpen").click();
+</script>
 
+<script>
+  function toggleIcon(e) {
+    $(e.target)
+        .prev('.panel-heading')
+        .find(".more-less")
+        .toggleClass('far fa-plus fa-minus');
+  }
+  $('.panel-group').on('hidden.bs.collapse', toggleIcon);
+  $('.panel-group').on('shown.bs.collapse', toggleIcon);
+</script>
 
 
 </body>
