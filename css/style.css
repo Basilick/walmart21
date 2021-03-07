@@ -2062,6 +2062,231 @@ font-size: 12px;
 }
 
 
+/*--------------------------------------------------------------
+#  nuestro_negocio_17 Section Alberto
+--------------------------------------------------------------*/
+.bg-valor-compartido {
+  background-image: url(../img/nuestro_negocio/bg-valor-compartido.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+  width: 100%;
+}
+
+/*--------------------------------------------------------------
+#  nuestro_negocio_19 Section Alberto
+--------------------------------------------------------------*/
+.transparent-title{
+  background:transparent;
+  background-size: 40px;
+  line-height: 43px !important;
+  height: 43px !important;
+  padding-left: 52px !important;
+  color: #414141;
+  font-family: Myriad-Bold;
+}
+.ico-clientes{
+  background: url('../svg/ico-clientes-1.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 43px !important;
+  height: 43px !important;
+  padding-left: 52px !important;
+  color: #414141;
+  font-family: Myriad-Bold;
+}
+.ico-comunidades{
+  background: url('../svg/ico-comunidades.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 43px !important;
+  height: 43px !important;
+  padding-left: 52px !important;
+  color: #414141;
+  font-family: Myriad-Bold;
+}
+.ico-accionistas{
+  background: url('../svg/ico-accionistas.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 43px !important;
+  height: 43px !important;
+  padding-left: 52px !important;
+  color: #414141;
+  font-family: Myriad-Bold;
+}
+.ico-asociados{
+  background: url('../svg/ico-asociados.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 43px !important;
+  height: 43px !important;
+  padding-left: 52px !important;
+  color: #414141;
+  font-family: Myriad-Bold;
+}
+.ico-proveedores{
+  background: url('../svg/ico-proveedores.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 43px !important;
+  height: 43px !important;
+  padding-left: 52px !important;
+  color: #414141;
+  font-family: Myriad-Bold;
+}
+.ico-planeta{
+  background: url('../svg/ico-planeta.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 43px !important;
+  height: 43px !important;
+  padding-left: 52px !important;
+  color: #414141;
+  font-family: Myriad-Bold;
+}
+.ico-socios-comerciales{
+  background: url('../svg/ico-socios-comerciales.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 43px !important;
+  height: 43px !important;
+  padding-left: 52px !important;
+  color: #414141;
+  font-family: Myriad-Bold;
+}
+.cards-height-1{
+  height: 290px;
+}
+.bgcard_persona {
+  width: 198px;
+  height: 172px;
+  position: absolute;
+  top: 8px;
+  left: -35px;
+}
+.bg_card_persona{
+  background: url('../img/nuestro_negocio/bg_card_persona.png') no-repeat !important;
+  background-size:cover !important;
+  width: 100%;
+}
+
+@media screen and (min-width:1279px){
+  .cards-height-2{
+    height: 310px !important;
+  }
+}
+
+/*--------------------------------------------------------------
+#  nuestro_negocio_20 Section Alberto
+--------------------------------------------------------------*/
+.bg-modelo-valor-compartido{
+  background: url('../img/nuestro_negocio/bg_valor_compartido.jpg') no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+/*--------------------------------------------------------------
+#  nuestro_negocio_22 Section Alberto
+--------------------------------------------------------------*/
+#nuestro_negocio_22{
+  position: relative;
+}
+@media screen and (min-width:1279px){
+  .personal-sams-2{
+    background: url(../img/nuestro_negocio/personal-walmart-pelayo.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 250px;
+    height: 292px;
+    z-index: 2;
+  }
+}
+@media screen and (min-width:1439px){
+  .personal-sams-2{
+    width: 300px;
+    height: 408px;
+    z-index: 2;
+  }
+}
+
+/*--------------------------------------------------------------
+#  nuestro_negocio_23 Section Alberto
+--------------------------------------------------------------*/
+#nuestro_negocio_23{
+  position: relative;
+}
+@media screen and (min-width:1279px){
+  .personal-sams-4{
+    background: url(../img/nuestro_negocio/personal-gestion-asg.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: -96px;
+    left: 0;
+    width: 280px;
+    height: 403px;
+    z-index: 2;
+  }
+}
+
+/*--------------------------------------------------------------
+#  nuestro_negocio_25  Alberto
+--------------------------------------------------------------*/
+@media screen and (min-width:1023px){
+  .personal-sams-3{
+    background: url(../img/nuestro_negocio/equipo-asg.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: -48px;
+    right: 0;
+    width: 320px;
+    height: 350px;
+    z-index: 2;
+  }
+}
+@media screen and (min-width:1279px){
+  .personal-sams-3{
+    width: 350px;
+    height: 380px;
+  }
+}
+@media screen and (min-width:1439px){
+  .personal-sams-3{
+  }
+}
+
+/*--------------------------------------------------------------
+#  nuestro_negocio_27  Alberto
+--------------------------------------------------------------*/
+.vertical-menu-links{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+.vertical-menu-links a{
+  color: #414141;
+  font-size: 16px;
+  margin-bottom: 16px;
+  font-family: Myriad-Light;
+  position: relative;
+  padding-left: 12px;
+}
+.vertical-menu-links a::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  height: 4px;
+  width: 4px;
+  background-color: #414141;
+  border-radius: 50%;
+}
+.vertical-menu-links a::after{
+  content: '';
+  display: inline-block;
+  background: url('../svg/ico-open-link.svg') no-repeat;
+  background-size: 16px;
+  width: 16px;
+  height: 16px;
+  margin-left: 8px;
+}
 
 /*--------------------------------------------------------------
 #  HISTORIAS - Carousel Section Alberto
@@ -2312,6 +2537,9 @@ font-size: 12px;
 }
 .bg-blue-light-5{
   background: #1181C7;
+}
+.bg-blue-light-6{
+  background: #eef2f4;
 }
 .bg-turquesa{
   background:#7dbed2;
@@ -3154,6 +3382,14 @@ p:last-of-type{
   .cards-gray-1{
     width: 454px;
     margin-right: 132px;
+  }
+  .cards-fixed-height-1{
+    height: 164px !important;
+    max-height: 164px !important;
+    padding: 0 7px;
+  }
+  .cards__image-mr0{
+    margin-right: 0;
   }
 }
 
@@ -6817,6 +7053,9 @@ a.inversionistas-global{
  .color-prodi-blue{
   color: #127ec0; 
  }
+ .color-prodi-blue-dark{
+  color: #263b80; 
+ }
  .color-prodi-magenta{
   color: #e6007e; 
  }
@@ -8617,7 +8856,25 @@ display: block;
 --------------------------------------------------------------*/
 
 .pt-60 {
-  padding-top: 60px;
+  padding-top: 60px !important;
+}
+.btn-regresar{
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: Myriad-Light;
+  color: #0071CE;
+  padding-left: 32px;
+  position: relative;
+}
+.btn-regresar::before{
+  content: '';
+  position: absolute;
+  background: url(../svg/ico-regresar.svg) no-repeat;
+  background-size: 20px;
+  width: 32px;
+  height: 32px;
+  top: -9px;
+  left: 0;
 }
 
 /*--------------------------------------------------------------
@@ -8653,9 +8910,9 @@ display: block;
   color: #ffffff;
   text-decoration: none;
   font-size: 14px;
-  width: 100%;
+  width: 40%;
   display: block;
-  background: url('../svg/ico-descarga-cifras.svg') no-repeat 20px 0px;
+  background: url('../svg/ico-descarga-cifras.svg') no-repeat 26px 20px;
   background-size: 60px;
   padding: 0 0 30px 0;
 }
@@ -8719,12 +8976,13 @@ display: block;
   p.subtit-grupo-interes
   {
     position: relative;
+    padding-left: 56px;
   }
   p.subtit-cliente-centro::after{
     content: '';
     position: absolute;
     top: 5px;
-    left: -54px;
+    left: 0px;
     background: url('../img/nuestro_negocio/ico-cliente-centro.png') no-repeat;
     background-size: 40px;
     height: 40px;
@@ -8734,7 +8992,7 @@ display: block;
     content: '';
     position: absolute;
     top: 5px;
-    left: -54px;
+    left: 0px;
     background: url('../svg/ico-experiencia-compra.svg') no-repeat;
     background-size: 40px;
     height: 40px;
@@ -8744,7 +9002,7 @@ display: block;
     content: '';
     position: absolute;
     top: 5px;
-    left: -54px;
+    left: 0px;
     background: url('../svg/ico-nuestras-capacidades.svg') no-repeat;
     background-size: 40px;
     height: 40px;
@@ -8754,7 +9012,7 @@ display: block;
     content: '';
     position: absolute;
     top: 5px;
-    left: -54px;
+    left: 0px;
     background: url('../svg/ico-nuestra-forma-trabajo.svg') no-repeat;
     background-size: 40px;
     height: 40px;
@@ -8764,11 +9022,30 @@ display: block;
     content: '';
     position: absolute;
     top: 5px;
-    left: -54px;
+    left: 0px;
     background: url('../svg/ico-grupos-interes.svg') no-repeat;
     background-size: 40px;
     height: 40px;
     width: 40px;
+  }
+}
+
+@media screen and (min-width:1023px){
+  p.subtit-cliente-centro,
+  p.subtit-experiencia-compra,
+  p.subtit-nuestras-capacidades,
+  p.subtit-forma-trabajo,
+  p.subtit-grupo-interes
+  {
+    padding-left: 0;
+  }
+  p.subtit-cliente-centro::after,
+  p.subtit-experiencia-compra::after,
+  p.subtit-nuestras-capacidades::after,
+  p.subtit-forma-trabajo::after,
+  p.subtit-grupo-interes::after
+  {
+    left: -54px;
   }
 }
 
@@ -9865,9 +10142,6 @@ box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.36);
 /*--------------------------------------------------------------
 # Valor Compartido 2
 --------------------------------------------------------------*/
-
-
-
 #valorcomp2 {
  
   height: auto;
@@ -9876,9 +10150,192 @@ box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.36);
  padding-left: 0;
  padding-right: 0;
  background-color: #4C5C6E;
-
-
 }
+
+
+/**********************************************/
+/**************** INICIO TABS Y PANELS MOBILE */
+/**********************************************/
+.odsmobile{
+  margin: 24px 0;
+}
+.content__tabs{
+  margin-bottom: 24px;
+}
+
+.title-tab{
+  width: 100%;
+  background: #6daddc;
+  padding: 16px 15px;
+}
+.title-tab p{
+  font-size: 18px;
+  color: #ffffff;
+  background: url('../svg/ico-nuestra-contribucion-a-los-ods.svg') no-repeat;
+  background-size: 40px;
+  line-height: 40px;
+  padding-left: 48px;
+  margin: 2px 0;
+}
+.subtitle-tab{
+  width: 100%;
+  background: #6daddc;
+  padding: 16px 15px;
+  margin: 0 0 8px 0;
+}
+.subtitle-tab p{
+  font-size: 18px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+.tab{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.btn-tabz{
+  border-radius: 0;
+  border: none;
+  outline: none;
+  padding: 8px;
+  margin: 8px 0;
+  font-size: 16px;
+  font-family: Myriad-Bold;
+  color: #ffffff;
+  display: inline-block;
+}
+.btn-ambiental.active, .btn-social.active, .btn-gobierno.active{
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+.btn-ambiental{
+  background: #7bc046;
+  opacity: .6;
+}
+.btn-social{
+  background: #fab93e;
+  opacity: .6;
+}
+.btn-gobierno{
+  background: #065494;
+  opacity: .6;
+}
+.panel-group .panel {
+  border-radius: 0;
+  box-shadow: none;
+  border-color: #eef2f4;
+}
+
+.panel-default > .panel-heading {
+  padding: 0;
+  border-radius: 0;
+  color: #212121;
+  background-color: #eef3f6;
+  border-color: #eef3f6;
+}
+
+.panel-title {
+  font-size: 14px;
+}
+
+.panel-title > a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Myriad-Bold;
+}
+.ods-1{
+  color: #E20A20 !important;
+}
+.ods-2{
+  color: #CC8C1F !important;
+}
+.ods-3{
+  color: #378A34 !important;
+}
+.ods-4{
+  color: #B20825 !important;
+}
+.ods-5{
+  color: #E8271D !important;
+}
+.ods-6{
+  color: #199FD0 !important;
+}
+.ods-7{
+  color: #FEA528 !important;
+}
+.ods-8{
+  color: #7A0A2A !important;
+}
+.ods-9{
+  color: #EF551D !important;
+}
+.ods-10{
+  color: #D11071 !important;
+}
+.ods-11{
+  color: #FA8824 !important;
+}
+.ods-12{
+  color: #C5761B !important;
+}
+.ods-13{
+  color: #40642C !important;
+}
+.ods-14{
+  color: #0e6cae !important;
+}
+.ods-15{
+  color: #47A035 !important;
+}
+.ods-16{
+  color: #064478 !important;
+}
+.ods-17{
+  color: #032955 !important;
+}
+
+.more-less {
+  float: right;
+  color: #212121;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #EEEEEE;
+}
+.panel-body img{
+  width: 100px !important;
+}
+
+.nuestra-contribucion-right{
+  display: none;
+}
+@media screen and (min-width:767px){
+  .tab{
+    justify-content: flex-start;
+  }
+  .tab button{
+    margin-right: 8px;
+  }
+  .btn-tabz{
+    padding: 8px 48px;
+  }
+}
+@media screen and (min-width:1279px){
+  .odsmobile{
+    display: none !important;
+  }
+  .nuestra-contribucion-right{
+    display: block;
+  }
+}
+/**********************************************/
+/******************* FIN TABS Y PANELS ******* */
+/**********************************************/
 
 #valorcomp2 p {
   
@@ -9899,7 +10356,6 @@ box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.36);
 
 #valorcomp2 #odsinfos .iconodss {
   width: 100px;
-
 }
 
 
@@ -9907,15 +10363,36 @@ box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.36);
 #valorcomp2 #odsinfos .ods-urls a{
   font-size: 16px;
   font-family:Myriad-Regular;
-  color: #414141;
-  background-color: #EEF2F4;
+  color: #6da9dc;
   margin-top: 10px;
-  border-radius: 3px;
   padding: 5px;
   display: block;
-
+}
+.blue-link{
+  font-size: 18px;
+  font-family:Myriad-Light;
+  color: #6da9dc;
+  margin-top: 10px;
+  padding: 5px;
 }
 
+.blue-link-ods{
+  font-family:Myriad-Light;
+  color: #6da9dc;
+  margin-top: 10px;
+  padding: 5px;
+  position: relative;
+  display: block;
+}
+.blue-link-ods::after{
+  content: '';
+  background: url('../svg/ico-open-link-2.svg') no-repeat;
+  background-size: 16px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-left: 8px;
+}
 #valorcomp2 #odsinfos .ods-urls a 
 .fa-external-link {
   margin-left: 10px;
