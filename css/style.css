@@ -2957,6 +2957,16 @@ font-size: 12px;
 
 }
 
+#historias_01 .fa-sort-down {
+
+  font-size: 30px;
+  position: relative;
+  top: 100px;
+  right: 10px;
+  color: #ffffff;
+
+}
+
 .divlinehistorias2 {
   margin-top: 2%;
   margin-bottom: 3%;
@@ -2986,7 +2996,7 @@ font-size: 12px;
  
   width: 85%;
   display: block;
-  top: -58px;
+  top: 0px;
   left: 25px;
   position: relative;
 
@@ -2996,7 +3006,7 @@ font-size: 12px;
  
   width: 85%;
   display: block;
-  top: -58px;
+  top: 13px;
   right: 25px;
   position: relative;
 
@@ -10469,6 +10479,33 @@ display: block;
 }
  
 
+#nuestro_negocio_02 .cards {
+  max-height: 345px;
+}
+
+#nuestro_negocio_02 .cards img {
+  width: 100%;
+    height: 181px;
+    display: block;
+    max-width: fit-content;
+ 
+}
+
+
+#nuestro_negocio_02 .cards .cards__text {
+  width: 100%;
+  margin: 23px 15px;
+}
+
+#nuestro_negocio_02 .cards .cards__text p {
+  margin-bottom: 5px;
+}
+
+
+
+
+
+
 
 }/*-END  MOBILE-*/
 
@@ -10988,16 +11025,15 @@ max-width: 600px;
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 80vh;
  
   
 }
-#innovacion_07  .contfloat{
-  
+#innovacion_07 .contfloat {
   padding: 40px;
   border-radius: 6px;
-  margin-top: 4%;
- 
-  
+  /* margin-top: 4%; */
+  margin: 35px auto;
 }
 
 
@@ -11286,7 +11322,80 @@ box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.36);
   
   }
   
+  #innovacion_03 {
+    background: url(../img/innovacion/img-walmart-empleada.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: auto 20%;
+}
  
+
+#innovacion_03 .cards {
+  /* max-width: 600px; */
+  left: 0;
+  top: 0;
+}
+
+#innovacion_05 {
+  background: url(../img/innovacion/img-superama.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: auto 25%;
+}
+
+#innovacion_05 .imgcheckprice {
+  display: block;
+  width: 300px;
+  position: relative;
+  top: 64px;
+  left: -35px;
+}
+
+#innovacion_09 .img-meroexp {
+  display: inline-block;
+  width: 45%;
+  margin: 20px 2%;
+}
+
+#innovacion_12 {
+ 
+  background-position: right;
+ 
+}
+
+#innovacion_12 .imgmamalucha {
+  width: 295px;
+  position: relative;
+  display: block;
+  left: 122px;
+  top: -4px;
+}
+
+#innovacion_12 .cards {
+  width: 100%;
+  margin-top: 32px;
+}
+
+
+#innovacion_14 .cards {
+  width: 100%;
+  margin-top: 40px;
+  position: relative;
+  left: 0;
+}
+
+#innovacion_15 .cards {
+  width: 100%;
+  margin-top: 40px;
+ 
+}
+
+#innovacion_17 .cards {
+  width: 100%;
+  
+}
+
+
 
 
 }/*-END  MOBILE-*/
