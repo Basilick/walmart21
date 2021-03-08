@@ -163,6 +163,9 @@ strong{
 .color-red {
   background-color: #0071CE;
 }
+.color-red-2 {
+  color: #c22126 !important;
+}
 .color-purple-dark{
   color: #253B80;
 }
@@ -2325,6 +2328,77 @@ font-size: 12px;
 }
 
 /*--------------------------------------------------------------
+# la_meta_11 Alberto
+--------------------------------------------------------------*/
+#la_meta_11{
+  background: url('../img/ambiente/bg-green-2.jpg') no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.my-custom-1{
+  margin: 150px 0 75px 0;
+}
+#la_meta_11 .cards-heightauto{
+  z-index: 2;
+}
+@media screen and (min-width:767px){
+  .my-custom-1{
+    margin: 250px 0 150px 0;
+  }
+  .maxipali{
+    position: absolute;
+    width: 55%;
+    top: -150px;
+    left: -350px;
+    z-index: 1;
+  }
+  .autoelectrico{
+    position: absolute;
+    width: 58%;
+    top: -172px;
+    right: 24px;
+    z-index: 3;
+  }
+}
+
+/*--------------------------------------------------------------
+# la_meta_14 Alberto
+--------------------------------------------------------------*/
+.bg-intensidad-energia {
+  background-image: url(../img/ambiente/bg-intensidad-de-energia.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/*--------------------------------------------------------------
+# la_meta_16 Alberto
+--------------------------------------------------------------*/
+.bg-cdp{
+  background: url('../img/ambiente/bg-cdp.jpeg') no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/*--------------------------------------------------------------
+# la_meta_17 Alberto
+--------------------------------------------------------------*/
+@media screen and (min-width:767px){
+  .card-custom-height-5{
+    height: 148px;
+  }
+}
+
+
+/*--------------------------------------------------------------
 #  nuestro_negocio_17 Section Alberto
 --------------------------------------------------------------*/
 .bg-valor-compartido {
@@ -3213,6 +3287,9 @@ p:last-of-type{
 .cards__text{
   width: 70%;
 }
+.cards__text_widthauto{
+  width: auto !important;
+}
 .cards-gray-1{
   margin-top: -36px;
 }
@@ -3638,6 +3715,9 @@ p:last-of-type{
   }
   .cards__image{
     margin-right: 16px;
+  }
+  .cards__image-norightmargin{
+    margin-right: 0px !important;
   }
   .cards__image img{
     padding: 5px;
@@ -4649,7 +4729,7 @@ p:last-of-type{
 }
 
 ul#blue-list{
-  margin: 0;
+  margin: 16px 0;
   padding: 0;
 }
 ul#blue-list li{
