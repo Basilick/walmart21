@@ -2327,6 +2327,177 @@ font-size: 12px;
   }
 }
 
+
+/*--------------------------------------------------------------
+# la_meta_06 Alberto
+--------------------------------------------------------------*/
+.walmartable{
+  margin: 24px 0;
+  position: relative;
+}
+.walmartable__item{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+.walmartable__bluetitle{
+  background: #273278;
+  padding: 8px 16px;
+}
+.walmartable__image img{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.walmartable__title{
+  background: #eceff9;
+  padding: 8px 16px;
+}
+.walmartable__description{
+  background: #eceff9;
+  padding: 0px 16px 8px 16px;
+}
+.walmartable__title p, .walmartable__description p{
+  margin: 0;
+  padding: 0;
+}
+.walmartable__greentitle{
+  background: #74bc1f;
+  padding: 8px 16px;
+}
+.walmartable__results{
+  background: #eff7ea;
+  padding: 8px 16px;
+}
+.walmartable__results p{
+  margin: 0;
+  padding: 0;
+}
+.big-data{
+  font-size: 20px;
+  font-family: Myriad-Bold;
+}
+@media screen and (min-width:767px){
+  .walmartable__item{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .walmartable__bluetitle{
+    width: 100%;
+  }
+  .hide-element{
+    display: none;
+  }
+  .walmartable__article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .walmartable__article-text{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    background: #eceff9;
+  }
+  .walmartable__image{
+    width: 30%;
+    background: #eceff9;
+  }  
+  .walmartable__image img{
+    width: 100%;
+  }
+  .walmartable__article-text{
+    width: 70%;
+  }
+  .walmartable__article-results{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: #eff7ea;
+  }
+  .walmartable__greentitle{
+    width: 30%;
+    display: flex;
+    align-items: center;
+  }
+  .walmartable__results{
+    width: 70%;
+  }
+  .walmartable__row{
+    display: flex;
+    flex-direction: row;
+  }
+  .left{
+    width: 100%;
+  }
+  .right{
+    width: 100%;
+    background: #eff7ea;
+  }
+}
+
+@media screen and (min-width:1023px){
+  .walmartable__item{
+    margin: 0 0 1px 0;
+  }
+  .walmartable__description{
+    display: flex;
+    flex-direction: row;
+    width: 68%;
+    align-items: center;
+  }
+  .walmartable__description img{
+    margin-right: 16px;
+  }
+  .walmartable__image{
+    display: flex;
+    align-items: center;
+    width: 24%;
+  }
+  .walmartable__image img{
+    height: 192px;
+    width: auto;
+    margin: 0 auto;
+  }
+  .left{
+    width: 70%;
+  }
+  .right{
+    width: 30%;
+  }
+  .walmartable__title{
+    display: flex;
+    align-items: center;
+    width: 30%;
+  }
+  .walmartable__article-text{
+    flex-direction: row;
+    width: 76%;
+  }
+  .walmartable__article-results{
+    flex-direction: column;
+  }
+  .walmartable__results{
+    width: 100%;
+    margin-top: 10%;
+  }
+  .walmartable__greentitle, .walmartable__results{
+    width: 100%;
+  } 
+  .hide-results{
+    display: none;
+  }
+  .row__2{
+    height:207px;
+  }
+  .row__3{
+    height:167px;
+  }
+}
+
 /*--------------------------------------------------------------
 # la_meta_11 Alberto
 --------------------------------------------------------------*/
