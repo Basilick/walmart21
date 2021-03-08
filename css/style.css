@@ -163,6 +163,9 @@ strong{
 .color-red {
   background-color: #0071CE;
 }
+.color-red-2 {
+  color: #c22126 !important;
+}
 .color-purple-dark{
   color: #253B80;
 }
@@ -2061,6 +2064,339 @@ font-size: 12px;
  
 }
 
+/*--------------------------------------------------------------
+# la_meta_01 Alberto
+--------------------------------------------------------------*/
+
+
+#la_meta_01 {
+  height: 100vh;
+  background-image: url(../img/ambiente/bg-green.jpg);
+  background-size: cover;
+}
+
+#la_meta_01 .pad95 {
+
+  padding-top: 80px;
+   
+}
+
+#la_meta_01 .paditl {
+  padding-left: 14%;
+    padding-top: 5%;
+    padding-right: 0;
+    height: 520px;
+   
+}
+
+#la_meta_01 .paditlright {
+  padding-left: 0;
+  padding-top: 5%;
+  padding-right: 10%;
+  height: 520px;
+}
+
+#la_meta_01 .lineblu {
+  margin-left: 40px;
+  background-color: #F1B634;
+    height: 152px;
+    width: 5px;
+    float: left;
+
+}
+
+#la_meta_01 .titlfra1 {
+  position: absolute;
+  color: #ffffff;
+  right: 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: right;
+}
+
+#la_meta_01 h1 {
+  font-family: Myriad-Bold;
+  color: #F1B634;
+  font-size: 40px;
+  text-transform: uppercase;
+
+}
+
+#la_meta_01 .contfra {
+  width: 80%;
+  float: right;
+
+}
+
+#la_meta_01 .contfra h2 {
+
+  color: #ffffff;
+  line-height: 67px;
+  font-size: clamp(2rem, 5.5vw, 4rem);
+  font-family: Myriad-Light;
+
+}
+
+#la_meta_01 p.txtintro {
+  float: left;
+  margin-top: 25px;
+  margin-left: 80px;
+  color: #ffffff;
+  font-size: 15px;
+  display: block;
+  text-transform: uppercase;
+  font-family: Myriad-Light;
+
+
+}
+
+#la_meta_01  p.txtintro span{
+  
+  font-family: Myriad-Regular;
+
+}
+
+
+
+#la_meta_01 .imageslip {
+  position: absolute;
+  width: 420px;
+  display: block;
+  
+  margin: 0px auto;
+  
+}
+
+#la_meta_01  .imageslip2 {
+  position: absolute;
+  width: 590px;
+  display: block;
+  margin: 0px auto;
+}
+
+
+/*--------------------------------------------------------------
+# MOBILE
+--------------------------------------------------------------*/
+
+@media (max-width: 1024px) {
+
+ 
+
+
+}/*---#TERMINA 1024 IPAD LAND------*/
+
+
+@media (max-width: 450px) {
+  
+  section {
+    padding: 0 0;
+  
+  }
+
+  #la_meta_01 .pad95 {
+    padding-top: 69px;
+}
+
+  #la_meta_01 .paditl {
+    padding-left: 20px;
+    
+}
+
+#la_meta_01 .titlfra1 {
+  
+  right: 15px;
+  
+  font-size: 10px;
+  
+}
+
+#la_meta_01 h1 {
+  margin-top: 15px;
+  font-size: 30px;
+  
+}
+
+#la_meta_01 .contfra h2 {
+
+  
+  line-height: 1.2;
+  
+
+}
+
+
+#la_meta_01 .lineblu {
+  height: 148px;
+}
+
+#la_meta_01 .d-flex {
+  height: 288px;
+}
+
+
+  #la_meta_01 .imageslip {
+    
+    width: 240px;
+    
+    
+  }
+  
+  #la_meta_01 .imageslip2 {
+   
+    width: 340px;
+    
+  }
+
+  #la_meta_01 p.txtintro {
+   
+    display: none;
+    
+  
+  }
+
+ 
+
+
+}/*-END  MOBILE-*/
+
+
+/*--------------------------------------------------------------
+# la_meta_02 Alberto
+--------------------------------------------------------------*/
+#la_meta_02 .cards__text p{
+  margin: 0;
+  padding: 0;
+}
+
+.ico-nuevos-compromisos{
+  background: url('../svg/ico_ambAsset 33.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 43px !important;
+  height: 43px !important;
+  padding-left: 52px !important;
+  color: #414141;
+  font-family: Myriad-Bold;
+}
+
+.icoss-int-2 {
+  width: 45px;
+  display: inline;
+  margin: 0 10px 0 0;
+}
+
+/*--------------------------------------------------------------
+# la_meta_03 Alberto
+--------------------------------------------------------------*/
+
+#la_meta_03 .text-and-divider p{
+  font-size: 16px !important;
+}
+@media screen and (min-width:1279px){
+  #la_meta_03 .panel-solar{
+    height: 129px;
+  }
+  #la_meta_03 .ventilador{
+    height: 151px;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# la_meta_04 Alberto
+--------------------------------------------------------------*/
+#la_meta_04 .text-and-divider p{
+  font-size: 16px !important;
+}
+@media screen and (min-width:1279px){
+  #la_meta_04 .caja-great-value{
+    height: 115px;
+  }
+}
+
+/*--------------------------------------------------------------
+# la_meta_05 Alberto
+--------------------------------------------------------------*/
+#la_meta_05 .text-and-divider p{
+  font-size: 16px !important;
+}
+
+@media screen and (min-width:1279px){
+  #text-and-divider-alone img{
+    max-height: 109px;
+  }
+}
+
+/*--------------------------------------------------------------
+# la_meta_11 Alberto
+--------------------------------------------------------------*/
+#la_meta_11{
+  background: url('../img/ambiente/bg-green-2.jpg') no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.my-custom-1{
+  margin: 150px 0 75px 0;
+}
+#la_meta_11 .cards-heightauto{
+  z-index: 2;
+}
+@media screen and (min-width:767px){
+  .my-custom-1{
+    margin: 250px 0 150px 0;
+  }
+  .maxipali{
+    position: absolute;
+    width: 55%;
+    top: -150px;
+    left: -350px;
+    z-index: 1;
+  }
+  .autoelectrico{
+    position: absolute;
+    width: 58%;
+    top: -172px;
+    right: 24px;
+    z-index: 3;
+  }
+}
+
+/*--------------------------------------------------------------
+# la_meta_14 Alberto
+--------------------------------------------------------------*/
+.bg-intensidad-energia {
+  background-image: url(../img/ambiente/bg-intensidad-de-energia.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/*--------------------------------------------------------------
+# la_meta_16 Alberto
+--------------------------------------------------------------*/
+.bg-cdp{
+  background: url('../img/ambiente/bg-cdp.jpeg') no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/*--------------------------------------------------------------
+# la_meta_17 Alberto
+--------------------------------------------------------------*/
+@media screen and (min-width:767px){
+  .card-custom-height-5{
+    height: 148px;
+  }
+}
+
 
 /*--------------------------------------------------------------
 #  nuestro_negocio_17 Section Alberto
@@ -2636,11 +2972,17 @@ font-size: 12px;
 .bg-green-1{
   background: #3eae49;
 }
+.bg-green-2{
+  background: #9ccc62 !important;
+}
+.bg-green-3{
+  background: #74bc1f;
+}
 .bg-orange-1{
   background: #f47b20;
 }
 .bg-blue-dark{
-  background: #095498;
+  background: #095498 !important;
 }
 
 .bg-blue-darkmex {
@@ -2663,7 +3005,7 @@ font-size: 12px;
   background: #00aeef;
 }
 .bg-blue-light-5{
-  background: #1181C7;
+  background: #1181C7 !important;
 }
 .bg-blue-light-6{
   background: #eef2f4;
@@ -2675,7 +3017,7 @@ font-size: 12px;
   background:#7dbed2;
 }
 .bg-blue-gray-1{
-  background:#A6BDD1;
+  background:#A6BDD1 !important;
 }
 .bg-blue-gray-2{
   background:#4C5C6E;
@@ -3007,6 +3349,9 @@ p:last-of-type{
 }
 .cards__text{
   width: 70%;
+}
+.cards__text_widthauto{
+  width: auto !important;
 }
 .cards-gray-1{
   margin-top: -36px;
@@ -3433,6 +3778,9 @@ p:last-of-type{
   }
   .cards__image{
     margin-right: 16px;
+  }
+  .cards__image-norightmargin{
+    margin-right: 0px !important;
   }
   .cards__image img{
     padding: 5px;
@@ -4444,7 +4792,7 @@ p:last-of-type{
 }
 
 ul#blue-list{
-  margin: 0;
+  margin: 16px 0;
   padding: 0;
 }
 ul#blue-list li{
@@ -4971,8 +5319,7 @@ display: grid;
 .icoss-int {
   width: 45px;
   display: inline;
-margin: auto 10px;
-
+  margin: auto 10px;
 }
 
 #gobierno_04 .bg-gob-higiene {
@@ -9154,7 +9501,7 @@ display: block;
 .btn-descarga-cifras:hover{
   color: #ffffff;
 }
-.text-and-divider{
+.text-and-divider, #text-and-divider-alone .text-and-divider{
   color: #4a5b6d;
   font-family: Myriad-Light;
   font-size: 14px;
