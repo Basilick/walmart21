@@ -2269,6 +2269,13 @@ font-size: 12px;
   padding: 0;
 }
 
+#la_meta_02 .subh4{
+ 
+  font-size: 20px;
+  font-family: Myriad-SemiBold;
+
+}
+
 .ico-nuevos-compromisos{
   background: url('../svg/ico_ambAsset 33.svg') no-repeat 0px 2px;
   background-size: 40px;
