@@ -884,6 +884,14 @@
  <!-- <div id="preloader"></div>
   <a data-scroll  href="#hero" class="back-to-top"><i class="ri-arrow-up-line"></i></a> -->
 
+
+  <script>
+    var wows = document.getElementsByClassName('wow')
+    for (i = 0; i < wows.length; i++){
+    wows[i].style.visibility ='hidden';
+    }
+  </script>
+
   <!-- Vendor JS Files -->
   <script src="js/jquery/jquery.min.js"></script>
   <script src="js/fontjs/fa-brands.js"></script>
@@ -997,108 +1005,6 @@
      }
  </script>
 
-
-  <script>
-    function myFunctiontxt1() {
-      var x = document.getElementById("carrtexts");
-      if (x.innerHTML === "historias") {
-        x.innerHTML = "resilencia";
-      } else {
-        x.innerHTML = "resilencia";
-      }
-    }
-
-    function myFunctiontxt2() {
-      var x = document.getElementById("carrtexts");
-      if (x.innerHTML === "historias") {
-        x.innerHTML = "Aceleración";
-      } else {
-        x.innerHTML = "Aceleración";
-      }
-    }
-
-    function myFunctiontxt3() {
-      var x = document.getElementById("carrtexts");
-      if (x.innerHTML === "historias") {
-        x.innerHTML = "Unión";
-      } else {
-        x.innerHTML = "Unión";
-      }
-    }
-
-    function myFunctiontxt4() {
-      var x = document.getElementById("carrtexts");
-      if (x.innerHTML === "historias") {
-        x.innerHTML = "Esfuerzo";
-      } else {
-        x.innerHTML = "Esfuerzo";
-      }
-    }
-
-    function myFunctiontxt5() {
-      var x = document.getElementById("carrtexts");
-      if (x.innerHTML === "historias") {
-        x.innerHTML = "Estrategia";
-      } else {
-        x.innerHTML = "Estrategia";
-      }
-    }
-
-    function myFunctiontxt6() {
-      var x = document.getElementById("carrtexts");
-      if (x.innerHTML === "historias") {
-        x.innerHTML = "Metas";
-      } else {
-        x.innerHTML = "Metas";
-      }
-    }
-
-  </script>
-  
-  <!-- <script>
-
-var specialNav = document.getElementById("specialnav");
-
-if (specialNav) {
-  var navItems = specialNav.getElementsByTagName('li');
-  var i;
-  for (i = 0; i < navItems.length; i++) {
-    navItems[i].addEventListener("click", function() {
-      if (!this.classList.contains('active')) {
-        clearActives(navItems);
-        this.classList.toggle('active');
-      }
-    });
-  }
-}
-
-function clearActives(classlist) {
-  if (classlist) {
-    for (i = 0; i < classlist.length; i++) {
-      classlist[i].classList.remove('active');
-    }
-  }
-}
-
-
-$('body').on('click', '.carrrestxt', function() {
-  $(this).toggleClass('active').siblings().removeClass('active');
-}); 
-    var activecarr = function() {
-        $('.carrrestxt').click(function(e) {
-          $(window).scrollTop(0);
-          if (!$('.carrrestxt').hasClass('active'))
-            $('.carrrestxt').siblings().addClass('active');
-          else
-            $('.carrrestxt').removeClass('active');
-        });
-      }
-      activecarr();
-
-   
-    
-    
-  </script> -->
 
   <script>
 

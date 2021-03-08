@@ -2308,7 +2308,7 @@
         </div>
     </div>
     <div id="ciudades" class="odsinfo hideinfo">
-        <img  src="img/valor_compartido/ods_iconos/ods_10.svg" class="iconodss" />
+        <img  src="img/valor_compartido/ods_iconos/ods_11.svg" class="iconodss" />
         <div class="titles" style="padding-bottom:0px;">
             Ciudades y comunidades sostenibles
         </div>
@@ -2320,7 +2320,7 @@
         </div>
     </div>
     <div id="reduccion" class="odsinfo hideinfo">
-        <img  src="img/valor_compartido/ods_iconos/ods_11.svg" class="iconodss" />
+        <img  src="img/valor_compartido/ods_iconos/ods_10.svg" class="iconodss" />
         <div class="titles" style="padding-bottom:0px;">
             Reducción de las desigualdades
         </div>
@@ -2653,6 +2653,13 @@
 
  <!-- <div id="preloader"></div>
   <a data-scroll  href="#hero" class="back-to-top"><i class="ri-arrow-up-line"></i></a> -->
+
+  <script>
+    var wows = document.getElementsByClassName('wow')
+    for (i = 0; i < wows.length; i++){
+    wows[i].style.visibility ='hidden';
+    }
+  </script>
 
   <!-- Vendor JS Files -->
   <script src="js/jquery/jquery.min.js"></script>
@@ -3042,7 +3049,7 @@ $('body').on('click', '.carrrestxt', function() {
 
     var burgerMenu = function() {
         $('.burger').click(function(e) {
-          $(window).scrollTop(0);
+       
           if (!$('.burger').hasClass('active'))
             $('.burger').addClass('active');
           else
