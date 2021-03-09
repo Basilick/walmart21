@@ -3284,6 +3284,9 @@ font-size: 12px;
 .bg-blue-light-6{
   background: #eef2f4;
 }
+.bg-blue-light-7{
+  background: #007dc3;
+}
 .bg-turquesa{
   background:#7dbed2;
 }
@@ -3609,6 +3612,23 @@ p:last-of-type{
   position: relative;
   left: -5px;
 } 
+.cards__image-descargas{
+  width: 30%;
+  padding-right: 8px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+} 
+.cards__image-descargas{
+  padding: 24px;
+}
+.descargas-title{
+  font-size: 12px;
+  line-height: 15px;
+  font-family: Myriad-SemiBold;
+  text-transform: uppercase;
+  color: #4a5b6d;
+}
 .cards__text h4, .cards__text2 h4{
   font-family: Myriad-Bold;
   margin-bottom: 0;
@@ -7808,7 +7828,7 @@ margin-top: 15px;
 }
 
 #descargas1 .vhhe{
-  height: 90vh;
+  height: 100vh;
   
 }
 
@@ -7877,12 +7897,13 @@ margin-top: 15px;
 }
 .grid3__menu a{
   color: #ffffff;
-  font-size: 14px;
+  font-size: 17px;
+  line-height: 20px;
   text-decoration: none;
-  background: url('../svg/download.svg') no-repeat;
+  background: url('../svg/icon_descarga.svg') no-repeat;
   background-size: 16px;
   padding: 0 0 0 24px;
-  margin: 0 0 12px 0;
+  margin: 0 0 26px 0;
   cursor: pointer;
   display: block;
 }
