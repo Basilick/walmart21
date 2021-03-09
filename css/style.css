@@ -5609,6 +5609,14 @@ display: grid;
 
 }
 
+#gobierno_03 .conticossmob {
+
+
+  display: none;
+
+
+}
+
 /*--------------------------------------------------------------
 # Gobierno 04
 --------------------------------------------------------------*/
@@ -5964,6 +5972,59 @@ display: grid;
   margin-top: 20px;
 
 }
+
+
+/*--------------------------------------------------------------
+# MOBILE
+--------------------------------------------------------------*/
+
+@media (max-width: 1024px) {
+
+ 
+
+
+}/*---#TERMINA 1024 IPAD LAND------*/
+
+
+@media (max-width: 450px) {
+  
+
+  .tableimano {
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+  
+#gobierno_03 .d-flex {
+
+
+  display: none !important;
+
+
+}
+
+#gobierno_03 .conticossmob {
+margin-top: 15px;
+ text-align: center;
+  display: block;
+
+
+}
+#gobierno_03 .conticossmob p {
+  margin-top: 10px;
+ 
+ 
+ }
+
+
+#gobierno_03 .conticossmob .icoss {
+  width: 45px;
+  margin: auto;
+  display: block;
+}
+
+
+}/*-END  MOBILE-*/
 
 
 
@@ -7118,8 +7179,54 @@ display: grid;
 @media (max-width: 450px) {
   
   
+  #valor_social_16 .nav {
+    width: 100%;
+    margin: 40px auto 0;
+    border: 0;
+}
 
-  
+#valor_social_13 .imgcamaron {
+  width: 150px;
+  position: absolute;
+  left: 0px;
+  top: 101px;
+}
+
+#valor_social_13 .imgpesca {
+  width: 150px;
+  position: absolute;
+  left: 0;
+  top: 101px;
+}
+
+
+#valor_social_14 .imgcamaron {
+  width: 150px;
+  position: absolute;
+  left: 0px;
+  top: 101px;
+}
+
+#valor_social_14 .imgpesca {
+  width: 150px;
+  position: absolute;
+  left: 0;
+  top: 101px;
+}
+
+#valor_social_15 .imgcamaron {
+  width: 150px;
+  position: absolute;
+  left: 0px;
+  top: 101px;
+}
+
+#valor_social_15 .imgpesca {
+  width: 150px;
+  position: absolute;
+  left: 0;
+  top: 101px;
+}
 
 
 
