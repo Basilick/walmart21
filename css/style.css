@@ -2038,10 +2038,7 @@ font-size: 12px;
 
 @media (max-width: 450px) {
   
-  section {
-    padding: 0 0;
   
-  }
 
   #hero {
     height: 100vh;
@@ -2259,10 +2256,7 @@ font-size: 12px;
 
 @media (max-width: 450px) {
   
-  section {
-    padding: 0 0;
   
-  }
 
   #la_meta_01 .pad95 {
     padding-top: 69px;
@@ -5484,11 +5478,7 @@ ul#blue-list li{
 
 @media (max-width: 450px) {
 
-  section {
-    padding: 0 0;
-  
-  }
-
+ 
   #gobierno_01 .pad95 {
     padding-top: 69px;
 }
@@ -6117,10 +6107,7 @@ display: grid;
 
 @media (max-width: 450px) {
   
-  section {
-    padding: 0 0;
-  
-  }
+ 
 
   #valor_social .pad95 {
     padding-top: 69px;
@@ -6346,10 +6333,7 @@ display: grid;
 
 @media (max-width: 450px) {
   
-  section {
-    padding: 0 0;
   
-  }
 
   #valor_al_asociado .pad95 {
     padding-top: 69px;
@@ -7418,10 +7402,7 @@ display: grid;
 
 @media (max-width: 450px) {
   
-  section {
-    padding: 0 0;
-  
-  }
+
 
   #el_compromiso .pad95 {
     padding-top: 69px;
@@ -8986,6 +8967,111 @@ display: block;
 
 
 /*--------------------------------------------------------------
+# MOBILE
+--------------------------------------------------------------*/
+
+@media (max-width: 1024px) {
+
+ 
+
+
+}/*---#TERMINA 1024 IPAD LAND------*/
+
+
+@media (max-width: 450px) {
+  
+  #asociado_02 .cards {
+   
+    padding: 6px 5px;
+    
+    margin: 0 0 10px 0;
+    
+  }
+
+  #asociado_05 .cardshm {
+    padding: 6px 5px;
+    
+    margin: 0 0 10px 0;
+   
+}
+#asociado_03 .cardshm {
+  padding: 6px 5px;
+  
+  margin: 0 0 10px 0;
+ 
+}
+
+#asociado_04 .cardshm {
+  padding: 6px 5px;
+  
+  margin: 0 0 10px 0;
+ 
+}
+
+
+#asociado_08 .cards {
+  width: 100%;
+  margin-top: 15px !important;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+#asociado_08 p.label-mex-ca {
+  color: #414141;
+  background: url(../svg/label-mex-ca.svg) no-repeat 0px 5px;
+  background-size: 24px 10px;
+  padding-left: 28px;
+  margin-right: 0px;
+}
+
+#asociado_08 p.label-mex {
+  color: #414141;
+  background: url(../svg/label-mex.svg) no-repeat 0px 5px;
+  background-size: 24px 10px;
+  padding-left: 26px;
+  margin-right: 4px;
+}
+
+#asociado_08 p.label-ca {
+  color: #414141;
+  background: url(../svg/label-ca.svg) no-repeat 0px 5px;
+  background-size: 24px 10px;
+  padding-left: 30px;
+}
+
+#asociado_08 .cardgraph__graph {
+  background: #EEF2F4;
+  padding: 60px 10px 40px 10px;
+  margin-bottom: 4px;
+  
+}
+
+#asociado_08 .graphcont {
+  
+  width: 26%;
+
+}
+
+#asociado_09 .imgwomanlap {
+  width: 232px;
+  display: block;
+  position: relative;
+  right: 0;
+  top: 5px;
+  z-index: 1;
+}
+
+.bg-propuesta-valor-asociado {
+ height: 60vh;
+  background-position: 1px 233px;
+  
+}
+
+
+}/*-END  MOBILE-*/
+
+
+/*--------------------------------------------------------------
 # valor_financiero_01 - Alberto
 --------------------------------------------------------------*/
 
@@ -9180,10 +9266,7 @@ display: block;
 
 @media (max-width: 450px) {
   
-  section {
-    padding: 0 0;
   
-  }
 
   #valor_financiero_01 .pad95 {
     padding-top: 69px;
@@ -9812,6 +9895,91 @@ display: block;
 }
 
 
+
+/*--------------------------------------------------------------
+# MOBILE
+--------------------------------------------------------------*/
+
+@media (max-width: 1024px) {
+
+ 
+
+
+}/*---#TERMINA 1024 IPAD LAND------*/
+
+
+@media (max-width: 450px) {
+  
+  #valor_financiero_06 .bg-green-1 {
+    width: 100%;
+}
+
+#valor_financiero_05 .cardgraph {
+  margin-left: 0 !important;
+  margin-top: 40px;
+}
+
+#valor_financiero_09 .personal-sams {
+ 
+  width: 100%;
+  
+}
+
+#valor_financiero_09 .cardgraph__content .radia-bar-container svg{
+ 
+  width: 100%;
+  
+}
+
+
+#valor_financiero_04 .conttxthig {
+  text-align: left;
+  width: 92%;
+  margin: 0px;
+  display: flex;
+  padding-top: 14%;
+}
+
+#valor_financiero_04 .conttxthig p {
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+#valor_financiero_04 .bg-valor_finance_1   .row {
+
+  margin-left: 0;
+  margin-right: 0;
+
+}
+
+#valor_financiero_13 .conttxthig {
+  text-align: left;
+    width: 92%;
+    margin: 0px;
+    display: flex;
+    padding-top: 0%;
+}
+
+#valor_financiero_13 .conttxthig p {
+  font-size: 18px;
+  margin-top: 20px !important;
+  margin-left: 20px;
+  padding-top: 0;
+}
+
+
+#valor_financiero_13 .bg-valor_finance_13  .row {
+
+  margin-left: 0;
+  margin-right: 0;
+
+}
+
+
+
+
+}/*-END  MOBILE-*/
+
 /*--------------------------------------------------------------
 # nuestro_negocio_01 - Alberto
 --------------------------------------------------------------*/
@@ -10396,10 +10564,7 @@ display: block;
 
 @media (max-width: 450px) {
   
-  section {
-    padding: 0 0;
-  
-  }
+ 
 
   #nuestro_negocio_01 .pad95 {
     padding-top: 69px;
@@ -11256,10 +11421,7 @@ box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.36);
 
 @media (max-width: 450px) {
 
-  section {
-    padding: 0 0;
-  
-  }
+ 
 
   #innovacion_01  .pad95 {
     padding-top: 69px;
@@ -11367,7 +11529,7 @@ box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.36);
   width: 295px;
   position: relative;
   display: block;
-  left: 122px;
+  left: 50px;
   top: -4px;
 }
 
@@ -12587,10 +12749,6 @@ box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.36);
 
 @media (max-width: 450px) {
   
-  section {
-    padding: 0 0;
-  
-  }
 
  
 
@@ -12706,3 +12864,9 @@ display: none;
   
 }/*-END  MOBILE-*/  
 
+@media screen and (max-width: 800px) {
+  .wow{
+      animation-name: none !important;
+      visibility: visible !important;
+  }
+}
