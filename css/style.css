@@ -8232,6 +8232,32 @@ margin-top: 15px;
 }
 
 /*--------------------------------------------------------------
+# MOBILE
+--------------------------------------------------------------*/
+
+@media (max-width: 1024px) {
+
+ 
+
+
+}/*---#TERMINA 1024 IPAD LAND------*/
+
+
+@media (max-width: 450px) {
+
+  #descargas1 .cards__image-descargas {
+    padding: 0px;
+}
+
+#descargas1 .cards__image-descargas {
+  width: 100% !important;
+  height: 164px;
+}
+
+
+}/*-END  MOBILE-*/
+
+/*--------------------------------------------------------------
 # Información inversionistas 1 - Alberto
 --------------------------------------------------------------*/
 #info_inversionistas_1{
@@ -8435,6 +8461,28 @@ a.inversionistas-global{
     background-position: center 0;
   }
 }
+
+/*--------------------------------------------------------------
+# MOBILE
+--------------------------------------------------------------*/
+
+@media (max-width: 1024px) {
+
+ 
+
+
+}/*---#TERMINA 1024 IPAD LAND------*/
+
+
+@media (max-width: 450px) {
+
+  .brandscol img {
+    height: 94px;
+  }
+  
+
+
+}/*-END  MOBILE-*/
 
 /*--------------------------------------------------------------
 # asociado_01 - Alberto
