@@ -332,6 +332,12 @@ strong{
 --------------------------------------------------------------*/
 /* Desktop Navigation */
 
+.navbar-brand {
+
+  margin-left: 1rem;
+  margin-right:0 ;
+}
+
 .mega-menu {
   
   -webkit-box-shadow: inset 0 1px 20px -20px rgba(0,0,0,0.5) !important;
@@ -857,6 +863,7 @@ box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2);
 
   .navbar-brand {
    margin-right: 1px;
+   margin-left: 0;
 }
 
 .menucont .txtinffi {
@@ -4472,6 +4479,14 @@ p:last-of-type{
 }
 .nuevos-asociados-mexico-2{
   background: url('../svg/ico-mexico-blue-dark.svg') no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 43px !important;
+  height: 43px !important;
+  padding-left: 52px !important;
+}
+
+.nuevos-asociados-centa-2 {
+  background: url(../svg/ico-centroamerica-tuquesa.svg) no-repeat 0px 2px;
   background-size: 40px;
   line-height: 43px !important;
   height: 43px !important;
@@ -9316,6 +9331,9 @@ display: block;
 /*--------------------------------------------------------------
 # valor_financiero_03 - Alberto
 --------------------------------------------------------------*/
+
+
+
 .graphor{
   border-left: 1px solid #58595b;
   display: flex;
