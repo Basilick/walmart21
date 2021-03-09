@@ -844,6 +844,14 @@ box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2);
 /*--------------------------------------------------------------
 # MOBILE
 --------------------------------------------------------------*/
+@media (max-width: 550px) {
+
+.menucont .txtinffi {
+
+  display: none;
+}
+
+}
 
 @media (max-width: 450px) {
 
@@ -2239,105 +2247,110 @@ font-size: 12px;
 
 .parallax {
   position: absolute;
-  top: -37px;
-  left: 172px;
-    background-image: url(../img/home/parraima1.png);
-    width: 450px;
-    height: 421px;
-    background-attachment: fixed;
-    background-position: 116px 333px;
-    background-repeat: no-repeat;
-    background-size: 90%;
+  top: 32px;
+  left: 137px;
+  background-image: url(../img/home/parraima1.png);
+  width: 354px;
+  height: 147px;
+  background-attachment: unset;
+  background-position: -38px 0px;
+  background-repeat: no-repeat;
+  background-size: 90%;
 }
 
 .parallax2 {
   position: absolute;
-  top: 362px;
-  left: -223px;
-  background-image: url(../img/home/parraima2.jpg);
-  width: 450px;
-  height: 442px;
-  background-attachment: fixed;
-  background-position: -44px 345px;
-  background-repeat: no-repeat;
-  background-size: 100%;
+    top: 436px;
+    left: -223px;
+    background-image: url(../img/home/parraima2.jpg);
+    width: 450px;
+    height: 203px;
+    background-attachment: unset;
+    background-position: 19px -38px;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .parallax3 {
   position: absolute;
-  top: 797px;
-  right: -350px;
-  background-image: url(../img/home/parraima3.jpg);
-  width: 572px;
-  height: 448px;
-  background-attachment: fixed;
-  background-position: 154px 333px;
-  background-repeat: no-repeat;
-  background-size: 100%;
+    top: 777px;
+    right: -35px;
+    background-image: url(../img/home/parraima3.jpg);
+    width: 272px;
+    height: 233px;
+    background-attachment: unset;
+    background-position: 14px 36px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#section4 .divline {
+  height: 170px;
+
 }
 
 .parallax4 {
   position: absolute;
-  top: 1225px;
-  left: -343px;
+  top: 1189px;
+  left: -22px;
   background-image: url(../img/home/parraima4.jpg);
-  width: 570px;
-  height: 338px;
-  background-attachment: fixed;
-  background-position: -34px 377px;
+  width: 256px;
+  height: 244px;
+  background-attachment: unset;
+  background-position: 6px -7px;
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
 .parallax5 {
   position: absolute;
-  right: -64px;
-  top: 1522px;
-  background-image: url(../img/home/parraima5.jpg);
-  width: 340px;
-  height: 280px;
-  background-attachment: fixed;
-  background-position: 100px 333px;
-  background-repeat: no-repeat;
-  background-size: 100%;
+    right: -119px;
+    top: 1610px;
+    background-image: url(../img/home/parraima5.jpg);
+    width: 340px;
+    height: 189px;
+    background-attachment: unset;
+    background-position: 10px 33px;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .parallax6 {
   position: absolute;
-  top: 1871px;
-  left: -175px;
-  background-image: url(../img/home/parraima6.jpg);
-  width: 407px;
-  height: 296px;
-  background-attachment: fixed;
-  background-position: -17px 456px;
-  background-repeat: no-repeat;
-  background-size: 100%;
+    top: 1989px;
+    left: -175px;
+    background-image: url(../img/home/parraima6.jpg);
+    width: 394px;
+    height: 226px;
+    background-attachment: unset;
+    background-position: 96px -17px;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 
 .parallax7 {
   position: absolute;
   right: -15px;
-  top: 2207px;
+  top: 2397px;
   background-image: url(../img/home/parraima7.jpg);
-  width: 252px;
-  height: 364px;
-  background-attachment: fixed;
-  background-position: 89px 398px;
+  width: 233px;
+  height: 188px;
+  background-attachment: unset;
+  background-position: 3px -63px;
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
 .parallax8 {
   position: absolute;
-  top: 2588px;
+  top: 2833px;
   left: -140px;
   background-image: url(../img/home/parraima8.jpg);
-  width: 372px;
-  height: 235px;
-  background-attachment: fixed;
-  background-position: -99px 154px;
+  width: 357px;
+  height: 208px;
+  background-attachment: unset;
+  background-position: 87px -4px;
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -5792,6 +5805,54 @@ ul#blue-list li{
 
 @media (max-width: 450px) {
 
+  #capitulo02_7 .imgdocta{
+  
+  margin-top: 25px;
+  
+  }
+
+  #capitulo02_7 .cards{
+  
+    margin: 20px;
+    
+  }
+
+  #capitulo02_7 .cards img{
+  
+    height: 57px;
+    
+  }
+
+  #capitulo02_8 {
+    background: none;
+   background-color: #f79d2c;
+}
+
+#capitulo02_8 .cards img{
+  
+  height: 57px;
+  
+}
+
+#capitulo02_10 img.imgpicker21 {
+  width: 90%;
+  display: block;
+  margin: 30px auto 0px !important;
+}
+
+img.imgpicker231  {
+  width: 90%;
+  display: block;
+  margin: 30px auto 0px !important;
+}
+  
+#capitulo02_10 img.imgpicker2 {
+  width: 100%;
+  
+}
+
+  
+
  
   #gobierno_01 .pad95 {
     padding-top: 69px;
@@ -6337,6 +6398,37 @@ margin-top: 15px;
   display: block;
 }
 
+#gobierno_05 h4 {
+  
+  width: 100%;
+  margin: 25px 0;
+}
+
+
+#gobierno_05 h5 {
+  
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+#gobierno_06 h4 {
+  
+  width: 100%;
+  margin: 25px 0;
+}
+
+
+#gobierno_06 h5 {
+  
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+
+#gobierno_06 p {
+  font-size: 18px;
+  
+}
 
 }/*-END  MOBILE-*/
 
@@ -7491,59 +7583,176 @@ margin-top: 15px;
 
 
 @media (max-width: 450px) {
-  
-  
-  #valor_social_16 .nav {
-    width: 100%;
-    margin: 40px auto 0;
-    border: 0;
+
+ 
+  #valor_social_08 {
+    background: none;
+   
 }
 
-#valor_social_13 .imgcamaron {
-  width: 150px;
-  position: absolute;
-  left: 0px;
-  top: 101px;
+#valor_social_08 .h422{
+  margin-bottom: 25px;
+ 
 }
+  
+#valor_social_10 {
+  background: none;
+  
+  background-color: #2570b8;
+}
+
+#valor_social_10 #blue-list li {
+  margin: 10px 0;
+  padding: 0 0 5px 0px;
+  
+}
+
+#valor_social_13 .datagrafmex {
+
+  top: 29px;
+  left: -10px;
+  
+}
+
+#valor_social_13 .datagrafcen {
+ 
+  left: -10px;
+  
+}
+  
+ 
+#valor_social_13 .imgcamaron {
+  width: 100px;
+    position: absolute;
+    left: 232px;
+    top: 50px;
+}
+
+
 
 #valor_social_13 .imgpesca {
-  width: 150px;
-  position: absolute;
-  left: 0;
-  top: 101px;
+  width: 100px;
+    position: absolute;
+    left: 229px;
+    top: 198px;
 }
 
 
+#valor_social_13 .cardgraph__subtitle2  {
+  padding: 0px;
+}
+
+#valor_social_13 .cardgraph__subtitle2 p {
+  
+  padding: 10px 0 0 48px;
+  height: 40px;
+}
+#valor_social_14 .datagrafmex {
+
+  top: 29px;
+  left: -10px;
+  
+}
+
+#valor_social_14 .datagrafcen {
+ 
+  left: -10px;
+  
+}
+
 #valor_social_14 .imgcamaron {
-  width: 150px;
-  position: absolute;
-  left: 0px;
-  top: 101px;
+  width: 100px;
+    position: absolute;
+    left: 232px;
+    top: 50px;
 }
 
 #valor_social_14 .imgpesca {
-  width: 150px;
-  position: absolute;
-  left: 0;
-  top: 101px;
+  width: 100px;
+    position: absolute;
+    left: 229px;
+    top: 198px;
+}
+
+#valor_social_14 .cardgraph__subtitle2  {
+  padding: 0px;
+}
+
+#valor_social_14 .cardgraph__subtitle2 p {
+  
+  padding: 10px 0 0 48px;
+  height: 40px;
+  margin-bottom: 25px;
+}
+
+#valor_social_15 .imggarner {
+
+  margin-bottom: 25px;
+  
+}
+
+#valor_social_15 .datagrafmex {
+
+  top: 29px;
+  left: -10px;
+  
+}
+
+#valor_social_15 .datagrafcen {
+ 
+  left: -10px;
+  
 }
 
 #valor_social_15 .imgcamaron {
-  width: 150px;
-  position: absolute;
-  left: 0px;
-  top: 101px;
+  width: 100px;
+    position: absolute;
+    left: 232px;
+    top: 50px;
 }
 
 #valor_social_15 .imgpesca {
-  width: 150px;
-  position: absolute;
-  left: 0;
-  top: 101px;
+  width: 100px;
+    position: absolute;
+    left: 229px;
+    top: 198px;
 }
 
+#valor_social_15 .cardgraph__subtitle2  {
+  padding: 0px;
+}
 
+#valor_social_15 .cardgraph__subtitle2 p {
+  
+  padding: 10px 0 0 48px;
+  height: 40px;
+}
 
+#valor_social_16 .nav {
+  width: 100%;
+  margin: 40px auto 0;
+  border: 0;
+}
+
+#valor_social_17 .cards {
+  width: 100%;
+}
+
+#valor_social_19 .cards {
+
+  margin-top: 25px;
+
+}
+
+#valor_social_21 {
+
+  background-size: cover;
+ 
+}
+
+#valor_social_22 .cards {
+  width: 100%;
+}
 
 }/*-END  MOBILE-*/
 
@@ -11979,7 +12188,7 @@ box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.36);
   }
   
   #innovacion_03 {
-    background: url(../img/innovacion/img-walmart-empleada.png);
+    background:none;
     background-position: right bottom;
     background-repeat: no-repeat;
     background-size: auto 20%;
@@ -11992,8 +12201,13 @@ box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.36);
   top: 0;
 }
 
+#innovacion_04 .imgevolvee {
+  height: 82px;
+  margin: 0px auto;
+}
+
 #innovacion_05 {
-  background: url(../img/innovacion/img-superama.png);
+  background: none;
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: auto 25%;
@@ -12005,6 +12219,20 @@ box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.36);
   position: relative;
   top: 64px;
   left: -35px;
+}
+
+#innovacion_07 {
+  
+  
+  height: auto;
+}
+
+#innovacion_07 .contfloat {
+  padding: 25px;
+  border-radius: 6px;
+  /* margin-top: 4%; */
+  margin: 0px auto;
+  max-width: 345px;
 }
 
 #innovacion_09 .img-meroexp {
@@ -12032,6 +12260,13 @@ box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.36);
   margin-top: 32px;
 }
 
+#innovacion_13 .p-5 {
+
+  padding: 20px !important;
+  
+   
+ }
+
 
 #innovacion_14 .cards {
   width: 100%;
@@ -12039,6 +12274,21 @@ box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.36);
   position: relative;
   left: 0;
 }
+
+
+#innovacion_14 .p-5 {
+
+ padding: 0px !important;
+ 
+  
+}
+
+#innovacion_15 .p-5 {
+
+  padding: 20px !important;
+  
+   
+ }
 
 #innovacion_15 .cards {
   width: 100%;
@@ -13314,6 +13564,11 @@ display: block;
   float: left;
   padding-left: 15px;
   border-left:1px solid #ffffff;
+}
+
+#footer p.txt5 {
+ 
+  color: #0372ba;
 }
 
 /*--------------------------------------------------------------
