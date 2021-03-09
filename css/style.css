@@ -157,6 +157,9 @@ strong{
 .color-yellow {
   background-color: #FAEB33; 
 }
+.color-yellow-2 {
+  color: #FDB71A; 
+}
 .color-orange {
   background-color: #E95F24;
 }
@@ -4231,7 +4234,7 @@ p:last-of-type{
   margin-bottom: 0;
   height: 52px;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 .cardgraph__header, .cardgraph__footer{
