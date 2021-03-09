@@ -59,7 +59,7 @@
         <a href="#" class="burger" data-toggle="collapse" data-target="#navbarSupportedContent1">
           <span></span>
         </a>
-        <a href="#" class="btndowlo"> DESCARGAS </a>
+        <a href="descargas.html" class="btndowlo"> DESCARGAS </a>
       <ul class="secondary-nav">
         <li class="activemenu">
           <a href="index.html">ES</a>
@@ -335,26 +335,27 @@
                       <div class="line_orang"></div>
 
                       <div class="contsubmenus">
-                        <a href=""><span class="trutitle">VALOR AMBIENTAL</span></a>
+                        <a href="valor_ambiental.html"><span class="trutitle">VALOR AMBIENTAL</span></a>
                         <ul>
-                          <li><a href="">
+                          <li><a href="valor_ambiental.html?scrollTo=la_meta_02">
                             <p>
-                              Prioridades 2040 y Avances
+                              Valor Ambiental
                             </p>
                           </a></li>
-                          <li><a href="">
+                          <li><a href="valor_ambiental.html?scrollTo=la_meta_03">
                             <p>
                               Mitigar el Cambio Climático
                             </p>
                           </a></li>
-                          <li><a href="">
+                          <li><a href="valor_ambiental.html?scrollTo=la_meta_04">
                             <p>
-                              Crear una Economía Circular
+                              
+                              Contribuir a Crear una Economía Circular
                             </p>
                           </a> </li>
-                          <li><a href="">
+                          <li><a href="valor_ambiental.html?scrollTo=la_meta_05">
                             <p>
-                              Capital Natural
+                              Conservación de la Naturaleza
                             </p>
                           </a></li>
                         </ul>
@@ -2307,7 +2308,7 @@
         </div>
     </div>
     <div id="ciudades" class="odsinfo hideinfo">
-        <img  src="img/valor_compartido/ods_iconos/ods_10.svg" class="iconodss" />
+        <img  src="img/valor_compartido/ods_iconos/ods_11.svg" class="iconodss" />
         <div class="titles" style="padding-bottom:0px;">
             Ciudades y comunidades sostenibles
         </div>
@@ -2319,7 +2320,7 @@
         </div>
     </div>
     <div id="reduccion" class="odsinfo hideinfo">
-        <img  src="img/valor_compartido/ods_iconos/ods_11.svg" class="iconodss" />
+        <img  src="img/valor_compartido/ods_iconos/ods_10.svg" class="iconodss" />
         <div class="titles" style="padding-bottom:0px;">
             Reducción de las desigualdades
         </div>
@@ -2619,7 +2620,7 @@
       <div class="row">
 
 
-        <div class="col-lg-6 px-0">
+        <div class="col-6 col-lg-6 px-0">
           
 
           <a href="modelo_de_negocio.html">
@@ -2633,7 +2634,7 @@
 
       
 
-        <div class="col-lg-6 px-0">
+        <div class="col-6 col-lg-6 px-0">
 
           <p class="txt5 bright">SIGUIENTE</p>
 
@@ -2652,6 +2653,13 @@
 
  <!-- <div id="preloader"></div>
   <a data-scroll  href="#hero" class="back-to-top"><i class="ri-arrow-up-line"></i></a> -->
+
+  <script>
+    var wows = document.getElementsByClassName('wow')
+    for (i = 0; i < wows.length; i++){
+    wows[i].style.visibility ='hidden';
+    }
+  </script>
 
   <!-- Vendor JS Files -->
   <script src="js/jquery/jquery.min.js"></script>
@@ -3041,7 +3049,7 @@ $('body').on('click', '.carrrestxt', function() {
 
     var burgerMenu = function() {
         $('.burger').click(function(e) {
-          $(window).scrollTop(0);
+       
           if (!$('.burger').hasClass('active'))
             $('.burger').addClass('active');
           else

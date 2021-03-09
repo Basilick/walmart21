@@ -645,6 +645,10 @@ box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2);
 
 }
 
+.menucont .txtinffi {
+  margin-left: 13%;
+}
+
 
 .secondary-nav {
     float: right;
@@ -697,11 +701,18 @@ box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2);
 .dropdown-menu.collapsing {
   display: block;
 }
-@media (max-width: 767.98px) {
+/* @media (max-width: 767.98px) {
+
+
+  .mega-menu .menu-leftdiv {
+   
+    display: none;
+}
   .dropdown-menu {
     padding: 0;
     margin-top: 0!important;
     border: 0!important;
+    overflow: scroll;
   }
   .dropdown-menu:before {
     content: "";
@@ -733,7 +744,7 @@ box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2);
   .dropdown-menu.collapse.show {
     transform: translate(0, 0);
   }
-}
+} */
 .conteneng {
   position: relative;
   display: block;
@@ -859,6 +870,17 @@ box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2);
   
 }
 
+.mega-menu .menu-leftdiv {
+  display: none;
+}
+
+
+.dropdown-menu {
+  max-height: 1500px;
+  overflow: auto;
+  border: 0;
+  border-radius: 0;
+}
   
   .dropdown-menu .mega-menu {
    
@@ -1490,78 +1512,7 @@ padding-bottom: 12px;
 }
 
 
-/*--------------------------------------------------------------
-# MOBILE
---------------------------------------------------------------*/
 
-@media (max-width: 1024px) {
-
-  #hero p.text1 {
-    font-size: 18px;
-    letter-spacing: 3px;
-}
-
-#hero h1 {
-  
-  letter-spacing: 7px;
-  
-}
-
-
-}/*---#TERMINA 1024 IPAD LAND------*/
-
-
-@media (max-width: 450px) {
-  
-  section {
-    padding: 0 0;
-  
-  }
-
-  #hero {
-  
-    height: auto;
-    background-size: 760px;
-    background-position: 0 -30px
-}
-
-#hero .col-lg-6 {
-  
-  margin-bottom: 5px !important;
-  
-}
-
-  #hero h1 {
-    font-size: 35px;
-    letter-spacing: 5px;
-    line-height: 40px;
-    
-    text-align: left;
-    width: max-content;
-    margin:20px auto 0;
-  }
-  
-
-  #hero p.text1 {
-    font-size: 14px;
-    font-weight: 800;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
-}
-
-#hero .btnvermas {
-  margin-top: -50px;
-
-}
-
-#hero .pulse:before {
-  
-  z-index: 10;
-}
-
-
-
-}/*-END  MOBILE-*/
 
 
 /*--------------------------------------------------------------
@@ -2065,6 +2016,118 @@ font-size: 12px;
 }
 
 /*--------------------------------------------------------------
+# MOBILE
+--------------------------------------------------------------*/
+
+@media (max-width: 1024px) {
+
+  #hero p.text1 {
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+#hero h1 {
+  
+  letter-spacing: 7px;
+  
+}
+
+
+}/*---#TERMINA 1024 IPAD LAND------*/
+
+
+@media (max-width: 450px) {
+  
+  
+
+  #hero {
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#hero .col-lg-6 {
+  
+  margin-bottom: 5px !important;
+  
+}
+
+#hero .veinteupimg {
+  margin: 0px;
+  float: none; 
+  width: 95%;
+  display: block;
+  margin: auto;
+}
+
+#hero .contimgdoscarr {
+  margin: 0px;
+  float: none;
+  width: 100%;
+}
+
+#hero .dosdownsolo {
+  margin: 0 0 0 10px;
+  float: left;
+  width: 139px;
+}
+
+#hero .carrima1 {
+  margin: 0 10px 0 0;
+  float: right;
+  width: 167px;
+}
+#hero .menucarr {
+  height: auto;
+  display: none;
+  float: right;
+}
+
+#hero .txtinfor {
+  margin-top: 23px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  float: left;
+  width: 100%;
+}
+
+#hero h1 {
+
+  font-size: 38px;
+  margin: 0;
+  line-height: normal;
+
+}
+
+#hero h2 {
+  text-transform: uppercase;
+  width: 100%;
+  /* display: block; */
+  float: left;
+  font-size: clamp(3rem, 7vw, 6.5rem);
+  color: #F1B634;
+  margin-bottom: 0;
+  margin-top: 12px;
+  line-height: 16px;
+  font-family: Myriad-Bold;
+}
+
+#section2 {
+  background-position: 0px 0px;
+}
+
+#section2 p {
+  text-align: center;
+  font-size: 18px;
+  margin: 38px auto;
+  line-height: 26px;
+  width: 100%;
+}
+
+}/*-END  MOBILE-*/
+
+/*--------------------------------------------------------------
 # la_meta_01 Alberto
 --------------------------------------------------------------*/
 
@@ -2085,7 +2148,7 @@ font-size: 12px;
   padding-left: 14%;
     padding-top: 5%;
     padding-right: 0;
-    height: 520px;
+    
    
 }
 
@@ -2174,6 +2237,10 @@ font-size: 12px;
   margin: 0px auto;
 }
 
+#la_meta_01  .titlesmob  {
+  display: none;
+}
+
 
 /*--------------------------------------------------------------
 # MOBILE
@@ -2189,21 +2256,18 @@ font-size: 12px;
 
 @media (max-width: 450px) {
   
-  section {
-    padding: 0 0;
   
-  }
 
   #la_meta_01 .pad95 {
     padding-top: 69px;
 }
 
-  #la_meta_01 .paditl {
+  #la_meta_01  .paditl {
     padding-left: 20px;
     
 }
 
-#la_meta_01 .titlfra1 {
+#la_meta_01  .titlfra1 {
   
   right: 15px;
   
@@ -2211,13 +2275,13 @@ font-size: 12px;
   
 }
 
-#la_meta_01 h1 {
-  margin-top: 15px;
+#la_meta_01  h1 {
+  margin-top: 0px;
   font-size: 30px;
   
 }
 
-#la_meta_01 .contfra h2 {
+#la_meta_01  .contfra h2 {
 
   
   line-height: 1.2;
@@ -2226,36 +2290,58 @@ font-size: 12px;
 }
 
 
-#la_meta_01 .lineblu {
-  height: 148px;
+#la_meta_01  .lineblu {
+  height: 115px;
 }
 
-#la_meta_01 .d-flex {
+#la_meta_01  .d-flex {
   height: 288px;
 }
 
 
-  #la_meta_01 .imageslip {
+  #la_meta_01  .imageslip {
     
     width: 240px;
     
     
   }
   
-  #la_meta_01 .imageslip2 {
+  #la_meta_01  .imageslip2 {
    
     width: 340px;
     
   }
 
-  #la_meta_01 p.txtintro {
+  #la_meta_01  p.txtintro {
    
     display: none;
     
   
   }
 
+  #la_meta_01  .paditlright {
+    display: none;
+  }
+
+  #la_meta_01  .titlesmob {
+    display: block;
+  }
+
+  
+  #la_meta_01  .imgcentermod {
+    position: absolute;
+    width: 91px;
+    top: 129px;
+    left: 142px;
+}
  
+#la_meta_01 .icos-allods {
+  margin-top: 0px;
+    margin-left: 20%;
+    width: 30px;
+    margin-bottom: 0;
+
+}
 
 
 }/*-END  MOBILE-*/
@@ -2267,6 +2353,13 @@ font-size: 12px;
 #la_meta_02 .cards__text p{
   margin: 0;
   padding: 0;
+}
+
+#la_meta_02 .subh4{
+ 
+  font-size: 20px;
+  font-family: Myriad-SemiBold;
+
 }
 
 .ico-nuevos-compromisos{
@@ -2858,6 +2951,16 @@ font-size: 12px;
 
 }
 
+#historias_01 .fa-sort-down {
+
+  font-size: 30px;
+  position: relative;
+  top: 100px;
+  right: 10px;
+  color: #ffffff;
+
+}
+
 .divlinehistorias2 {
   margin-top: 2%;
   margin-bottom: 3%;
@@ -2887,7 +2990,7 @@ font-size: 12px;
  
   width: 85%;
   display: block;
-  top: -58px;
+  top: 0px;
   left: 25px;
   position: relative;
 
@@ -2897,7 +3000,7 @@ font-size: 12px;
  
   width: 85%;
   display: block;
-  top: -58px;
+  top: 13px;
   right: 25px;
   position: relative;
 
@@ -4968,7 +5071,7 @@ ul#blue-list{
 }
 ul#blue-list li{
   margin: 0;
-  padding: 0 0 5px 25px;
+  padding: 0 0 3px 25px;
   font-family: Myriad-Light;
   color: #414141;
   list-style: none;
@@ -5356,6 +5459,10 @@ ul#blue-list li{
   margin: 0px auto;
 }
 
+#gobierno_01  .titlesmob {
+  display: none;
+}
+
 
 /*--------------------------------------------------------------
 # MOBILE
@@ -5370,22 +5477,19 @@ ul#blue-list li{
 
 
 @media (max-width: 450px) {
-  
-  section {
-    padding: 0 0;
-  
-  }
 
+ 
   #gobierno_01 .pad95 {
     padding-top: 69px;
 }
 
-  #gobierno_01 .paditl {
+  #gobierno_01  .paditl {
     padding-left: 20px;
+    height: auto;
     
 }
 
-#gobierno_01 .titlfra1 {
+#gobierno_01  .titlfra1 {
   
   right: 15px;
   
@@ -5393,8 +5497,8 @@ ul#blue-list li{
   
 }
 
-#gobierno_01 h1 {
-  margin-top: 15px;
+#gobierno_01  h1 {
+  margin-top: 0px;
   font-size: 30px;
   
 }
@@ -5408,37 +5512,58 @@ ul#blue-list li{
 }
 
 
-#gobierno_01 .lineblu {
-  height: 148px;
+#gobierno_01  .lineblu {
+  height: 115px;
 }
 
-#gobierno_01 .d-flex {
+#gobierno_01  .d-flex {
   height: 288px;
 }
 
 
-  #gobierno_01 .imageslip {
+  #gobierno_01  .imageslip {
     
     width: 240px;
     
     
   }
   
-  #gobierno_01 .imageslip2 {
+  #gobierno_01  .imageslip2 {
    
     width: 340px;
     
   }
 
-  #gobierno_01 p.txtintro {
+  #gobierno_01  p.txtintro {
    
     display: none;
     
   
   }
 
- 
+  #gobierno_01 .paditlright {
+    display: none;
+  }
 
+  #gobierno_01  .titlesmob {
+    display: block;
+  }
+
+  
+  #gobierno_01  .imgcentermod {
+    position: absolute;
+    width: 91px;
+    top: 129px;
+    left: 142px;
+}
+ 
+#gobierno_01 .icos-allods {
+  margin-top: 0px;
+    margin-left: 20%;
+    width: 30px;
+    margin-bottom: 0;
+
+}
 
 }/*-END  MOBILE-*/
 
@@ -5846,7 +5971,6 @@ display: grid;
 # Valor Social
 --------------------------------------------------------------*/
 
-
 #valor_social {
   
   height: 100vh;
@@ -5857,28 +5981,31 @@ display: grid;
   
 }
 
-#valor_social .pad95 {
+
+
+#valor_social  .pad95 {
 
   padding-top: 80px;
    
 }
 
-#valor_social .paditl {
+#valor_social  .paditl {
   padding-left: 14%;
     padding-top: 5%;
     padding-right: 0;
     height: 520px;
+    
    
 }
 
-#valor_social .paditlright {
+#valor_social  .paditlright {
   padding-left: 0;
   padding-top: 5%;
   padding-right: 10%;
   height: 520px;
 }
 
-#valor_social .lineblu {
+#valor_social  .lineblu {
   margin-left: 40px;
   background-color: #F1B634;
     height: 200px;
@@ -5887,7 +6014,7 @@ display: grid;
 
 }
 
-#valor_social .titlfra1 {
+#valor_social  .titlfra1 {
   position: absolute;
   color: #ffffff;
   right: 30px;
@@ -5896,7 +6023,7 @@ display: grid;
   text-align: right;
 }
 
-#valor_social h1 {
+#valor_social  h1 {
   font-family: Myriad-Bold;
   color: #F1B634;
   font-size: 40px;
@@ -5904,13 +6031,13 @@ display: grid;
 
 }
 
-#valor_social .contfra {
+#valor_social  .contfra {
   width: 80%;
   float: right;
 
 }
 
-#valor_social .contfra h2 {
+#valor_social  .contfra h2 {
 
   color: #ffffff;
   line-height: 67px;
@@ -5919,7 +6046,7 @@ display: grid;
 
 }
 
-#valor_social p.txtintro {
+#valor_social  p.txtintro {
   float: left;
   margin-top: 25px;
   margin-left: 80px;
@@ -5932,7 +6059,7 @@ display: grid;
 
 }
 
-#valor_social  p.txtintro span{
+#valor_social   p.txtintro span{
   
   font-family: Myriad-Regular;
 
@@ -5949,12 +6076,21 @@ display: grid;
   
 }
 
-#valor_social  .imageslip2 {
+#valor_social   .imageslip2 {
   position: absolute;
   width: 590px;
   display: block;
   margin: 0px auto;
 }
+
+
+
+
+
+#valor_social .titlesmob {
+  display: none;
+}
+
 
 
 /*--------------------------------------------------------------
@@ -5971,10 +6107,7 @@ display: grid;
 
 @media (max-width: 450px) {
   
-  section {
-    padding: 0 0;
-  
-  }
+ 
 
   #valor_social .pad95 {
     padding-top: 69px;
@@ -5982,8 +6115,9 @@ display: grid;
 
   #valor_social .paditl {
     padding-left: 20px;
-    
+    height: auto;
 }
+
 
 #valor_social .titlfra1 {
   
@@ -5994,7 +6128,7 @@ display: grid;
 }
 
 #valor_social h1 {
-  margin-top: 15px;
+  margin-top: 0px;
   font-size: 30px;
   
 }
@@ -6009,7 +6143,7 @@ display: grid;
 
 
 #valor_social .lineblu {
-  height: 148px;
+  height: 115px;
 }
 
 #valor_social .d-flex {
@@ -6037,8 +6171,254 @@ display: grid;
   
   }
 
+  #valor_social .paditlright {
+    display: none;
+  }
+
+  #valor_social .titlesmob {
+    display: block;
+  }
+
+  
+  #valor_social .imgcentermod {
+    position: absolute;
+    width: 91px;
+    top: 129px;
+    left: 142px;
+}
+ 
+#valor_social .icos-allods {
+  margin-top: 0px;
+    margin-left: 20%;
+    width: 30px;
+    margin-bottom: 0;
+
+}
+
+}/*-END  MOBILE-*/
+
+
+
+/*--------------------------------------------------------------
+# Valor Al Asociado
+--------------------------------------------------------------*/
+
+
+#valor_al_asociado {
+  
+  height: 100vh;
+  background-image: url(../img/asociados/bg_slideprin.png);
+  background-size: cover;
+  background-color:#016198;
+  
+  
+}
+
+#valor_al_asociado .pad95 {
+
+  padding-top: 80px;
+   
+}
+
+#valor_al_asociado .paditl {
+  padding-left: 14%;
+    padding-top: 5%;
+    padding-right: 0;
+    
+   
+}
+
+#valor_al_asociado .paditlright {
+  padding-left: 0;
+  padding-top: 5%;
+  padding-right: 10%;
+  height: 520px;
+}
+
+#valor_al_asociado .lineblu {
+  margin-left: 40px;
+  background-color: #F1B634;
+    height: 200px;
+    width: 5px;
+    float: left;
+
+}
+
+#valor_al_asociado .titlfra1 {
+  position: absolute;
+  color: #ffffff;
+  right: 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: right;
+}
+
+#valor_al_asociado h1 {
+  font-family: Myriad-Bold;
+  color: #F1B634;
+  font-size: 40px;
+  text-transform: uppercase;
+
+}
+
+#valor_al_asociado .contfra {
+  width: 80%;
+  float: right;
+
+}
+
+#valor_al_asociado .contfra h2 {
+
+  color: #ffffff;
+  line-height: 67px;
+  font-size: clamp(2rem, 5.5vw, 4rem);
+  font-family: Myriad-Light;
+
+}
+
+#valor_al_asociado p.txtintro {
+  float: left;
+  margin-top: 25px;
+  margin-left: 80px;
+  color: #ffffff;
+  font-size: 15px;
+  display: block;
+  text-transform: uppercase;
+  font-family: Myriad-Light;
+
+
+}
+
+#valor_al_asociado  p.txtintro span{
+  
+  font-family: Myriad-Regular;
+
+}
+
+
+
+#valor_al_asociado  .imageslip {
+  position: absolute;
+  width: 420px;
+  display: block;
+  
+  margin: 0px auto;
+  
+}
+
+#valor_al_asociado  .imageslip2 {
+  position: absolute;
+  width: 590px;
+  display: block;
+  margin: 0px auto;
+}
+
+#valor_al_asociado .titlesmob {
+  display: none;
+}
+
+
+
+/*--------------------------------------------------------------
+# MOBILE
+--------------------------------------------------------------*/
+
+@media (max-width: 1024px) {
+
  
 
+
+}/*---#TERMINA 1024 IPAD LAND------*/
+
+
+@media (max-width: 450px) {
+  
+  
+
+  #valor_al_asociado .pad95 {
+    padding-top: 69px;
+}
+
+  #valor_al_asociado .paditl {
+    padding-left: 20px;
+    
+}
+
+#valor_al_asociado.titlfra1 {
+  
+  right: 15px;
+  
+  font-size: 10px;
+  
+}
+
+#valor_al_asociado h1 {
+  margin-top: 0px;
+  font-size: 30px;
+  
+}
+
+#valor_al_asociado .contfra h2 {
+
+  
+  line-height: 1.2;
+  
+
+}
+
+
+#valor_al_asociado .lineblu {
+  height: 115px;
+}
+
+#valor_al_asociado .d-flex {
+  height: 288px;
+}
+
+
+  #valor_al_asociado .imageslip {
+    
+    width: 240px;
+    
+    
+  }
+  
+  #valor_al_asociado .imageslip2 {
+   
+    width: 340px;
+    
+  }
+
+  #valor_al_asociado p.txtintro {
+   
+    display: none;
+    
+  
+  }
+
+  #valor_al_asociado .paditlright {
+    display: none;
+  }
+
+  #valor_al_asociado .titlesmob {
+    display: block;
+  }
+
+  
+  #valor_al_asociado .imgcentermod {
+    position: absolute;
+    width: 91px;
+    top: 129px;
+    left: 142px;
+}
+ 
+#valor_al_asociado .icos-allods {
+  margin-top: 0px;
+    margin-left: 20%;
+    width: 30px;
+    margin-bottom: 0;
+
+}
 
 }/*-END  MOBILE-*/
 
@@ -7022,10 +7402,7 @@ display: grid;
 
 @media (max-width: 450px) {
   
-  section {
-    padding: 0 0;
-  
-  }
+
 
   #el_compromiso .pad95 {
     padding-top: 69px;
@@ -7045,7 +7422,7 @@ display: grid;
 }
 
 #el_compromiso h1 {
-  margin-top: 15px;
+  margin-top: 0px;
   font-size: 30px;
   
 }
@@ -8590,6 +8967,111 @@ display: block;
 
 
 /*--------------------------------------------------------------
+# MOBILE
+--------------------------------------------------------------*/
+
+@media (max-width: 1024px) {
+
+ 
+
+
+}/*---#TERMINA 1024 IPAD LAND------*/
+
+
+@media (max-width: 450px) {
+  
+  #asociado_02 .cards {
+   
+    padding: 6px 5px;
+    
+    margin: 0 0 10px 0;
+    
+  }
+
+  #asociado_05 .cardshm {
+    padding: 6px 5px;
+    
+    margin: 0 0 10px 0;
+   
+}
+#asociado_03 .cardshm {
+  padding: 6px 5px;
+  
+  margin: 0 0 10px 0;
+ 
+}
+
+#asociado_04 .cardshm {
+  padding: 6px 5px;
+  
+  margin: 0 0 10px 0;
+ 
+}
+
+
+#asociado_08 .cards {
+  width: 100%;
+  margin-top: 15px !important;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+#asociado_08 p.label-mex-ca {
+  color: #414141;
+  background: url(../svg/label-mex-ca.svg) no-repeat 0px 5px;
+  background-size: 24px 10px;
+  padding-left: 28px;
+  margin-right: 0px;
+}
+
+#asociado_08 p.label-mex {
+  color: #414141;
+  background: url(../svg/label-mex.svg) no-repeat 0px 5px;
+  background-size: 24px 10px;
+  padding-left: 26px;
+  margin-right: 4px;
+}
+
+#asociado_08 p.label-ca {
+  color: #414141;
+  background: url(../svg/label-ca.svg) no-repeat 0px 5px;
+  background-size: 24px 10px;
+  padding-left: 30px;
+}
+
+#asociado_08 .cardgraph__graph {
+  background: #EEF2F4;
+  padding: 60px 10px 40px 10px;
+  margin-bottom: 4px;
+  
+}
+
+#asociado_08 .graphcont {
+  
+  width: 26%;
+
+}
+
+#asociado_09 .imgwomanlap {
+  width: 232px;
+  display: block;
+  position: relative;
+  right: 0;
+  top: 5px;
+  z-index: 1;
+}
+
+.bg-propuesta-valor-asociado {
+ height: 60vh;
+  background-position: 1px 233px;
+  
+}
+
+
+}/*-END  MOBILE-*/
+
+
+/*--------------------------------------------------------------
 # valor_financiero_01 - Alberto
 --------------------------------------------------------------*/
 
@@ -8784,10 +9266,7 @@ display: block;
 
 @media (max-width: 450px) {
   
-  section {
-    padding: 0 0;
   
-  }
 
   #valor_financiero_01 .pad95 {
     padding-top: 69px;
@@ -8796,6 +9275,11 @@ display: block;
   #valor_financiero_01 .paditl {
     padding-left: 20px;
     
+}
+
+#valor_financiero_01 .paditl {
+  
+  height: auto;
 }
 
 #valor_financiero_01 .titlfra1 {
@@ -8822,7 +9306,7 @@ display: block;
 
 
 #valor_financiero_01 .lineblu {
-  height: 148px;
+  height: 100px;
 }
 
 #valor_financiero_01 .d-flex {
@@ -9411,6 +9895,91 @@ display: block;
 }
 
 
+
+/*--------------------------------------------------------------
+# MOBILE
+--------------------------------------------------------------*/
+
+@media (max-width: 1024px) {
+
+ 
+
+
+}/*---#TERMINA 1024 IPAD LAND------*/
+
+
+@media (max-width: 450px) {
+  
+  #valor_financiero_06 .bg-green-1 {
+    width: 100%;
+}
+
+#valor_financiero_05 .cardgraph {
+  margin-left: 0 !important;
+  margin-top: 40px;
+}
+
+#valor_financiero_09 .personal-sams {
+ 
+  width: 100%;
+  
+}
+
+#valor_financiero_09 .cardgraph__content .radia-bar-container svg{
+ 
+  width: 100%;
+  
+}
+
+
+#valor_financiero_04 .conttxthig {
+  text-align: left;
+  width: 92%;
+  margin: 0px;
+  display: flex;
+  padding-top: 14%;
+}
+
+#valor_financiero_04 .conttxthig p {
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+#valor_financiero_04 .bg-valor_finance_1   .row {
+
+  margin-left: 0;
+  margin-right: 0;
+
+}
+
+#valor_financiero_13 .conttxthig {
+  text-align: left;
+    width: 92%;
+    margin: 0px;
+    display: flex;
+    padding-top: 0%;
+}
+
+#valor_financiero_13 .conttxthig p {
+  font-size: 18px;
+  margin-top: 20px !important;
+  margin-left: 20px;
+  padding-top: 0;
+}
+
+
+#valor_financiero_13 .bg-valor_finance_13  .row {
+
+  margin-left: 0;
+  margin-right: 0;
+
+}
+
+
+
+
+}/*-END  MOBILE-*/
+
 /*--------------------------------------------------------------
 # nuestro_negocio_01 - Alberto
 --------------------------------------------------------------*/
@@ -9519,6 +10088,10 @@ display: block;
   width: 590px;
   display: block;
   margin: 0px auto;
+}
+
+#nuestro_negocio_01 .titlesmob {
+  display: none;
 }
 
 /*--------------------------------------------------------------
@@ -9977,7 +10550,129 @@ display: block;
 
 }
 
+/*--------------------------------------------------------------
+# MOBILE
+--------------------------------------------------------------*/
 
+@media (max-width: 1024px) {
+
+ 
+
+
+}/*---#TERMINA 1024 IPAD LAND------*/
+
+
+@media (max-width: 450px) {
+  
+ 
+
+  #nuestro_negocio_01 .pad95 {
+    padding-top: 69px;
+}
+
+  #nuestro_negocio_01 .paditl {
+    padding-left: 20px;
+    
+}
+
+#nuestro_negocio_01 .titlfra1 {
+  
+  right: 15px;
+  
+  font-size: 10px;
+  
+}
+
+#nuestro_negocio_01 h1 {
+  margin-top: 20px;
+  font-size: 30px;
+  
+}
+
+#nuestro_negocio_01 .contfra h2 {
+
+  
+  line-height: 1.2;
+  
+
+}
+
+
+#nuestro_negocio_01 .lineblu {
+  height: 148px;
+}
+
+#nuestro_negocio_01 .d-flex {
+  height: 288px;
+}
+
+
+  #nuestro_negocio_01 .imageslip {
+    
+    width: 240px;
+    
+    
+  }
+  
+  #nuestro_negocio_01 .imageslip2 {
+   
+    width: 340px;
+    
+  }
+
+  #nuestro_negocio_01 p.txtintro {
+   
+    display: none;
+    
+  
+  }
+
+  #nuestro_negocio_01 .paditlright {
+    display: none;
+  }
+
+  #nuestro_negocio_01 .titlesmob {
+    display: block;
+  }
+
+  
+  #nuestro_negocio_08 .imgcentermod {
+    position: absolute;
+    width: 91px;
+    top: 129px;
+    left: 142px;
+}
+ 
+
+#nuestro_negocio_02 .cards {
+  max-height: 345px;
+}
+
+#nuestro_negocio_02 .cards img {
+  width: 100%;
+    height: 181px;
+    display: block;
+    max-width: fit-content;
+ 
+}
+
+
+#nuestro_negocio_02 .cards .cards__text {
+  width: 100%;
+  margin: 23px 15px;
+}
+
+#nuestro_negocio_02 .cards .cards__text p {
+  margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+}/*-END  MOBILE-*/
 
 
 /*--------------------------------------------------------------
@@ -10269,7 +10964,7 @@ display: block;
   padding-left: 14%;
     padding-top: 5%;
     padding-right: 0;
-    height: 520px;
+    
    
 }
 
@@ -10495,16 +11190,15 @@ max-width: 600px;
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 80vh;
  
   
 }
-#innovacion_07  .contfloat{
-  
+#innovacion_07 .contfloat {
   padding: 40px;
   border-radius: 6px;
-  margin-top: 4%;
- 
-  
+  /* margin-top: 4%; */
+  margin: 35px auto;
 }
 
 
@@ -10726,22 +11420,19 @@ box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.36);
 
 
 @media (max-width: 450px) {
-  
-  section {
-    padding: 0 0;
-  
-  }
 
-  #innovacion_01 .pad95 {
+ 
+
+  #innovacion_01  .pad95 {
     padding-top: 69px;
 }
 
-  #innovacion_01 .paditl {
+  #innovacion_01  .paditl {
     padding-left: 20px;
     
 }
 
-#innovacion_01 .titlfra1 {
+#innovacion_01  .titlfra1 {
   
   right: 15px;
   
@@ -10749,13 +11440,13 @@ box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.36);
   
 }
 
-#innovacion_01 h1 {
-  margin-top: 15px;
+#innovacion_01  h1 {
+  margin-top: 0px;
   font-size: 30px;
   
 }
 
-#innovacion_01 .contfra h2 {
+#innovacion_01  .contfra h2 {
 
   
   line-height: 1.2;
@@ -10768,32 +11459,105 @@ box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.36);
   height: 148px;
 }
 
-#innovacion_01 .d-flex {
+#innovacion_01  .d-flex {
   height: 288px;
 }
 
 
-  #innovacion_01 .imageslip {
+  #innovacion_01  .imageslip {
     
     width: 240px;
     
     
   }
   
-  #innovacion_01 .imageslip2 {
+  #innovacion_01  .imageslip2 {
    
     width: 340px;
     
   }
 
-  #innovacion_01 p.txtintro {
+  #innovacion_01  p.txtintro {
    
     display: none;
     
   
   }
-
+  
+  #innovacion_03 {
+    background: url(../img/innovacion/img-walmart-empleada.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: auto 20%;
+}
  
+
+#innovacion_03 .cards {
+  /* max-width: 600px; */
+  left: 0;
+  top: 0;
+}
+
+#innovacion_05 {
+  background: url(../img/innovacion/img-superama.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: auto 25%;
+}
+
+#innovacion_05 .imgcheckprice {
+  display: block;
+  width: 300px;
+  position: relative;
+  top: 64px;
+  left: -35px;
+}
+
+#innovacion_09 .img-meroexp {
+  display: inline-block;
+  width: 45%;
+  margin: 20px 2%;
+}
+
+#innovacion_12 {
+ 
+  background-position: right;
+ 
+}
+
+#innovacion_12 .imgmamalucha {
+  width: 295px;
+  position: relative;
+  display: block;
+  left: 50px;
+  top: -4px;
+}
+
+#innovacion_12 .cards {
+  width: 100%;
+  margin-top: 32px;
+}
+
+
+#innovacion_14 .cards {
+  width: 100%;
+  margin-top: 40px;
+  position: relative;
+  left: 0;
+}
+
+#innovacion_15 .cards {
+  width: 100%;
+  margin-top: 40px;
+ 
+}
+
+#innovacion_17 .cards {
+  width: 100%;
+  
+}
+
+
 
 
 }/*-END  MOBILE-*/
@@ -11985,10 +12749,6 @@ box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.36);
 
 @media (max-width: 450px) {
   
-  section {
-    padding: 0 0;
-  
-  }
 
  
 
@@ -12029,7 +12789,6 @@ font-size: 11px;
 text-transform: none;
 display: block;
 }
-
 
 
 
@@ -12082,8 +12841,8 @@ display: none;
 }
 
 #footer p {
-  
-  margin: 0px 0 0px 0;
+  padding-right: 0;
+  margin: 15px 9px;
 }  
 
 #footer p.bleft {
@@ -12091,7 +12850,23 @@ display: none;
   border-left: 0px solid #ffffff;
 }
 
+#footer .txt5{
+  display: none;
+} 
+
+#footer .txt6{
+  float:right ;
+} 
+
+
+
   
   
 }/*-END  MOBILE-*/  
 
+@media screen and (max-width: 800px) {
+  .wow{
+      animation-name: none !important;
+      visibility: visible !important;
+  }
+}

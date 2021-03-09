@@ -61,7 +61,7 @@
         <a href="#" class="burger" data-toggle="collapse" data-target="#navbarSupportedContent1">
           <span></span>
         </a>
-        <a href="#" class="btndowlo"> DESCARGAS </a>
+        <a href="descargas.html" class="btndowlo"> DESCARGAS </a>
       <ul class="secondary-nav">
         <li class="activemenu">
           <a href="index.html">ES</a>
@@ -337,26 +337,27 @@
                       <div class="line_orang"></div>
 
                       <div class="contsubmenus">
-                        <a href=""><span class="trutitle">VALOR AMBIENTAL</span></a>
+                        <a href="valor_ambiental.html"><span class="trutitle">VALOR AMBIENTAL</span></a>
                         <ul>
-                          <li><a href="">
+                          <li><a href="valor_ambiental.html?scrollTo=la_meta_02">
                             <p>
-                              Prioridades 2040 y Avances
+                              Valor Ambiental
                             </p>
                           </a></li>
-                          <li><a href="">
+                          <li><a href="valor_ambiental.html?scrollTo=la_meta_03">
                             <p>
                               Mitigar el Cambio Climático
                             </p>
                           </a></li>
-                          <li><a href="">
+                          <li><a href="valor_ambiental.html?scrollTo=la_meta_04">
                             <p>
-                              Crear una Economía Circular
+                              
+                              Contribuir a Crear una Economía Circular
                             </p>
                           </a> </li>
-                          <li><a href="">
+                          <li><a href="valor_ambiental.html?scrollTo=la_meta_05">
                             <p>
-                              Capital Natural
+                              Conservación de la Naturaleza
                             </p>
                           </a></li>
                         </ul>
@@ -649,6 +650,13 @@
  <!-- <div id="preloader"></div>
   <a data-scroll  href="#hero" class="back-to-top"><i class="ri-arrow-up-line"></i></a> -->
 
+  <script>
+    var wows = document.getElementsByClassName('wow')
+    for (i = 0; i < wows.length; i++){
+    wows[i].style.visibility ='hidden';
+    }
+  </script>
+
   <!-- Vendor JS Files -->
   <script src="js/jquery/jquery.min.js"></script>
   <script src="js/fontjs/fa-brands.js"></script>
@@ -745,248 +753,6 @@
     
     
     </script>
-
-  <script>
-    function myFunctiontxt1() {
-      var x = document.getElementById("carrtexts");
-      if (x.innerHTML === "historias") {
-        x.innerHTML = "resilencia";
-      } else {
-        x.innerHTML = "resilencia";
-      }
-    }
-
-    function myFunctiontxt2() {
-      var x = document.getElementById("carrtexts");
-      if (x.innerHTML === "historias") {
-        x.innerHTML = "Aceleración";
-      } else {
-        x.innerHTML = "Aceleración";
-      }
-    }
-
-    function myFunctiontxt3() {
-      var x = document.getElementById("carrtexts");
-      if (x.innerHTML === "historias") {
-        x.innerHTML = "Unión";
-      } else {
-        x.innerHTML = "Unión";
-      }
-    }
-
-    function myFunctiontxt4() {
-      var x = document.getElementById("carrtexts");
-      if (x.innerHTML === "historias") {
-        x.innerHTML = "Esfuerzo";
-      } else {
-        x.innerHTML = "Esfuerzo";
-      }
-    }
-
-    function myFunctiontxt5() {
-      var x = document.getElementById("carrtexts");
-      if (x.innerHTML === "historias") {
-        x.innerHTML = "Estrategia";
-      } else {
-        x.innerHTML = "Estrategia";
-      }
-    }
-
-    function myFunctiontxt6() {
-      var x = document.getElementById("carrtexts");
-      if (x.innerHTML === "historias") {
-        x.innerHTML = "Metas";
-      } else {
-        x.innerHTML = "Metas";
-      }
-    }
-
-  </script>
-  
-
-
-<script >
-
-            $('#ambiental').click(function(){
-            resetons();
-            console.log('ambiental');
-            var solads = [
-            'cuatro', 'seis', 'siete', 'nueve', 'once', 'doce', 'trece', 'catorce', 'quince', 'dieciseis', 'diecisiete'
-            ];
-            for (var i = 0; i <= solads.length; i++) {
-                console.log(solads[i]);
-                $('#' + solads[i] + '').addClass("active_"+solads[i]+"");
-            }
-            
-        });
-
-        $('#social').click(function(){
-            resetons();
-            console.log('ambiental');
-            var solads = [
-            'uno', 'dos', 'tres', 'cuatro', 'cinco', 'ocho', 'nueve', 'diez', 'once', 'doce','dieciseis', 'diecisiete' 
-            ];
-            for (var i = 0; i <= solads.length; i++) {
-                console.log(solads[i]);
-                $('#' + solads[i] + '').addClass("active_"+solads[i]+"");
-            }
-            
-        });
-
-        $('#gobierno').click(function(){
-            resetons();
-            console.log('ambiental');
-            var solads = [
-            'tres', 'cuatro', 'cinco','ocho', 'nueve', 'once', 'doce','dieciseis', 'diecisiete'
-            ];
-            for (var i = 0; i <= solads.length; i++) {
-                console.log(solads[i]);
-                $('#' + solads[i] + '').addClass("active_"+solads[i]+"");
-            }
-            
-        });
-
-
-
-        function showbegin(id, num) {
-            $('.init-info').addClass('hideinfo');
-            resetons();
-            resetshows();
-            const act = null;
-            const tbwt = null;
-            /*if (num == "uno" ) {
-             const act = 'active1';
-             const tbwt = '#_1 > .cls-10';
-           }*/
-            console.log('procesando: ', id);
-            console.log('id a prender: ', num);
-            const myclass = '#' + num + '';
-            const turnOn = '#' + id + '';
-            console.log('mi clase: ', myclass);
-            // if (turnOn == "#uno") {
-            //     $('#_1 > .cls-10').css({ "fill": "#fff" });
-            // }
-            turnon(id);
-            //$('' + turnOn + '').addClass('active_' + num + '');
-            //$(''+turnOn+'').addClass('active');
-            $('' + myclass + '').removeClass('hideinfo');
-            $('' + myclass + '').addClass('showinfo');
-        }
-
-
-        function turnon(cls) {
-            $(".cls-2").css({ "fill": "#fff" });
-            console.log('prendiendo', cls);
-            if (cls == "uno") {
-                $('#' + cls + '').addClass("active_uno");
-                
-            } else if ( cls == "dos" ) {
-                $('#' + cls + '').addClass("active_dos");
-                
-            }
-
-            else if ( cls == "tres" ) {
-                $('#' + cls + '').addClass("active_tres");
-              
-            }
-
-            else if ( cls == "cuatro" ) {
-                $('#' + cls + '').addClass("active_cuatro");
-           
-            }
-
-            else if ( cls == "cinco" ) {
-                $('#' + cls + '').addClass("active_cinco");
-                
-            }
-
-            else if ( cls == "seis" ) {
-                $('#' + cls + '').addClass("active_seis");
-                
-            }
-
-            else if ( cls == "siete" ) {
-                $('#' + cls + '').addClass("active_siete");
-                
-            }
-
-            else if ( cls == "ocho" ) {
-                $('#' + cls + '').addClass("active_ocho");
-               
-            }
-
-            else if ( cls == "nueve" ) {
-                $('#' + cls + '').addClass("active_nueve");
-                
-            }
-
-            else if ( cls == "diez" ) {
-                $('#' + cls + '').addClass("active_diez");
-               
-            }
-
-            else if ( cls == "once" ) {
-                $('#' + cls + '').addClass("active_once");
-                
-            }
-
-            else if ( cls == "doce" ) {
-                $('#' + cls + '').addClass("active_doce");
-                
-            }
-
-            else if ( cls == "trece" ) {
-                $('#' + cls + '').addClass("active_trece");
-              
-            }
-
-            else if ( cls == "catorce" ) {
-                $('#' + cls + '').addClass("active_catorce");
-                
-            }
-
-            else if ( cls == "quince" ) {
-                $('#' + cls + '').addClass("active_quince");
-                
-            }
-
-            else if ( cls == "dieciseis" ) {
-                $('#' + cls + '').addClass("active_dieciseis");
-            
-            }
-
-            else if ( cls == "diecisiete" ) {
-                $('#' + cls + '').addClass("active_diecisiete");
-                
-            }
-        }
-
-        function resetons() {
-            var idButton = [
-                'uno', 'dos', 'tres', 'cuatro', 'cinco', 'seis', 'siete', 'ocho', 'nueve', 'diez', 'once', 'doce', 'trece', 'catorce', 'quince', 'dieciseis', 'diecisiete'
-            ]
-            for (var i = 0; i <= idButton.length; i++) {
-                $('#' + idButton[i] + '').removeClass('active_' + idButton[i] + '');
-            }
-            
-
-        }
-
-        function resetshows() {
-            var idsClass = [
-                'accion', 'hambre', 'salud', 'igualdad', 'produccion', 'trabajo', 'fin', 'educacion', 'agua', 'energia', 'industrial', 'ciudades', 'reduccion', 'marina', 'ecosistemas', 'paz', 'alianzas'
-            ];
-            for (var i = 0; i <= idsClass.length; i++) {
-                $('#' + idsClass[i] + '').removeClass('showinfo');
-                $('#' + idsClass[i] + '').addClass('hideinfo');
-            }
-        }
-   
-    
-
-
-
-</script>
 
 
 
