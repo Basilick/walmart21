@@ -3239,6 +3239,74 @@ font-size: 12px;
 
 }
 
+/*--------------------------------------------------------------
+# MOBILE
+--------------------------------------------------------------*/
+
+@media (max-width: 1024px) {
+
+ 
+
+
+}/*---#TERMINA 1024 IPAD LAND------*/
+
+
+@media (max-width: 450px) {
+
+  #historias_01 {
+    height: 100vh;
+    padding-top: 60px;
+}
+
+#historias_01 h2 {
+  
+  font-size: 52px;
+  
+  line-height: 56px;
+  
+}
+
+
+#historias_01 p {
+  text-align: center;
+  font-size: 18px;
+  margin: 40px auto;
+  line-height: 27px;
+  width: 100%;
+}
+
+#historias_02 p {
+  padding: 0px 0px;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: none;
+}
+
+#historias_02 .imghistotiasrig {
+  width: 100%;
+  display: block;
+  top: 0px;
+  right: 0px;
+  position: relative;
+}
+
+#historias_02 .imghistotiaslef {
+  width: 100%;
+  display: block;
+  top: 0px;
+  left: 0px;
+  position: relative;
+}
+
+#historias_02 h3 {
+  padding: 0 0px 40px;
+  color: #F1B634;
+  font-size: 55px;
+}
+
+
+}/*-END  MOBILE-*/
+
 
 
 
