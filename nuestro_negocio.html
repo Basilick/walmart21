@@ -572,7 +572,7 @@
               <img src="img/nuestro_negocio/img-entique-ostale.png" alt="Enrique Ostalé" class="img-fluid wow fadeInDown" data-wow-delay=".6s" data-wow-duration="1s" >
               
               <div class="cards__button">
-                <a href="" class="btnvervideo pulse" data-toggle="modal" data-target="#video1" alt="Play"> <p><i class="fas fa-play"></i></p> </a>
+                <a href="" class="btnvervideo pulse" data-target="#video1" class="btnvervid pulse video-btn" data-toggle="modal"  data-src="video/Ostale/Ostale_esp.mp4" alt="Play"> <p><i class="fas fa-play"></i></p> </a>
 
                 
                  
@@ -583,7 +583,7 @@
             <div class="cards__text">
               <h5 class="white-text">Enrique Ostalé</h5>
               <p class="white-text">Presidente del Consejo de Administración de Walmart de México y Centroamérica</p>
-              <p class="white-text text-small" data-toggle="modal" data-target="#video1">Ver video</p>
+              <p class="white-text text-small" data-toggle="modal" data-target="">Ver video</p>
             </div>
           </div>
         </div>
@@ -592,14 +592,14 @@
             <div class="cards__image">
               <img src="img/nuestro_negocio/img-guilherme-loureiro.png" alt="Guilherme Loureiro" class="img-fluid wow fadeInDown" data-wow-delay=".6s" data-wow-duration="1s">
               <div class="cards__button">
-                <a href="" class="btnvervideo pulse" data-toggle="modal" data-target="#video2" alt="Play"> <p><i class="fas fa-play"></i></p> </a>
+                <a href="" class="btnvervideo btnvervideo22 pulse" data-target="#video1" class="btnvervid pulse video-btn" data-toggle="modal"  data-src="video/Gui/Gui_esp.mp4" alt="Play"> <p><i class="fas fa-play"></i></p> </a>
               </div>
               
             </div>
             <div class="cards__text">
               <h5 class="white-text">Guilherme Loureiro</h5>
               <p class="white-text">Presidente Ejecutivo y Director General de Walmart de México y Centroamérica</p>
-              <p class="white-text text-small" data-toggle="modal" data-target="#video2">Ver video</p>
+              <p class="white-text text-small" data-toggle="modal" data-target="">Ver video</p>
             </div>
           </div>
         </div>
@@ -836,14 +836,16 @@
             </button>        
             <!-- 16:9 aspect ratio -->
             <div class="embed-responsive embed-responsive-16by9">
-              <video  controls id="myVideo2">
-                <source src="video/concepto_desktop.mp4" type="video/mp4">
+              <video controls="" autoplay="true" muted="true" id="myVideo2">
+                <source  type="video/mp4">
+                  
               </video>
             </div>                
       </div>        
     </div>
   </div>
 </div>
+
 
 <!-- Modal Video 2 -->
 <div class="modal fade" id="video2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -855,8 +857,8 @@
             </button>        
             <!-- 16:9 aspect ratio -->
             <div class="embed-responsive embed-responsive-16by9">
-              <video  controls id="myVideo2">
-                <source src="video/concepto_desktop.mp4" type="video/mp4">
+              <video  controls="" autoplay="true" muted="true"  id="myVideo3">
+                <source  type="video/mp4">
               </video>
             </div>                
       </div>        
@@ -948,76 +950,6 @@
   
   </script>
 
-  <script>
-
-
-    $(document).ready(function(){
-    $(".imglefthover1").hover(function() {
-    $( '.imaleftmenu' ).attr("src","img/menu/indice_01.png");
-    }, function() {
-      $( '.imaleftmenu' ).attr("src","img/menu/indice_00.png");
-    });
-    });
-    
-    $(document).ready(function(){
-    $(".imglefthover2").hover(function() {
-    $( '.imaleftmenu' ).attr("src","img/menu/indice_02.png");
-    }, function() {
-      $( '.imaleftmenu' ).attr("src","img/menu/indice_00.png");
-    });
-    });
-    
-    $(document).ready(function(){
-    $(".imglefthover3").hover(function() {
-    $( '.imaleftmenu' ).attr("src","img/menu/indice_03.png");
-    }, function() {
-      $( '.imaleftmenu' ).attr("src","img/menu/indice_00.png");
-    });
-    });
-    
-    $(document).ready(function(){
-    $(".imglefthover4").hover(function() {
-    $( '.imaleftmenu' ).attr("src","img/menu/indice_04.png");
-    }, function() {
-      $( '.imaleftmenu' ).attr("src","img/menu/indice_00.png");
-    });
-    });
-    
-    $(document).ready(function(){
-    $(".imglefthover5").hover(function() {
-    $( '.imaleftmenu' ).attr("src","img/menu/indice_05.png");
-    }, function() {
-      $( '.imaleftmenu' ).attr("src","img/menu/indice_00.png");
-    });
-    });
-    
-    $(document).ready(function(){
-    $(".imglefthover6").hover(function() {
-    $( '.imaleftmenu' ).attr("src","img/menu/indice_06.png");
-    }, function() {
-      $( '.imaleftmenu' ).attr("src","img/menu/indice_00.png");
-    });
-    });
-    
-    $(document).ready(function(){
-    $(".imglefthover7").hover(function() {
-    $( '.imaleftmenu' ).attr("src","img/menu/indice_07.png");
-    }, function() {
-      $( '.imaleftmenu' ).attr("src","img/menu/indice_00.png");
-    });
-    });
-    
-    $(document).ready(function(){
-    $(".imglefthover8").hover(function() {
-    $( '.imaleftmenu' ).attr("src","img/menu/indice_08.png");
-    }, function() {
-      $( '.imaleftmenu' ).attr("src","img/menu/indice_00.png");
-    });
-    });
-    
-    
-    
-    </script>
 
   <script>
     $(document).ready(function(){
@@ -1052,38 +984,7 @@
       burgerMenu();
     </script>
     
-    <script>
-      $(window).scroll(function() {
-      
-      // selectors
-      var $window = $(window),
-          $body = $('body'),
-          $panel = $('.panel');
-      
-      // Change 33% earlier than scroll position so colour is there when you arrive.
-      var scroll = $window.scrollTop() + ($window.height() / 3);
-     
-      $panel.each(function () {
-        var $this = $(this);
-        
-        // if position is within range of this panel.
-        // So position of (position of top of div <= scroll position) && (position of bottom of div > scroll position).
-        // Remember we set the scroll to 33% earlier in scroll var.
-        if ($this.position().top <= scroll && $this.position().top + $this.height() > scroll) {
-              
-          // Remove all classes on body with color-
-          $body.removeClass(function (index, css) {
-            return (css.match (/(^|\s)color-\S+/g) || []).join(' ');
-          });
-           
-          // Add class of currently active div
-          $body.addClass('color-' + $(this).data('color'));
-        }
-      });    
-      
-    }).scroll();
-    
-    </script>
+ 
     
    
     
@@ -1093,23 +994,23 @@
       // Gets the video src from the data-src on each button
       
       var $videoSrc;  
-      $('.video-btn').click(function() {
+      $('.btnvervideo').click(function() {
           $videoSrc = $(this).data( "src" );
       });
       console.log($videoSrc);
       
       // when the modal is opened autoplay it  
-      $('#myModal').on('shown.bs.modal', function (e) {
+      $('#video1').on('shown.bs.modal', function (e) {
           
       // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
-      $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" ); 
+      $("#myVideo2").attr('src',$videoSrc ); 
       })
         
       
       // stop playing the youtube video when I close the modal
-      $('#myModal').on('hide.bs.modal', function (e) {
+      $('#video1').on('hide.bs.modal', function (e) {
           // a poor man's stop video
-          $("#video").attr('src',$videoSrc); 
+          $("#myVideo2").attr('src',"_blank"); 
       }) 
     
         
@@ -1117,6 +1018,37 @@
       });
       
     </script>
+
+<script>
+  $(document).ready(function() {
+  
+    // Gets the video src from the data-src on each button
+    
+    var $videoSrc;  
+    $('.btnvervideo22').click(function() {
+        $videoSrc = $(this).data( "src" );
+    });
+    console.log($videoSrc);
+    
+    // when the modal is opened autoplay it  
+    $('#video2').on('shown.bs.modal', function (e) {
+        
+    // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+    $("#myVideo3").attr('src',$videoSrc ); 
+    })
+      
+    
+    // stop playing the youtube video when I close the modal
+    $('#video2').on('hide.bs.modal', function (e) {
+        // a poor man's stop video
+        $("#myVideo3").attr('src',"_blank"); 
+    }) 
+  
+      
+    // document ready  
+    });
+    
+  </script>
 
 
 

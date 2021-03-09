@@ -559,7 +559,10 @@
         <div class="cardvf__image">
           <img src="img/valor_financiero/img-milton-brandt.png" alt="Milton Brandt" class="img-fluid wow fadeInDown" data-wow-delay=".4s" data-wow-duration="1s" width="195">
           <div class="cardvf__playbutton2">
-            <a class="btnvervideo pulse" href=""> <p><i class="fas fa-play"></i></p> </a>
+            <a href="" class="btnvervideo pulse" data-target="#video1" class="btnvervid pulse video-btn" data-toggle="modal"  data-src="video/Milton/Milton_esp.mp4" alt="Play"> <p><i class="fas fa-play"></i></p> </a>
+
+
+
           </div>
           
         </div>
@@ -1351,32 +1354,25 @@
 
 
 
-   
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+<!-- Modal Video 1 -->
+<div class="modal fade" id="video1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
-
-      
-      <div class="modal-body">
-
-       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>        
-        <!-- 16:9 aspect ratio -->
-
-
-  <video  controls id="myVideo2">
-    <source src="video/concepto_desktop.mp4" type="video/mp4">
-  </video>
-  
-
-        
-        
-      </div>
-
+      <div class="modal-body">        
+           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>        
+            <!-- 16:9 aspect ratio -->
+            <div class="embed-responsive embed-responsive-16by9">
+              <video controls="" autoplay="true" muted="true" id="myVideo2">
+                <source  type="video/mp4">
+                  
+              </video>
+            </div>                
+      </div>        
     </div>
   </div>
-</div> 
+</div>
 
 
 </main><!-- End #main -->
@@ -1859,35 +1855,35 @@ $('body').on('click', '.carrrestxt', function() {
     </script>
     
     <script>
-    $(document).ready(function() {
-    
-      // Gets the video src from the data-src on each button
+      $(document).ready(function() {
       
-      var $videoSrc;  
-      $('.video-btn').click(function() {
-          $videoSrc = $(this).data( "src" );
-      });
-      //console.log($videoSrc);
-      
-      // when the modal is opened autoplay it  
-      $('#myModal').on('shown.bs.modal', function (e) {
+        // Gets the video src from the data-src on each button
+        
+        var $videoSrc;  
+        $('.btnvervideo').click(function() {
+            $videoSrc = $(this).data( "src" );
+        });
+        console.log($videoSrc);
+        
+        // when the modal is opened autoplay it  
+        $('#video1').on('shown.bs.modal', function (e) {
+            
+        // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+        $("#myVideo2").attr('src',$videoSrc ); 
+        })
           
-      // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
-      $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" ); 
-      })
         
+        // stop playing the youtube video when I close the modal
+        $('#video1').on('hide.bs.modal', function (e) {
+            // a poor man's stop video
+            $("#myVideo2").attr('src',"_blank"); 
+        }) 
       
-      // stop playing the youtube video when I close the modal
-      $('#myModal').on('hide.bs.modal', function (e) {
-          // a poor man's stop video
-          $("#video").attr('src',$videoSrc); 
-      }) 
-    
+          
+        // document ready  
+        });
         
-      // document ready  
-      });
-      
-    </script>
+      </script>
 
 
 
