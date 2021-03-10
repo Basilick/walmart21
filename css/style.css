@@ -6430,6 +6430,173 @@ margin-top: 15px;
   
 }
 
+
+#gobierno_07 h4 {
+  
+  width: 100%;
+  margin: 25px 0;
+}
+
+
+#gobierno_07 h5 {
+  
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+#gobierno_08 h4 {
+  
+  width: 100%;
+  margin: 25px 0;
+}
+
+
+#gobierno_08 h5 {
+  
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+#gobierno_09 h4 {
+  
+  width: 100%;
+  margin: 25px 0;
+}
+
+
+#gobierno_09 h5 {
+  
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+#gobierno_09 p {
+  
+  
+  margin-bottom: 40px;
+
+}
+
+#gobierno_10 h4 {
+  
+  width: 100%;
+  margin: 25px 0;
+}
+
+
+#gobierno_10 h5 {
+  
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+#gobierno_10 p {
+  
+  
+  margin-bottom: 40px;
+
+}
+
+#gobierno_11 h4 {
+  
+  width: 100%;
+  margin: 25px 0;
+}
+
+
+#gobierno_11 h5 {
+  
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+#gobierno_11 .cards {
+  
+  max-width: 100%;
+  margin-bottom: 25px !important;
+}
+
+
+#gobierno_12 h4 {
+  
+  width: 100%;
+  margin: 25px 0;
+}
+
+
+#gobierno_12 h5 {
+  
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+#gobierno_12 p {
+  margin-bottom: 25px;
+}
+
+#gobierno_13 h4 {
+  
+  width: 100%;
+  margin: 25px 0;
+}
+
+
+#gobierno_13 h5 {
+  
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+#gobierno_14 h4 {
+  
+  width: 100%;
+  margin: 25px 0;
+}
+
+
+#gobierno_14 h5 {
+  
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+#gobierno_15 h4 {
+  
+  width: 100%;
+  margin: 25px 0;
+}
+
+
+#gobierno_15 h5 {
+  
+  width: 100%;
+  margin-bottom: 40px;
+}
+#gobierno_15 p {
+  
+ margin-bottom: 25px;
+}
+
+#gobierno_16 h4 {
+  
+  width: 100%;
+  margin: 25px 0;
+}
+
+
+#gobierno_16 h5 {
+  
+  width: 100%;
+  margin-bottom: 40px;
+}
+#gobierno_16 p {
+  
+ margin-bottom: 25px;
+}
+
+
+
+
 }/*-END  MOBILE-*/
 
 
@@ -11371,6 +11538,15 @@ display: block;
 
 
 
+#nuestro_negocio_mensaje_01 .bg-valor_mensaje_1 h4 {
+  
+
+  font-size: 18px;
+  line-height: 27px;
+  text-align: left;
+  padding: 10px;
+}
+
 
 
 
@@ -12302,7 +12478,11 @@ box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.36);
 }
 
 
-
+#nuestro_negocio_mensaje_05 .imglapzoom {
+  
+  top: 13px;
+  width: 100%;
+}
 
 }/*-END  MOBILE-*/
 
@@ -12357,6 +12537,44 @@ box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.36);
   font-family: Myriad-Semibold;
 }
 
+
+
+/*--------------------------------------------------------------
+# MOBILE
+--------------------------------------------------------------*/
+
+@media (max-width: 1024px) {
+
+ 
+
+
+}/*---#TERMINA 1024 IPAD LAND------*/
+
+
+@media (max-width: 450px) {
+
+ 
+
+
+
+#nuestro_negocio_mensaje_05 .imglapzoom {
+  
+  top: 13px;
+  width: 100%;
+}
+
+
+#nuestro_negocio_mensaje_05 .mencardlap {
+ right: 0;
+  width: 100%;
+}
+
+.cardtxtmen {
+  font-size: 18px;
+  font-family: Myriad-Semibold;
+}
+
+}/*-END  MOBILE-*/
 
 /*--------------------------------------------------------------
 # Valor Compartido
