@@ -8484,9 +8484,19 @@ margin-top: 15px;
 }
 
 #descargas1 .vhhe{
-  height: 100vh;
-  
+  height: 93.9vh;
 }
+@media screen and (min-width:1279px){
+  #descargas1 .vhhe{
+    height: 92.5vh;
+  }
+}
+@media screen and (min-width:1439px){
+  #descargas1 .vhhe{
+    height: 94.4vh;
+  }
+}
+
 
 
 
@@ -10462,6 +10472,57 @@ display: block;
       margin: 0 auto;     
       gap: 24px;   
   }    
+}
+
+.gridify4{
+  display: grid;
+  grid-template-columns: 48% 48%;
+  gap: 40px 24px;
+  justify-content: center;
+  align-content: center;
+  width: 98%;
+  margin: 0 auto;
+}
+.gridify4__item{
+  padding: 4px;
+  display: flex;
+  align-items: center;
+}
+.gridify4__item img{
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto !important;
+}
+@media screen and (min-width:767px){
+  .gridify4{
+      grid-template-columns: 33% 33% 33%;
+  }
+  .gridify4__item img{
+    margin: 0 auto;
+    max-width: auto;
+    height: 120px !important;
+  }
+}
+
+@media screen and (min-width:1023px){
+  .gridify4{
+      grid-template-columns: 100%;
+      margin: 0 auto;     
+      gap: 24px;   
+  }    
+  .gridify4__item img{
+    margin: 0 auto;
+    max-width: 53%;
+    height: auto !important;
+  }
+}
+
+@media screen and (min-width:1439px){
+  .gridify4__item img{
+    margin: 0 auto;
+    max-width: 50%;
+    height: auto !important;
+  }
 }
 
 #valor_financiero_09{
