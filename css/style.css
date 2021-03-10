@@ -2353,6 +2353,9 @@ font-size: 12px;
   height: 100vh;
   background-image: url(../img/ambiente/bg-green.jpg);
   background-size: cover;
+  background-color: #4e8735;
+  background-repeat: no-repeat;
+  
 }
 
 #la_meta_01 .pad95 {
