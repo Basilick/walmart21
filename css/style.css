@@ -1832,11 +1832,11 @@ font-size: 12px;
 .parallax4 {
 
   position: absolute;
-  top: 1044px;
+  top: 1110px;
   left: 25px;
   background-image: url("../img/home/parraima4.jpg");
   width: 570px;
-  height: 668px;
+  height: 340px;
   background-attachment: fixed;
   /* background-position: 900px 333px; */
   background-repeat: no-repeat;
@@ -1847,21 +1847,14 @@ font-size: 12px;
 
   position: absolute;
   right: 25px;
-  top: 1623px;
-
-  /* The image used */
-  background-image: url("../img/home/parraima5.jpg");
-
-  /* Set a specific height */
-  
+  top: 1486px;
+  background-image: url(../img/home/parraima5.jpg);
   width: 570px;
-  height: 280px;
-
-  /* Create the parallax scrolling effect */
+  height: 338px;
   background-attachment: fixed;
-  background-position: 900px 333px;
+  background-position: 834px 241px;
   background-repeat: no-repeat;
-  background-size: 46%;
+  background-size: 54%;
 }
 
 .parallax6 {
@@ -1879,23 +1872,16 @@ font-size: 12px;
 }
 
 .parallax7 {
-
   position: absolute;
   right: 25px;
-  top: 2300px;
-  /* The image used */
-  background-image: url("../img/home/parraima7.jpg");
-
-  /* Set a specific height */
-  
-  width: 626px;
-  height: 449px;
-
-  /* Create the parallax scrolling effect */
+  top: 2291px;
+  background-image: url(../img/home/parraima7.jpg);
+  width: 562px;
+  height: 367px;
   background-attachment: fixed;
-  background-position: 900px 333px;
+  background-position: 843px 90px;
   background-repeat: no-repeat;
-  background-size: 36%;
+  background-size: 40%;
 }
 
 .parallax8 {
