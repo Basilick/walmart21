@@ -11547,7 +11547,10 @@ display: block;
   padding: 10px;
 }
 
-
+#nuestro_negocio_17 h4 {
+  
+  margin-top: 25px;
+}
 
 
 
@@ -13711,7 +13714,10 @@ box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.36);
 
 @media (max-width: 450px) {
   
-
+  #odsinfos {
+    margin-left: 0;
+    margin-right: 0;
+  }
  
 
 
