@@ -4848,24 +4848,24 @@ p:last-of-type{
 .ingresos-totales{
   background: url('../svg/ico-ingresos-totales.svg') no-repeat 0px 2px;
   background-size: 40px;
-  line-height: 15px !important;
+  line-height: 43px !important;
   padding-left: 52px !important;
   color: #414141;
   font-family: Myriad-Bold;
 }
 .utilidad-operacion{
-  background: url('../svg/ico-utilidad-de-operacion.svg') no-repeat 0px 2px;
-  background-size: 40px;
-  line-height: 15px !important;
-  padding-left: 52px !important;
-  color: #414141;
-  font-family: Myriad-Bold;
-  padding-bottom: 28px;
+  background: url(../svg/ico-utilidad-de-operacion.svg) no-repeat 0px 2px;
+    background-size: 40px;
+    line-height: 44px !important;
+    padding-left: 52px !important;
+    color: #414141;
+    font-family: Myriad-Bold;
+    padding-bottom: 0px;
 }
 .flujo-operativo{
   background: url('../svg/ico-flujo-operativo.svg') no-repeat 0px 2px;
   background-size: 40px;
-  line-height: 15px !important;
+  line-height: 22px !important;
   padding-left: 52px !important;
   color: #414141;
   font-family: Myriad-Bold;
@@ -7125,7 +7125,7 @@ margin-top: 15px;
 
 #valor_social_10 #blue-list li  {
 
-  margin: 0;
+    margin: 0;
     padding: 0 0 5px 25px;
     font-family: Myriad-Light;
     
@@ -7133,6 +7133,17 @@ margin-top: 15px;
     font-size: 16px;
     background: none;
     background-size: 6px;
+    width: 100%;
+    display: inline-block;
+
+}
+#valor_social_10 #blue-list li  p{
+
+  float: left;
+  width: 90%;
+  margin-left: 5px;
+  padding-top: 10px;
+  margin-bottom: 0px;
 
 }
 
@@ -7140,6 +7151,7 @@ margin-top: 15px;
 
 #valor_social_10 #blue-list li .imgicos {
  margin-right: 5px;
+ float: left;
   width: 45px;
   display: inline-block;
 
@@ -7755,8 +7767,13 @@ margin-top: 15px;
 }
 
 #valor_social_10 #blue-list li {
-  margin: 10px 0;
+  margin: 5px 0;
   padding: 0 0 5px 0px;
+  
+}
+
+#valor_social_10 #blue-list li p {
+ width: 75%;
   
 }
 
@@ -7905,6 +7922,10 @@ margin-top: 15px;
 
 #valor_social_22 .cards {
   width: 100%;
+}
+
+#valor_social_08 .icopictu {
+  height: 75px;
 }
 
 }/*-END  MOBILE-*/
@@ -8642,8 +8663,13 @@ margin-top: 15px;
   justify-content: space-between;
   text-align: center;
   width: 100%;
-  margin: 32px 0;
+  margin: 5px 0;
 }
+
+.doublecol {
+  margin: 10px 0 !important;
+}
+
 .brandscol img.brandlogo{
   margin: 20px auto;
 }
@@ -9448,6 +9474,29 @@ font-family: Myriad-SemiBold;
   margin-right: 12px;
 }
 
+#asociado_02 .cards__image {
+  width: 53px;
+  height: 53px;
+}
+
+#asociado_03 .cardshm .cards__image img {
+  height: 52px;
+}
+
+#asociado_04 .cardshm .cards__image img {
+  height: 52px;
+}
+
+#asociado_05 .cardshm .cards__image img {
+  height: 52px;
+}
+
+
+.avatar-images img {
+
+  height: 40px;
+ 
+}
 
 #asociado_04  .cardshm .cards__text {
     width: auto;
@@ -9926,7 +9975,7 @@ display: block;
 
 .bg-propuesta-valor-asociado {
  height: 60vh;
-  background-position: 1px 233px;
+  background-position: 1px 279px;
   
 }
 
@@ -10199,6 +10248,11 @@ display: block;
     
   
   }
+
+  #valor_financiero_02 .cardvf__playbutton2 {
+    
+    left: 116px;
+}
 
 }/*-END  MOBILE-*/
 
@@ -11560,6 +11614,11 @@ display: block;
     left: 142px;
 }
  
+  
+#nuestro_negocio_10 .specircls img {
+  height: 91px;
+}
+
 
 #nuestro_negocio_02 .cards {
   max-height: 345px;
@@ -13765,6 +13824,11 @@ box-shadow: 2px 2px 15px -1px rgba(0,0,0,0.36);
     margin-left: 0;
     margin-right: 0;
   }
+
+  .icoss-int {
+   
+    float: left;
+}
 
   .icoss-int-2 {
    
