@@ -4138,7 +4138,7 @@ p:last-of-type{
   color: #1081C7;
 }
 .uom__item:nth-child(1)::before{
-  content: '34,455';
+  content: '39,455';
   bottom: 90px;
   font-size: 12px;
 }
@@ -4283,7 +4283,7 @@ p:last-of-type{
   font-size: 12px;
 }
 .na__item:nth-child(3)::before{
-  content: '233,431';
+  content: '234,431';
   bottom: 135px;
   font-size: 12px;
 }
@@ -10519,6 +10519,13 @@ display: block;
 
 }
 
+#valor_financiero_09 .nuevos-asociados-mexico-2 {
+  background: url(../svg/ico-mexico-blue-dark.svg) no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 21px !important;
+  height: 43px !important;
+  padding-left: 52px !important;
+}
 
 
 
@@ -10713,7 +10720,7 @@ display: block;
   background-position: center;
   z-index: 2;
   width: 88%;
-  height: 90px;
+  height: 171px;
   position: absolute;
 }
 
@@ -12172,7 +12179,7 @@ max-width: 600px;
   display: block;
   width: 595px;
   position: relative;
-  top: 183px;
+  top: 159px;
   left: -35px;
 
 }

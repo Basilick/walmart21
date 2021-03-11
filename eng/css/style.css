@@ -3520,7 +3520,7 @@ display: contents;
 }
 
 .blue-light-3-txt{
-  color: #7dbed2 !important;
+  color: #7dbed2;
 }
 .blue-light-4-txt{
   color: #80EAEF;
@@ -4111,162 +4111,162 @@ p:last-of-type{
   color: #1081C7;
 }
 .it__item:nth-child(1)::before{
-  content: '532,384';
+  content: '532.4';
   bottom: 90px;
   font-size: 12px;
 }
 .it__item:nth-child(2)::before{
-  content: '573,371';
+  content: '573.4';
   bottom: 110px;
   font-size: 12px;
 }
 .it__item:nth-child(3)::before{
-  content: '616,910';
+  content: '616.9';
   bottom: 120px;
   font-size: 12px;
 }
 .it__item:nth-child(4)::before{
-  content: '646,846';
+  content: '646.8';
   bottom: 140px;
   font-size: 12px;
 }
 .it__item:nth-child(5)::before{
-  content: '701,734';
+  content: '701.7';
   bottom: 160px;
   font-family: Myriad-Bold;
   font-size: 16px;
   color: #1081C7;
 }
 .uom__item:nth-child(1)::before{
-  content: '34,455';
+  content: '39.5';
   bottom: 90px;
   font-size: 12px;
 }
 .uom__item:nth-child(2)::before{
-  content: '43,838';
+  content: '43.8';
   bottom: 110px;
   font-size: 12px;
 }
 .uom__item:nth-child(3)::before{
-  content: '51,572';
+  content: '51.6';
   bottom: 120px;
   font-size: 12px;
 }
 .uom__item:nth-child(4)::before{
-  content: '54,003';
+  content: '54.0';
   bottom: 140px;
   font-size: 12px;
 }
 .uom__item:nth-child(5)::before{
-  content: '57,447';
+  content: '57.4';
   bottom: 160px;
   font-family: Myriad-Bold;
   font-size: 16px;
   color: #1081C7;
 }
 .foe__item:nth-child(1)::before{
-  content: '50,149';
+  content: '50.1';
   bottom: 90px;
   font-size: 12px;
 }
 .foe__item:nth-child(2)::before{
-  content: '55,482';
+  content: '55.5';
   bottom: 110px;
   font-size: 12px;
 }
 .foe__item:nth-child(3)::before{
-  content: '67,148';
+  content: '67.1';
   bottom: 120px;
   font-size: 12px;
 }
 .foe__item:nth-child(4)::before{
-  content: '71,005';
+  content: '71.0';
   bottom: 140px;
   font-size: 12px;
 }
 .foe__item:nth-child(5)::before{
-  content: '75,387';
+  content: '75.4';
   bottom: 160px;
   font-family: Myriad-Bold;
   font-size: 16px;
   color: #1081C7;
 }
 .ief__item:nth-child(1)::before{
-  content: '14,335';
+  content: '14.3';
   bottom: 120px;
   font-size: 12px;
 }
 .ief__item:nth-child(2)::before{
-  content: '17,426';
+  content: '17.4';
   bottom: 130px;
   font-size: 12px;
 }
 .ief__item:nth-child(3)::before{
-  content: '17,933';
+  content: '17.9';
   bottom: 136px;
   font-size: 12px;
 }
 .ief__item:nth-child(4)::before{
-  content: '20,575';
+  content: '20.6';
   bottom: 160px;
   font-size: 12px;
 }
 .ief__item:nth-child(5)::before{
-  content: '16,728';
+  content: '16.7';
   bottom: 125px;
   font-family: Myriad-Bold;
   font-size: 16px;
   color: #1081C7;
 }
 .ge__item:nth-child(1)::before{
-  content: '51,343';
+  content: '51.3';
   bottom: 105px;
   font-size: 12px;
 }
 .ge__item:nth-child(2)::before{
-  content: '54,449';
+  content: '54.4';
   bottom: 120px;
   font-size: 12px;
 }
 .ge__item:nth-child(3)::before{
-  content: '60,478';
+  content: '60.5';
   bottom: 130px;
   font-size: 12px;
 }
 .ge__item:nth-child(4)::before{
-  content: '63,745';
+  content: '63.7';
   bottom: 140px;
   font-size: 12px;
 }
 .ge__item:nth-child(5)::before{
-  content: '64,777';
+  content: '64.8';
   bottom: 160px;
   font-family: Myriad-Bold;
   font-size: 16px;
   color: #1081C7;
 }
 .dp__item:nth-child(1)::before{
-  content: '28,972';
+  content: '29.0';
   bottom: 90px;
   font-size: 12px;
 }
 .dp__item:nth-child(2)::before{
-  content: '42,756';
+  content: '42.8';
   bottom: 160px;
   font-size: 12px;
 }
 .dp__item:nth-child(3)::before{
-  content: '25,582';
+  content: '25.6';
   bottom: 80px;
   font-size: 12px;
 }
 .dp__item:nth-child(4)::before{
-  content: '35,957';
+  content: '36.0';
   bottom: 125px;
   font-size: 12px;
 }
 .dp__item:nth-child(5)::before{
-  content: '30,934';
+  content: '30.9';
   bottom: 110px;
   font-family: Myriad-Bold;
   font-size: 16px;
@@ -4283,7 +4283,7 @@ p:last-of-type{
   font-size: 12px;
 }
 .na__item:nth-child(3)::before{
-  content: '233,431';
+  content: '234,431';
   bottom: 135px;
   font-size: 12px;
 }
@@ -10519,6 +10519,13 @@ display: block;
 
 }
 
+#valor_financiero_09 .nuevos-asociados-mexico-2 {
+  background: url(../svg/ico-mexico-blue-dark.svg) no-repeat 0px 2px;
+  background-size: 40px;
+  line-height: 21px !important;
+  height: 43px !important;
+  padding-left: 52px !important;
+}
 
 
 
@@ -10713,7 +10720,7 @@ display: block;
   background-position: center;
   z-index: 2;
   width: 88%;
-  height: 90px;
+  height: 171px;
   position: absolute;
 }
 
