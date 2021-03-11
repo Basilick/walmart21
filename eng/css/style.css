@@ -3520,7 +3520,7 @@ display: contents;
 }
 
 .blue-light-3-txt{
-  color: #7dbed2;
+  color: #7dbed2 !important;
 }
 .blue-light-4-txt{
   color: #80EAEF;
