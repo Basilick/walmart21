@@ -4104,7 +4104,7 @@ p:last-of-type{
   font-size: 12px;
 }
 .tm__item:nth-child(5)::before{
-  content: '2,287';
+  content: '1,973';
   bottom: 160px;
   font-family: Myriad-Bold;
   font-size: 16px;
