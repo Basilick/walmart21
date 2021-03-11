@@ -4951,7 +4951,7 @@ p:last-of-type{
   height: 43px !important;
   padding-left: 52px !important;
   color: #414141;
-  font-family: Myriad-Bold;
+  font-family: Myriad-Regular;
 }
 
 .balance-general{
@@ -12179,7 +12179,7 @@ max-width: 600px;
   display: block;
   width: 595px;
   position: relative;
-  top: 159px;
+  top: 183px;
   left: -35px;
 
 }
