@@ -1808,7 +1808,7 @@ display: contents;
   left: 25px;
     background-image: url("../img/home/parraima2.jpg");
     width: 450px;
-    height: 442px;
+    height: 338px;
     background-attachment: fixed;
     /* background-position: 900px 333px; */
     background-repeat: no-repeat;
@@ -1818,17 +1818,11 @@ display: contents;
 .parallax3 {
 
   position: absolute;
-  top: 797px;
+  top: 697px;
   right: 25px;
-  /* The image used */
-  background-image: url("../img/home/parraima3.jpg");
-
-  /* Set a specific height */
-  
-  width: 572px;
-  height: 448px;
-
-  /* Create the parallax scrolling effect */
+  background-image: url(../img/home/parraima3.jpg);
+  width: 519px;
+  height: 343px;
   background-attachment: fixed;
   background-position: 900px 333px;
   background-repeat: no-repeat;
@@ -2086,7 +2080,7 @@ display: contents;
 #hero .veinteupimg {
   margin: 0px;
   float: none; 
-  width: 95%;
+  width: 94%;
   display: block;
   margin: auto;
 }
@@ -4056,7 +4050,7 @@ p:last-of-type{
 }
 .dc__item:nth-child(1)::before{
   content: '210';
-  bottom: 106px;
+  bottom: 137px;
 }
 .dc__item:nth-child(2)::before{
   content: '330';
@@ -4064,7 +4058,7 @@ p:last-of-type{
 }
 .dc__item:nth-child(3)::before{
   content: '160';
-  bottom: 80px;
+  bottom: 125px;
 }
 .dc__item:nth-child(4)::before{
   content: '350';
@@ -5830,6 +5824,12 @@ ul#blue-list li{
 
 
 @media (max-width: 450px) {
+
+  .dividendo-pagado{
+    
+    line-height: 28px !important;
+    
+  }
 
   #capitulo02_7 .imgdocta{
   
@@ -10961,6 +10961,7 @@ display: block;
 #valor_financiero_04 .conttxthig p {
   font-size: 18px;
   margin-left: 20px;
+  margin-top: 30% !important;
 }
 
 #valor_financiero_04 .bg-valor_finance_1   .row {
@@ -11448,9 +11449,9 @@ display: block;
 #nuestro_negocio_08 .imgcentermod {
 
   position: absolute;
-  width: 180px;
-  top: 257px;
-  left: 270px;
+    width: 100%;
+    top: 0;
+    left: 0;
 
 }
 
@@ -11568,6 +11569,19 @@ display: block;
 
 }
 
+
+#nuestro_negocio_mensaje_02 .cardmobile {
+
+  display: none;
+
+}
+
+#nuestro_negocio_mensaje_04 .cardmobile {
+
+  display: none;
+
+}
+
 /*--------------------------------------------------------------
 # MOBILE
 --------------------------------------------------------------*/
@@ -11581,6 +11595,40 @@ display: block;
 
 
 @media (max-width: 450px) {
+
+
+  #nuestro_negocio_mensaje_02 .nocardmobile {
+
+    display: none;
+
+  }
+
+  #nuestro_negocio_mensaje_02 .cardmobile {
+
+    display: flex;
+  
+  }
+
+  #nuestro_negocio_mensaje_02 .imgmtp {
+    margin-top: 25px;
+  }
+  
+
+  #nuestro_negocio_mensaje_04 .nocardmobile {
+
+    display: none;
+
+  }
+
+  #nuestro_negocio_mensaje_04 .cardmobile {
+
+    display: flex;
+  
+  }
+
+  #nuestro_negocio_mensaje_04 .imgmtp {
+    margin-top: 3rem;
+  }
   
  
 
@@ -11656,9 +11704,9 @@ display: block;
   
   #nuestro_negocio_08 .imgcentermod {
     position: absolute;
-    width: 91px;
-    top: 39%;
-    left: 39%;
+    width: 100%;
+    top: -10px;
+    left: 0;
 
 }
  
