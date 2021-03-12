@@ -10512,8 +10512,56 @@ display: block;
   background-size:cover;
   background-repeat: no-repeat;
   height: 30vh;
-  
+  display: block;
 
+}
+
+#valor_financiero_07 .bg-valor_finance_3 {
+
+
+  background-image: url(../img/valor_financiero/img-walmart-centroamerica.png);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+  display: block;
+
+}
+
+#valor_financiero_07 .bgappearmob {
+  display: none;
+}
+
+
+#valor_financiero_07 .txtcierre {
+  font-size: 20px;
+  line-height: 26px;
+  font-family: Myriad-SemiBold;
+
+}
+
+#valor_financiero_07 .txtnomob {
+  display: block;
+}
+
+#valor_financiero_07 .txtonmob {
+  display: none;
+}
+
+#valor_financiero_08 .bgnomobi {
+  
+  display: block;
+
+}
+
+#valor_financiero_08 .txtnomob {
+  display: block;
+}
+
+
+
+#valor_financiero_08 .bgappearmob {
+  display: none;
 }
 
 #valor_financiero_07 .txtcierre {
@@ -10912,6 +10960,13 @@ display: block;
   }
 }
 
+#valor_financiero_14 .txtnomob {
+  display: block;
+}
+
+#valor_financiero_14 .txtonmob {
+  display: none;
+}
 
 
 /*--------------------------------------------------------------
@@ -10927,6 +10982,59 @@ display: block;
 
 
 @media (max-width: 450px) {
+
+  #valor_financiero_07 .bg-valor_finance_2 {
+
+
+    display: none;
+  
+  }
+  
+  #valor_financiero_07 .bgappearmob {
+    display: block;
+  }
+
+
+  #valor_financiero_07 .txtnomob {
+    display: none;
+  }
+  
+  #valor_financiero_07 .txtonmob {
+    display: block;
+  }
+
+  #valor_financiero_08 .bgnomobi {
+  
+    display: none;
+
+  }
+
+  #valor_financiero_08 .txtnomob {
+    display: none;
+  }
+  
+
+
+  #valor_financiero_08 .bgappearmob {
+    display: block;
+  }
+
+
+  #valor_financiero_14 .txtnomob {
+    display: none;
+  }
+  
+  #valor_financiero_14 .txtonmob {
+    display: block;
+  }
+
+
+  .bg-valor-financiero-02 {
+    
+    background-image: none;
+    
+}
+
   
   #valor_financiero_06 .bg-green-1 {
     width: 100%;
@@ -11582,6 +11690,18 @@ display: block;
 
 }
 
+#nuestro_negocio_06 .contchnomob {
+
+  display: block;
+
+}
+
+#nuestro_negocio_06 .contchonmob {
+
+  display: none;
+
+}
+
 /*--------------------------------------------------------------
 # MOBILE
 --------------------------------------------------------------*/
@@ -11595,6 +11715,18 @@ display: block;
 
 
 @media (max-width: 450px) {
+
+  #nuestro_negocio_06 .contchnomob {
+
+    display: none;
+  
+  }
+  
+  #nuestro_negocio_06 .contchonmob {
+  
+    display: block;
+  
+  }
 
 
   #nuestro_negocio_mensaje_02 .nocardmobile {
