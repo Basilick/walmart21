@@ -2652,6 +2652,13 @@ display: contents;
   font-size: 16px !important;
 }
 
+#la_meta_05 .imgpesacdor{
+ 
+   position: relative;
+    top: 40px;
+
+}
+
 @media screen and (min-width:1279px){
   #text-and-divider-alone img{
     max-height: 109px;
@@ -2862,6 +2869,9 @@ display: contents;
     right: 24px;
     z-index: 3;
   }
+
+
+
 }
 
 /*--------------------------------------------------------------
@@ -3272,6 +3282,14 @@ display: contents;
 
 
 @media (max-width: 450px) {
+
+
+  #la_meta_05 .imgpesacdor{
+ 
+    position: relative;
+     top: -20px;
+ 
+ }
 
   #historias_01 {
     height: 100vh;
@@ -4108,6 +4126,7 @@ p:last-of-type{
   bottom: 160px;
   font-family: Myriad-Bold;
   font-size: 16px;
+  padding-top: 18px;
   color: #1081C7;
 }
 .it__item:nth-child(1)::before{
@@ -9629,7 +9648,7 @@ font-family: Myriad-SemiBold;
 @media screen and (min-width:1023px){
   .bullet-capacitacion-asociados{
     position: absolute;
-    top: -180px;
+    top: -60px;
     right: 0;
     z-index: 1;
     width: 460px;
@@ -11247,8 +11266,8 @@ display: block;
 .text-and-divider, #text-and-divider-alone .text-and-divider{
   color: #4a5b6d;
   font-family: Myriad-Light;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 16px;
+  line-height: 20px;
   border-bottom: 1px solid #ffffff;
   padding-bottom: 16px;
 }
@@ -12179,7 +12198,7 @@ max-width: 600px;
   display: block;
   width: 595px;
   position: relative;
-  top: 183px;
+  top: 37%;
   left: -35px;
 
 }
