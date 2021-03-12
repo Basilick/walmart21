@@ -8209,9 +8209,9 @@ margin-top: 15px;
 #el_compromiso .contfra h2 {
 
   color: #ffffff;
-  line-height: 67px;
-  font-size: clamp(2rem, 5.5vw, 4rem);
-  font-family: Myriad-Light;
+    line-height: 60px;
+    font-size: clamp(2rem, 5.5vw, 3.8rem);
+    font-family: Myriad-Light;
 
 }
 

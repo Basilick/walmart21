@@ -4901,10 +4901,10 @@ p:last-of-type{
     padding-bottom: 0px;
 }
 .flujo-operativo{
-  background: url('../svg/ico-flujo-operativo.svg') no-repeat 0px 2px;
+  background: url(../svg/ico-flujo-operativo.svg) no-repeat 0px 2px;
   background-size: 40px;
-  line-height: 22px !important;
-  padding-left: 52px !important;
+  line-height: 28px !important;
+  padding-left: 45px !important;
   color: #414141;
   font-family: Myriad-Bold;
 }
