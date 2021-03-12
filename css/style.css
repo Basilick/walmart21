@@ -4964,7 +4964,7 @@ p:last-of-type{
 .omnicanal-ico{
   background: url('../svg/ico-omnidical.svg') no-repeat 0px 2px;
   background-size: 40px;
-  line-height: 43px !important;
+  line-height: 25px !important;
   height: 43px !important;
   padding-left: 52px !important;
   color: #414141;
@@ -5041,7 +5041,8 @@ p:last-of-type{
 .flujo-operativo span,
 .inversion-activo-fijo span,
 .generacion-efectivo span,
-.dividendo-pagado span
+.dividendo-pagado span,
+.omnicanal-ico span
 {
   font-family: Myriad-Light;
   display: block;
@@ -10619,7 +10620,7 @@ display: block;
 @media screen and (min-width:1439px){
   .gridify4__item img{
     margin: 0 auto;
-    max-width: 50%;
+    max-width: 46%;
     height: auto !important;
   }
 }

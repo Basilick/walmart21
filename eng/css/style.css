@@ -10621,7 +10621,7 @@ display: block;
 @media screen and (min-width:1439px){
   .gridify4__item img{
     margin: 0 auto;
-    max-width: 50%;
+    max-width: 46%;
     height: auto !important;
   }
 }
