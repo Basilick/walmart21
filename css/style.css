@@ -5925,9 +5925,6 @@ ul#blue-list li{
 .portada__image img{
   width: 100%;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform:translate(-50%, -50%);
 }
 .portada__image img.small-banner-image{
   width: 70%;
@@ -6054,7 +6051,18 @@ ul#blue-list li{
     justify-content: space-around;
   }
   .portada__copy{
-    width: 30%;
+    width: 50%;
+    padding-right: 80px;
+  }
+  .portada__copy h1{
+    font-size: 40px;
+  }
+  .portada__copy h2{
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .portada__divider{
+    height: 200px;
   }
   .portada__image{
     width: 50%;
