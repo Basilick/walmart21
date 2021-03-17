@@ -844,38 +844,16 @@ box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2);
 /*--------------------------------------------------------------
 # MOBILE
 --------------------------------------------------------------*/
-@media only screen and (min-device-width : 546px) and (max-device-width: 1024px) {
-
-  .dropdown-menu {
-    max-height: 1800px;
-    overflow: auto;
-    border: 0;
-    border-radius: 0;
-}
+@media (max-width: 550px) {
 
 .menucont .txtinffi {
 
   display: none;
 }
 
-
-
-.mega-menu .menu-leftdiv {
-  display: none;
 }
 
-.dropdown-menu .mega-menu {
-  
-  height: 2111px;
-}
-
-
-
-
-
-} /*-END  LANDSCAPE-*/
-
-@media (max-width: 545px) {
+@media (max-width: 450px) {
 
   #mainhome {
 
@@ -1840,15 +1818,15 @@ display: contents;
 .parallax3 {
 
   position: absolute;
-    top: 697px;
-    right: 25px;
-    background-image: url(../img/home/parraima3.jpg);
-    width: 519px;
-    height: 343px;
-    background-attachment: fixed;
-    background-position: 900px 333px;
-    background-repeat: no-repeat;
-    background-size: 34%;
+  top: 697px;
+  right: 25px;
+  background-image: url(../img/home/parraima3.jpg);
+  width: 519px;
+  height: 343px;
+  background-attachment: fixed;
+  background-position: 900px 333px;
+  background-repeat: no-repeat;
+  background-size: 34%;
 }
 
 .parallax4 {
@@ -2066,44 +2044,24 @@ display: contents;
 # MOBILE
 --------------------------------------------------------------*/
 
+@media (max-width: 1024px) {
 
-
-
-@media only screen and (min-device-width : 546px) and (max-device-width: 1024px) {
-
-  #hero {
-    height: 752px;
-   
-  }
-
-  #hero .menucarr {
-    height: auto;
-    display: none;
-    float: right;
-  }
-
-
-  #section2 p {
-    text-align: center;
-    font-size: 24px;
-    margin: 35px auto;
-    line-height: 33px;
-    width: 92%;
+  #hero p.text1 {
+    font-size: 18px;
+    letter-spacing: 3px;
 }
 
-
-#section2 {
+#hero h1 {
   
-  background-position: top center;
+  letter-spacing: 7px;
   
 }
- 
 
 
 }/*---#TERMINA 1024 IPAD LAND------*/
 
 
-@media (max-width: 545px) {
+@media (max-width: 450px) {
   
   
 
@@ -2688,11 +2646,10 @@ display: contents;
   font-size: 16px !important;
 }
 
-
 #la_meta_05 .imgpesacdor{
  
-  position: relative;
-   top: -20px;
+   position: relative;
+    top: 40px;
 
 }
 
@@ -2906,6 +2863,9 @@ display: contents;
     right: 24px;
     z-index: 3;
   }
+
+
+
 }
 
 /*--------------------------------------------------------------
@@ -3321,7 +3281,7 @@ display: contents;
   #la_meta_05 .imgpesacdor{
  
     position: relative;
-     top: 0px;
+     top: -20px;
  
  }
 
@@ -4164,162 +4124,162 @@ p:last-of-type{
   color: #1081C7;
 }
 .it__item:nth-child(1)::before{
-  content: '532,384';
+  content: '532.4';
   bottom: 90px;
   font-size: 12px;
 }
 .it__item:nth-child(2)::before{
-  content: '573,371';
+  content: '573.4';
   bottom: 110px;
   font-size: 12px;
 }
 .it__item:nth-child(3)::before{
-  content: '616,910';
+  content: '616.9';
   bottom: 120px;
   font-size: 12px;
 }
 .it__item:nth-child(4)::before{
-  content: '646,846';
+  content: '646.8';
   bottom: 140px;
   font-size: 12px;
 }
 .it__item:nth-child(5)::before{
-  content: '701,734';
+  content: '701.7';
   bottom: 160px;
   font-family: Myriad-Bold;
   font-size: 16px;
   color: #1081C7;
 }
 .uom__item:nth-child(1)::before{
-  content: '39,455';
+  content: '39.5';
   bottom: 90px;
   font-size: 12px;
 }
 .uom__item:nth-child(2)::before{
-  content: '43,838';
+  content: '43.8';
   bottom: 110px;
   font-size: 12px;
 }
 .uom__item:nth-child(3)::before{
-  content: '51,572';
+  content: '51.6';
   bottom: 120px;
   font-size: 12px;
 }
 .uom__item:nth-child(4)::before{
-  content: '54,003';
+  content: '54.0';
   bottom: 140px;
   font-size: 12px;
 }
 .uom__item:nth-child(5)::before{
-  content: '57,447';
+  content: '57.4';
   bottom: 160px;
   font-family: Myriad-Bold;
   font-size: 16px;
   color: #1081C7;
 }
 .foe__item:nth-child(1)::before{
-  content: '50,149';
+  content: '50.1';
   bottom: 90px;
   font-size: 12px;
 }
 .foe__item:nth-child(2)::before{
-  content: '55,482';
+  content: '55.5';
   bottom: 110px;
   font-size: 12px;
 }
 .foe__item:nth-child(3)::before{
-  content: '67,148';
+  content: '67.1';
   bottom: 120px;
   font-size: 12px;
 }
 .foe__item:nth-child(4)::before{
-  content: '71,005';
+  content: '71.0';
   bottom: 140px;
   font-size: 12px;
 }
 .foe__item:nth-child(5)::before{
-  content: '75,387';
+  content: '75.4';
   bottom: 160px;
   font-family: Myriad-Bold;
   font-size: 16px;
   color: #1081C7;
 }
 .ief__item:nth-child(1)::before{
-  content: '14,335';
+  content: '14.3';
   bottom: 120px;
   font-size: 12px;
 }
 .ief__item:nth-child(2)::before{
-  content: '17,426';
+  content: '17.4';
   bottom: 130px;
   font-size: 12px;
 }
 .ief__item:nth-child(3)::before{
-  content: '17,933';
+  content: '17.9';
   bottom: 136px;
   font-size: 12px;
 }
 .ief__item:nth-child(4)::before{
-  content: '20,575';
+  content: '20.6';
   bottom: 160px;
   font-size: 12px;
 }
 .ief__item:nth-child(5)::before{
-  content: '16,728';
+  content: '16.7';
   bottom: 125px;
   font-family: Myriad-Bold;
   font-size: 16px;
   color: #1081C7;
 }
 .ge__item:nth-child(1)::before{
-  content: '51,343';
+  content: '51.3';
   bottom: 105px;
   font-size: 12px;
 }
 .ge__item:nth-child(2)::before{
-  content: '54,449';
+  content: '54.4';
   bottom: 120px;
   font-size: 12px;
 }
 .ge__item:nth-child(3)::before{
-  content: '60,478';
+  content: '60.5';
   bottom: 130px;
   font-size: 12px;
 }
 .ge__item:nth-child(4)::before{
-  content: '63,745';
+  content: '63.7';
   bottom: 140px;
   font-size: 12px;
 }
 .ge__item:nth-child(5)::before{
-  content: '64,777';
+  content: '64.8';
   bottom: 160px;
   font-family: Myriad-Bold;
   font-size: 16px;
   color: #1081C7;
 }
 .dp__item:nth-child(1)::before{
-  content: '28,972';
+  content: '29.0';
   bottom: 90px;
   font-size: 12px;
 }
 .dp__item:nth-child(2)::before{
-  content: '42,756';
+  content: '42.8';
   bottom: 160px;
   font-size: 12px;
 }
 .dp__item:nth-child(3)::before{
-  content: '25,582';
+  content: '25.6';
   bottom: 80px;
   font-size: 12px;
 }
 .dp__item:nth-child(4)::before{
-  content: '35,957';
+  content: '36.0';
   bottom: 125px;
   font-size: 12px;
 }
 .dp__item:nth-child(5)::before{
-  content: '30,934';
+  content: '30.9';
   bottom: 110px;
   font-family: Myriad-Bold;
   font-size: 16px;
@@ -4937,10 +4897,10 @@ p:last-of-type{
     padding-bottom: 0px;
 }
 .flujo-operativo{
-  background: url(../svg/ico-flujo-operativo.svg) no-repeat 0px 2px;
+  background: url('../svg/ico-flujo-operativo.svg') no-repeat 0px 2px;
   background-size: 40px;
-  line-height: 28px !important;
-  padding-left: 45px !important;
+  line-height: 22px !important;
+  padding-left: 52px !important;
   color: #414141;
   font-family: Myriad-Bold;
 }
@@ -5000,11 +4960,11 @@ p:last-of-type{
 .omnicanal-ico{
   background: url('../svg/ico-omnidical.svg') no-repeat 0px 2px;
   background-size: 40px;
-  line-height: 25px !important;
+  line-height: 43px !important;
   height: 43px !important;
   padding-left: 52px !important;
   color: #414141;
-  font-family: Myriad-Regular;
+  font-family: Myriad-Bold;
 }
 
 .balance-general{
@@ -5077,8 +5037,7 @@ p:last-of-type{
 .flujo-operativo span,
 .inversion-activo-fijo span,
 .generacion-efectivo span,
-.dividendo-pagado span,
-.omnicanal-ico span
+.dividendo-pagado span
 {
   font-family: Myriad-Light;
   display: block;
@@ -5851,285 +5810,20 @@ ul#blue-list li{
   display: none;
 }
 
-.arrow-down-margin{
-  margin-top: 13%;
-}
-
-/* PORTADA GOBIERNO */
-
-.bg-gobierno {
-  
-  height: 100vh;
-  background-image: url(../img/gobiernocorpo/bg_slideprin.png);
-  background-size: cover;
-  background-color:#6a7a86;
-  width: 100%;
-  
-}
-.portada{
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  padding-top: 75px;
-  height: 100vh;
-  justify-content: space-between;
-}
-.portada__label{
-  position: absolute;
-  color: #ffffff;
-  top: 75px;
-  right: 0;
-  text-transform: uppercase;
-  font-size: 10px;
-  text-align: right;
-}
-.portada__copy{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-}
-.portada__copy h1{
-  font-family: Myriad-Bold;
-  color: #F1B634;
-  font-size: 30px;
-  text-transform: uppercase;
-  width: 100%;
-}
-.portada__copy h2{
-  color: #ffffff;
-  line-height: 32px;
-  font-size: clamp(2rem, 4rem);
-  font-family: Myriad-Light;
-  margin-left: 24px;
-}
-.portada__copy p{
-  display: none;
-}
-.portada__divider{
-  margin-left: 40px;
-    background-color: #F1B634;
-    height: 120px;
-    width: 5px;
-    float: left;
-}
-.portada__image{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 24px;
-  position: relative;
-  height: 50vh;
-}
-.portada__image img{
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform:translate(-50%, -50%);
-}
-.portada__image img.small-banner-image{
-  width: 70%;
-}
-/* Landscape iPhone 6, 6S, 7 and 8 */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
-    .portada{
-      justify-content: space-around;
-    }
-    .portada__content{
-      width: 100%;
-      display: flex;
-    }
-    .portada__copy{
-      width: 54%;
-    }
-    .portada__image{
-      width: 35%;
-    }
-    .portada__navigation{
-      width:100%;
-    }
-  }
-
-/* Landscape iPhone 6+, 7+ and 8+ */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-    .portada{
-      justify-content: space-around;
-    }
-    .portada__content{
-      width: 100%;
-      display: flex;
-    }
-    .portada__copy{
-      width: 54%;
-    }
-    .portada__image{
-      width: 35%;
-    }
-    .portada__navigation{
-      width:100%;
-    }
-}
-
-/* Landscape  iPhone X */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-    .portada{
-      justify-content: space-around;
-    }
-    .portada__content{
-      width: 100%;
-      display: flex;
-    }
-    .portada__copy{
-      width: 54%;
-    }
-    .portada__image{
-      width: 35%;
-    }
-    .portada__navigation{
-      width:100%;
-    }
-}
-
-/* Portrait iPad 3, 4 and Pro 9.7" */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .portada{
-      justify-content: space-around;
-    }
-    .portada__image{
-      text-align: center;
-      width: 80%;
-      margin: 32px auto 0;
-    } 
-}
-
-/* Landscape iPad 3, 4 and Pro 9.7" */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
-@media screen and (min-width:767px){
-  .portada__copy p{
-    display: inline-block;
-    width: 100%;
-    margin-top: 25px;
-    margin-left: 70px;
-    color: #ffffff;
-    font-size: 15px;
-    text-transform: uppercase;
-    font-family: Myriad-Light;
-  }
-}
-
-@media screen and (min-width:1279px){
-  .portada{
-    justify-content: space-around;
-    padding-top: 100px;
-  }
-  .portada__content{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-  }
-  .portada__copy{
-    width: 30%;
-  }
-  .portada__image{
-    width: 50%;
-  }
-}
 
 /*--------------------------------------------------------------
 # MOBILE
 --------------------------------------------------------------*/
 
-/* ----------- iPhone X ----------- */
+@media (max-width: 1024px) {
 
-/* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-    #gobierno_01 h1{
-      margin-top: 32px;
-    }
-    .arrow-down-margin{
-      margin-top: 25%;
-    }
-
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-    #gobierno_01{
-      height: 100%;
-    }
-
-}
-
-/* ----------- iPhone 6+, 7+ and 8+ ----------- */
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-
-    
-    .arrow-down-margin{
-      margin-top: 17%;
-    }
+ 
 
 
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-    #gobierno_01{
-      height: 100%;
-    }
-
-}
+}/*---#TERMINA 1024 IPAD LAND------*/
 
 
-
-/*---#TERMINA 1024 IPAD LAND------*/
-
-
-@media (max-width: 545px) {
-
+@media (max-width: 450px) {
 
   .dividendo-pagado{
     
@@ -6205,7 +5899,7 @@ img.imgpicker231  {
 }
 
 #gobierno_01  h1 {
-  
+  margin-top: 0px;
   font-size: 30px;
   
 }
@@ -8515,9 +8209,9 @@ margin-top: 15px;
 #el_compromiso .contfra h2 {
 
   color: #ffffff;
-  line-height: 67px;
-  font-size: clamp(2rem, 5.5vw, 4rem);
-  font-family: Myriad-Light;
+    line-height: 60px;
+    font-size: clamp(2rem, 5.5vw, 3.8rem);
+    font-family: Myriad-Light;
 
 }
 
@@ -10818,10 +10512,9 @@ display: block;
   background-size:cover;
   background-repeat: no-repeat;
   height: 30vh;
-  
+  display: block;
 
 }
-
 
 #valor_financiero_07 .bg-valor_finance_3 {
 
@@ -10871,13 +10564,13 @@ display: block;
   display: none;
 }
 
-
 #valor_financiero_07 .txtcierre {
   font-size: 20px;
   line-height: 26px;
   font-family: Myriad-SemiBold;
 
 }
+
 
 /*--------------------------------------------------------------
 # valor_financiero_09 - Alberto
@@ -11274,7 +10967,6 @@ display: block;
 #valor_financiero_14 .txtonmob {
   display: none;
 }
-
 
 
 /*--------------------------------------------------------------
@@ -11684,7 +11376,7 @@ display: block;
   color: #4a5b6d;
   font-family: Myriad-Light;
   font-size: 16px;
-    line-height: 20px;
+  line-height: 20px;
   border-bottom: 1px solid #ffffff;
   padding-bottom: 16px;
 }
@@ -11998,7 +11690,6 @@ display: block;
 
 }
 
-
 #nuestro_negocio_06 .contchnomob {
 
   display: block;
@@ -12010,8 +11701,6 @@ display: block;
   display: none;
 
 }
-
-
 
 /*--------------------------------------------------------------
 # MOBILE
@@ -12689,7 +12378,7 @@ max-width: 600px;
   display: block;
   width: 595px;
   position: relative;
-  top: 206px;
+  top: 37%;
   left: -35px;
 
 }
