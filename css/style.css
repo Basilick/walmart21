@@ -38,8 +38,7 @@ body {
   color: #414141;
   background-color: #ffffff;
   /* background-image: url(../img/bggeneral.png); */
-  background-repeat: repeat-y;
-  background-size: 90%;
+  
 }
 
 
@@ -844,14 +843,14 @@ box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2);
 /*--------------------------------------------------------------
 # MOBILE
 --------------------------------------------------------------*/
-@media only screen and (min-device-width : 546px) and (max-device-width: 1024px) {
+@media only screen and (min-width : 546px) and (max-width: 1024px) {
 
   .dropdown-menu {
-    max-height: 1800px;
+    max-height: 1100px;
     overflow: auto;
     border: 0;
     border-radius: 0;
-}
+  }
 
 .menucont .txtinffi {
 
@@ -869,6 +868,11 @@ box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2);
   height: 2111px;
 }
 
+.menucont .conteneng {
+  padding-left: 5px;
+  padding-right: 0px;
+  width: 50%;
+}
 
 
 
@@ -877,11 +881,7 @@ box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2);
 
 @media (max-width: 545px) {
 
-  #mainhome {
-
-    overflow: hidden;
-
-  }
+  
 
   .menucont img {
   
@@ -891,7 +891,7 @@ box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2);
   .menucont .conteneng {
     padding-left: 5px;
     padding-right: 0px;
-  
+    width: 50%;
   }
 
   .navbar-brand {
@@ -1025,7 +1025,7 @@ box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2);
 
 #hero {
   
-  height: 100vh;
+  height: 100%;
   background-image: url(../img/home/bg_homeport.jpg);
   background-size: cover;
   background-color:#EEF2F4;
@@ -1678,10 +1678,10 @@ font-size: 12px;
 #section2 p {
  
   text-align: center;
-  font-size: 30px;
+  font-size: clamp(1rem, 2.5vw, 2rem); 
   margin: 90px auto;
   line-height: 38px;
-  width: 1115px;
+  width: 92%;
 
 }
 
@@ -1756,7 +1756,7 @@ font-size: 12px;
 
 #section4 {
   width: 100%;
- 
+ overflow: hidden;
  padding-top: 0;
  padding-bottom: 0;
  padding-left: 0;
@@ -2069,18 +2069,75 @@ display: contents;
 
 
 
-@media only screen and (min-device-width : 546px) and (max-device-width: 1024px) {
+@media only screen and (min-width : 546px) and (max-width: 1024px) {
 
   #hero {
-    height: 752px;
+    height: 100%;
    
   }
+
+
+#hero .veinteupimg {
+  margin: 0px;
+  float: right;
+  width: 290px;
+}
+
+#hero .contimgdoscarr {
+  margin: 0px;
+  float: right;
+  width: 290px;
+}
+
+#hero .carrima1 {
+  margin: 0px;
+  float: right;
+  width: 150px;
+}
+
+#hero .dosdownsolo {
+  margin: 0px;
+  float: left;
+  width: 127px;
+}
 
   #hero .menucarr {
     height: auto;
     display: none;
     float: right;
   }
+
+  #hero .txtinfor {
+    margin-top: 75px;
+    font-size: 20px;
+    line-height: 31px;
+    color: #ffffff;
+    float: left;
+    width: 100%;
+}
+
+  #hero h1 {
+    width: 100%;
+    float: left;
+    font-size: 55px;
+    color: #F1B634;
+    margin-top: 10px;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+  
+
+  #hero h2 {
+    text-transform: uppercase;
+    width: 100%;
+    float: left;
+    font-size: clamp(2rem, 7vw, 6.5rem);
+    color: #F1B634;
+    margin-bottom: 0;
+    margin-top: 10px;
+    line-height: 41px;
+    font-family: Myriad-Bold;
+}
 
 
   #section2 p {
@@ -2096,6 +2153,122 @@ display: contents;
   
   background-position: top center;
   
+}
+
+#section4  {
+
+  overflow: hidden;
+ 
+}
+
+#section4 a {
+  display: block;
+  width: 100%;
+}
+
+.parallax {
+  position: absolute;
+  right: 25px;
+  top: -49px;
+  background-image: url(../img/home/parraima1.png);
+  width: 281px;
+  height: 152px;
+  background-attachment: fixed;
+  background-position: 331px 81px;
+  background-repeat: no-repeat;
+  background-size: 51%;
+}
+
+.parallax2 {
+  position: absolute;
+  top: 374px;
+  left: 25px;
+  background-image: url(../img/home/parraima2.jpg);
+  width: 270px;
+  height: 261px;
+  background-attachment: fixed;
+  background-position: 37px 33px;
+  background-repeat: no-repeat;
+  background-size: 48%;
+}
+
+.parallax3 {
+  position: absolute;
+  top: 870px;
+  right: 25px;
+  background-image: url(../img/home/parraima3.jpg);
+  width: 326px;
+  height: 212px;
+  background-attachment: fixed;
+  background-position: 286px 140px;
+  background-repeat: no-repeat;
+  background-size: 57%;
+}
+
+.parallax4 {
+  position: absolute;
+  top: 1430px;
+  left: 25px;
+  background-image: url(../img/home/parraima4.jpg);
+  width: 266px;
+  height: 298px;
+  background-attachment: fixed;
+  /* background-position: 900px 333px; */
+  background-repeat: no-repeat;
+  background-size: 44%;
+}
+
+
+.parallax5 {
+  position: absolute;
+  right: 25px;
+  top: 1873px;
+  background-image: url(../img/home/parraima5.jpg);
+  width: 326px;
+  height: 192px;
+  background-attachment: fixed;
+  background-position: 67px 39px;
+  background-repeat: no-repeat;
+  background-size: 89%;
+}
+
+.parallax6 {
+  position: absolute;
+  top: 2216px;
+  left: 25px;
+  background-image: url(../img/home/parraima6.jpg);
+  width: 269px;
+  height: 309px;
+  background-attachment: fixed;
+  /* background-position: 900px 333px; */
+  background-repeat: no-repeat;
+  background-size: 53%;
+}
+
+.parallax7 {
+  position: absolute;
+  right: 25px;
+  top: 2679px;
+  background-image: url(../img/home/parraima7.jpg);
+  width: 299px;
+  height: 180px;
+  background-attachment: fixed;
+  background-position: 230px -95px;
+  background-repeat: no-repeat;
+  background-size: 66%;
+}
+
+.parallax8 {
+  position: absolute;
+  top: 3173px;
+  left: 25px;
+  background-image: url(../img/home/parraima8.jpg);
+  width: 290px;
+  height: 185px;
+  background-attachment: fixed;
+  background-position: 21px 97px;
+  background-repeat: no-repeat;
+  background-size: 51%;
 }
  
 
@@ -2122,7 +2295,7 @@ display: contents;
 #hero .veinteupimg {
   margin: 0px;
   float: none; 
-  width: 94%;
+  width: 95%;
   display: block;
   margin: auto;
 }
@@ -2136,13 +2309,13 @@ display: contents;
 #hero .dosdownsolo {
   margin: 0 0 0 10px;
   float: left;
-  width: 139px;
+  width: 42%;
 }
 
 #hero .carrima1 {
-  margin: 0 10px 0 0;
-  float: right;
-  width: 167px;
+  margin: 5px 10px 0 0;
+    float: right;
+    width: 50%;
 }
 #hero .menucarr {
   height: auto;
@@ -2200,6 +2373,14 @@ display: contents;
   margin-bottom: 15px;
   font-size: 18px;
 }
+
+#section4  {
+
+  overflow: hidden;
+ 
+}
+
+
 
 #section4 .titlessec {
   z-index: 1;
@@ -8371,6 +8552,7 @@ margin-top: 15px;
   margin: auto;
   margin-top: 10px;
   width: 170px;
+  margin-bottom: 75px;
 }
 
 .moving-mouse-holder .mouse {
@@ -14556,7 +14738,7 @@ display: none;
   
 }/*-END  MOBILE-*/  
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .wow{
       animation-name: none !important;
       visibility: visible !important;
