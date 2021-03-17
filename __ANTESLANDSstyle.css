@@ -844,38 +844,16 @@ box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2);
 /*--------------------------------------------------------------
 # MOBILE
 --------------------------------------------------------------*/
-@media only screen and (min-device-width : 546px) and (max-device-width: 1024px) {
-
-  .dropdown-menu {
-    max-height: 1800px;
-    overflow: auto;
-    border: 0;
-    border-radius: 0;
-}
+@media (max-width: 550px) {
 
 .menucont .txtinffi {
 
   display: none;
 }
 
-
-
-.mega-menu .menu-leftdiv {
-  display: none;
 }
 
-.dropdown-menu .mega-menu {
-  
-  height: 2111px;
-}
-
-
-
-
-
-} /*-END  LANDSCAPE-*/
-
-@media (max-width: 545px) {
+@media (max-width: 450px) {
 
   #mainhome {
 
@@ -2066,44 +2044,24 @@ display: contents;
 # MOBILE
 --------------------------------------------------------------*/
 
+@media (max-width: 1024px) {
 
-
-
-@media only screen and (min-device-width : 546px) and (max-device-width: 1024px) {
-
-  #hero {
-    height: 752px;
-   
-  }
-
-  #hero .menucarr {
-    height: auto;
-    display: none;
-    float: right;
-  }
-
-
-  #section2 p {
-    text-align: center;
-    font-size: 24px;
-    margin: 35px auto;
-    line-height: 33px;
-    width: 92%;
+  #hero p.text1 {
+    font-size: 18px;
+    letter-spacing: 3px;
 }
 
-
-#section2 {
+#hero h1 {
   
-  background-position: top center;
+  letter-spacing: 7px;
   
 }
- 
 
 
 }/*---#TERMINA 1024 IPAD LAND------*/
 
 
-@media (max-width: 545px) {
+@media (max-width: 450px) {
   
   
 
