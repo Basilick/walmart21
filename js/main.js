@@ -17,7 +17,7 @@
   });
 
   // Smooth scroll for the navigation menu and links with .scrollto classes
-  var scrolltoOffset = $('#header').outerHeight() - 2;
+ /*  var scrolltoOffset = $('#header').outerHeight() - 2;
   $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function(e) {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -47,10 +47,10 @@
         return false;
       }
     }
-  });
+  }); */
 
   // Activate smooth scroll on page load with hash links in the url
-  $(document).ready(function() {
+ /*  $(document).ready(function() {
     if (window.location.hash) {
       var initial_nav = window.location.hash;
       if ($(initial_nav).length) {
@@ -60,10 +60,10 @@
         }, 1500, 'easeInOutExpo');
       }
     }
-  });
+  }); */
 
   // Mobile Navigation
-  if ($('.nav-menu').length) {
+  /* if ($('.nav-menu').length) {
     var $mobile_nav = $('.nav-menu').clone().prop({
       class: 'mobile-nav d-lg-none'
     });
@@ -95,10 +95,10 @@
     });
   } else if ($(".mobile-nav, .mobile-nav-toggle").length) {
     $(".mobile-nav, .mobile-nav-toggle").hide();
-  }
+  } */
 
   // Navigation active state on scroll
-  var nav_sections = $('section');
+  /* var nav_sections = $('section');
   var main_nav = $('.nav-menu, #mobile-nav');
 
   $(window).on('scroll', function() {
@@ -118,7 +118,7 @@
         $(".nav-menu ul:first li:first").addClass('active');
       }
     });
-  });
+  }); */
 
   // Toggle .header-scrolled class to #header when page is scrolled
   $(window).scroll(function() {
@@ -156,7 +156,7 @@
   });
 
   // Porfolio isotope and filter
-  $(window).on('load', function() {
+ /*  $(window).on('load', function() {
     var portfolioIsotope = $('.portfolio-container').isotope({
       itemSelector: '.portfolio-item'
     });
@@ -168,22 +168,23 @@
       portfolioIsotope.isotope({
         filter: $(this).data('filter')
       });
-    });
+    }); */
 
     // Initiate venobox (lightbox feature used in portofilo)
-    $(document).ready(function() {
+  /*   $(document).ready(function() {
       $('.venobox').venobox({
         'share': false
       });
     });
-  });
+  }); */
 
   // Portfolio details carousel
-  $(".portfolio-details-carousel").owlCarousel({
+  /* $(".portfolio-details-carousel").owlCarousel({
     autoplay: true,
     dots: true,
     loop: true,
     items: 1
   });
+*/
 
-})(jQuery);
+})(jQuery); 
